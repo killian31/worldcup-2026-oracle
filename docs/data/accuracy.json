@@ -2,7 +2,7 @@
   "rps": 0.162,
   "log_loss": 0.8831,
   "brier": 0.5252,
-  "accuracy": 0.6164,
+  "accuracy": 0.6027,
   "ece": 0.089,
   "n": 73,
   "running_rps": [
@@ -331,8 +331,8 @@
       "n": 3
     }
   ],
-  "n_correct": 45,
-  "n_exact": 8,
-  "exact_accuracy": 0.1096,
-  "avg_goal_err": 2.19
+  "n_correct": 44,
+  "n_exact": 6,
+  "exact_accuracy": 0.0822,
+  "avg_goal_err": 1.9
 }

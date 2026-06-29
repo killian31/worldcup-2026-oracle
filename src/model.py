@@ -24,13 +24,24 @@ def _round_half_up(x):
 
 def most_likely_score(grid, outcome):
     """Most probable exact scoreline *within* the predicted outcome region
-    (0=home win, 1=draw, 2=away win). This is the accuracy-optimal point estimate
-    that is also guaranteed consistent with the W/D/L call shown to the user."""
+    (0=home win, 1=draw, 2=away win) — accuracy-optimal but visually low-scoring."""
     g = np.asarray(grid)
     ii, jj = np.indices(g.shape)
     mask = ii > jj if outcome == 0 else (ii == jj if outcome == 1 else ii < jj)
     i, j = np.unravel_index(np.argmax(np.where(mask, g, -1.0)), g.shape)
     return [int(i), int(j)]
+
+
+def coherent_score(exp_home, exp_away):
+    """Headline scoreline = rounded EXPECTED goals. Its goal totals match real
+    scoring (~2.8/game, vs the Poisson mode's unrealistic ~1.4) and it shows draws
+    at the true ~28% rate. The displayed outcome (who it implies wins) is what gets
+    graded, so the score and the verdict are always consistent."""
+    return [_round_half_up(exp_home), _round_half_up(exp_away)]
+
+
+def score_outcome(score):
+    return 0 if score[0] > score[1] else (1 if score[0] == score[1] else 2)
 
 
 def _home_field(neutral, is_home):

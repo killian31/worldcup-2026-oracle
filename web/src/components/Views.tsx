@@ -169,11 +169,12 @@ export function AccuracyView({ acc }: { acc: Accuracy }) {
         <Stat value={pct(acc.ece, 1)} label="calibration error" />
       </div>
       <Card className="my-4 p-3.5 text-[12px] text-muted">
-        Two bars: <b className="text-fg">result</b> = did we call the winner/draw (the model's real
-        strength, {pct(acc.accuracy)}). <b className="text-fg">Exact score</b> is genuinely hard —
-        even bookmakers land only ~10–13%; we hit {pct(acc.exact_accuracy)} (avg {acc.avg_goal_err} goals
-        off). The model predicts a <i>distribution</i> of scores; the "most likely" one is shown per
-        match, but the probabilities are where the signal is.
+        <b className="text-fg">result</b> = did the projected scoreline call the winner/draw
+        ({pct(acc.accuracy)}). The projected score is rounded expected goals, so its goal totals track
+        reality (~2.8/game) and it shows draws at the true rate — but a single exact scoreline is
+        genuinely hard (<b className="text-fg">exact</b> {pct(acc.exact_accuracy)}; even bookmakers land
+        ~10–13%; we're avg {acc.avg_goal_err} goals off). The probability bars and <b className="text-fg">RPS</b> are
+        where the real signal lives — that's what the calibration chart below grades.
       </Card>
       <Card className="mb-4 p-4">
         <h3 className="text-[13px] text-muted">Running prediction skill</h3>

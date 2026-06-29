@@ -17,7 +17,7 @@ import metrics
 import teams
 import venues
 import weather
-from model import DixonColes, most_likely_score
+from model import DixonColes, coherent_score, score_outcome
 
 HOST_COUNTRIES = {"United States", "Mexico", "Canada"}
 
@@ -132,9 +132,10 @@ def build_predictions(df, ratings, dc, gbm, X, squads=None):
                              "favors": "home" if s1 > s2 else "away"})
         probs = _logit_tilt(list(ens[k]), tilt)
         dcp = dc.predict(r["home_elo"], r["away_elo"], bool(r["neutral"]))
-        # most-likely scoreline consistent with the PUBLISHED outcome call
-        out_pred = int(np.argmax(probs))
-        pred_score = most_likely_score(dcp["grid"], out_pred)
+        # headline scoreline: rounded expected goals (matches real scoring); the
+        # graded outcome is the one this score implies, so they never contradict
+        pred_score = coherent_score(dcp["exp_home"], dcp["exp_away"])
+        out_pred = score_outcome(pred_score)
         rec = {
             "number": int(i), "date": date_str, "round": _round_label(r),
             "venue": vinfo.get("stadium"), "city": r["city"],
@@ -189,10 +190,13 @@ def _accuracy(preds):
         m = (conf >= lo) & (conf < hi)
         if m.sum():
             bins.append({"conf": round(conf[m].mean(), 3), "acc": round(hit[m].mean(), 3), "n": int(m.sum())})
-    s = metrics.summary(probs, outs)
+    s = metrics.summary(probs, outs)   # rps/log-loss/brier/ece from the probabilities
     s["running_rps"] = running
-    s["calibration"] = bins
-    s["n_correct"] = int(hit.sum())
+    s["calibration"] = bins            # probability calibration (favourite prob vs win rate)
+    # "result called" is graded on the projected SCORE's outcome (what's shown)
+    correct = np.array([p["correct"] for p in done], float)
+    s["accuracy"] = round(float(correct.mean()), 4)
+    s["n_correct"] = int(correct.sum())
     # exact-scoreline accuracy (inherently low — bookmakers land ~10-13%)
     exact = [p for p in done if "exact_hit" in p]
     s["n_exact"] = sum(p["exact_hit"] for p in exact)

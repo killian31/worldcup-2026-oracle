@@ -98,7 +98,7 @@ function Mid({ m }: { m: Prediction }) {
     return (
       <div className="text-center">
         <div className="font-display text-3xl font-bold tnum">{hs}–{as}</div>
-        <div className="text-[10px] text-muted tnum">most likely {m.pred_score[0]}–{m.pred_score[1]}</div>
+        <div className="text-[10px] text-muted tnum">projected {m.pred_score[0]}–{m.pred_score[1]}</div>
         <div className="mt-1 flex justify-center gap-1">
           <Badge tone={m.correct ? 'good' : 'bad'}>{m.correct ? '✓ result' : '✗ result'}</Badge>
           {m.exact_hit && <Badge tone="good">🎯 exact</Badge>}
@@ -109,7 +109,7 @@ function Mid({ m }: { m: Prediction }) {
   return (
     <div className="text-center">
       <div className="font-display text-2xl font-bold tnum text-muted">{m.pred_score[0]}–{m.pred_score[1]}</div>
-      <div className="text-[10px] text-muted">most likely score</div>
+      <div className="text-[10px] text-muted">projected score</div>
       <div className="text-[10px] text-muted tnum">xG {m.exp_goals[0]}–{m.exp_goals[1]}</div>
     </div>
   )
