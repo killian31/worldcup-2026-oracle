@@ -2,8 +2,10 @@
   "years": 5.0,
   "ad_lambda": 20.0,
   "n": 5269,
+  "baseline": "Elo \u2192 Poisson (previous)",
+  "shipped": "+ 5-year memory (shipped)",
   "models": {
-    "DC-Poisson": {
+    "Elo \u2192 Poisson (previous)": {
       "n": 5269,
       "rps": 0.1695,
       "score_ll": 2.8444,
@@ -12,16 +14,7 @@
       "pred_draw": 0.2238,
       "real_draw": 0.2304
     },
-    "DC-NegBin": {
-      "n": 5269,
-      "rps": 0.1698,
-      "score_ll": 2.8395,
-      "exact_pct": 0.1376,
-      "goal_mae": 1.789,
-      "pred_draw": 0.2274,
-      "real_draw": 0.2304
-    },
-    "DC-AttDef": {
+    "+ team attack / defence": {
       "n": 5269,
       "rps": 0.1696,
       "score_ll": 2.8253,
@@ -30,20 +23,29 @@
       "pred_draw": 0.2243,
       "real_draw": 0.2304
     },
-    "DC-AttDef-NegBin": {
+    "+ 5-year memory (shipped)": {
       "n": 5269,
-      "rps": 0.1697,
-      "score_ll": 2.8236,
-      "exact_pct": 0.1351,
-      "goal_mae": 1.775,
-      "pred_draw": 0.2254,
+      "rps": 0.1691,
+      "score_ll": 2.8132,
+      "exact_pct": 0.1385,
+      "goal_mae": 1.766,
+      "pred_draw": 0.2217,
+      "real_draw": 0.2304
+    },
+    "+ Negative-Binomial": {
+      "n": 5269,
+      "rps": 0.1692,
+      "score_ll": 2.8109,
+      "exact_pct": 0.1384,
+      "goal_mae": 1.764,
+      "pred_draw": 0.2252,
       "real_draw": 0.2304
     }
   },
-  "winner": "DC-AttDef-NegBin",
+  "winner": "+ 5-year memory (shipped)",
   "rows": [
     {
-      "model": "DC-Poisson",
+      "model": "Elo \u2192 Poisson (previous)",
       "n": 5269,
       "rps": 0.1695,
       "score_ll": 2.8444,
@@ -53,17 +55,7 @@
       "real_draw": 0.2304
     },
     {
-      "model": "DC-NegBin",
-      "n": 5269,
-      "rps": 0.1698,
-      "score_ll": 2.8395,
-      "exact_pct": 0.1376,
-      "goal_mae": 1.789,
-      "pred_draw": 0.2274,
-      "real_draw": 0.2304
-    },
-    {
-      "model": "DC-AttDef",
+      "model": "+ team attack / defence",
       "n": 5269,
       "rps": 0.1696,
       "score_ll": 2.8253,
@@ -73,13 +65,23 @@
       "real_draw": 0.2304
     },
     {
-      "model": "DC-AttDef-NegBin",
+      "model": "+ 5-year memory (shipped)",
       "n": 5269,
-      "rps": 0.1697,
-      "score_ll": 2.8236,
-      "exact_pct": 0.1351,
-      "goal_mae": 1.775,
-      "pred_draw": 0.2254,
+      "rps": 0.1691,
+      "score_ll": 2.8132,
+      "exact_pct": 0.1385,
+      "goal_mae": 1.766,
+      "pred_draw": 0.2217,
+      "real_draw": 0.2304
+    },
+    {
+      "model": "+ Negative-Binomial",
+      "n": 5269,
+      "rps": 0.1692,
+      "score_ll": 2.8109,
+      "exact_pct": 0.1384,
+      "goal_mae": 1.764,
+      "pred_draw": 0.2252,
       "real_draw": 0.2304
     }
   ]

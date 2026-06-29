@@ -10,6 +10,7 @@ where the model still owns turf):
   draw%     mean predicted draw prob   (vs the realised draw rate, for sanity)
 """
 import json
+import math
 import os
 import sys
 from collections import defaultdict
@@ -20,14 +21,17 @@ import pandas as pd
 import data
 import elo
 import metrics
-from goalmodels import GoalModel
+from goalmodels import XI_5Y, GoalModel
 from model import MAXG, _round_half_up
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "goalbench.json")
-MODELS = {"DC-Poisson": dict(attack_defence=False, negbin=False),
-          "DC-NegBin": dict(attack_defence=False, negbin=True),
-          "DC-AttDef": dict(attack_defence=True, negbin=False),
-          "DC-AttDef-NegBin": dict(attack_defence=True, negbin=True)}
+XI_1Y = math.log(2) / 365.0  # the previous production decay (1-year half-life)
+# Narrative bake-off: previous production -> each lever in turn -> the shipped config.
+BASELINE, SHIPPED = "Elo → Poisson (previous)", "+ 5-year memory (shipped)"
+MODELS = {BASELINE: dict(attack_defence=False, negbin=False, xi=XI_1Y),
+          "+ team attack / defence": dict(attack_defence=True, negbin=False, xi=XI_1Y),
+          SHIPPED: dict(attack_defence=True, negbin=False, xi=XI_5Y),
+          "+ Negative-Binomial": dict(attack_defence=True, negbin=True, xi=XI_5Y)}
 
 
 def _accumulate(store, p, hs, as_):
@@ -78,36 +82,24 @@ def run(df, years=5.0, retrain_days=120, ad_lambda=50.0, models=MODELS):
 def main():
     years = float(sys.argv[1]) if len(sys.argv) > 1 else 5.0
     df, _ = elo.attach_elo(data.load_results())
+    # ad_lambda=20 chosen by an earlier shrinkage sweep (lighter shrinkage won).
+    print(f"goal-model bake-off (walk-forward {years}y, attack/defence lam=20):")
+    res = run(df, years=years, ad_lambda=20.0)
 
-    # quick attack/defence shrinkage sensitivity (AttDef only, same folds)
-    print("attack/defence shrinkage sweep (score_ll, lower=better):")
-    sweep = {}
-    for lam in (20.0, 50.0, 100.0, 200.0):
-        r = run(df, years=years, ad_lambda=lam, models={"DC-AttDef": MODELS["DC-AttDef"]})
-        sweep[lam] = r["DC-AttDef"]
-        print(f"  lam={lam:>5.0f}  score_ll {r['DC-AttDef']['score_ll']}  "
-              f"rps {r['DC-AttDef']['rps']}  exact {r['DC-AttDef']['exact_pct']}")
-    best_lam = min(sweep, key=lambda k: sweep[k]["score_ll"])
-    print(f"  -> best shrinkage lam={best_lam}\n")
-
-    print(f"full bake-off (walk-forward {years}y, attack/defence lam={best_lam}):")
-    res = run(df, years=years, ad_lambda=best_lam)
-
-    print(f"\n{'model':<18}{'RPS':>8}{'score_ll':>10}{'exact%':>9}{'goal_mae':>10}{'draw(p/real)':>16}{'n':>7}")
-    base = res["DC-Poisson"]
+    print(f"\n{'model':<28}{'RPS':>8}{'score_ll':>10}{'exact%':>9}{'goal_mae':>10}{'n':>7}")
+    base = res[BASELINE]
     for m, s in res.items():
         dll = s["score_ll"] - base["score_ll"]
-        print(f"{m:<18}{s['rps']:>8.4f}{s['score_ll']:>10.4f}{s['exact_pct']*100:>8.2f}%"
-              f"{s['goal_mae']:>10.3f}{s['pred_draw']*100:>7.1f}%/{s['real_draw']*100:.1f}%"
-              f"{s['n']:>7d}   dscore_ll {dll:+.4f}")
+        print(f"{m:<28}{s['rps']:>8.4f}{s['score_ll']:>10.4f}{s['exact_pct']*100:>8.2f}%"
+              f"{s['goal_mae']:>10.3f}{s['n']:>7d}   dscore_ll {dll:+.4f}")
 
-    win = min(res, key=lambda m: res[m]["score_ll"])
-    payload = {"years": years, "ad_lambda": best_lam, "n": base["n"],
-               "models": res, "winner": win,
+    payload = {"years": years, "ad_lambda": 20.0, "n": base["n"],
+               "baseline": BASELINE, "shipped": SHIPPED,
+               "models": res, "winner": SHIPPED,
                "rows": [{"model": m, **s} for m, s in res.items()]}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(payload, open(OUT, "w"), indent=2)
-    print(f"\nbest by score_ll: {win}  ->  wrote {OUT}")
+    print(f"\nshipped: {SHIPPED}  ->  wrote {OUT}")
 
 
 if __name__ == "__main__":

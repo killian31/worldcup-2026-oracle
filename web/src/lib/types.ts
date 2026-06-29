@@ -66,6 +66,7 @@ export interface ModelZoo {
 
 export interface GoalBench {
   years: number; ad_lambda: number; n: number; winner: string
+  baseline: string; shipped: string
   rows: { model: string; rps: number; score_ll: number; exact_pct: number
     goal_mae: number; pred_draw: number; real_draw: number }[]
 }

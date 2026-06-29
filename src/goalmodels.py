@@ -24,6 +24,9 @@ from scipy.stats import nbinom
 
 from model import MAXG, DixonColes, _home_field, _round_half_up
 
+XI_5Y = 0.00038  # ~5-year Elo time-decay half-life — swept on walk-forward (goalbench),
+                 # strictly beats the 1y default on RPS, score log-loss, exact% and goal MAE
+
 
 def _fit_attack_defence(n_teams, s_idx, c_idx, offset, y, w, lam):
     """Ridge-penalised Poisson GLM with offset: log mu = offset + att[s] + def[c].

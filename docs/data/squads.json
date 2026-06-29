@@ -5,7 +5,7 @@
     "strength": 99.2,
     "n_big5": 25,
     "avg_age": 27.2,
-    "champion": 0.0547,
+    "champion": 0.064,
     "players": [
       {
         "name": "Jordan Pickford",
@@ -223,7 +223,7 @@
     "strength": 98.3,
     "n_big5": 26,
     "avg_age": 26.8,
-    "champion": 0.1415,
+    "champion": 0.1704,
     "players": [
       {
         "name": "David Raya",
@@ -441,7 +441,7 @@
     "strength": 96.9,
     "n_big5": 22,
     "avg_age": 27.8,
-    "champion": 0.0321,
+    "champion": 0.0245,
     "players": [
       {
         "name": "Bart Verbruggen",
@@ -659,7 +659,7 @@
     "strength": 95.2,
     "n_big5": 24,
     "avg_age": 27.0,
-    "champion": 0.1428,
+    "champion": 0.1202,
     "players": [
       {
         "name": "Brice Samba",
@@ -877,7 +877,7 @@
     "strength": 94.2,
     "n_big5": 25,
     "avg_age": 28.1,
-    "champion": 0.0226,
+    "champion": 0.013,
     "players": [
       {
         "name": "Manuel Neuer",
@@ -1095,7 +1095,7 @@
     "strength": 93.9,
     "n_big5": 24,
     "avg_age": 28.4,
-    "champion": 0.0196,
+    "champion": 0.0133,
     "players": [
       {
         "name": "Gregor Kobel",
@@ -1313,7 +1313,7 @@
     "strength": 92.8,
     "n_big5": 20,
     "avg_age": 29.2,
-    "champion": 0.2008,
+    "champion": 0.2245,
     "players": [
       {
         "name": "Juan Musso",
@@ -1531,7 +1531,7 @@
     "strength": 92.1,
     "n_big5": 19,
     "avg_age": 26.9,
-    "champion": 0.0194,
+    "champion": 0.0227,
     "players": [
       {
         "name": "\u00d8rjan Nyland",
@@ -1749,7 +1749,7 @@
     "strength": 91.8,
     "n_big5": 20,
     "avg_age": 27.7,
-    "champion": 0.0234,
+    "champion": 0.0173,
     "players": [
       {
         "name": "Thibaut Courtois",
@@ -1967,7 +1967,7 @@
     "strength": 91.0,
     "n_big5": 20,
     "avg_age": 27.1,
-    "champion": 0.0082,
+    "champion": 0.0089,
     "players": [
       {
         "name": "Yehvann Diouf",
@@ -2185,7 +2185,7 @@
     "strength": 90.7,
     "n_big5": 17,
     "avg_age": 27.6,
-    "champion": 0.0008,
+    "champion": 0.0006,
     "players": [
       {
         "name": "Jacob Widell Zetterstr\u00f6m",
@@ -2621,7 +2621,7 @@
     "strength": 89.6,
     "n_big5": 17,
     "avg_age": 28.1,
-    "champion": 0.0422,
+    "champion": 0.0368,
     "players": [
       {
         "name": "Diogo Costa",
@@ -3057,7 +3057,7 @@
     "strength": 87.2,
     "n_big5": 17,
     "avg_age": 27.0,
-    "champion": 0.0002,
+    "champion": 0.0001,
     "players": [
       {
         "name": "Lawrence Ati-Zigi",
@@ -3275,7 +3275,7 @@
     "strength": 87.0,
     "n_big5": 18,
     "avg_age": 28.7,
-    "champion": 0.0042,
+    "champion": 0.0047,
     "players": [
       {
         "name": "Alexander Schlager",
@@ -3493,7 +3493,7 @@
     "strength": 86.3,
     "n_big5": 14,
     "avg_age": 29.4,
-    "champion": 0.0947,
+    "champion": 0.0539,
     "players": [
       {
         "name": "Alisson",
@@ -3711,7 +3711,7 @@
     "strength": 85.3,
     "n_big5": 15,
     "avg_age": 26.4,
-    "champion": 0.0317,
+    "champion": 0.0391,
     "players": [
       {
         "name": "Yassine Bounou",
@@ -3929,7 +3929,7 @@
     "strength": 84.2,
     "n_big5": 14,
     "avg_age": 27.0,
-    "champion": 0.0059,
+    "champion": 0.0067,
     "players": [
       {
         "name": "Matt Turner",
@@ -4147,7 +4147,7 @@
     "strength": 82.2,
     "n_big5": 13,
     "avg_age": 29.1,
-    "champion": 0.002,
+    "champion": 0.0015,
     "players": [
       {
         "name": "Lionel Mpasi",
@@ -4365,7 +4365,7 @@
     "strength": 81.4,
     "n_big5": 13,
     "avg_age": 27.8,
-    "champion": null,
+    "champion": 0.0185,
     "players": [
       {
         "name": "Zion Suzuki",
@@ -4583,7 +4583,7 @@
     "strength": 80.4,
     "n_big5": 12,
     "avg_age": 25.9,
-    "champion": 0.0049,
+    "champion": 0.0032,
     "players": [
       {
         "name": "Yahia Fofana",
@@ -4801,7 +4801,7 @@
     "strength": 80.0,
     "n_big5": 13,
     "avg_age": 26.9,
-    "champion": 0.0066,
+    "champion": 0.0053,
     "players": [
       {
         "name": "Melvin Mastil",
@@ -5019,7 +5019,7 @@
     "strength": 78.7,
     "n_big5": 11,
     "avg_age": 27.0,
-    "champion": 0.0098,
+    "champion": 0.0121,
     "players": [
       {
         "name": "Dayne St. Clair",
@@ -5237,7 +5237,7 @@
     "strength": 76.0,
     "n_big5": 9,
     "avg_age": 30.1,
-    "champion": 0.0692,
+    "champion": 0.0782,
     "players": [
       {
         "name": "David Ospina",
@@ -6109,7 +6109,7 @@
     "strength": 73.2,
     "n_big5": 9,
     "avg_age": 27.4,
-    "champion": 0.0074,
+    "champion": 0.0084,
     "players": [
       {
         "name": "Mathew Ryan",
@@ -6327,7 +6327,7 @@
     "strength": 71.3,
     "n_big5": 7,
     "avg_age": 26.1,
-    "champion": 0.016,
+    "champion": 0.0177,
     "players": [
       {
         "name": "Hern\u00e1n Gal\u00edndez",
@@ -6981,7 +6981,7 @@
     "strength": 67.7,
     "n_big5": 5,
     "avg_age": 29.1,
-    "champion": 0.0055,
+    "champion": 0.0062,
     "players": [
       {
         "name": "Gatito Fern\u00e1ndez",
@@ -8071,7 +8071,7 @@
     "strength": 63.0,
     "n_big5": 5,
     "avg_age": 28.0,
-    "champion": 0.0233,
+    "champion": 0.017,
     "players": [
       {
         "name": "Ra\u00fal Rangel",
@@ -8507,7 +8507,7 @@
     "strength": 57.6,
     "n_big5": 5,
     "avg_age": 29.1,
-    "champion": 0.0035,
+    "champion": 0.0036,
     "players": [
       {
         "name": "Mohamed El Shenawy",

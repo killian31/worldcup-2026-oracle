@@ -19,7 +19,7 @@ import simulate
 import squads as squadlib
 import teams
 import venues
-from goalmodels import GoalModel
+from goalmodels import XI_5Y, GoalModel
 
 DOCS = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 SIMS = int(os.environ.get("WC_SIMS", "50000"))
@@ -136,7 +136,7 @@ def main():
     df, ratings = elo.attach_elo(data.load_results())
     X, y = featlib.build_features(df)
     lab = np.isfinite(y)
-    dc = GoalModel(attack_defence=True, ad_lambda=20).fit(df)  # Elo + shrunk team attack/defence
+    dc = GoalModel(attack_defence=True, ad_lambda=20, xi=XI_5Y).fit(df)  # Elo + shrunk team attack/defence, ~5y memory
     gbm = gbmlib.GBM().fit(X[lab], y[lab])
 
     squads = squadlib.load_squads()

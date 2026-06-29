@@ -214,11 +214,11 @@ def _accuracy(preds):
 
 if __name__ == "__main__":
     import data, elo
-    from goalmodels import GoalModel
+    from goalmodels import XI_5Y, GoalModel
     df, ratings = elo.attach_elo(data.load_results())
     X, y = featlib.build_features(df)
     import squads as squadlib
-    dc = GoalModel(attack_defence=True, ad_lambda=20).fit(df)
+    dc = GoalModel(attack_defence=True, ad_lambda=20, xi=XI_5Y).fit(df)
     g = gbmlib.GBM().fit(X[np.isfinite(y)], y[np.isfinite(y)])
     preds, acc = build_predictions(df, ratings, dc, g, X, squadlib.load_squads())
     print(f"2026 matches predicted: {len(preds)} | played: {acc['n']}")
