@@ -18,6 +18,23 @@ ELO_SCALE = 400.0  # logistic Elo scale
 DEFAULT_XI = 0.0019  # time-decay per day (~1y half-life)
 
 
+def _round_half_up(x):
+    return int(np.floor(x + 0.5))
+
+
+def _proj_score(eh, ea, p_home, p_away, fav_margin=0.10):
+    """Realistic headline scoreline = rounded expected goals, but if that ties
+    while one side is a clear favourite, give the favourite the extra goal so the
+    score never contradicts the win probabilities."""
+    h, a = _round_half_up(eh), _round_half_up(ea)
+    if h == a and abs(p_home - p_away) > fav_margin:
+        if p_home > p_away:
+            h += 1
+        else:
+            a += 1
+    return [h, a]
+
+
 def _home_field(neutral, is_home):
     if neutral:
         return 0.0
@@ -110,11 +127,13 @@ class DixonColes:
         p_draw = float(np.trace(g))
         p_away = float(np.triu(g, 1).sum())
         i, j = np.unravel_index(np.argmax(g), g.shape)
+        eh = float((g.sum(1) * np.arange(MAXG + 1)).sum())
+        ea = float((g.sum(0) * np.arange(MAXG + 1)).sum())
         return {"probs": [p_home, p_draw, p_away],
                 "lambda_home": lh, "lambda_away": la,
-                "exp_home": float((g.sum(1) * np.arange(MAXG + 1)).sum()),
-                "exp_away": float((g.sum(0) * np.arange(MAXG + 1)).sum()),
-                "top_score": [int(i), int(j)],
+                "exp_home": eh, "exp_away": ea,
+                "top_score": [int(i), int(j)],          # modal exact score (compressed)
+                "proj_score": _proj_score(eh, ea, p_home, p_away),  # realistic headline
                 "grid": g}
 
 

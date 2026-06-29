@@ -98,7 +98,7 @@ def build_predictions(df, ratings, dc, gbm, X):
             "team1": t1, "team2": t2,
             "iso1": teams.iso(t1), "iso2": teams.iso(t2),
             "probs": [round(p, 4) for p in probs],
-            "pred_score": dcp["top_score"],
+            "pred_score": dcp["proj_score"],
             "exp_goals": [round(dcp["exp_home"], 2), round(dcp["exp_away"], 2)],
             "factors": facs, "played": played,
             "apparent_temp": (round(wx["apparent"]) if wx and wx.get("apparent") is not None else None),

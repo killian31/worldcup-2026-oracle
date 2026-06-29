@@ -31,13 +31,14 @@ function factorChips(fs) {
 function matchCard(m, played) {
   const t1 = `<div class="team home">${flag(m.iso1)}<span class="nm">${m.team1}</span></div>`;
   const t2 = `<div class="team away">${flag(m.iso2)}<span class="nm">${m.team2}</span></div>`;
+  const xg = m.exp_goals ? `<div class="pred" style="font-size:10px">xG ${m.exp_goals[0]}–${m.exp_goals[1]}</div>` : '';
   let mid;
   if (played) {
     const [hs, as] = m.actual_score;
     const v = m.correct ? `<span class="verdict ok">✓ called</span>` : `<span class="verdict no">✗ missed</span>`;
-    mid = `<div class="score">${hs}–${as}<div class="pred">pred ${m.pred_score[0]}–${m.pred_score[1]} ${v}</div></div>`;
+    mid = `<div class="score">${hs}–${as}<div class="pred">proj ${m.pred_score[0]}–${m.pred_score[1]} ${v}</div></div>`;
   } else {
-    mid = `<div class="vs">${m.pred_score[0]}–${m.pred_score[1]}<div class="pred" style="font-size:10px">model line</div></div>`;
+    mid = `<div class="vs">${m.pred_score[0]}–${m.pred_score[1]}<div class="pred" style="font-size:10px">projected</div>${xg}</div>`;
   }
   const temp = m.apparent_temp != null ? `&nbsp;·&nbsp;🌡️ ${m.apparent_temp}°C` : '';
   return el(`<div class="match">
