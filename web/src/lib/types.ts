@@ -58,6 +58,11 @@ export interface SquadTeam {
 
 export interface HistoryRow { year: number; champion: string; iso: string }
 
+export interface ModelZoo {
+  n_eval: number; oracle_rps: number; avg_error_corr: number
+  leaderboard: { model: string; rps: number; acc: number; ece: number; note: string }[]
+}
+
 export interface Benchmark {
   test_window_years: number; n_matches: number; date_from: string; date_to: string
   models: Record<string, { rps: number; log_loss: number; brier: number; accuracy: number; ece: number; n: number }>

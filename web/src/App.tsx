@@ -3,7 +3,7 @@ import {
   Zap, ClipboardList, Gamepad2, Trophy, LayoutGrid, Users, Target, FlaskConical, ScrollText,
 } from 'lucide-react'
 import type {
-  Accuracy, Benchmark, BracketMatch, HistoryRow, Meta, Prediction, SquadTeam, Standings, TeamOdds,
+  Accuracy, Benchmark, BracketMatch, HistoryRow, Meta, ModelZoo, Prediction, SquadTeam, Standings, TeamOdds,
 } from '@/lib/types'
 import { loadJSON, pct } from '@/lib/utils'
 import { MatchCard } from '@/components/MatchCard'
@@ -14,7 +14,7 @@ import { Card, SectionTitle } from '@/components/ui'
 interface Data {
   meta: Meta; predictions: Prediction[]; results: Prediction[]; championship: TeamOdds[]
   bracket: BracketMatch[]; standings: Standings; squads: SquadTeam[]; accuracy: Accuracy
-  history: HistoryRow[]; benchmark: Benchmark
+  history: HistoryRow[]; benchmark: Benchmark; modelzoo: ModelZoo | null
 }
 
 const TABS = [
@@ -35,10 +35,10 @@ export default function App() {
   const [tab, setTab] = useState<string>('upcoming')
 
   useEffect(() => {
-    const names = ['meta', 'predictions', 'results', 'championship', 'bracket', 'standings', 'squads', 'accuracy', 'history', 'benchmark']
-    Promise.all(names.map((n) => loadJSON<unknown>(n)))
-      .then(([meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark]) =>
-        setData({ meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark } as unknown as Data))
+    const core = ['meta', 'predictions', 'results', 'championship', 'bracket', 'standings', 'squads', 'accuracy', 'history', 'benchmark']
+    Promise.all([...core.map((n) => loadJSON<unknown>(n)), loadJSON<unknown>('modelzoo').catch(() => null)])
+      .then(([meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark, modelzoo]) =>
+        setData({ meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark, modelzoo } as unknown as Data))
       .catch((e) => setErr(String(e)))
   }, [])
 
@@ -92,7 +92,7 @@ export default function App() {
         {tab === 'groups' && <StandingsView standings={data.standings} />}
         {tab === 'squads' && <SquadsView squads={data.squads} />}
         {tab === 'accuracy' && <AccuracyView acc={accuracy} />}
-        {tab === 'model' && <ModelView b={data.benchmark} />}
+        {tab === 'model' && <ModelView b={data.benchmark} zoo={data.modelzoo} />}
         {tab === 'history' && <HistoryView history={data.history} />}
       </div>
     </Shell>

@@ -1,0 +1,71 @@
+{
+  "n_eval": 1301,
+  "leaderboard": {
+    "elo_logistic": {
+      "rps": 0.1609,
+      "log_loss": 0.8392,
+      "brier": 0.4918,
+      "accuracy": 0.6188,
+      "ece": 0.0316,
+      "n": 1301
+    },
+    "dixon_coles": {
+      "rps": 0.1596,
+      "log_loss": 0.8334,
+      "brier": 0.4879,
+      "accuracy": 0.6218,
+      "ece": 0.0243,
+      "n": 1301
+    },
+    "gbm": {
+      "rps": 0.1597,
+      "log_loss": 0.8325,
+      "brier": 0.4882,
+      "accuracy": 0.6188,
+      "ece": 0.016,
+      "n": 1301
+    },
+    "moe_conf": {
+      "rps": 0.1609,
+      "log_loss": 0.8403,
+      "brier": 0.4923,
+      "accuracy": 0.6188,
+      "ece": 0.0145,
+      "n": 1301
+    },
+    "mlp": {
+      "rps": 0.1617,
+      "log_loss": 0.8432,
+      "brier": 0.4925,
+      "accuracy": 0.6195,
+      "ece": 0.031,
+      "n": 1301
+    },
+    "ens_dc_gbm": {
+      "rps": 0.159,
+      "log_loss": 0.8304,
+      "brier": 0.4863,
+      "accuracy": 0.6203,
+      "ece": 0.0218,
+      "n": 1301
+    },
+    "ROUTER(stacked)": {
+      "rps": 0.1587,
+      "log_loss": 0.8307,
+      "brier": 0.4863,
+      "accuracy": 0.618,
+      "ece": 0.0232,
+      "n": 1301
+    },
+    "ORACLE(hindsight)": {
+      "rps": 0.1346,
+      "log_loss": 0.7315,
+      "brier": 0.4232,
+      "accuracy": 0.6649,
+      "ece": 0.0491,
+      "n": 1301
+    }
+  },
+  "best": "ORACLE(hindsight)",
+  "router_beats_best_base": true
+}

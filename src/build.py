@@ -144,11 +144,17 @@ def main():
 
     # merge openfootball round + venue into predictions (match on date + teams)
     rnd = {(m["date"], m["team1"], m["team2"]): (m["round"], m["venue"]) for m in wc}
+    KO = {"Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Final", "Match for third place"}
     for p in preds:
         key = (p["date"], p["team1"], p["team2"])
         if key in rnd:
             p["round"] = rnd[key][0]
             p["venue"] = (venues.info(rnd[key][1]) or {}).get("stadium") or p["venue"]
+        # upcoming knockouts can't end level — show a decisive projected score
+        if not p["played"] and p["round"] in KO and p["pred_score"][0] == p["pred_score"][1]:
+            h, a = p["pred_score"]
+            p["pred_score"] = [h + 1, a] if p["probs"][0] >= p["probs"][2] else [h, a + 1]
+            p["pred_outcome"] = 0 if p["pred_score"][0] > p["pred_score"][1] else 2
 
     odds = simulate.simulate(wc, dc, ratings, n=SIMS)
     team_table = [{"team": t, "iso": teams.iso(t), "conf": teams.confederation(t),

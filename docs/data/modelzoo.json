@@ -1,0 +1,14 @@
+{
+  "n_eval": 1301,
+  "oracle_rps": 0.1346,
+  "avg_error_corr": 0.96,
+  "leaderboard": [
+    {"model": "Stacked router", "rps": 0.1587, "acc": 0.618, "ece": 0.023, "note": "meta-learner over all bases + Elo gap"},
+    {"model": "Ensemble (DC + GBM)", "rps": 0.1590, "acc": 0.620, "ece": 0.022, "note": "current production model"},
+    {"model": "Dixon-Coles", "rps": 0.1596, "acc": 0.622, "ece": 0.024, "note": "Elo → bivariate-Poisson goals"},
+    {"model": "Gradient boosting", "rps": 0.1597, "acc": 0.619, "ece": 0.016, "note": "HistGBM on engineered features"},
+    {"model": "Elo logistic", "rps": 0.1609, "acc": 0.619, "ece": 0.032, "note": "Elo gap only"},
+    {"model": "Mixture of experts", "rps": 0.1609, "acc": 0.619, "ece": 0.015, "note": "one HistGBM per confederation"},
+    {"model": "Neural net (MLP)", "rps": 0.1617, "acc": 0.620, "ece": 0.031, "note": "PyTorch/MPS, 64→32→3, dropout"}
+  ]
+}

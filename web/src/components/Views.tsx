@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ChevronDown, Star, Trophy } from 'lucide-react'
-import type { Accuracy, Benchmark, HistoryRow, SquadTeam, Standings, TeamOdds } from '@/lib/types'
+import type { Accuracy, Benchmark, HistoryRow, ModelZoo, SquadTeam, Standings, TeamOdds } from '@/lib/types'
 import { cn, pct } from '@/lib/utils'
 import { Card, Flag, SectionTitle, Stat } from './ui'
 
@@ -190,9 +190,48 @@ export function AccuracyView({ acc }: { acc: Accuracy }) {
   )
 }
 
-export function ModelView({ b }: { b: Benchmark }) {
+function ModelLab({ zoo }: { zoo: ModelZoo }) {
+  const best = zoo.leaderboard[0]?.model
   return (
     <div>
+      <SectionTitle>Model lab — 7 approaches, one walk-forward split ({zoo.n_eval.toLocaleString()} held-out matches)</SectionTitle>
+      <Card className="overflow-hidden">
+        <table className="w-full text-[13px] tnum">
+          <thead><tr className="bg-bg/40 text-[10px] uppercase tracking-wide text-muted">
+            <th className="px-3 py-2 text-left">Approach</th><th>RPS ↓</th><th>Acc</th><th>ECE</th><th className="pr-3 text-left">Notes</th>
+          </tr></thead>
+          <tbody>
+            {zoo.leaderboard.map((m) => (
+              <tr key={m.model} className={cn('border-t border-line', m.model === best && 'shadow-[inset_3px_0_0_rgb(var(--home))]')}>
+                <td className="px-3 py-2 text-left font-semibold">{m.model}{m.model === best && <Trophy className="ml-1 inline h-3.5 w-3.5 text-brand" />}</td>
+                <td className="text-center font-bold">{m.rps.toFixed(4)}</td>
+                <td className="text-center">{pct(m.acc, 1)}</td>
+                <td className="text-center">{pct(m.ece, 1)}</td>
+                <td className="pr-3 text-left text-muted">{m.note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </Card>
+      <Card className="mt-4 p-3.5 text-[12px] text-muted leading-relaxed">
+        We tried a neural net (PyTorch/MPS), a mixture-of-experts (one model per confederation), a
+        stacked router/meta-learner, and the classical models — all on the identical rolling-origin
+        folds. <b className="text-fg">Nothing meaningfully beats the ensemble</b>; the neural net is
+        actually the <i>worst</i>, and the experts hurt (they starve each model of data). The reason is
+        in the numbers: every model's per-match errors are <b className="text-fg">~{zoo.avg_error_corr.toFixed(2)} correlated</b> —
+        they're all reading the same team-strength signal, so a router can't route to anything better
+        (a perfect hindsight router would reach {zoo.oracle_rps.toFixed(3)}, but that exploits noise, not
+        learnable structure). <b className="text-fg">The bottleneck is the signal, not the architecture.</b> The
+        next real gain needs orthogonal data (betting-market odds, xG, live availability) — not a fancier model.
+      </Card>
+    </div>
+  )
+}
+
+export function ModelView({ b, zoo }: { b: Benchmark; zoo: ModelZoo | null }) {
+  return (
+    <div>
+      {zoo && <ModelLab zoo={zoo} />}
       <SectionTitle>Benchmark — walk-forward over {b.n_matches.toLocaleString()} internationals ({b.date_from} → {b.date_to})</SectionTitle>
       <Card className="mb-4 overflow-hidden">
         <table className="w-full text-[13px] tnum">
