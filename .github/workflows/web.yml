@@ -35,5 +35,12 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/index.html docs/assets
-          git diff --staged --quiet || git commit -m "web: rebuild shell $(date -u +%FT%TZ)"
+          git diff --staged --quiet && { echo "no shell changes"; exit 0; }
+          git commit -m "web: rebuild shell $(date -u +%FT%TZ)"
+          # update.yml can push concurrently on the same commit — rebase + retry instead of losing the race
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push rejected; rebasing on latest main and retrying…"
+            git pull --rebase --autostash
+          done
           git push
