@@ -47,7 +47,32 @@ function matchCard(m, played) {
     <div class="teams">${t1}${mid}${t2}</div>
     ${probBar(m.probs, m.team1, m.team2)}
     ${factorChips(m.factors)}
+    ${whyPanel(m)}
   </div>`);
+}
+
+const FACTOR_LABEL = { elo: 'Elo rating gap', form: 'Recent form', rest: 'Rest / fatigue',
+  context: 'Match context', altitude: 'Altitude' };
+
+function whyPanel(m) {
+  if (!m.explain) return '';
+  const e = m.explain, c = m.contributions || e.contributions;
+  const maxAbs = Math.max(0.01, ...c.map(x => Math.abs(x.delta)));
+  const bars = c.filter(x => Math.abs(x.delta) >= 0.002).map(x => {
+    const w = Math.abs(x.delta) / maxAbs * 100, pos = x.delta > 0;
+    return `<div class="contrib"><span class="cl">${FACTOR_LABEL[x.factor] || x.factor}</span>
+      <span class="ctrack"><span class="cbar ${pos ? 'p' : 'n'}" style="width:${w}%"></span></span>
+      <span class="cv ${pos ? 'p' : 'n'}">${pos ? '+' : ''}${(x.delta * 100).toFixed(0)}%</span></div>`;
+  }).join('');
+  const sq = m.squad ? `<div class="wl"><b>Squad</b> ${m.team1} ${m.squad.home} (${m.squad.home_big5} big-5) · ${m.team2} ${m.squad.away} (${m.squad.away_big5} big-5)</div>` : '';
+  return `<details class="why"><summary>Why this prediction?</summary>
+    <div class="wl"><b>Elo</b> ${m.team1} ${m.elo[0]} · ${m.team2} ${m.elo[1]} <span class="wg">(gap ${m.elo[0] - m.elo[1] > 0 ? '+' : ''}${m.elo[0] - m.elo[1]})</span></div>
+    <div class="wl"><b>Form</b> last-5 avg pts — ${m.team1} ${m.form[0]} · ${m.team2} ${m.form[1]}</div>
+    ${sq}
+    <div class="wl" style="margin-top:8px">What shifted ${m.team1}'s win chance (vs an even match):</div>
+    ${bars}
+    <div class="wnote">Contributions from the gradient-boosting model by swapping each factor from a neutral baseline. Heat / quasi-home / squad appear as chips above (2026-only overlays).</div>
+  </details>`;
 }
 
 function renderPredictions(preds) {
@@ -97,6 +122,141 @@ function bracketMatch(m) {
   if (m.score) { w1 = m.score[0] >= m.score[1]; w2 = !w1; }
   const sc = m.score ? `<span class="od">${m.score[0]}–${m.score[1]}</span>` : `<span class="od">${fmtDate(m.date)}</span>`;
   return el(`<div class="bm">${slot(m.team1, w1)}${slot(m.team2, w2)}<div style="text-align:right">${sc}</div></div>`);
+}
+
+function renderSquads(squads) {
+  const sec = $('#squads'); sec.innerHTML = '';
+  sec.appendChild(el(`<h2 class="sec">Squads — who's in each team (sorted by squad strength)</h2>`));
+  sec.appendChild(el(`<div class="note">Squad strength = how strong the leagues each player's club plays in are (a free, dependency-free proxy for player quality). It correlates ~0.63 with Elo, so it adds a small independent signal used as a 2026-only overlay. Player current "form" has no free feed post-2026, so it isn't modelled per-player.</div>`));
+  const POS = { GK: 'Goalkeepers', DF: 'Defenders', MF: 'Midfielders', FW: 'Forwards' };
+  squads.forEach(s => {
+    const groups = Object.keys(POS).map(p => {
+      const pl = s.players.filter(x => x.pos === p);
+      if (!pl.length) return '';
+      return `<div class="poscol"><h4>${POS[p]}</h4>` + pl.map(x =>
+        `<div class="plr"><span>${x.name}</span><small>${x.club || ''}${x.age ? ' · ' + x.age : ''}${x.club_country && BIG5.has(x.club_country) ? ' ⭐' : ''}</small></div>`).join('') + `</div>`;
+    }).join('');
+    sec.appendChild(el(`<details class="squad"><summary>
+      ${flag(s.iso, 'big')}<span class="sqnm">${s.team}</span>
+      <span class="sqmeta">str <b>${s.strength}</b> · ${s.n_big5}/26 big-5 · age ${s.avg_age} · cup ${pct(s.champion)}</span></summary>
+      <div class="roster">${groups}</div></details>`));
+  });
+}
+const BIG5 = new Set(['ENG', 'ESP', 'ITA', 'GER', 'FRA']);
+
+// ---- animated playable bracket simulator ----
+let SIM = null;
+function renderSimulate(bracket, champ) {
+  const sec = $('#simulate'); sec.innerHTML = '';
+  const elo = {}; champ.forEach(t => elo[t.team] = t.elo);
+  SIM = { bracket, elo, wins: {}, runs: 0 };
+  sec.appendChild(el(`<h2 class="sec">Play the tournament — simulate the bracket to a champion</h2>`));
+  const bar = el(`<div class="simbar">
+    <button class="bigbtn" id="simplay">▶ Play simulation</button>
+    <button class="tab" id="siminstant">⚡ Instant</button>
+    <span id="simstatus" class="simstatus">Press play to roll the dice — each run samples every remaining match from the model.</span>
+  </div>`);
+  sec.appendChild(bar);
+  sec.appendChild(el(`<div id="simchamp" class="simchamp"></div>`));
+  const order = ['Round of 32', 'Round of 16', 'Quarter-final', 'Semi-final', 'Final'];
+  const wrap = el(`<div class="simbracket" id="simbracket"></div>`);
+  const byR = {}; bracket.forEach(m => (byR[m.round] = byR[m.round] || []).push(m));
+  order.filter(r => byR[r]).forEach(r => {
+    const col = el(`<div class="simcol"><h3>${r.replace('Round of', 'R')}</h3></div>`);
+    byR[r].forEach(m => col.appendChild(simMatchEl(m)));
+    wrap.appendChild(col);
+  });
+  sec.appendChild(wrap);
+  sec.appendChild(el(`<div id="simtally" class="simtally"></div>`));
+  $('#simplay').onclick = () => playSim(false);
+  $('#siminstant').onclick = () => playSim(true);
+  resetSim();
+}
+
+function simMatchEl(m) {
+  const slot = (s, i) => {
+    const id = `m${m.number}s${i}`;
+    if (s.placeholder) return `<div class="ss" id="${id}" data-ref="${s.placeholder}"><span class="ph">${s.placeholder}</span></div>`;
+    return `<div class="ss" id="${id}" data-team="${s.team}">${flag(s.iso)}<span>${s.team}</span></div>`;
+  };
+  const e = el(`<div class="sm" id="sm${m.number}">${slot(m.team1, 1)}${slot(m.team2, 2)}</div>`);
+  return e;
+}
+
+function resetSim() {
+  // restore concrete teams + lock real results
+  SIM.bracket.forEach(m => {
+    [1, 2].forEach(i => {
+      const node = document.getElementById(`m${m.number}s${i}`);
+      if (!node) return;
+      const ref = node.dataset.ref;
+      node.classList.remove('win', 'lose', 'live');
+      const t = i === 1 ? m.team1 : m.team2;
+      if (t.placeholder) node.innerHTML = `<span class="ph">${t.placeholder}</span>`;
+    });
+    if (m.score) markWin(m, m.score[0] >= m.score[1] ? 1 : 2, true);
+  });
+  $('#simchamp').innerHTML = '';
+}
+
+const eloP = (a, b) => 1 / (1 + Math.pow(10, -((a - b)) / 400));
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+function setSlot(num, i, team, iso) {
+  const node = document.getElementById(`m${num}s${i}`);
+  if (!node) return;
+  node.dataset.team = team;
+  node.innerHTML = flag(iso) + `<span>${team}</span>`;
+}
+function markWin(m, side, locked) {
+  const w = document.getElementById(`m${m.number}s${side}`);
+  const l = document.getElementById(`m${m.number}s${side === 1 ? 2 : 1}`);
+  if (w) w.classList.add('win'); if (l) l.classList.add('lose');
+}
+
+async function playSim(instant) {
+  if (SIM.running) return;
+  SIM.running = true;
+  $('#simplay').disabled = true;
+  resetSim();
+  await sleep(instant ? 0 : 150);
+  const winners = {}, losers = {}, isoOf = {};
+  SIM.bracket.forEach(m => { [m.team1, m.team2].forEach(s => { if (s.team) isoOf[s.team] = s.iso; }); });
+  const ref = (r) => {
+    if (!r) return null;
+    if (r.team) return r.team;
+    const n = +r.placeholder.slice(1);
+    return r.placeholder[0] === 'W' ? winners[n] : losers[n];
+  };
+  const ko = SIM.bracket.slice().sort((a, b) => a.number - b.number);
+  let lastRound = null;
+  for (const m of ko) {
+    if (m.round !== lastRound && !instant) { lastRound = m.round; $('#simstatus').textContent = `Simulating ${m.round}…`; await sleep(350); }
+    const t1 = ref(m.team1), t2 = ref(m.team2);
+    if (m.team1.placeholder) setSlot(m.number, 1, t1, isoOf[t1]);
+    if (m.team2.placeholder) setSlot(m.number, 2, t2, isoOf[t2]);
+    let side;
+    if (m.score) side = m.score[0] >= m.score[1] ? 1 : 2;
+    else side = Math.random() < eloP(SIM.elo[t1] || 1500, SIM.elo[t2] || 1500) ? 1 : 2;
+    const w = side === 1 ? t1 : t2, l = side === 1 ? t2 : t1;
+    winners[m.number] = w; losers[m.number] = l;
+    if (!instant) { document.getElementById(`sm${m.number}`).classList.add('live'); await sleep(90); }
+    markWin(m, side, !!m.score);
+    if (!instant) { document.getElementById(`sm${m.number}`).classList.remove('live'); await sleep(60); }
+  }
+  const champ = winners[104];
+  SIM.wins[champ] = (SIM.wins[champ] || 0) + 1; SIM.runs++;
+  $('#simchamp').innerHTML = `<div class="trophy">🏆</div><div class="champname">${flag(isoOf[champ], 'big')} ${champ} <span>world champions</span></div>`;
+  $('#simstatus').textContent = `Champion: ${champ}. Play again for a different roll.`;
+  renderTally();
+  $('#simplay').disabled = false; SIM.running = false;
+}
+
+function renderTally() {
+  if (SIM.runs < 1) return;
+  const rows = Object.entries(SIM.wins).sort((a, b) => b[1] - a[1]).slice(0, 8)
+    .map(([t, n]) => `<span class="tchip">${t} <b>${n}</b></span>`).join('');
+  $('#simtally').innerHTML = `<div class="wl"><b>${SIM.runs}</b> simulation${SIM.runs > 1 ? 's' : ''} you've run — champions tally:</div><div class="tchips">${rows}</div>`;
 }
 
 function renderStandings(groups) {
@@ -201,9 +361,9 @@ function tabs() {
 async function main() {
   tabs();
   try {
-    const [meta, preds, results, champ, bracket, standings, accuracy, history, bench] =
+    const [meta, preds, results, champ, bracket, standings, accuracy, history, bench, squads] =
       await Promise.all(['meta', 'predictions', 'results', 'championship', 'bracket',
-        'standings', 'accuracy', 'history', 'benchmark'].map(load));
+        'standings', 'accuracy', 'history', 'benchmark', 'squads'].map(load));
     $('#sub').textContent = `${meta.matches_played}/104 played · updated ${meta.updated_utc.replace('T', ' ').replace('Z', ' UTC')}`;
     $('#headstat').innerHTML =
       `<div class="kpi"><div class="v good">${accuracy.rps ?? '–'}</div><div class="l">live RPS</div></div>
@@ -211,8 +371,10 @@ async function main() {
        <div class="kpi"><div class="v">${champ[0] ? (champ[0].champion * 100).toFixed(0) + '%' : '–'}</div><div class="l">${champ[0]?.team || 'favourite'}</div></div>`;
     renderPredictions(preds);
     renderResults(results);
+    renderSimulate(bracket, champ);
     renderOdds(champ, bracket);
     renderStandings(standings);
+    renderSquads(squads);
     renderAccuracy(accuracy);
     renderModel(bench);
     renderHistory(history);

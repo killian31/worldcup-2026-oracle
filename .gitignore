@@ -11,3 +11,5 @@ data/cache/of2026.json
 
 # never commit local secrets
 .env
+data/cache/squads.json
+data/cache/clubelo.csv

@@ -67,7 +67,35 @@ def _factors(row, x, wx, t1, t2, venue_id, country):
     return out, tilt
 
 
-def build_predictions(df, ratings, dc, gbm, X):
+def _neutral_row(cols):
+    """A generic even match (both sides equal) as the explanation baseline."""
+    base = dict.fromkeys(cols, 0.0)
+    base.update(home_form=1.4, away_form=1.4, home_gf=1.3, home_ga=1.3,
+                away_gf=1.3, away_ga=1.3, home_rest=14, away_rest=14,
+                neutral=1, competitive=1, same_conf=0)
+    return base
+
+
+def explain(gbm, x_row):
+    """Model-faithful 'why': ΔP(home win) contributed by each feature group,
+    measured by swapping that group from a neutral baseline to the real values."""
+    import pandas as pd
+    cols = list(x_row.index)
+    base = _neutral_row(cols)
+    base_p = gbm.predict_proba(pd.DataFrame([base])[cols])[0][0]
+    out = []
+    for g, feats in featlib.GROUPS.items():
+        row = dict(base)
+        for f in feats:
+            row[f] = x_row[f]
+        p = gbm.predict_proba(pd.DataFrame([row])[cols])[0][0]
+        out.append({"factor": g, "delta": round(float(p - base_p), 4)})
+    out.sort(key=lambda d: -abs(d["delta"]))
+    return {"baseline_home": round(float(base_p), 4), "contributions": out}
+
+
+def build_predictions(df, ratings, dc, gbm, X, squads=None):
+    squads = squads or {}
     today = dt.date.today()
     mask = (df["tournament"] == "FIFA World Cup") & (df["date"].dt.year == 2026)
     idx = np.where(mask.to_numpy())[0]
@@ -90,6 +118,18 @@ def build_predictions(df, ratings, dc, gbm, X):
             wx = weather.get(vinfo["lat"], vinfo["lon"], date_str,
                              hour=16, future=(r["date"].date() >= today))
         facs, tilt = _factors(r, x, wx, t1, t2, venue_id, country=r["country"])
+        # squad-quality overlay (current rosters; bounded nudge + chip)
+        sq1, sq2 = squads.get(t1, {}), squads.get(t2, {})
+        s1, s2 = sq1.get("strength"), sq2.get("strength")
+        squad_info = None
+        if s1 and s2:
+            tilt += max(-0.12, min(0.12, 0.5 * (s1 - s2) / 100.0))
+            squad_info = {"home": s1, "away": s2,
+                          "home_big5": sq1.get("n_big5"), "away_big5": sq2.get("n_big5")}
+            if abs(s1 - s2) >= 4:
+                fav, big5 = (t1, sq1.get("n_big5")) if s1 > s2 else (t2, sq2.get("n_big5"))
+                facs.append({"icon": "⭐", "text": f"Squad quality: {fav} ({big5} top-5-league players)",
+                             "favors": "home" if s1 > s2 else "away"})
         probs = _logit_tilt(list(ens[k]), tilt)
         dcp = dc.predict(r["home_elo"], r["away_elo"], bool(r["neutral"]))
         rec = {
@@ -100,6 +140,10 @@ def build_predictions(df, ratings, dc, gbm, X):
             "probs": [round(p, 4) for p in probs],
             "pred_score": dcp["proj_score"],
             "exp_goals": [round(dcp["exp_home"], 2), round(dcp["exp_away"], 2)],
+            "elo": [round(float(r["home_elo"])), round(float(r["away_elo"]))],
+            "form": [round(float(x["home_form"]), 2), round(float(x["away_form"]), 2)],
+            "explain": explain(gbm, x),
+            "squad": squad_info,
             "factors": facs, "played": played,
             "apparent_temp": (round(wx["apparent"]) if wx and wx.get("apparent") is not None else None),
         }
@@ -153,9 +197,10 @@ if __name__ == "__main__":
     import data, elo
     df, ratings = elo.attach_elo(data.load_results())
     X, y = featlib.build_features(df)
+    import squads as squadlib
     dc = DixonColes().fit(df)
     g = gbmlib.GBM().fit(X[np.isfinite(y)], y[np.isfinite(y)])
-    preds, acc = build_predictions(df, ratings, dc, g, X)
+    preds, acc = build_predictions(df, ratings, dc, g, X, squadlib.load_squads())
     print(f"2026 matches predicted: {len(preds)} | played: {acc['n']}")
     print(f"accuracy so far: RPS {acc['rps']}  acc {acc['accuracy']}  "
           f"({acc['n_correct']}/{acc['n']} outcomes)  ECE {acc['ece']}")

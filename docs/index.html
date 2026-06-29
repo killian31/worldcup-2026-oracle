@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://flagcdn.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <header>
@@ -23,8 +23,10 @@
   <nav class="tabs" id="tabs">
     <button class="tab active" data-t="predictions">⚡ Upcoming</button>
     <button class="tab" data-t="results">📋 Results</button>
+    <button class="tab" data-t="simulate">🎮 Simulate</button>
     <button class="tab" data-t="odds">🏆 Odds &amp; Bracket</button>
     <button class="tab" data-t="standings">📊 Groups</button>
+    <button class="tab" data-t="squads">👥 Squads</button>
     <button class="tab" data-t="accuracy">🎯 Accuracy</button>
     <button class="tab" data-t="model">🧪 Model</button>
     <button class="tab" data-t="history">📜 History</button>
@@ -32,8 +34,10 @@
 
   <section id="predictions" class="active"><div class="loading">Loading predictions…</div></section>
   <section id="results"><div class="loading">Loading results…</div></section>
+  <section id="simulate"><div class="loading">Loading simulator…</div></section>
   <section id="odds"><div class="loading">Loading odds…</div></section>
   <section id="standings"><div class="loading">Loading groups…</div></section>
+  <section id="squads"><div class="loading">Loading squads…</div></section>
   <section id="accuracy"><div class="loading">Loading accuracy…</div></section>
   <section id="model"><div class="loading">Loading model card…</div></section>
   <section id="history"><div class="loading">Loading history…</div></section>
@@ -47,6 +51,6 @@
   </footer>
 </div>
 
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>

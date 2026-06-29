@@ -15,6 +15,7 @@ import features as featlib
 import gbm as gbmlib
 import predict
 import simulate
+import squads as squadlib
 import teams
 import venues
 from model import DixonColes
@@ -90,6 +91,16 @@ def _history(df):
     return sorted(out, key=lambda r: -r["year"])
 
 
+def _squads_payload(squads, odds):
+    out = []
+    for t, s in sorted(squads.items(), key=lambda kv: -kv[1]["strength"]):
+        out.append({"team": t, "iso": teams.iso(t), "strength": s["strength"],
+                    "n_big5": s["n_big5"], "avg_age": s["avg_age"],
+                    "champion": (odds.get(t, {}) or {}).get("champion"),
+                    "players": s["players"]})
+    return out
+
+
 def main():
     os.makedirs(DOCS, exist_ok=True)
     df, ratings = elo.attach_elo(data.load_results())
@@ -98,7 +109,8 @@ def main():
     dc = DixonColes().fit(df)
     gbm = gbmlib.GBM().fit(X[lab], y[lab])
 
-    preds, accuracy = predict.build_predictions(df, ratings, dc, gbm, X)
+    squads = squadlib.load_squads()
+    preds, accuracy = predict.build_predictions(df, ratings, dc, gbm, X, squads)
     wc = data.load_wc2026()
 
     # merge openfootball round + venue into predictions (match on date + teams)
@@ -111,7 +123,10 @@ def main():
 
     odds = simulate.simulate(wc, dc, ratings, n=SIMS)
     team_table = [{"team": t, "iso": teams.iso(t), "conf": teams.confederation(t),
-                   "elo": round(ratings.get(t, 1500)), **o}
+                   "elo": round(ratings.get(t, 1500)),
+                   "squad_strength": squads.get(t, {}).get("strength"),
+                   "n_big5": squads.get(t, {}).get("n_big5"),
+                   "avg_age": squads.get(t, {}).get("avg_age"), **o}
                   for t, o in odds.items()]
 
     played = [p for p in preds if p["played"]]
@@ -139,6 +154,7 @@ def main():
     dump(_standings(wc), "standings.json")
     dump(results, "results.json")
     dump(_history(df), "history.json")
+    dump(_squads_payload(squads, odds), "squads.json")
     dump(meta, "meta.json")
     print(f"build OK — {len(played)} played, {len(upcoming)} upcoming, "
           f"RPS {accuracy.get('rps')}, champion fav "

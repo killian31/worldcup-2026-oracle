@@ -6,18 +6,27 @@ tracks its own **accuracy in real time**, and shows *why* it favours each side. 
 
 **Live site:** _enable GitHub Pages (branch `main`, folder `/docs`) — see Deploy below._
 
-Tabs: **Upcoming · Results · Odds & Bracket · Groups · Accuracy · Model · History**
+Tabs: **Upcoming · Results · Simulate · Odds & Bracket · Groups · Squads · Accuracy · Model · History**
 
 ## What it does
 
-- **Predicts every match** — win/draw/win probabilities + a model scoreline, with a calibrated
-  Elo → Dixon-Coles + gradient-boosting **ensemble**.
+- **Predicts every match** — win/draw/win probabilities + a realistic projected scoreline
+  (`round(expected goals)`, not the Poisson-compressed modal score) and expected goals, from a
+  calibrated Elo → Dixon-Coles + gradient-boosting **ensemble**.
+- **Explains every prediction** — a per-match "Why?" panel quantifying how much each factor (Elo
+  gap, form, rest, altitude…) shifted the win probability, plus the raw Elo/form/squad inputs.
+- **Plays the tournament** — an animated **Simulate** tab: press play and watch the bracket roll
+  from the current round to a champion, sampling each remaining match from the model; replay to
+  build a champions tally.
+- **Knows the squads** — a player layer from openfootball's 26-man rosters: each team's squad, club,
+  and a squad-strength index (league quality of each player's club; a free, no-secret proxy that
+  correlates ~0.67 with Elo and nudges predictions as a 2026-only overlay).
 - **Simulates the tournament** — 50k Monte-Carlo runs over the live bracket → each team's odds to
   reach each round and win the cup.
 - **Grades itself honestly** — retro-predicts every already-played 2026 match using only
   pre-kickoff information and shows running **RPS**, hit-rate, and a calibration plot.
-- **Surfaces innovative factors most models ignore** — altitude, heat (Open-Meteo), rest, and the
-  Mexican-diaspora quasi-home crowd — shown as "why" chips on each card.
+- **Surfaces innovative factors most models ignore** — altitude, heat (Open-Meteo), rest, squad
+  quality, and the Mexican-diaspora quasi-home crowd — shown as "why" chips on each card.
 
 ## The model
 
@@ -76,9 +85,15 @@ Re-run the slow benchmark with `python src/benchmark.py 3` (writes `docs/data/be
 ## Layout
 
 ```
-src/        teams, venues, data, elo, features, model, gbm, simulate, predict, benchmark, build, metrics, weather
+src/        teams, venues, data, elo, features, model, gbm, squads, simulate, predict, benchmark, build, metrics, weather
 docs/       index.html · style.css · app.js · data/*.json   (Pages root)
 .github/    update.yml
 ```
+
+### A note on player "form" and injuries
+Per-player current form and live injuries have **no clean free feed** (FBref's advanced stats were
+discontinued in Jan 2026; the rest is paywalled or fragile scraping). So the player layer uses what
+*is* free and robust — squad rosters + club-league strength — and team-level recent form is already
+in the model. Per-player form/availability is a documented phase-2 item, not faked.
 
 _Predictions are probabilistic and for fun — not betting advice._
