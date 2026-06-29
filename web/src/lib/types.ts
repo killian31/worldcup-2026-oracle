@@ -3,9 +3,15 @@ export interface Contribution { factor: string; delta: number }
 export interface Explain { baseline_home: number; contributions: Contribution[] }
 export interface Squad { home: number; away: number; home_big5: number; away_big5: number }
 
+export interface FormMatch {
+  date: string; opp: string; opp_iso: string; gf: number; ga: number
+  res: 'W' | 'D' | 'L'; venue: 'H' | 'A' | 'N'
+}
+
 export interface Prediction {
   number: number; date: string; round: string; venue: string | null; city: string | null
   team1: string; team2: string; iso1: string; iso2: string
+  form1?: FormMatch[]; form2?: FormMatch[]
   probs: [number, number, number]
   pred_score: [number, number]; pred_outcome: number
   exp_goals: [number, number]; elo: [number, number]; form: [number, number]

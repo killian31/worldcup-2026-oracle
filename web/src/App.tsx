@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
-  Zap, ClipboardList, Gamepad2, Trophy, LayoutGrid, Users, Target, FlaskConical, ScrollText,
+  Zap, ClipboardList, Gamepad2, Trophy, LayoutGrid, Users, Target, FlaskConical, ScrollText, Menu, X,
 } from 'lucide-react'
 import type {
   Accuracy, Benchmark, BracketMatch, GoalBench, HistoryRow, Meta, ModelZoo, OddsProof, Prediction, SquadTeam, Standings, TeamOdds,
@@ -67,16 +67,8 @@ export default function App() {
           <Kpi v={fav ? pct(fav.champion) : '–'} l={fav?.team ?? 'favourite'} />
         </>
       }
+      tabs={TABS} activeTab={tab} onSelect={setTab}
     >
-      <nav className="flex gap-1.5 overflow-x-auto scroll-thin py-3">
-        {TABS.map(({ id, label, Icon }) => (
-          <button key={id} onClick={() => { setTab(id); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
-            className={`flex shrink-0 items-center gap-1.5 rounded-full border px-3.5 py-2 text-[13px] font-semibold transition ${
-              tab === id ? 'border-brand bg-brand text-black' : 'border-line bg-card text-muted hover:text-fg hover:border-[#36456b]'}`}>
-            <Icon className="h-3.5 w-3.5" /> {label}
-          </button>
-        ))}
-      </nav>
 
       <div className="animate-fade">
         {tab === 'upcoming' && (
@@ -112,19 +104,56 @@ function Kpi({ v, l, good }: { v: React.ReactNode; l: string; good?: boolean }) 
   )
 }
 
-function Shell({ children, sub, kpis }: { children: React.ReactNode; sub?: string; kpis?: React.ReactNode }) {
+type Tab = { id: string; label: string; Icon: React.ComponentType<{ className?: string }> }
+function Shell({ children, sub, kpis, tabs, activeTab, onSelect }: {
+  children: React.ReactNode; sub?: string; kpis?: React.ReactNode
+  tabs?: readonly Tab[]; activeTab?: string; onSelect?: (id: string) => void
+}) {
+  const [open, setOpen] = useState(false)
+  const pick = (id: string) => { onSelect?.(id); setOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }
   return (
     <>
-      <header className="sticky top-0 z-20 border-b border-line bg-bg/90 backdrop-blur">
-        <div className="mx-auto flex max-w-[1080px] flex-wrap items-center gap-4 px-4 py-3">
-          <div className="font-display text-2xl font-bold uppercase leading-none tracking-wide">
-            World Cup <span className="text-brand">2026 Oracle</span>
-            <div className="mt-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted">{sub ?? 'loading…'}</div>
+      <header className="sticky top-0 z-30 border-b border-line bg-bg/80 backdrop-blur-md">
+        <div className="mx-auto max-w-[1080px] px-4">
+          <div className="flex items-center gap-3 py-3">
+            {tabs && (
+              <button onClick={() => setOpen((o) => !o)} aria-label="Menu"
+                className="-ml-1 rounded-lg p-2 text-muted transition-colors hover:text-fg md:hidden">
+                {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              </button>
+            )}
+            <div className="font-display text-xl font-bold uppercase leading-none tracking-wide md:text-2xl">
+              World Cup <span className="text-brand">2026 Oracle</span>
+              <div className="mt-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted md:text-[11px]">{sub ?? 'loading…'}</div>
+            </div>
+            <div className="ml-auto hidden gap-4 sm:flex">{kpis}</div>
           </div>
-          <div className="ml-auto flex gap-4">{kpis}</div>
+          {tabs && (
+            <nav className="-mb-px hidden gap-1 md:flex">
+              {tabs.map(({ id, label, Icon }) => (
+                <button key={id} onClick={() => pick(id)}
+                  className={`group flex shrink-0 items-center gap-2 border-b-2 px-3.5 py-2.5 text-[13px] font-semibold transition-colors ${
+                    activeTab === id ? 'border-brand text-fg' : 'border-transparent text-muted hover:border-line hover:text-fg'}`}>
+                  <Icon className={`h-4 w-4 transition-colors ${activeTab === id ? 'text-brand' : 'text-muted group-hover:text-fg'}`} />
+                  {label}
+                </button>
+              ))}
+            </nav>
+          )}
+          {tabs && open && (
+            <nav className="grid grid-cols-2 gap-1 pb-3 md:hidden">
+              {tabs.map(({ id, label, Icon }) => (
+                <button key={id} onClick={() => pick(id)}
+                  className={`flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm font-semibold transition-colors ${
+                    activeTab === id ? 'bg-brand/15 text-brand' : 'text-muted hover:bg-card2 hover:text-fg'}`}>
+                  <Icon className="h-4 w-4 shrink-0" /> {label}
+                </button>
+              ))}
+            </nav>
+          )}
         </div>
       </header>
-      <main className="mx-auto max-w-[1080px] px-4 pb-24">{children}</main>
+      <main className="mx-auto max-w-[1080px] px-4 pb-24 pt-5">{children}</main>
       <footer className="mx-auto max-w-[1080px] border-t border-line px-4 py-6 text-center text-[12px] text-muted">
         Elo → Dixon-Coles + gradient-boosting ensemble · Monte-Carlo bracket. Data:{' '}
         <a className="underline" href="https://github.com/martj42/international_results">martj42</a> ·{' '}

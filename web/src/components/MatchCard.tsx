@@ -2,9 +2,11 @@ import { useState } from 'react'
 import {
   ChevronRight, Flame, Mountain, Home, Moon, Star, MapPin, Thermometer, Zap,
 } from 'lucide-react'
-import type { Prediction } from '@/lib/types'
+import type { FormMatch, Prediction } from '@/lib/types'
 import { cn, fmtDate } from '@/lib/utils'
 import { Badge, Card, Flag, ProbBar } from './ui'
+
+const RES_BG: Record<FormMatch['res'], string> = { W: 'bg-home', D: 'bg-draw', L: 'bg-upset' }
 
 const FACTOR_ICON: Record<string, typeof Flame> = {
   '🔥': Flame, '⛰️': Mountain, '🏟️': Home, '😴': Moon, '⭐': Star,
@@ -41,16 +43,10 @@ export function MatchCard({ m }: { m: Prediction }) {
         </span>
       </div>
 
-      <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
-        <div className="flex min-w-0 items-center gap-2.5">
-          <Flag iso={m.iso1} className="h-6 w-9" />
-          <span className="truncate text-[17px] font-bold">{m.team1}</span>
-        </div>
+      <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2 sm:gap-3">
+        <TeamName name={m.team1} iso={m.iso1} form={m.form1} side="home" />
         <Mid m={m} />
-        <div className="flex min-w-0 flex-row-reverse items-center gap-2.5 text-right">
-          <Flag iso={m.iso2} className="h-6 w-9" />
-          <span className="truncate text-[17px] font-bold">{m.team2}</span>
-        </div>
+        <TeamName name={m.team2} iso={m.iso2} form={m.form2} side="away" />
       </div>
 
       {(up.pickUnderdog || up.tossup) && (
@@ -93,6 +89,51 @@ export function MatchCard({ m }: { m: Prediction }) {
   )
 }
 
+function TeamName({ name, iso, form, side }: { name: string; iso: string; form?: FormMatch[]; side: 'home' | 'away' }) {
+  const away = side === 'away'
+  return (
+    <div className={cn('group/team relative flex min-w-0 items-center gap-2 sm:gap-2.5', away && 'flex-row-reverse text-right')}>
+      <Flag iso={iso} className="h-5 w-7 sm:h-6 sm:w-9" />
+      <span className={cn('truncate text-[14px] font-bold sm:text-[17px]',
+        form?.length && 'cursor-default decoration-dotted underline-offset-4 group-hover/team:underline')} title={name}>{name}</span>
+      {!!form?.length && <FormPopover form={form} side={side} team={name} />}
+    </div>
+  )
+}
+
+function FormPopover({ form, side, team }: { form: FormMatch[]; side: 'home' | 'away'; team: string }) {
+  const tally = { W: 0, D: 0, L: 0 }
+  form.forEach((g) => (tally[g.res] += 1))
+  return (
+    <div className={cn(
+      'pointer-events-none absolute top-full z-40 mt-2 w-64 rounded-xl border border-line bg-card2 p-3 text-left shadow-xl shadow-black/40',
+      'translate-y-1 opacity-0 transition-all duration-150 group-hover/team:translate-y-0 group-hover/team:opacity-100',
+      side === 'away' ? 'right-0' : 'left-0')}>
+      <div className="mb-2 flex items-center justify-between gap-2">
+        <span className="truncate text-[10px] font-semibold uppercase tracking-wider text-muted">{team} · last {form.length}</span>
+        <span className="flex shrink-0 gap-0.5">
+          {form.map((g, i) => (
+            <span key={i} title={`${g.res} ${g.venue === 'A' ? '@' : 'vs'} ${g.opp} ${g.gf}–${g.ga}`}
+              className={cn('h-4 w-4 rounded-sm text-center text-[9px] font-bold leading-4 text-black/85', RES_BG[g.res])}>{g.res}</span>
+          ))}
+        </span>
+      </div>
+      <div className="space-y-1">
+        {[...form].reverse().map((g, i) => (
+          <div key={i} className="flex items-center gap-2 text-[11.5px]">
+            <span className={cn('h-2 w-2 shrink-0 rounded-full', RES_BG[g.res])} />
+            <span className="w-3 shrink-0 text-center text-[10px] text-muted">{g.venue === 'A' ? '@' : g.venue === 'N' ? 'N' : ''}</span>
+            <Flag iso={g.opp_iso} className="h-3 w-5" />
+            <span className="truncate text-muted">{g.opp}</span>
+            <span className="ml-auto tnum font-semibold">{g.gf}–{g.ga}</span>
+          </div>
+        ))}
+      </div>
+      <div className="mt-2 border-t border-line pt-1.5 text-[10px] text-muted tnum">{tally.W}W · {tally.D}D · {tally.L}L</div>
+    </div>
+  )
+}
+
 function MarketRow({ m }: { m: Prediction }) {
   const mk = m.market_probs!, mo = m.model_probs!
   // biggest divergence between our model and the market
@@ -116,7 +157,7 @@ function Mid({ m }: { m: Prediction }) {
     const [hs, as] = m.actual_score
     return (
       <div className="text-center">
-        <div className="font-display text-3xl font-bold tnum">{hs}–{as}</div>
+        <div className="font-display text-2xl font-bold tnum sm:text-3xl">{hs}–{as}</div>
         <div className="text-[10px] text-muted tnum">projected {m.pred_score[0]}–{m.pred_score[1]}</div>
         <div className="mt-1 flex justify-center gap-1">
           <Badge tone={m.correct ? 'good' : 'bad'}>{m.correct ? '✓ result' : '✗ result'}</Badge>
@@ -127,7 +168,7 @@ function Mid({ m }: { m: Prediction }) {
   }
   return (
     <div className="text-center">
-      <div className="font-display text-2xl font-bold tnum text-muted">{m.pred_score[0]}–{m.pred_score[1]}</div>
+      <div className="font-display text-xl font-bold tnum text-muted sm:text-2xl">{m.pred_score[0]}–{m.pred_score[1]}</div>
       <div className="text-[10px] text-muted">projected score</div>
       <div className="text-[10px] text-muted tnum">xG {m.exp_goals[0]}–{m.exp_goals[1]}</div>
     </div>

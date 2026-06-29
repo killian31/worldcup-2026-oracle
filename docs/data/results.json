@@ -82,7 +82,101 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1222
+    "rps": 0.1222,
+    "form1": [
+      {
+        "date": "2026-05-29",
+        "opp": "Nicaragua",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Jamaica",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-11",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Czech Republic",
+        "opp_iso": "cz",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-24",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-06-01",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Republic of Ireland",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-12",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Qatar",
+        "opp_iso": "qa",
+        "gf": 6,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-24",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      }
+    ]
   },
   {
     "number": 49471,
@@ -167,7 +261,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0353
+    "rps": 0.0353,
+    "form1": [
+      {
+        "date": "2026-05-31",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 2,
+        "ga": 6,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Dominican Republic",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 2,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Croatia",
+        "opp_iso": "hr",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Japan",
+        "opp_iso": "jp",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "New Zealand",
+        "opp_iso": "nz",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Costa Rica",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Croatia",
+        "opp_iso": "hr",
+        "gf": 4,
+        "ga": 2,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49472,
@@ -257,7 +445,101 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.2322
+    "rps": 0.2322,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Jamaica",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Denmark",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Portugal",
+        "opp_iso": "pt",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-30",
+        "opp": "Venezuela",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Canada",
+        "opp_iso": "ca",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Portugal",
+        "opp_iso": "pt",
+        "gf": 0,
+        "ga": 5,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49473,
@@ -336,7 +618,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.0785
+    "rps": 0.0785,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Slovenia",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 2,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Panama",
+        "opp_iso": "pa",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-30",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-22",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Wales",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Panama",
+        "opp_iso": "pa",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49474,
@@ -426,7 +802,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0092
+    "rps": 0.0092,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Nigeria",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Zambia",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Honduras",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Iceland",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49475,
@@ -516,7 +986,101 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1265
+    "rps": 0.1265,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Bolivia",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Argentina",
+        "opp_iso": "ar",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Argentina",
+        "opp_iso": "ar",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49476,
@@ -606,7 +1170,101 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1268
+    "rps": 0.1268,
+    "form1": [
+      {
+        "date": "2026-03-29",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Costa Rica",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "DR Congo",
+        "opp_iso": "cd",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Nigeria",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "DR Congo",
+        "opp_iso": "cd",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49465,
@@ -691,7 +1349,101 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.0896
+    "rps": 0.0896,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Gambia",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 2,
+        "ga": 3,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 2,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-05-29",
+        "opp": "Andorra",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Spain",
+        "opp_iso": "es",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Venezuela",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49466,
@@ -770,7 +1522,101 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.194
+    "rps": 0.194,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 3,
+        "ga": 2,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-29",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Northern Ireland",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49467,
@@ -860,7 +1706,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0546
+    "rps": 0.0546,
+    "form1": [
+      {
+        "date": "2025-11-18",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 1,
+        "ga": 5,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Cape Verde",
+        "opp_iso": "cv",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Egypt",
+        "opp_iso": "eg",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Peru",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Cape Verde",
+        "opp_iso": "cv",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49468,
@@ -945,7 +1885,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0612
+    "rps": 0.0612,
+    "form1": [
+      {
+        "date": "2026-03-30",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Haiti",
+        "opp_iso": "ht",
+        "gf": 0,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Iran",
+        "opp_iso": "ir",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Egypt",
+        "opp_iso": "eg",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Croatia",
+        "opp_iso": "hr",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Egypt",
+        "opp_iso": "eg",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Iran",
+        "opp_iso": "ir",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49469,
@@ -1030,7 +2064,101 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1181
+    "rps": 0.1181,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Spain",
+        "opp_iso": "es",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-28",
+        "opp": "Russia",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "New Zealand",
+        "opp_iso": "nz",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Costa Rica",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "Gambia",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Mali",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "New Zealand",
+        "opp_iso": "nz",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49470,
@@ -1120,7 +2248,101 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1194
+    "rps": 0.1194,
+    "form1": [
+      {
+        "date": "2026-03-30",
+        "opp": "Finland",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Serbia",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Bermuda",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Spain",
+        "opp_iso": "es",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-05-30",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Puerto Rico",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Spain",
+        "opp_iso": "es",
+        "gf": 0,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49459,
@@ -1205,7 +2427,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0266
+    "rps": 0.0266,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Canada",
+        "opp_iso": "ca",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 0,
+        "ga": 5,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 1,
+        "ga": 5,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Japan",
+        "opp_iso": "jp",
+        "gf": 0,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Japan",
+        "opp_iso": "jp",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49460,
@@ -1295,7 +2611,101 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.4794
+    "rps": 0.4794,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Portugal",
+        "opp_iso": "pt",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 3,
+        "ga": 2,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-12",
+        "opp": "Paraguay",
+        "opp_iso": "py",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Kosovo",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "North Macedonia",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Venezuela",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Paraguay",
+        "opp_iso": "py",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49461,
@@ -1380,7 +2790,101 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1225
+    "rps": 0.1225,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Greece",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Nicaragua",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-12",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Turkey",
+        "opp_iso": "tr",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Cura\u00e7ao",
+        "opp_iso": "cw",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Turkey",
+        "opp_iso": "tr",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      }
+    ]
   },
   {
     "number": 49462,
@@ -1465,7 +2969,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.074
+    "rps": 0.074,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 1,
+        "ga": 5,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Aruba",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 1,
+        "ga": 7,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-28",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49463,
@@ -1550,7 +3148,101 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.33
+    "rps": 0.33,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Guatemala",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Cura\u00e7ao",
+        "opp_iso": "cw",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-30",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Finland",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Cura\u00e7ao",
+        "opp_iso": "cw",
+        "gf": 7,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49464,
@@ -1640,7 +3332,101 @@
     "actual_outcome": 1,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.2279
+    "rps": 0.2279,
+    "form1": [
+      {
+        "date": "2026-03-28",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Iceland",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Poland",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 2,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Greece",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 5,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49453,
@@ -1730,7 +3516,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0313
+    "rps": 0.0313,
+    "form1": [
+      {
+        "date": "2026-05-26",
+        "opp": "Burundi",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Madagascar",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Iceland",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "New Zealand",
+        "opp_iso": "nz",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Peru",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49454,
@@ -1815,7 +3695,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0814
+    "rps": 0.0814,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Cura\u00e7ao",
+        "opp_iso": "cw",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Bolivia",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Haiti",
+        "opp_iso": "ht",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Croatia",
+        "opp_iso": "hr",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Panama",
+        "opp_iso": "pa",
+        "gf": 6,
+        "ga": 2,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Egypt",
+        "opp_iso": "eg",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Haiti",
+        "opp_iso": "ht",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49455,
@@ -1905,7 +3879,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1326
+    "rps": 0.1326,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Italy",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "North Macedonia",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Panama",
+        "opp_iso": "pa",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-12",
+        "opp": "Canada",
+        "opp_iso": "ca",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2025-12-07",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-28",
+        "opp": "Republic of Ireland",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "El Salvador",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Canada",
+        "opp_iso": "ca",
+        "gf": 0,
+        "ga": 6,
+        "res": "L",
+        "venue": "A"
+      }
+    ]
   },
   {
     "number": 49456,
@@ -1995,7 +4063,101 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.5228
+    "rps": 0.5228,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Panama",
+        "opp_iso": "pa",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "Nicaragua",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Jamaica",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-11",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Czech Republic",
+        "opp_iso": "cz",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Trinidad and Tobago",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "El Salvador",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-11",
+        "opp": "Czech Republic",
+        "opp_iso": "cz",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "A"
+      }
+    ]
   },
   {
     "number": 49457,
@@ -2085,7 +4247,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0331
+    "rps": 0.0331,
+    "form1": [
+      {
+        "date": "2026-05-22",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Serbia",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-11",
+        "opp": "South Africa",
+        "opp_iso": "za",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Denmark",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Kosovo",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Guatemala",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-11",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "South Africa",
+        "opp_iso": "za",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49458,
@@ -2175,7 +4431,101 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.3429
+    "rps": 0.3429,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Republic of Ireland",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-12",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Qatar",
+        "opp_iso": "qa",
+        "gf": 6,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Qatar",
+        "opp_iso": "qa",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49449,
@@ -2265,7 +4615,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0676
+    "rps": 0.0676,
+    "form1": [
+      {
+        "date": "2026-03-28",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Nigeria",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "DR Congo",
+        "opp_iso": "cd",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "Gabon",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Venezuela",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Canada",
+        "opp_iso": "ca",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49450,
@@ -2355,7 +4799,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0557
+    "rps": 0.0557,
+    "form1": [
+      {
+        "date": "2026-03-26",
+        "opp": "Croatia",
+        "opp_iso": "hr",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-29",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Costa Rica",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-25",
+        "opp": "Bermuda",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Jamaica",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Denmark",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Portugal",
+        "opp_iso": "pt",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49451,
@@ -2440,7 +4978,101 @@
     "actual_outcome": 1,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.344
+    "rps": 0.344,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Japan",
+        "opp_iso": "jp",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "New Zealand",
+        "opp_iso": "nz",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Costa Rica",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Croatia",
+        "opp_iso": "hr",
+        "gf": 4,
+        "ga": 2,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 1,
+        "ga": 5,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-22",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Wales",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Panama",
+        "opp_iso": "pa",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49452,
@@ -2525,7 +5157,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.138
+    "rps": 0.138,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "South Africa",
+        "opp_iso": "za",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 2,
+        "ga": 6,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Dominican Republic",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 2,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-26",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Slovenia",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 2,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49445,
@@ -2615,7 +5341,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0169
+    "rps": 0.0169,
+    "form1": [
+      {
+        "date": "2026-03-26",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-29",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Northern Ireland",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Bolivia",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "Andorra",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Spain",
+        "opp_iso": "es",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Venezuela",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49446,
@@ -2694,7 +5514,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.142
+    "rps": 0.142,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-28",
+        "opp": "Peru",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Gambia",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 2,
+        "ga": 3,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49447,
@@ -2784,7 +5698,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0597
+    "rps": 0.0597,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Mauritania",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Zambia",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Honduras",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Iceland",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2025-11-18",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49448,
@@ -2869,7 +5877,101 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1137
+    "rps": 0.1137,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Costa Rica",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Nigeria",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "Guatemala",
+        "opp_iso": "un",
+        "gf": 7,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Bolivia",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Argentina",
+        "opp_iso": "ar",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49441,
@@ -2959,7 +6061,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0091
+    "rps": 0.0091,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Serbia",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Egypt",
+        "opp_iso": "eg",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Peru",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Cape Verde",
+        "opp_iso": "cv",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Serbia",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Puerto Rico",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-09",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49442,
@@ -3049,7 +6245,101 @@
     "actual_outcome": 1,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.2306
+    "rps": 0.2306,
+    "form1": [
+      {
+        "date": "2025-11-15",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 1,
+        "ga": 5,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Finland",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Serbia",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Bermuda",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Spain",
+        "opp_iso": "es",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49443,
@@ -3134,7 +6424,101 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1403
+    "rps": 0.1403,
+    "form1": [
+      {
+        "date": "2026-03-28",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 5,
+        "ga": 2,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Mexico",
+        "opp_iso": "mx",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Croatia",
+        "opp_iso": "hr",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Egypt",
+        "opp_iso": "eg",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "Nigeria",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Costa Rica",
+        "opp_iso": "un",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "Gambia",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Mali",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "New Zealand",
+        "opp_iso": "nz",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49444,
@@ -3219,7 +6603,101 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1928
+    "rps": 0.1928,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Finland",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Haiti",
+        "opp_iso": "ht",
+        "gf": 0,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Iran",
+        "opp_iso": "ir",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Spain",
+        "opp_iso": "es",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-28",
+        "opp": "Russia",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49437,
@@ -3304,7 +6782,101 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1199
+    "rps": 0.1199,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 4,
+        "ga": 3,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Finland",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "United States",
+        "opp_iso": "us",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Cura\u00e7ao",
+        "opp_iso": "cw",
+        "gf": 7,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-01-10",
+        "opp": "Egypt",
+        "opp_iso": "eg",
+        "gf": 2,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49438,
@@ -3394,7 +6966,101 @@
     "actual_outcome": 1,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.3218
+    "rps": 0.3218,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Guatemala",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-27",
+        "opp": "China",
+        "opp_iso": "un",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 1,
+        "ga": 5,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Aruba",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 1,
+        "ga": 7,
+        "res": "L",
+        "venue": "N"
+      }
+    ]
   },
   {
     "number": 49439,
@@ -3484,6 +7150,100 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0958
+    "rps": 0.0958,
+    "form1": [
+      {
+        "date": "2026-03-27",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Japan",
+        "opp_iso": "jp",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-26",
+        "opp": "Ukraine",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Poland",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 2,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 1,
+        "ga": 3,
+        "res": "L",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Greece",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
   }
 ]

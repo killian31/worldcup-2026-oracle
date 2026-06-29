@@ -108,6 +108,23 @@ def _bracket(wc, odds):
             for n in sorted(by)]
 
 
+def _form_index(df, needed):
+    """Per-team chronological list of their played matches (only the teams we need),
+    each as {date, opp, opp_iso, gf, ga, res, venue} — used for the hover form cards."""
+    d = df[df["played"] & (df["home_team"].isin(list(needed)) | df["away_team"].isin(list(needed)))]
+    hist = {}
+    for r in d.sort_values("date").itertuples():
+        for team, opp, gf, ga, home in ((r.home_team, r.away_team, r.home_score, r.away_score, True),
+                                        (r.away_team, r.home_team, r.away_score, r.home_score, False)):
+            if team in needed:
+                hist.setdefault(team, []).append(
+                    {"date": r.date.date().isoformat(), "opp": opp, "opp_iso": teams.iso(opp),
+                     "gf": int(gf), "ga": int(ga),
+                     "res": "W" if gf > ga else ("D" if gf == ga else "L"),
+                     "venue": "N" if bool(r.neutral) else ("H" if home else "A")})
+    return hist
+
+
 def _history(df):
     """Champion of each past men's World Cup (winner of that edition's final)."""
     wc = df[(df.tournament == "FIFA World Cup") & df.played]
@@ -156,6 +173,14 @@ def main():
         if not p["played"] and p["round"] in KO and p.get("pred_score_ko"):
             p["pred_score"] = p["pred_score_ko"]
             p["pred_outcome"] = 0 if p["pred_score"][0] > p["pred_score"][1] else 2
+
+    # recent form: each team's last 5 played matches BEFORE this match's date (leakage-safe),
+    # for the hover form card on the Upcoming / Results tabs
+    needed = {p["team1"] for p in preds} | {p["team2"] for p in preds}
+    hist = _form_index(df, needed)
+    for p in preds:
+        p["form1"] = [g for g in hist.get(p["team1"], []) if g["date"] < p["date"]][-5:]
+        p["form2"] = [g for g in hist.get(p["team2"], []) if g["date"] < p["date"]][-5:]
 
     # optional LIVE market-odds blend (needs ODDS_API_KEY; no-op otherwise)
     market = oddslib.fetch_market()
