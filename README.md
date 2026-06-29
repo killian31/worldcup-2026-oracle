@@ -63,31 +63,48 @@ transparent per-match factors, not baked into the historical training.
 football-data.org is supported as an optional live-status source but is **not required** — the app
 updates from the public-domain feeds alone.
 
+## Frontend
+
+A **Vite + React + TypeScript + Tailwind** app in `web/` (lucide-react icons, dark
+data-dense dashboard). It builds the static shell into `/docs` (`emptyOutDir:false` preserves the
+Python-managed `docs/data/`), with hashed asset filenames for automatic cache-busting.
+
 ## Run locally
 
 ```bash
+# 1. data pipeline
 python3.12 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-python src/build.py            # writes docs/data/*.json
-python -m http.server -d docs 8000   # open http://localhost:8000
+python src/build.py                 # writes docs/data/*.json
+
+# 2. frontend (builds into ../docs)
+cd web && npm install && npm run build
+
+# 3. serve
+cd .. && python -m http.server -d docs 8000   # open http://localhost:8000
 ```
 
-Each `src/*.py` has a `__main__` self-check (`python src/model.py`, etc.).
-Re-run the slow benchmark with `python src/benchmark.py 3` (writes `docs/data/benchmark.json`).
+For UI dev with hot reload: `cd web && npm run dev` (point it at data by copying `docs/data` into
+`web/public/data`, or just rebuild). Each `src/*.py` has a `__main__` self-check
+(`python src/model.py`). Re-run the slow benchmark with `python src/benchmark.py 3`; explore model
+tweaks with `python src/experiment.py`.
 
 ## Deploy (GitHub Pages, free)
 
 1. Push to a **public** repo named `worldcup-2026-oracle`.
 2. **Settings → Pages → Source: Deploy from a branch → `main` / `/docs`.**
-3. That's it. `.github/workflows/update.yml` refreshes the data twice an hour and commits it back;
-   each commit auto-deploys. No secrets needed.
+3. Two workflows keep it live, no secrets:
+   - `update.yml` — Python-only, refreshes `docs/data` twice an hour (fast, no node build).
+   - `web.yml` — rebuilds the React shell into `/docs` when `web/**` changes.
+   Each commit auto-deploys.
 
 ## Layout
 
 ```
-src/        teams, venues, data, elo, features, model, gbm, squads, simulate, predict, benchmark, build, metrics, weather
-docs/       index.html · style.css · app.js · data/*.json   (Pages root)
-.github/    update.yml
+src/        teams, venues, data, elo, features, model, gbm, squads, simulate, predict, benchmark, build, metrics, weather, experiment
+web/        Vite + React + Tailwind app (src/components, src/lib) → builds into /docs
+docs/       index.html · assets/* · data/*.json   (Pages root; shell built from web/)
+.github/    update.yml (data) · web.yml (shell)
 ```
 
 ### A note on player "form" and injuries

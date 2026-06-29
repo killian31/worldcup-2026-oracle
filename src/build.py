@@ -62,20 +62,49 @@ def _standings(wc):
 
 
 def _bracket(wc, odds):
-    ko = [m for m in wc if m["number"] >= 73]
-    out = []
-    for m in sorted(ko, key=lambda m: m["number"]):
-        def slot(name):
-            if teams.is_placeholder(name):
-                return {"placeholder": name}
-            return {"team": name, "iso": teams.iso(name),
-                    "champion": (odds.get(name, {}) or {}).get("champion")}
-        out.append({"number": m["number"], "round": m["round"], "date": m["date"],
-                    "venue": (venues.info(m["venue"]) or {}).get("stadium"),
-                    "team1": slot(m["team1"]), "team2": slot(m["team2"]),
-                    "score": ([m["home_score"], m["away_score"]]
-                              if m["home_score"] is not None else None)})
-    return out
+    """Emit each KO match with its feeder matches and bracket half, reconstructed
+    even after openfootball resolves W##/L## placeholders to team names (so the
+    tree never loses played matches). feeders=[] for Round-of-32."""
+    by = {m["number"]: m for m in wc if m["number"] >= 73}
+    winner, loser = {}, {}
+    for n, m in by.items():
+        if m["home_score"] is not None:
+            hi = m["home_score"] >= m["away_score"]
+            winner[n], loser[n] = (m["team1"], m["team2"]) if hi else (m["team2"], m["team1"])
+    PREV = {"Round of 16": (range(73, 89), winner), "Quarter-final": (range(89, 97), winner),
+            "Semi-final": (range(97, 101), winner), "Final": (range(101, 103), winner),
+            "Match for third place": (range(101, 103), loser)}
+
+    def feeder(name, rnd):
+        if teams.is_placeholder(name):
+            return int(name[1:])
+        if rnd not in PREV:
+            return None                      # R32 teams come from the group stage
+        rng, pool = PREV[rnd]
+        return next((num for num in rng if pool.get(num) == name), None)
+
+    feeders = {n: [f for f in (feeder(m["team1"], m["round"]), feeder(m["team2"], m["round"]))
+                   if f is not None] for n, m in by.items()}
+
+    def collect(root):
+        s, st = set(), [root]
+        while st:
+            x = st.pop(); s.add(x); st.extend(feeders.get(x, []))
+        return s
+    left, right = collect(101), collect(102)
+    half = lambda n: "c" if n in (103, 104) else ("l" if n in left else "r")
+
+    def slot(name):
+        if teams.is_placeholder(name):
+            return {"placeholder": name}
+        return {"team": name, "iso": teams.iso(name),
+                "champion": (odds.get(name, {}) or {}).get("champion")}
+    return [{"number": n, "round": by[n]["round"], "date": by[n]["date"], "half": half(n),
+             "feeders": feeders[n], "venue": (venues.info(by[n]["venue"]) or {}).get("stadium"),
+             "team1": slot(by[n]["team1"]), "team2": slot(by[n]["team2"]),
+             "score": ([by[n]["home_score"], by[n]["away_score"]]
+                       if by[n]["home_score"] is not None else None)}
+            for n in sorted(by)]
 
 
 def _history(df):

@@ -102,7 +102,7 @@ def build_predictions(df, ratings, dc, gbm, X, squads=None):
     dc_probs = np.array([dc.predict(df.iloc[i]["home_elo"], df.iloc[i]["away_elo"],
                                     bool(df.iloc[i]["neutral"]))["probs"] for i in idx])
     gbm_probs = gbm.predict_proba(X.iloc[idx])
-    ens = gbmlib.ensemble(dc_probs, gbm_probs)
+    ens = gbmlib.ensemble(dc_probs, gbm_probs, weights=[0.6, 0.4])  # DC:GBM (tuned, experiment.py)
 
     preds = []
     for k, i in enumerate(idx):

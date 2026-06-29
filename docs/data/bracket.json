@@ -3,6 +3,8 @@
     "number": 73,
     "round": "Round of 32",
     "date": "2026-06-28",
+    "half": "l",
+    "feeders": [],
     "venue": "SoFi Stadium",
     "team1": {
       "team": "South Africa",
@@ -23,6 +25,8 @@
     "number": 74,
     "round": "Round of 32",
     "date": "2026-06-29",
+    "half": "l",
+    "feeders": [],
     "venue": "Gillette Stadium",
     "team1": {
       "team": "Germany",
@@ -40,6 +44,8 @@
     "number": 75,
     "round": "Round of 32",
     "date": "2026-06-29",
+    "half": "l",
+    "feeders": [],
     "venue": "Estadio BBVA",
     "team1": {
       "team": "Netherlands",
@@ -57,6 +63,8 @@
     "number": 76,
     "round": "Round of 32",
     "date": "2026-06-29",
+    "half": "r",
+    "feeders": [],
     "venue": "NRG Stadium",
     "team1": {
       "team": "Brazil",
@@ -74,6 +82,8 @@
     "number": 77,
     "round": "Round of 32",
     "date": "2026-06-30",
+    "half": "l",
+    "feeders": [],
     "venue": "MetLife Stadium",
     "team1": {
       "team": "France",
@@ -91,6 +101,8 @@
     "number": 78,
     "round": "Round of 32",
     "date": "2026-06-30",
+    "half": "r",
+    "feeders": [],
     "venue": "AT&T Stadium",
     "team1": {
       "team": "Ivory Coast",
@@ -108,6 +120,8 @@
     "number": 79,
     "round": "Round of 32",
     "date": "2026-06-30",
+    "half": "r",
+    "feeders": [],
     "venue": "Estadio Azteca",
     "team1": {
       "team": "Mexico",
@@ -125,6 +139,8 @@
     "number": 80,
     "round": "Round of 32",
     "date": "2026-07-01",
+    "half": "r",
+    "feeders": [],
     "venue": "Mercedes-Benz Stadium",
     "team1": {
       "team": "England",
@@ -142,6 +158,8 @@
     "number": 81,
     "round": "Round of 32",
     "date": "2026-07-01",
+    "half": "l",
+    "feeders": [],
     "venue": "Levi's Stadium",
     "team1": {
       "team": "United States",
@@ -159,6 +177,8 @@
     "number": 82,
     "round": "Round of 32",
     "date": "2026-07-01",
+    "half": "l",
+    "feeders": [],
     "venue": "Lumen Field",
     "team1": {
       "team": "Belgium",
@@ -176,6 +196,8 @@
     "number": 83,
     "round": "Round of 32",
     "date": "2026-07-02",
+    "half": "l",
+    "feeders": [],
     "venue": "BMO Field",
     "team1": {
       "team": "Portugal",
@@ -193,6 +215,8 @@
     "number": 84,
     "round": "Round of 32",
     "date": "2026-07-02",
+    "half": "l",
+    "feeders": [],
     "venue": "SoFi Stadium",
     "team1": {
       "team": "Spain",
@@ -210,6 +234,8 @@
     "number": 85,
     "round": "Round of 32",
     "date": "2026-07-02",
+    "half": "r",
+    "feeders": [],
     "venue": "BC Place",
     "team1": {
       "team": "Switzerland",
@@ -227,6 +253,8 @@
     "number": 86,
     "round": "Round of 32",
     "date": "2026-07-03",
+    "half": "r",
+    "feeders": [],
     "venue": "Hard Rock Stadium",
     "team1": {
       "team": "Argentina",
@@ -244,6 +272,8 @@
     "number": 87,
     "round": "Round of 32",
     "date": "2026-07-03",
+    "half": "r",
+    "feeders": [],
     "venue": "Arrowhead Stadium",
     "team1": {
       "team": "Colombia",
@@ -261,6 +291,8 @@
     "number": 88,
     "round": "Round of 32",
     "date": "2026-07-03",
+    "half": "r",
+    "feeders": [],
     "venue": "AT&T Stadium",
     "team1": {
       "team": "Australia",
@@ -278,6 +310,11 @@
     "number": 89,
     "round": "Round of 16",
     "date": "2026-07-04",
+    "half": "l",
+    "feeders": [
+      74,
+      77
+    ],
     "venue": "Lincoln Financial Field",
     "team1": {
       "placeholder": "W74"
@@ -291,6 +328,11 @@
     "number": 90,
     "round": "Round of 16",
     "date": "2026-07-04",
+    "half": "l",
+    "feeders": [
+      73,
+      75
+    ],
     "venue": "NRG Stadium",
     "team1": {
       "team": "Canada",
@@ -306,6 +348,11 @@
     "number": 91,
     "round": "Round of 16",
     "date": "2026-07-05",
+    "half": "r",
+    "feeders": [
+      76,
+      78
+    ],
     "venue": "MetLife Stadium",
     "team1": {
       "placeholder": "W76"
@@ -319,6 +366,11 @@
     "number": 92,
     "round": "Round of 16",
     "date": "2026-07-05",
+    "half": "r",
+    "feeders": [
+      79,
+      80
+    ],
     "venue": "Estadio Azteca",
     "team1": {
       "placeholder": "W79"
@@ -332,6 +384,11 @@
     "number": 93,
     "round": "Round of 16",
     "date": "2026-07-06",
+    "half": "l",
+    "feeders": [
+      83,
+      84
+    ],
     "venue": "AT&T Stadium",
     "team1": {
       "placeholder": "W83"
@@ -345,6 +402,11 @@
     "number": 94,
     "round": "Round of 16",
     "date": "2026-07-06",
+    "half": "l",
+    "feeders": [
+      81,
+      82
+    ],
     "venue": "Lumen Field",
     "team1": {
       "placeholder": "W81"
@@ -358,6 +420,11 @@
     "number": 95,
     "round": "Round of 16",
     "date": "2026-07-07",
+    "half": "r",
+    "feeders": [
+      86,
+      88
+    ],
     "venue": "Mercedes-Benz Stadium",
     "team1": {
       "placeholder": "W86"
@@ -371,6 +438,11 @@
     "number": 96,
     "round": "Round of 16",
     "date": "2026-07-07",
+    "half": "r",
+    "feeders": [
+      85,
+      87
+    ],
     "venue": "BC Place",
     "team1": {
       "placeholder": "W85"
@@ -384,6 +456,11 @@
     "number": 97,
     "round": "Quarter-final",
     "date": "2026-07-09",
+    "half": "l",
+    "feeders": [
+      89,
+      90
+    ],
     "venue": "Gillette Stadium",
     "team1": {
       "placeholder": "W89"
@@ -397,6 +474,11 @@
     "number": 98,
     "round": "Quarter-final",
     "date": "2026-07-10",
+    "half": "l",
+    "feeders": [
+      93,
+      94
+    ],
     "venue": "SoFi Stadium",
     "team1": {
       "placeholder": "W93"
@@ -410,6 +492,11 @@
     "number": 99,
     "round": "Quarter-final",
     "date": "2026-07-11",
+    "half": "r",
+    "feeders": [
+      91,
+      92
+    ],
     "venue": "Hard Rock Stadium",
     "team1": {
       "placeholder": "W91"
@@ -423,6 +510,11 @@
     "number": 100,
     "round": "Quarter-final",
     "date": "2026-07-11",
+    "half": "r",
+    "feeders": [
+      95,
+      96
+    ],
     "venue": "Arrowhead Stadium",
     "team1": {
       "placeholder": "W95"
@@ -436,6 +528,11 @@
     "number": 101,
     "round": "Semi-final",
     "date": "2026-07-14",
+    "half": "l",
+    "feeders": [
+      97,
+      98
+    ],
     "venue": "AT&T Stadium",
     "team1": {
       "placeholder": "W97"
@@ -449,6 +546,11 @@
     "number": 102,
     "round": "Semi-final",
     "date": "2026-07-15",
+    "half": "r",
+    "feeders": [
+      99,
+      100
+    ],
     "venue": "Mercedes-Benz Stadium",
     "team1": {
       "placeholder": "W99"
@@ -462,6 +564,11 @@
     "number": 103,
     "round": "Match for third place",
     "date": "2026-07-18",
+    "half": "c",
+    "feeders": [
+      101,
+      102
+    ],
     "venue": "Hard Rock Stadium",
     "team1": {
       "placeholder": "L101"
@@ -475,6 +582,11 @@
     "number": 104,
     "round": "Final",
     "date": "2026-07-19",
+    "half": "c",
+    "feeders": [
+      101,
+      102
+    ],
     "venue": "MetLife Stadium",
     "team1": {
       "placeholder": "W101"

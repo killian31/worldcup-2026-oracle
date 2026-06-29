@@ -1,0 +1,38 @@
+{
+  "best_weight": 0.6,
+  "best_temperature": 1.0,
+  "calibration": [
+    {
+      "band": "40%-50%",
+      "pred": 0.45,
+      "actual": 0.455,
+      "n": 984
+    },
+    {
+      "band": "50%-60%",
+      "pred": 0.55,
+      "actual": 0.53,
+      "n": 806
+    },
+    {
+      "band": "60%-70%",
+      "pred": 0.648,
+      "actual": 0.655,
+      "n": 603
+    },
+    {
+      "band": "70%-80%",
+      "pred": 0.747,
+      "actual": 0.746,
+      "n": 602
+    },
+    {
+      "band": "80%-90%",
+      "pred": 0.846,
+      "actual": 0.862,
+      "n": 400
+    }
+  ],
+  "base_rps": 0.1701,
+  "tuned_rps": 0.1701
+}
