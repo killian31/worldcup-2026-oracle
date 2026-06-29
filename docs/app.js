@@ -35,10 +35,11 @@ function matchCard(m, played) {
   let mid;
   if (played) {
     const [hs, as] = m.actual_score;
-    const v = m.correct ? `<span class="verdict ok">✓ called</span>` : `<span class="verdict no">✗ missed</span>`;
-    mid = `<div class="score">${hs}–${as}<div class="pred">proj ${m.pred_score[0]}–${m.pred_score[1]} ${v}</div></div>`;
+    const res = m.correct ? `<span class="verdict ok">✓ result</span>` : `<span class="verdict no">✗ result</span>`;
+    const exact = m.exact_hit ? `<span class="verdict ok">🎯 exact</span>` : '';
+    mid = `<div class="score">${hs}–${as}<div class="pred">most likely ${m.pred_score[0]}–${m.pred_score[1]}</div><div class="verdicts">${res}${exact}</div></div>`;
   } else {
-    mid = `<div class="vs">${m.pred_score[0]}–${m.pred_score[1]}<div class="pred" style="font-size:10px">projected</div>${xg}</div>`;
+    mid = `<div class="vs">${m.pred_score[0]}–${m.pred_score[1]}<div class="pred" style="font-size:10px">most likely score</div>${xg}</div>`;
   }
   const temp = m.apparent_temp != null ? `&nbsp;·&nbsp;🌡️ ${m.apparent_temp}°C` : '';
   return el(`<div class="match">
@@ -158,19 +159,49 @@ function renderSimulate(bracket, champ) {
   </div>`);
   sec.appendChild(bar);
   sec.appendChild(el(`<div id="simchamp" class="simchamp"></div>`));
-  const order = ['Round of 32', 'Round of 16', 'Quarter-final', 'Semi-final', 'Final'];
-  const wrap = el(`<div class="simbracket" id="simbracket"></div>`);
-  const byR = {}; bracket.forEach(m => (byR[m.round] = byR[m.round] || []).push(m));
-  order.filter(r => byR[r]).forEach(r => {
-    const col = el(`<div class="simcol"><h3>${r.replace('Round of', 'R')}</h3></div>`);
-    byR[r].forEach(m => col.appendChild(simMatchEl(m)));
-    wrap.appendChild(col);
-  });
-  sec.appendChild(wrap);
+  sec.appendChild(buildTree(bracket));
   sec.appendChild(el(`<div id="simtally" class="simtally"></div>`));
   $('#simplay').onclick = () => playSim(false);
   $('#siminstant').onclick = () => playSim(true);
   resetSim();
+}
+
+function buildTree(bracket) {
+  const byNum = {}; bracket.forEach(m => byNum[m.number] = m);
+  const feeders = (n) => (byNum[n] ? [byNum[n].team1, byNum[n].team2]
+    .filter(s => s.placeholder && s.placeholder[0] === 'W').map(s => +s.placeholder.slice(1)) : []);
+  const collect = (root) => { const s = new Set(), st = [root]; while (st.length) { const n = st.pop(); s.add(n); feeders(n).forEach(f => st.push(f)); } return s; };
+  const Y = {}; let yc;
+  const dfsY = (n) => { const f = feeders(n); if (f.length === 2) { dfsY(f[0]); Y[n] = yc++; dfsY(f[1]); } else Y[n] = yc++; };
+  yc = 0; if (byNum[101]) dfsY(101); yc = 0; if (byNum[102]) dfsY(102);
+  const L = collect(101), R = collect(102);
+  const rng = (a, b) => bracket.filter(m => m.number >= a && m.number <= b);
+  const pick = (arr, set) => arr.filter(m => set.has(m.number)).sort((x, y) => (Y[x.number] ?? 0) - (Y[y.number] ?? 0));
+  const r32 = rng(73, 88), r16 = rng(89, 96), qf = rng(97, 100), sf = rng(101, 102);
+
+  const colEl = (title, matches, side) => {
+    const c = el(`<div class="rnd ${side}"><h4>${title}</h4><div class="rndcol"></div></div>`);
+    const holder = c.querySelector('.rndcol');
+    matches.forEach(m => holder.appendChild(simMatchEl(m)));
+    return c;
+  };
+  const tree = el(`<div class="tree" id="simbracket"></div>`);
+  const left = el(`<div class="side left"></div>`);
+  [['R32', pick(r32, L)], ['R16', pick(r16, L)], ['QF', pick(qf, L)], ['SF', pick(sf, L)]]
+    .forEach(([t, ms]) => left.appendChild(colEl(t, ms, 'l')));
+  const center = el(`<div class="side center"></div>`);
+  const fc = el(`<div class="rnd c"><h4>Final</h4><div class="rndcol"></div></div>`);
+  if (byNum[104]) fc.querySelector('.rndcol').appendChild(simMatchEl(byNum[104]));
+  if (byNum[103]) {
+    const tw = el(`<div class="thirdwrap"><div class="thlabel">3rd place</div></div>`);
+    tw.appendChild(simMatchEl(byNum[103])); fc.querySelector('.rndcol').appendChild(tw);
+  }
+  center.appendChild(fc);
+  const right = el(`<div class="side right"></div>`);
+  [['SF', pick(sf, R)], ['QF', pick(qf, R)], ['R16', pick(r16, R)], ['R32', pick(r32, R)]]
+    .forEach(([t, ms]) => right.appendChild(colEl(t, ms, 'r')));
+  tree.append(left, center, right);
+  return tree;
 }
 
 function simMatchEl(m) {
@@ -307,13 +338,16 @@ function renderAccuracy(acc) {
   const sec = $('#accuracy'); sec.innerHTML = '';
   if (!acc.n) { sec.appendChild(el(`<div class="note">No completed matches scored yet.</div>`)); return; }
   sec.appendChild(el(`<h2 class="sec">How the model is doing — ${acc.n} matches scored</h2>`));
+  const exact = acc.exact_accuracy != null ? `
+    <div class="kpibox"><div class="v" style="color:#4aa8ff">${(acc.exact_accuracy * 100).toFixed(0)}%</div><div class="l">exact score hit</div></div>` : '';
   sec.appendChild(el(`<div class="kpis">
-    <div class="kpibox"><div class="v" style="color:#18e0a0">${acc.rps}</div><div class="l">RPS (lower better)</div></div>
-    <div class="kpibox"><div class="v">${(acc.accuracy * 100).toFixed(0)}%</div><div class="l">outcomes called</div></div>
+    <div class="kpibox"><div class="v" style="color:#18e0a0">${(acc.accuracy * 100).toFixed(0)}%</div><div class="l">result called (W/D/L)</div></div>
+    ${exact}
+    <div class="kpibox"><div class="v">${acc.rps}</div><div class="l">RPS (lower better)</div></div>
     <div class="kpibox"><div class="v">${acc.n_correct}/${acc.n}</div><div class="l">correct results</div></div>
-    <div class="kpibox"><div class="v">${acc.log_loss}</div><div class="l">log-loss</div></div>
     <div class="kpibox"><div class="v">${(acc.ece * 100).toFixed(1)}%</div><div class="l">calibration error</div></div>
   </div>`));
+  sec.appendChild(el(`<div class="note">Two different bars: <b>result</b> = did we call the winner/draw (the model's real strength, ${(acc.accuracy * 100).toFixed(0)}%). <b>Exact score</b> is genuinely hard — even bookmakers land only ~10–13%; we hit ${acc.exact_accuracy != null ? (acc.exact_accuracy * 100).toFixed(0) : '–'}% (avg ${acc.avg_goal_err} goals off). The model predicts a *distribution* of scores; the "most likely" one is shown per match, but the probabilities are where the signal is.</div>`));
   sec.appendChild(el(`<div class="chartbox"><h3>Running prediction skill</h3>
     <p>Mean Ranked Probability Score across played matches, in date order. Below the dashed line beats a naive base-rate forecast.</p>
     ${sparkline(acc.running_rps)}</div>`));

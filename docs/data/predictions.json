@@ -15,9 +15,10 @@
       0.0514
     ],
     "pred_score": [
-      3,
-      1
+      2,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.53,
       0.58
@@ -90,8 +91,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.0201
   },
   {
@@ -110,9 +111,10 @@
       0.2669
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.4,
       1.05
@@ -164,8 +166,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1702
   },
   {
@@ -185,8 +187,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.22,
       1.21
@@ -249,8 +252,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.2483
   },
   {
@@ -270,8 +273,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.24,
       0.66
@@ -334,8 +338,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.2885
   },
   {
@@ -354,9 +358,10 @@
       0.4383
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       1.07,
       1.37
@@ -408,8 +413,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.3498
   },
   {
@@ -428,9 +433,10 @@
       0.4926
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.95,
       1.55
@@ -493,8 +499,8 @@
       1
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.1568
   },
   {
@@ -513,9 +519,10 @@
       0.7601
     ],
     "pred_score": [
-      1,
+      0,
       2
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.6,
       2.44
@@ -573,8 +580,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.2914
   },
   {
@@ -593,9 +600,10 @@
       0.2506
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.41,
       1.05
@@ -653,8 +661,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1439
   },
   {
@@ -674,8 +682,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.47,
       0.6
@@ -738,8 +747,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0143
   },
   {
@@ -758,9 +767,10 @@
       0.5643
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.83,
       1.78
@@ -828,8 +838,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.4972
   },
   {
@@ -849,8 +859,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.25,
       1.18
@@ -918,8 +929,8 @@
       2
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1154
   },
   {
@@ -939,8 +950,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.29,
       1.15
@@ -1008,8 +1020,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.2008
   },
   {
@@ -1028,9 +1040,10 @@
       0.6759
     ],
     "pred_score": [
-      1,
+      0,
       2
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.73,
       2.01
@@ -1098,8 +1111,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.2356
   },
   {
@@ -1118,9 +1131,10 @@
       0.1655
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.58,
       0.94
@@ -1178,8 +1192,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.172
   },
   {
@@ -1198,9 +1212,10 @@
       0.173
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.67,
       0.88
@@ -1263,8 +1278,8 @@
       2
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1698
   },
   {
@@ -1286,6 +1301,7 @@
       3,
       0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       3.33,
       0.44
@@ -1348,8 +1364,8 @@
       0
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.4059
   },
   {
@@ -1368,9 +1384,10 @@
       0.1888
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.49,
       0.99
@@ -1433,8 +1450,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1004
   },
   {
@@ -1454,8 +1471,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.1,
       0.7
@@ -1513,8 +1531,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.048
   },
   {
@@ -1533,9 +1551,10 @@
       0.6139
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.8,
       1.84
@@ -1598,8 +1617,8 @@
       4
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0848
   },
   {
@@ -1618,9 +1637,10 @@
       0.1446
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.77,
       0.83
@@ -1678,8 +1698,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.079
   },
   {
@@ -1698,9 +1718,10 @@
       0.5697
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.81,
       1.83
@@ -1763,8 +1784,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.4822
   },
   {
@@ -1784,8 +1805,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.01,
       0.73
@@ -1848,8 +1870,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.2532
   },
   {
@@ -1868,9 +1890,10 @@
       0.6796
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.79,
       1.88
@@ -1933,8 +1956,8 @@
       3
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0602
   },
   {
@@ -1953,9 +1976,10 @@
       0.2042
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.51,
       0.98
@@ -2023,8 +2047,8 @@
       2
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1415
   },
   {
@@ -2044,8 +2068,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.93,
       0.77
@@ -2103,8 +2128,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0698
   },
   {
@@ -2124,8 +2149,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.4,
       0.62
@@ -2188,8 +2214,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0223
   },
   {
@@ -2208,9 +2234,10 @@
       0.2025
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.51,
       0.98
@@ -2268,8 +2295,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1608
   },
   {
@@ -2288,9 +2315,10 @@
       0.1491
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.67,
       0.88
@@ -2353,8 +2381,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.0841
   },
   {
@@ -2373,9 +2401,10 @@
       0.2825
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.32,
       1.11
@@ -2433,8 +2462,8 @@
       1
     ],
     "actual_outcome": 2,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.3485
   },
   {
@@ -2454,8 +2483,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.25,
       1.18
@@ -2518,8 +2548,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.2524
   },
   {
@@ -2539,8 +2569,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.37,
       0.62
@@ -2598,8 +2629,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.02
   },
   {
@@ -2618,9 +2649,10 @@
       0.4711
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.96,
       1.53
@@ -2678,8 +2710,8 @@
       1
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.1699
   },
   {
@@ -2698,9 +2730,10 @@
       0.1808
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.6,
       0.92
@@ -2758,8 +2791,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1011
   },
   {
@@ -2779,8 +2812,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.42,
       0.61
@@ -2843,8 +2877,8 @@
       0
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.3332
   },
   {
@@ -2863,9 +2897,10 @@
       0.1556
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.7,
       0.87
@@ -2928,8 +2963,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0954
   },
   {
@@ -2948,9 +2983,10 @@
       0.7127
     ],
     "pred_score": [
-      1,
+      0,
       2
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.7,
       2.11
@@ -3013,8 +3049,8 @@
       4
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0463
   },
   {
@@ -3033,9 +3069,10 @@
       0.0306
     ],
     "pred_score": [
-      3,
-      1
+      2,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.85,
       0.52
@@ -3098,8 +3135,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0086
   },
   {
@@ -3119,8 +3156,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.98,
       0.74
@@ -3183,8 +3221,8 @@
       2
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.2481
   },
   {
@@ -3203,9 +3241,10 @@
       0.2526
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.36,
       1.09
@@ -3263,8 +3302,8 @@
       0
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1411
   },
   {
@@ -3283,9 +3322,10 @@
       0.4468
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       1.04,
       1.42
@@ -3343,8 +3383,8 @@
       3
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1892
   },
   {
@@ -3363,9 +3403,10 @@
       0.0384
     ],
     "pred_score": [
-      3,
-      1
+      2,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.62,
       0.56
@@ -3428,8 +3469,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0151
   },
   {
@@ -3448,9 +3489,10 @@
       0.2342
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.45,
       1.02
@@ -3502,8 +3544,8 @@
       2
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1593
   },
   {
@@ -3523,8 +3565,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.02,
       0.73
@@ -3587,8 +3630,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.059
   },
   {
@@ -3607,9 +3650,10 @@
       0.5394
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.97,
       1.52
@@ -3667,8 +3711,8 @@
       2
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1305
   },
   {
@@ -3687,9 +3731,10 @@
       0.1262
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.81,
       0.81
@@ -3752,8 +3797,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0696
   },
   {
@@ -3773,8 +3818,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.07,
       0.71
@@ -3837,8 +3883,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.051
   },
   {
@@ -3857,9 +3903,10 @@
       0.0385
     ],
     "pred_score": [
-      3,
-      1
+      2,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.7,
       0.55
@@ -3917,8 +3964,8 @@
       0
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.3546
   },
   {
@@ -3937,9 +3984,10 @@
       0.5233
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.96,
       1.54
@@ -3997,8 +4045,8 @@
       1
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.1396
   },
   {
@@ -4018,8 +4066,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.21,
       0.67
@@ -4082,8 +4131,8 @@
       2
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0344
   },
   {
@@ -4102,9 +4151,10 @@
       0.5966
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.81,
       1.83
@@ -4162,8 +4212,8 @@
       3
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0944
   },
   {
@@ -4182,9 +4232,10 @@
       0.2402
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.39,
       1.06
@@ -4247,8 +4298,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.155
   },
   {
@@ -4267,9 +4318,10 @@
       0.5947
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.82,
       1.81
@@ -4332,8 +4384,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.5358
   },
   {
@@ -4353,8 +4405,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.19,
       0.67
@@ -4417,8 +4470,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0359
   },
   {
@@ -4438,8 +4491,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.29,
       1.15
@@ -4502,8 +4556,8 @@
       2
     ],
     "actual_outcome": 2,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.3124
   },
   {
@@ -4522,9 +4576,10 @@
       0.787
     ],
     "pred_score": [
-      1,
+      0,
       2
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.63,
       2.34
@@ -4582,8 +4637,8 @@
       3
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0252
   },
   {
@@ -4602,9 +4657,10 @@
       0.2024
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.54,
       0.96
@@ -4667,8 +4723,8 @@
       3
     ],
     "actual_outcome": 2,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.4628
   },
   {
@@ -4687,9 +4743,10 @@
       0.3691
     ],
     "pred_score": [
-      1,
+      0,
       1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       1.19,
       1.24
@@ -4747,8 +4804,8 @@
       0
     ],
     "actual_outcome": 1,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1259
   },
   {
@@ -4767,9 +4824,10 @@
       0.6496
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.81,
       1.82
@@ -4827,8 +4885,8 @@
       2
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0716
   },
   {
@@ -4847,9 +4905,10 @@
       0.4423
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       1.06,
       1.39
@@ -4907,8 +4966,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.3562
   },
   {
@@ -4927,9 +4986,10 @@
       0.1391
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.8,
       0.82
@@ -4992,8 +5052,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.208
   },
   {
@@ -5012,9 +5072,10 @@
       0.1569
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.63,
       0.91
@@ -5072,8 +5133,8 @@
       0
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0914
   },
   {
@@ -5092,9 +5153,10 @@
       0.4839
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.95,
       1.56
@@ -5146,8 +5208,8 @@
       4
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.1636
   },
   {
@@ -5166,9 +5228,10 @@
       0.7045
     ],
     "pred_score": [
-      1,
+      0,
       2
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.76,
       1.94
@@ -5231,8 +5294,8 @@
       1
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0508
   },
   {
@@ -5251,9 +5314,10 @@
       0.675
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.79,
       1.86
@@ -5311,8 +5375,8 @@
       5
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.06
   },
   {
@@ -5331,9 +5395,10 @@
       0.3618
     ],
     "pred_score": [
-      1,
+      0,
       1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       1.15,
       1.29
@@ -5391,8 +5456,8 @@
       1
     ],
     "actual_outcome": 1,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1224
   },
   {
@@ -5412,8 +5477,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.2,
       1.23
@@ -5476,8 +5542,8 @@
       0
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1246
   },
   {
@@ -5496,9 +5562,10 @@
       0.734
     ],
     "pred_score": [
-      1,
+      0,
       2
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.7,
       2.1
@@ -5556,8 +5623,8 @@
       2
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.0398
   },
   {
@@ -5577,8 +5644,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.21,
       1.22
@@ -5641,8 +5709,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.2476
   },
   {
@@ -5662,8 +5730,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.93,
       0.76
@@ -5715,8 +5784,8 @@
       1
     ],
     "actual_outcome": 0,
-    "pred_outcome": 0,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0664
   },
   {
@@ -5735,9 +5804,10 @@
       0.8609
     ],
     "pred_score": [
-      1,
-      3
+      0,
+      2
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.5,
       2.94
@@ -5800,8 +5870,8 @@
       3
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": false,
     "rps": 0.0104
   },
   {
@@ -5820,9 +5890,10 @@
       0.3794
     ],
     "pred_score": [
-      1,
+      0,
       1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       1.18,
       1.25
@@ -5885,8 +5956,8 @@
       3
     ],
     "actual_outcome": 1,
-    "pred_outcome": 2,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1236
   },
   {
@@ -5906,8 +5977,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.3,
       1.13
@@ -5970,8 +6042,8 @@
       0
     ],
     "actual_outcome": 1,
-    "pred_outcome": 0,
     "correct": false,
+    "exact_hit": false,
     "rps": 0.1256
   },
   {
@@ -5990,9 +6062,10 @@
       0.5196
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.94,
       1.57
@@ -6050,8 +6123,8 @@
       1
     ],
     "actual_outcome": 2,
-    "pred_outcome": 2,
     "correct": true,
+    "exact_hit": true,
     "rps": 0.1352
   },
   {
@@ -6070,9 +6143,10 @@
       0.2271
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.44,
       1.03
@@ -6147,9 +6221,10 @@
       0.2198
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.45,
       1.01
@@ -6225,8 +6300,9 @@
     ],
     "pred_score": [
       1,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.27,
       1.16
@@ -6302,8 +6378,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.38,
       0.62
@@ -6378,9 +6455,10 @@
       0.4758
     ],
     "pred_score": [
-      1,
-      2
+      0,
+      1
     ],
+    "pred_outcome": 2,
     "exp_goals": [
       0.98,
       1.5
@@ -6455,9 +6533,10 @@
       0.2101
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.5,
       0.99
@@ -6532,9 +6611,10 @@
       0.284
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.34,
       1.1
@@ -6599,8 +6679,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.03,
       0.73
@@ -6676,8 +6757,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.02,
       0.73
@@ -6757,9 +6839,10 @@
       0.2478
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.42,
       1.04
@@ -6830,8 +6913,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.09,
       0.7
@@ -6901,9 +6985,10 @@
       0.2243
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.44,
       1.03
@@ -6981,6 +7066,7 @@
       3,
       0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       3.09,
       0.48
@@ -7055,9 +7141,10 @@
       0.2699
     ],
     "pred_score": [
-      2,
-      1
+      1,
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       1.33,
       1.11
@@ -7133,8 +7220,9 @@
     ],
     "pred_score": [
       2,
-      1
+      0
     ],
+    "pred_outcome": 0,
     "exp_goals": [
       2.48,
       0.59

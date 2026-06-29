@@ -202,20 +202,38 @@ details.squad summary::-webkit-details-marker { display: none; }
 .trophy { font-size: 40px; margin-right: 14px; }
 .champname { display: flex; align-items: center; gap: 10px; font-family: Oswald; font-size: 28px; font-weight: 700; }
 .champname span { font-family: Inter; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); }
-.simbracket { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 10px; }
-.simcol { flex: 0 0 auto; min-width: 150px; }
-.simcol h3 { font-family: Oswald; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;
-  color: var(--accent); margin-bottom: 8px; }
-.sm { background: var(--card); border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px;
-  overflow: hidden; transition: box-shadow .15s; }
-.sm.live { box-shadow: 0 0 0 2px var(--accent); }
-.ss { display: flex; align-items: center; gap: 6px; padding: 6px 8px; font-size: 12.5px;
-  border-bottom: 1px solid var(--line); transition: background .2s, color .2s; }
+/* two-sided bracket tree */
+.tree { display: flex; align-items: stretch; gap: 4px; overflow-x: auto; padding-bottom: 10px;
+  min-height: 420px; }
+.side { display: flex; gap: 4px; flex: 1 1 0; min-width: 0; }
+.side.center { flex: 0 0 auto; align-items: stretch; }
+.rnd { display: flex; flex-direction: column; flex: 1 1 0; min-width: 104px; }
+.rnd > h4 { font-family: Oswald; font-size: 10px; letter-spacing: 1px; text-transform: uppercase;
+  color: var(--accent); text-align: center; margin-bottom: 4px; }
+.rndcol { flex: 1; display: flex; flex-direction: column; justify-content: space-around; }
+.rnd.c .rndcol { justify-content: center; gap: 20px; }
+.thirdwrap { margin-top: 8px; }
+.thlabel { font-size: 9px; letter-spacing: 1px; text-transform: uppercase; color: var(--mut2);
+  text-align: center; margin-bottom: 3px; }
+.sm { background: var(--card); border: 1px solid var(--line); border-radius: 7px; margin: 3px 0;
+  overflow: hidden; transition: box-shadow .15s; position: relative; }
+.rnd.c .sm { box-shadow: 0 0 0 1px rgba(255,216,74,.3); }
+.sm.live { box-shadow: 0 0 0 2px var(--accent); z-index: 2; }
+/* connector stubs pointing toward the centre */
+.side.left .rnd:not(:last-child) .sm::after,
+.side.right .rnd:not(:first-child) .sm::after {
+  content: ''; position: absolute; top: 50%; width: 4px; height: 1px; background: var(--line); }
+.side.left .rnd:not(:last-child) .sm::after { right: -5px; }
+.side.right .rnd:not(:first-child) .sm::after { left: -5px; }
+.ss { display: flex; align-items: center; gap: 5px; padding: 4px 6px; font-size: 11px;
+  border-bottom: 1px solid var(--line); transition: background .2s, color .2s; white-space: nowrap; }
+.ss span:last-child { overflow: hidden; text-overflow: ellipsis; }
 .ss:last-child { border-bottom: none; }
 .ss .ph { color: var(--mut2); font-style: italic; }
 .ss.win { background: rgba(24,224,160,.16); color: var(--home); font-weight: 700; }
-.ss.lose { opacity: .42; }
-.ss img { width: 20px; height: 14px; }
+.ss.lose { opacity: .4; }
+.ss img { width: 16px; height: 11px; flex: 0 0 auto; }
+.verdicts { display: flex; gap: 4px; justify-content: center; flex-wrap: wrap; margin-top: 3px; }
 .simtally { margin-top: 16px; }
 .tchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .tchip { background: var(--card); border: 1px solid var(--line); border-radius: 7px; padding: 4px 10px; font-size: 12px; color: var(--mut); }

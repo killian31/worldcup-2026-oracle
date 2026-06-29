@@ -331,5 +331,8 @@
       "n": 3
     }
   ],
-  "n_correct": 45
+  "n_correct": 45,
+  "n_exact": 8,
+  "exact_accuracy": 0.1096,
+  "avg_goal_err": 2.19
 }

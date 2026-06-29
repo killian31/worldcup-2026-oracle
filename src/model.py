@@ -22,17 +22,15 @@ def _round_half_up(x):
     return int(np.floor(x + 0.5))
 
 
-def _proj_score(eh, ea, p_home, p_away, fav_margin=0.10):
-    """Realistic headline scoreline = rounded expected goals, but if that ties
-    while one side is a clear favourite, give the favourite the extra goal so the
-    score never contradicts the win probabilities."""
-    h, a = _round_half_up(eh), _round_half_up(ea)
-    if h == a and abs(p_home - p_away) > fav_margin:
-        if p_home > p_away:
-            h += 1
-        else:
-            a += 1
-    return [h, a]
+def most_likely_score(grid, outcome):
+    """Most probable exact scoreline *within* the predicted outcome region
+    (0=home win, 1=draw, 2=away win). This is the accuracy-optimal point estimate
+    that is also guaranteed consistent with the W/D/L call shown to the user."""
+    g = np.asarray(grid)
+    ii, jj = np.indices(g.shape)
+    mask = ii > jj if outcome == 0 else (ii == jj if outcome == 1 else ii < jj)
+    i, j = np.unravel_index(np.argmax(np.where(mask, g, -1.0)), g.shape)
+    return [int(i), int(j)]
 
 
 def _home_field(neutral, is_home):
@@ -132,8 +130,8 @@ class DixonColes:
         return {"probs": [p_home, p_draw, p_away],
                 "lambda_home": lh, "lambda_away": la,
                 "exp_home": eh, "exp_away": ea,
-                "top_score": [int(i), int(j)],          # modal exact score (compressed)
-                "proj_score": _proj_score(eh, ea, p_home, p_away),  # realistic headline
+                "top_score": [int(i), int(j)],          # global modal exact score
+                "proj_score": most_likely_score(g, int(np.argmax([p_home, p_draw, p_away]))),
                 "grid": g}
 
 

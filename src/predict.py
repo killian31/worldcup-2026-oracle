@@ -17,7 +17,7 @@ import metrics
 import teams
 import venues
 import weather
-from model import DixonColes
+from model import DixonColes, most_likely_score
 
 HOST_COUNTRIES = {"United States", "Mexico", "Canada"}
 
@@ -132,13 +132,16 @@ def build_predictions(df, ratings, dc, gbm, X, squads=None):
                              "favors": "home" if s1 > s2 else "away"})
         probs = _logit_tilt(list(ens[k]), tilt)
         dcp = dc.predict(r["home_elo"], r["away_elo"], bool(r["neutral"]))
+        # most-likely scoreline consistent with the PUBLISHED outcome call
+        out_pred = int(np.argmax(probs))
+        pred_score = most_likely_score(dcp["grid"], out_pred)
         rec = {
             "number": int(i), "date": date_str, "round": _round_label(r),
             "venue": vinfo.get("stadium"), "city": r["city"],
             "team1": t1, "team2": t2,
             "iso1": teams.iso(t1), "iso2": teams.iso(t2),
             "probs": [round(p, 4) for p in probs],
-            "pred_score": dcp["proj_score"],
+            "pred_score": pred_score, "pred_outcome": out_pred,
             "exp_goals": [round(dcp["exp_home"], 2), round(dcp["exp_away"], 2)],
             "elo": [round(float(r["home_elo"])), round(float(r["away_elo"]))],
             "form": [round(float(x["home_form"]), 2), round(float(x["away_form"]), 2)],
@@ -152,8 +155,8 @@ def build_predictions(df, ratings, dc, gbm, X, squads=None):
             o = metrics.outcome_of(hs, as_)
             rec["actual_score"] = [hs, as_]
             rec["actual_outcome"] = o
-            rec["pred_outcome"] = int(np.argmax(probs))
-            rec["correct"] = bool(np.argmax(probs) == o)
+            rec["correct"] = bool(out_pred == o)            # outcome (W/D/L) called
+            rec["exact_hit"] = bool(pred_score == [hs, as_])  # exact scoreline hit
             rec["rps"] = round(metrics.rps([probs], [o]), 4)
         preds.append(rec)
 
@@ -190,6 +193,14 @@ def _accuracy(preds):
     s["running_rps"] = running
     s["calibration"] = bins
     s["n_correct"] = int(hit.sum())
+    # exact-scoreline accuracy (inherently low — bookmakers land ~10-13%)
+    exact = [p for p in done if "exact_hit" in p]
+    s["n_exact"] = sum(p["exact_hit"] for p in exact)
+    s["exact_accuracy"] = round(s["n_exact"] / len(exact), 4) if exact else None
+    # average goal error of the projected scoreline (both teams)
+    gerr = [abs(p["pred_score"][0] - p["actual_score"][0]) + abs(p["pred_score"][1] - p["actual_score"][1])
+            for p in exact]
+    s["avg_goal_err"] = round(sum(gerr) / len(gerr), 2) if gerr else None
     return s
 
 
