@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.playwright-mcp/
+# raw source downloads are refetched each run; weather cache is kept (committed)
+data/cache/results.csv
+data/cache/shootouts.csv
+data/cache/worldcup2026.json
+data/cache/of2026.json
+
+# never commit local secrets
+.env

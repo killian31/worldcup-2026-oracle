@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Cup 2026 Oracle — live predictions & accuracy</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
+<meta name="description" content="Auto-updating Elo→Dixon-Coles + gradient-boosting model predicting the 2026 FIFA World Cup, with live accuracy tracking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://flagcdn.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="head-in">
+    <div class="logo">WORLD CUP <b>2026 ORACLE</b><span id="sub">loading…</span></div>
+    <div class="head-stat" id="headstat"></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-t="predictions">⚡ Upcoming</button>
+    <button class="tab" data-t="results">📋 Results</button>
+    <button class="tab" data-t="odds">🏆 Odds &amp; Bracket</button>
+    <button class="tab" data-t="standings">📊 Groups</button>
+    <button class="tab" data-t="accuracy">🎯 Accuracy</button>
+    <button class="tab" data-t="model">🧪 Model</button>
+    <button class="tab" data-t="history">📜 History</button>
+  </nav>
+
+  <section id="predictions" class="active"><div class="loading">Loading predictions…</div></section>
+  <section id="results"><div class="loading">Loading results…</div></section>
+  <section id="odds"><div class="loading">Loading odds…</div></section>
+  <section id="standings"><div class="loading">Loading groups…</div></section>
+  <section id="accuracy"><div class="loading">Loading accuracy…</div></section>
+  <section id="model"><div class="loading">Loading model card…</div></section>
+  <section id="history"><div class="loading">Loading history…</div></section>
+
+  <footer>
+    Model: Elo → Dixon-Coles + gradient-boosting ensemble, Monte-Carlo bracket.
+    Data: <a href="https://github.com/martj42/international_results">martj42</a> ·
+    <a href="https://github.com/openfootball/worldcup.json">openfootball</a> ·
+    <a href="https://open-meteo.com">Open-Meteo</a> (all free / public-domain).<br>
+    Predictions are probabilistic and for fun — not betting advice. Free-tier scores may be delayed.
+  </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

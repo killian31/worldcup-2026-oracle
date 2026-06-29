@@ -1,0 +1,43 @@
+name: update
+
+# Auto-refreshes predictions, then commits the JSON back to /docs. GitHub Pages
+# is configured to serve from branch `main` /docs, so each commit auto-deploys
+# (a branch push always triggers Pages' built-in deploy — no extra steps needed).
+#
+# Cron is best-effort on GitHub (real fire time drifts 10-30 min; 5-min minimum)
+# which is fine for a delayed-score tracker. Needs NO secrets: every data source
+# is public-domain (martj42 + openfootball + Open-Meteo).
+on:
+  schedule:
+    - cron: "7,37 * * * *"      # twice hourly, off-peak minutes
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [src/**, requirements.txt, .github/workflows/**]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wc-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build predictions + site data
+        run: python src/build.py
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git diff --staged --quiet || git commit -m "data: auto-refresh $(date -u +%FT%TZ)"
+          git push

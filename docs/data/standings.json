@@ -1,0 +1,602 @@
+{
+  "Group A": [
+    {
+      "team": "Mexico",
+      "iso": "mx",
+      "P": 3,
+      "W": 3,
+      "D": 0,
+      "L": 0,
+      "GF": 6,
+      "GA": 0,
+      "Pts": 9,
+      "GD": 6
+    },
+    {
+      "team": "South Africa",
+      "iso": "za",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 3,
+      "Pts": 4,
+      "GD": -1
+    },
+    {
+      "team": "South Korea",
+      "iso": "kr",
+      "P": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 2,
+      "GA": 3,
+      "Pts": 3,
+      "GD": -1
+    },
+    {
+      "team": "Czech Republic",
+      "iso": "cz",
+      "P": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 2,
+      "GA": 6,
+      "Pts": 1,
+      "GD": -4
+    }
+  ],
+  "Group B": [
+    {
+      "team": "Switzerland",
+      "iso": "ch",
+      "P": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 7,
+      "GA": 3,
+      "Pts": 7,
+      "GD": 4
+    },
+    {
+      "team": "Canada",
+      "iso": "ca",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 8,
+      "GA": 3,
+      "Pts": 4,
+      "GD": 5
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "iso": "ba",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 5,
+      "GA": 6,
+      "Pts": 4,
+      "GD": -1
+    },
+    {
+      "team": "Qatar",
+      "iso": "qa",
+      "P": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 2,
+      "GA": 10,
+      "Pts": 1,
+      "GD": -8
+    }
+  ],
+  "Group C": [
+    {
+      "team": "Brazil",
+      "iso": "br",
+      "P": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 7,
+      "GA": 1,
+      "Pts": 7,
+      "GD": 6
+    },
+    {
+      "team": "Morocco",
+      "iso": "ma",
+      "P": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 6,
+      "GA": 3,
+      "Pts": 7,
+      "GD": 3
+    },
+    {
+      "team": "Scotland",
+      "iso": "gb-sct",
+      "P": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 1,
+      "GA": 4,
+      "Pts": 3,
+      "GD": -3
+    },
+    {
+      "team": "Haiti",
+      "iso": "ht",
+      "P": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 2,
+      "GA": 8,
+      "Pts": 0,
+      "GD": -6
+    }
+  ],
+  "Group D": [
+    {
+      "team": "United States",
+      "iso": "us",
+      "P": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 8,
+      "GA": 4,
+      "Pts": 6,
+      "GD": 4
+    },
+    {
+      "team": "Australia",
+      "iso": "au",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 2,
+      "Pts": 4,
+      "GD": 0
+    },
+    {
+      "team": "Paraguay",
+      "iso": "py",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 4,
+      "Pts": 4,
+      "GD": -2
+    },
+    {
+      "team": "Turkey",
+      "iso": "tr",
+      "P": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 3,
+      "GA": 5,
+      "Pts": 3,
+      "GD": -2
+    }
+  ],
+  "Group E": [
+    {
+      "team": "Germany",
+      "iso": "de",
+      "P": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 10,
+      "GA": 4,
+      "Pts": 6,
+      "GD": 6
+    },
+    {
+      "team": "Ivory Coast",
+      "iso": "ci",
+      "P": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 4,
+      "GA": 2,
+      "Pts": 6,
+      "GD": 2
+    },
+    {
+      "team": "Ecuador",
+      "iso": "ec",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 2,
+      "Pts": 4,
+      "GD": 0
+    },
+    {
+      "team": "Cura\u00e7ao",
+      "iso": "cw",
+      "P": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 1,
+      "GA": 9,
+      "Pts": 1,
+      "GD": -8
+    }
+  ],
+  "Group F": [
+    {
+      "team": "Netherlands",
+      "iso": "nl",
+      "P": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 10,
+      "GA": 4,
+      "Pts": 7,
+      "GD": 6
+    },
+    {
+      "team": "Japan",
+      "iso": "jp",
+      "P": 3,
+      "W": 1,
+      "D": 2,
+      "L": 0,
+      "GF": 7,
+      "GA": 3,
+      "Pts": 5,
+      "GD": 4
+    },
+    {
+      "team": "Sweden",
+      "iso": "se",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 7,
+      "GA": 7,
+      "Pts": 4,
+      "GD": 0
+    },
+    {
+      "team": "Tunisia",
+      "iso": "tn",
+      "P": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 2,
+      "GA": 12,
+      "Pts": 0,
+      "GD": -10
+    }
+  ],
+  "Group G": [
+    {
+      "team": "Belgium",
+      "iso": "be",
+      "P": 3,
+      "W": 1,
+      "D": 2,
+      "L": 0,
+      "GF": 6,
+      "GA": 2,
+      "Pts": 5,
+      "GD": 4
+    },
+    {
+      "team": "Egypt",
+      "iso": "eg",
+      "P": 3,
+      "W": 1,
+      "D": 2,
+      "L": 0,
+      "GF": 5,
+      "GA": 3,
+      "Pts": 5,
+      "GD": 2
+    },
+    {
+      "team": "Iran",
+      "iso": "ir",
+      "P": 3,
+      "W": 0,
+      "D": 3,
+      "L": 0,
+      "GF": 3,
+      "GA": 3,
+      "Pts": 3,
+      "GD": 0
+    },
+    {
+      "team": "New Zealand",
+      "iso": "nz",
+      "P": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 4,
+      "GA": 10,
+      "Pts": 1,
+      "GD": -6
+    }
+  ],
+  "Group H": [
+    {
+      "team": "Spain",
+      "iso": "es",
+      "P": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 5,
+      "GA": 0,
+      "Pts": 7,
+      "GD": 5
+    },
+    {
+      "team": "Cape Verde",
+      "iso": "cv",
+      "P": 3,
+      "W": 0,
+      "D": 3,
+      "L": 0,
+      "GF": 2,
+      "GA": 2,
+      "Pts": 3,
+      "GD": 0
+    },
+    {
+      "team": "Uruguay",
+      "iso": "uy",
+      "P": 3,
+      "W": 0,
+      "D": 2,
+      "L": 1,
+      "GF": 3,
+      "GA": 4,
+      "Pts": 2,
+      "GD": -1
+    },
+    {
+      "team": "Saudi Arabia",
+      "iso": "sa",
+      "P": 3,
+      "W": 0,
+      "D": 2,
+      "L": 1,
+      "GF": 1,
+      "GA": 5,
+      "Pts": 2,
+      "GD": -4
+    }
+  ],
+  "Group I": [
+    {
+      "team": "France",
+      "iso": "fr",
+      "P": 3,
+      "W": 3,
+      "D": 0,
+      "L": 0,
+      "GF": 10,
+      "GA": 2,
+      "Pts": 9,
+      "GD": 8
+    },
+    {
+      "team": "Norway",
+      "iso": "no",
+      "P": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 8,
+      "GA": 7,
+      "Pts": 6,
+      "GD": 1
+    },
+    {
+      "team": "Senegal",
+      "iso": "sn",
+      "P": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 8,
+      "GA": 6,
+      "Pts": 3,
+      "GD": 2
+    },
+    {
+      "team": "Iraq",
+      "iso": "iq",
+      "P": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 1,
+      "GA": 12,
+      "Pts": 0,
+      "GD": -11
+    }
+  ],
+  "Group J": [
+    {
+      "team": "Argentina",
+      "iso": "ar",
+      "P": 3,
+      "W": 3,
+      "D": 0,
+      "L": 0,
+      "GF": 8,
+      "GA": 1,
+      "Pts": 9,
+      "GD": 7
+    },
+    {
+      "team": "Austria",
+      "iso": "at",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 6,
+      "GA": 6,
+      "Pts": 4,
+      "GD": 0
+    },
+    {
+      "team": "Algeria",
+      "iso": "dz",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 5,
+      "GA": 7,
+      "Pts": 4,
+      "GD": -2
+    },
+    {
+      "team": "Jordan",
+      "iso": "jo",
+      "P": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 3,
+      "GA": 8,
+      "Pts": 0,
+      "GD": -5
+    }
+  ],
+  "Group K": [
+    {
+      "team": "Colombia",
+      "iso": "co",
+      "P": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 4,
+      "GA": 1,
+      "Pts": 7,
+      "GD": 3
+    },
+    {
+      "team": "Portugal",
+      "iso": "pt",
+      "P": 3,
+      "W": 1,
+      "D": 2,
+      "L": 0,
+      "GF": 6,
+      "GA": 1,
+      "Pts": 5,
+      "GD": 5
+    },
+    {
+      "team": "DR Congo",
+      "iso": "cd",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 4,
+      "GA": 3,
+      "Pts": 4,
+      "GD": 1
+    },
+    {
+      "team": "Uzbekistan",
+      "iso": "uz",
+      "P": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 2,
+      "GA": 11,
+      "Pts": 0,
+      "GD": -9
+    }
+  ],
+  "Group L": [
+    {
+      "team": "England",
+      "iso": "gb-eng",
+      "P": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 6,
+      "GA": 2,
+      "Pts": 7,
+      "GD": 4
+    },
+    {
+      "team": "Croatia",
+      "iso": "hr",
+      "P": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 5,
+      "GA": 5,
+      "Pts": 6,
+      "GD": 0
+    },
+    {
+      "team": "Ghana",
+      "iso": "gh",
+      "P": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 2,
+      "Pts": 4,
+      "GD": 0
+    },
+    {
+      "team": "Panama",
+      "iso": "pa",
+      "P": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 0,
+      "GA": 4,
+      "Pts": 0,
+      "GD": -4
+    }
+  ]
+}

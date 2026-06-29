@@ -1,0 +1,487 @@
+[
+  {
+    "number": 73,
+    "round": "Round of 32",
+    "date": "2026-06-28",
+    "venue": "SoFi Stadium",
+    "team1": {
+      "team": "South Africa",
+      "iso": "za",
+      "champion": null
+    },
+    "team2": {
+      "team": "Canada",
+      "iso": "ca",
+      "champion": 0.0073
+    },
+    "score": [
+      0,
+      1
+    ]
+  },
+  {
+    "number": 74,
+    "round": "Round of 32",
+    "date": "2026-06-29",
+    "venue": "Gillette Stadium",
+    "team1": {
+      "team": "Germany",
+      "iso": "de",
+      "champion": 0.0185
+    },
+    "team2": {
+      "team": "Paraguay",
+      "iso": "py",
+      "champion": 0.0049
+    },
+    "score": null
+  },
+  {
+    "number": 75,
+    "round": "Round of 32",
+    "date": "2026-06-29",
+    "venue": "Estadio BBVA",
+    "team1": {
+      "team": "Netherlands",
+      "iso": "nl",
+      "champion": 0.0343
+    },
+    "team2": {
+      "team": "Morocco",
+      "iso": "ma",
+      "champion": 0.0259
+    },
+    "score": null
+  },
+  {
+    "number": 76,
+    "round": "Round of 32",
+    "date": "2026-06-29",
+    "venue": "NRG Stadium",
+    "team1": {
+      "team": "Brazil",
+      "iso": "br",
+      "champion": 0.0501
+    },
+    "team2": {
+      "team": "Japan",
+      "iso": "jp",
+      "champion": 0.0152
+    },
+    "score": null
+  },
+  {
+    "number": 77,
+    "round": "Round of 32",
+    "date": "2026-06-30",
+    "venue": "MetLife Stadium",
+    "team1": {
+      "team": "France",
+      "iso": "fr",
+      "champion": 0.1489
+    },
+    "team2": {
+      "team": "Sweden",
+      "iso": "se",
+      "champion": 0.0008
+    },
+    "score": null
+  },
+  {
+    "number": 78,
+    "round": "Round of 32",
+    "date": "2026-06-30",
+    "venue": "AT&T Stadium",
+    "team1": {
+      "team": "Ivory Coast",
+      "iso": "ci",
+      "champion": 0.0027
+    },
+    "team2": {
+      "team": "Norway",
+      "iso": "no",
+      "champion": 0.0165
+    },
+    "score": null
+  },
+  {
+    "number": 79,
+    "round": "Round of 32",
+    "date": "2026-06-30",
+    "venue": "Estadio Azteca",
+    "team1": {
+      "team": "Mexico",
+      "iso": "mx",
+      "champion": 0.0199
+    },
+    "team2": {
+      "team": "Ecuador",
+      "iso": "ec",
+      "champion": 0.0147
+    },
+    "score": null
+  },
+  {
+    "number": 80,
+    "round": "Round of 32",
+    "date": "2026-07-01",
+    "venue": "Mercedes-Benz Stadium",
+    "team1": {
+      "team": "England",
+      "iso": "gb-eng",
+      "champion": 0.0669
+    },
+    "team2": {
+      "team": "DR Congo",
+      "iso": "cd",
+      "champion": 0.0011
+    },
+    "score": null
+  },
+  {
+    "number": 81,
+    "round": "Round of 32",
+    "date": "2026-07-01",
+    "venue": "Levi's Stadium",
+    "team1": {
+      "team": "United States",
+      "iso": "us",
+      "champion": 0.0071
+    },
+    "team2": {
+      "team": "Bosnia and Herzegovina",
+      "iso": "ba",
+      "champion": 0.0003
+    },
+    "score": null
+  },
+  {
+    "number": 82,
+    "round": "Round of 32",
+    "date": "2026-07-01",
+    "venue": "Lumen Field",
+    "team1": {
+      "team": "Belgium",
+      "iso": "be",
+      "champion": 0.0182
+    },
+    "team2": {
+      "team": "Senegal",
+      "iso": "sn",
+      "champion": 0.0083
+    },
+    "score": null
+  },
+  {
+    "number": 83,
+    "round": "Round of 32",
+    "date": "2026-07-02",
+    "venue": "BMO Field",
+    "team1": {
+      "team": "Portugal",
+      "iso": "pt",
+      "champion": 0.034
+    },
+    "team2": {
+      "team": "Croatia",
+      "iso": "hr",
+      "champion": 0.0107
+    },
+    "score": null
+  },
+  {
+    "number": 84,
+    "round": "Round of 32",
+    "date": "2026-07-02",
+    "venue": "SoFi Stadium",
+    "team1": {
+      "team": "Spain",
+      "iso": "es",
+      "champion": 0.1663
+    },
+    "team2": {
+      "team": "Austria",
+      "iso": "at",
+      "champion": 0.0037
+    },
+    "score": null
+  },
+  {
+    "number": 85,
+    "round": "Round of 32",
+    "date": "2026-07-02",
+    "venue": "BC Place",
+    "team1": {
+      "team": "Switzerland",
+      "iso": "ch",
+      "champion": 0.0162
+    },
+    "team2": {
+      "team": "Algeria",
+      "iso": "dz",
+      "champion": 0.0042
+    },
+    "score": null
+  },
+  {
+    "number": 86,
+    "round": "Round of 32",
+    "date": "2026-07-03",
+    "venue": "Hard Rock Stadium",
+    "team1": {
+      "team": "Argentina",
+      "iso": "ar",
+      "champion": 0.2279
+    },
+    "team2": {
+      "team": "Cape Verde",
+      "iso": "cv",
+      "champion": 0.0002
+    },
+    "score": null
+  },
+  {
+    "number": 87,
+    "round": "Round of 32",
+    "date": "2026-07-03",
+    "venue": "Arrowhead Stadium",
+    "team1": {
+      "team": "Colombia",
+      "iso": "co",
+      "champion": 0.065
+    },
+    "team2": {
+      "team": "Ghana",
+      "iso": "gh",
+      "champion": 0.0001
+    },
+    "score": null
+  },
+  {
+    "number": 88,
+    "round": "Round of 32",
+    "date": "2026-07-03",
+    "venue": "AT&T Stadium",
+    "team1": {
+      "team": "Australia",
+      "iso": "au",
+      "champion": 0.0067
+    },
+    "team2": {
+      "team": "Egypt",
+      "iso": "eg",
+      "champion": 0.0033
+    },
+    "score": null
+  },
+  {
+    "number": 89,
+    "round": "Round of 16",
+    "date": "2026-07-04",
+    "venue": "Lincoln Financial Field",
+    "team1": {
+      "placeholder": "W74"
+    },
+    "team2": {
+      "placeholder": "W77"
+    },
+    "score": null
+  },
+  {
+    "number": 90,
+    "round": "Round of 16",
+    "date": "2026-07-04",
+    "venue": "NRG Stadium",
+    "team1": {
+      "team": "Canada",
+      "iso": "ca",
+      "champion": 0.0073
+    },
+    "team2": {
+      "placeholder": "W75"
+    },
+    "score": null
+  },
+  {
+    "number": 91,
+    "round": "Round of 16",
+    "date": "2026-07-05",
+    "venue": "MetLife Stadium",
+    "team1": {
+      "placeholder": "W76"
+    },
+    "team2": {
+      "placeholder": "W78"
+    },
+    "score": null
+  },
+  {
+    "number": 92,
+    "round": "Round of 16",
+    "date": "2026-07-05",
+    "venue": "Estadio Azteca",
+    "team1": {
+      "placeholder": "W79"
+    },
+    "team2": {
+      "placeholder": "W80"
+    },
+    "score": null
+  },
+  {
+    "number": 93,
+    "round": "Round of 16",
+    "date": "2026-07-06",
+    "venue": "AT&T Stadium",
+    "team1": {
+      "placeholder": "W83"
+    },
+    "team2": {
+      "placeholder": "W84"
+    },
+    "score": null
+  },
+  {
+    "number": 94,
+    "round": "Round of 16",
+    "date": "2026-07-06",
+    "venue": "Lumen Field",
+    "team1": {
+      "placeholder": "W81"
+    },
+    "team2": {
+      "placeholder": "W82"
+    },
+    "score": null
+  },
+  {
+    "number": 95,
+    "round": "Round of 16",
+    "date": "2026-07-07",
+    "venue": "Mercedes-Benz Stadium",
+    "team1": {
+      "placeholder": "W86"
+    },
+    "team2": {
+      "placeholder": "W88"
+    },
+    "score": null
+  },
+  {
+    "number": 96,
+    "round": "Round of 16",
+    "date": "2026-07-07",
+    "venue": "BC Place",
+    "team1": {
+      "placeholder": "W85"
+    },
+    "team2": {
+      "placeholder": "W87"
+    },
+    "score": null
+  },
+  {
+    "number": 97,
+    "round": "Quarter-final",
+    "date": "2026-07-09",
+    "venue": "Gillette Stadium",
+    "team1": {
+      "placeholder": "W89"
+    },
+    "team2": {
+      "placeholder": "W90"
+    },
+    "score": null
+  },
+  {
+    "number": 98,
+    "round": "Quarter-final",
+    "date": "2026-07-10",
+    "venue": "SoFi Stadium",
+    "team1": {
+      "placeholder": "W93"
+    },
+    "team2": {
+      "placeholder": "W94"
+    },
+    "score": null
+  },
+  {
+    "number": 99,
+    "round": "Quarter-final",
+    "date": "2026-07-11",
+    "venue": "Hard Rock Stadium",
+    "team1": {
+      "placeholder": "W91"
+    },
+    "team2": {
+      "placeholder": "W92"
+    },
+    "score": null
+  },
+  {
+    "number": 100,
+    "round": "Quarter-final",
+    "date": "2026-07-11",
+    "venue": "Arrowhead Stadium",
+    "team1": {
+      "placeholder": "W95"
+    },
+    "team2": {
+      "placeholder": "W96"
+    },
+    "score": null
+  },
+  {
+    "number": 101,
+    "round": "Semi-final",
+    "date": "2026-07-14",
+    "venue": "AT&T Stadium",
+    "team1": {
+      "placeholder": "W97"
+    },
+    "team2": {
+      "placeholder": "W98"
+    },
+    "score": null
+  },
+  {
+    "number": 102,
+    "round": "Semi-final",
+    "date": "2026-07-15",
+    "venue": "Mercedes-Benz Stadium",
+    "team1": {
+      "placeholder": "W99"
+    },
+    "team2": {
+      "placeholder": "W100"
+    },
+    "score": null
+  },
+  {
+    "number": 103,
+    "round": "Match for third place",
+    "date": "2026-07-18",
+    "venue": "Hard Rock Stadium",
+    "team1": {
+      "placeholder": "L101"
+    },
+    "team2": {
+      "placeholder": "L102"
+    },
+    "score": null
+  },
+  {
+    "number": 104,
+    "round": "Final",
+    "date": "2026-07-19",
+    "venue": "MetLife Stadium",
+    "team1": {
+      "placeholder": "W101"
+    },
+    "team2": {
+      "placeholder": "W102"
+    },
+    "score": null
+  }
+]

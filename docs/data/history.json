@@ -1,0 +1,112 @@
+[
+  {
+    "year": 2022,
+    "champion": "Argentina",
+    "iso": "ar"
+  },
+  {
+    "year": 2018,
+    "champion": "France",
+    "iso": "fr"
+  },
+  {
+    "year": 2014,
+    "champion": "Germany",
+    "iso": "de"
+  },
+  {
+    "year": 2010,
+    "champion": "Spain",
+    "iso": "es"
+  },
+  {
+    "year": 2006,
+    "champion": "Italy",
+    "iso": "un"
+  },
+  {
+    "year": 2002,
+    "champion": "Brazil",
+    "iso": "br"
+  },
+  {
+    "year": 1998,
+    "champion": "France",
+    "iso": "fr"
+  },
+  {
+    "year": 1994,
+    "champion": "Brazil",
+    "iso": "br"
+  },
+  {
+    "year": 1990,
+    "champion": "Germany",
+    "iso": "de"
+  },
+  {
+    "year": 1986,
+    "champion": "Argentina",
+    "iso": "ar"
+  },
+  {
+    "year": 1982,
+    "champion": "Italy",
+    "iso": "un"
+  },
+  {
+    "year": 1978,
+    "champion": "Argentina",
+    "iso": "ar"
+  },
+  {
+    "year": 1974,
+    "champion": "Germany",
+    "iso": "de"
+  },
+  {
+    "year": 1970,
+    "champion": "Brazil",
+    "iso": "br"
+  },
+  {
+    "year": 1966,
+    "champion": "England",
+    "iso": "gb-eng"
+  },
+  {
+    "year": 1962,
+    "champion": "Brazil",
+    "iso": "br"
+  },
+  {
+    "year": 1958,
+    "champion": "Brazil",
+    "iso": "br"
+  },
+  {
+    "year": 1954,
+    "champion": "Germany",
+    "iso": "de"
+  },
+  {
+    "year": 1950,
+    "champion": "Sweden",
+    "iso": "se"
+  },
+  {
+    "year": 1938,
+    "champion": "Italy",
+    "iso": "un"
+  },
+  {
+    "year": 1934,
+    "champion": "Italy",
+    "iso": "un"
+  },
+  {
+    "year": 1930,
+    "champion": "Uruguay",
+    "iso": "uy"
+  }
+]
