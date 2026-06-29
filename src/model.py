@@ -143,7 +143,8 @@ class DixonColes:
 
         self.rho = float(minimize_scalar(nll, bounds=(-0.2, 0.2), method="bounded").x)
 
-    def predict(self, elo_home, elo_away, neutral=True):
+    def predict(self, elo_home, elo_away, neutral=True, home_team=None, away_team=None):
+        # team args ignored here; GoalModel (subclass) uses them for attack/defence
         lh, la = self.lambdas(elo_home, elo_away, neutral)
         g = self.grid(lh, la)
         p_home = float(np.tril(g, -1).sum())

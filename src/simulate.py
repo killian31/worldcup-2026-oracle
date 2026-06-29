@@ -24,7 +24,8 @@ def win_prob_fn(dc, ratings):
     def p1(t1, t2):
         key = (t1, t2)
         if key not in memo:
-            p = dc.predict(ratings.get(t1, 1500), ratings.get(t2, 1500), neutral=True)["probs"]
+            p = dc.predict(ratings.get(t1, 1500), ratings.get(t2, 1500), neutral=True,
+                           home_team=t1, away_team=t2)["probs"]
             memo[key] = p[0] + 0.5 * p[1]  # draw -> coin-flip shootout
         return memo[key]
     return p1

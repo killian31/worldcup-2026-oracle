@@ -100,7 +100,9 @@ def build_predictions(df, ratings, dc, gbm, X, squads=None):
     mask = (df["tournament"] == "FIFA World Cup") & (df["date"].dt.year == 2026)
     idx = np.where(mask.to_numpy())[0]
     dc_probs = np.array([dc.predict(df.iloc[i]["home_elo"], df.iloc[i]["away_elo"],
-                                    bool(df.iloc[i]["neutral"]))["probs"] for i in idx])
+                                    bool(df.iloc[i]["neutral"]),
+                                    home_team=df.iloc[i]["home_team"],
+                                    away_team=df.iloc[i]["away_team"])["probs"] for i in idx])
     gbm_probs = gbm.predict_proba(X.iloc[idx])
     ens = gbmlib.ensemble(dc_probs, gbm_probs, weights=[0.6, 0.4])  # DC:GBM (tuned, experiment.py)
 
@@ -131,7 +133,8 @@ def build_predictions(df, ratings, dc, gbm, X, squads=None):
                 facs.append({"icon": "⭐", "text": f"Squad quality: {fav} ({big5} top-5-league players)",
                              "favors": "home" if s1 > s2 else "away"})
         probs = _logit_tilt(list(ens[k]), tilt)
-        dcp = dc.predict(r["home_elo"], r["away_elo"], bool(r["neutral"]))
+        dcp = dc.predict(r["home_elo"], r["away_elo"], bool(r["neutral"]),
+                         home_team=t1, away_team=t2)
         # headline scoreline: rounded expected goals (matches real scoring); the
         # graded outcome is the one this score implies, so they never contradict
         pred_score = coherent_score(dcp["exp_home"], dcp["exp_away"])
@@ -211,10 +214,11 @@ def _accuracy(preds):
 
 if __name__ == "__main__":
     import data, elo
+    from goalmodels import GoalModel
     df, ratings = elo.attach_elo(data.load_results())
     X, y = featlib.build_features(df)
     import squads as squadlib
-    dc = DixonColes().fit(df)
+    dc = GoalModel(attack_defence=True, ad_lambda=20).fit(df)
     g = gbmlib.GBM().fit(X[np.isfinite(y)], y[np.isfinite(y)])
     preds, acc = build_predictions(df, ratings, dc, g, X, squadlib.load_squads())
     print(f"2026 matches predicted: {len(preds)} | played: {acc['n']}")

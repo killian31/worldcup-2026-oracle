@@ -19,7 +19,7 @@ import simulate
 import squads as squadlib
 import teams
 import venues
-from model import DixonColes
+from goalmodels import GoalModel
 
 DOCS = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 SIMS = int(os.environ.get("WC_SIMS", "50000"))
@@ -136,7 +136,7 @@ def main():
     df, ratings = elo.attach_elo(data.load_results())
     X, y = featlib.build_features(df)
     lab = np.isfinite(y)
-    dc = DixonColes().fit(df)
+    dc = GoalModel(attack_defence=True, ad_lambda=20).fit(df)  # Elo + shrunk team attack/defence
     gbm = gbmlib.GBM().fit(X[lab], y[lab])
 
     squads = squadlib.load_squads()
@@ -184,7 +184,7 @@ def main():
         "tournament": "FIFA World Cup 2026",
         "matches_total": 104, "matches_played": len(played),
         "matches_upcoming_known": len(upcoming),
-        "model": "Elo -> Dixon-Coles + HistGBM ensemble (calibrated)",
+        "model": "Elo + team attack/defence -> Dixon-Coles + HistGBM ensemble (calibrated)",
         "sims": SIMS,
         "accuracy_rps": accuracy.get("rps"), "accuracy_pct": accuracy.get("accuracy"),
         "live_odds": any("market_probs" in p for p in preds),

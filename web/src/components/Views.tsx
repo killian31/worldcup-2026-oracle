@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ChevronDown, Star, Trophy } from 'lucide-react'
-import type { Accuracy, Benchmark, HistoryRow, ModelZoo, OddsProof, SquadTeam, Standings, TeamOdds } from '@/lib/types'
+import type { Accuracy, Benchmark, GoalBench, HistoryRow, ModelZoo, OddsProof, SquadTeam, Standings, TeamOdds } from '@/lib/types'
 import { cn, pct } from '@/lib/utils'
 import { Card, Flag, SectionTitle, Stat } from './ui'
 
@@ -264,9 +264,58 @@ function OddsLab({ o }: { o: OddsProof }) {
   )
 }
 
-export function ModelView({ b, zoo, odds }: { b: Benchmark; zoo: ModelZoo | null; odds: OddsProof | null }) {
+const SCORE_LABEL: Record<string, string> = {
+  'DC-Poisson': 'Elo → Poisson (previous)', 'DC-NegBin': '+ Negative-Binomial',
+  'DC-AttDef': '+ Team attack / defence', 'DC-AttDef-NegBin': '+ Both',
+}
+const SHIPPED = 'DC-AttDef'
+
+function ScoreLab({ g }: { g: GoalBench }) {
+  const base = g.rows.find((r) => r.model === 'DC-Poisson')
   return (
     <div>
+      <SectionTitle>Better scorelines — team attack/defence ({g.n.toLocaleString()} walk-forward matches)</SectionTitle>
+      <Card className="overflow-hidden">
+        <table className="w-full text-[13px] tnum">
+          <thead><tr className="bg-bg/40 text-[10px] uppercase tracking-wide text-muted">
+            <th className="px-3 py-2 text-left">Goal model</th><th>RPS</th><th>score log-loss ↓</th>
+            <th>exact %</th><th className="pr-3">goal err</th>
+          </tr></thead>
+          <tbody>
+            {g.rows.map((r) => (
+              <tr key={r.model} className={cn('border-t border-line', r.model === SHIPPED && 'shadow-[inset_3px_0_0_rgb(var(--home))]')}>
+                <td className="px-3 py-2 text-left font-semibold">{SCORE_LABEL[r.model] ?? r.model}
+                  {r.model === SHIPPED && <Trophy className="ml-1 inline h-3.5 w-3.5 text-brand" />}</td>
+                <td className="text-center">{r.rps.toFixed(4)}</td>
+                <td className="text-center font-bold">{r.score_ll.toFixed(4)}
+                  {base && r.model !== 'DC-Poisson' && (
+                    <span className="ml-1 text-[10px] text-home">{(r.score_ll - base.score_ll).toFixed(4)}</span>)}</td>
+                <td className="text-center">{(r.exact_pct * 100).toFixed(1)}%</td>
+                <td className="pr-3 text-center">{r.goal_mae.toFixed(2)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </Card>
+      <Card className="mt-4 p-3.5 text-[12px] text-muted leading-relaxed">
+        A single Elo number can't tell a high-scoring side from a defensive one. This model gives every
+        team a small, heavily-shrunk <b className="text-fg">attack and defence</b> correction on top of
+        Elo — so "Japan score even when they lose" becomes expressible.
+        It's the <b className="text-fg">one lever that improves scorelines</b>: score log-loss drops
+        {base && <b className="text-home"> {(base.score_ll - (g.rows.find((r) => r.model === SHIPPED)?.score_ll ?? 0)).toFixed(4)}</b>} and
+        the displayed scores now reflect team identity — <b className="text-fg">at zero RPS cost</b>.
+        Honest limits: exact-hit % stays ~13% (the bookmaker ceiling), and a Negative-Binomial fat-tail
+        barely helped (football is close to Poisson), so we shipped attack/defence alone — the laziest
+        variant that captures the whole gain.
+      </Card>
+    </div>
+  )
+}
+
+export function ModelView({ b, zoo, odds, goals }: { b: Benchmark; zoo: ModelZoo | null; odds: OddsProof | null; goals: GoalBench | null }) {
+  return (
+    <div>
+      {goals && <ScoreLab g={goals} />}
       {odds && <OddsLab o={odds} />}
       {zoo && <ModelLab zoo={zoo} />}
       <SectionTitle>Benchmark — walk-forward over {b.n_matches.toLocaleString()} internationals ({b.date_from} → {b.date_to})</SectionTitle>

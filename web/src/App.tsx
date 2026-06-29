@@ -3,7 +3,7 @@ import {
   Zap, ClipboardList, Gamepad2, Trophy, LayoutGrid, Users, Target, FlaskConical, ScrollText,
 } from 'lucide-react'
 import type {
-  Accuracy, Benchmark, BracketMatch, HistoryRow, Meta, ModelZoo, OddsProof, Prediction, SquadTeam, Standings, TeamOdds,
+  Accuracy, Benchmark, BracketMatch, GoalBench, HistoryRow, Meta, ModelZoo, OddsProof, Prediction, SquadTeam, Standings, TeamOdds,
 } from '@/lib/types'
 import { loadJSON, pct } from '@/lib/utils'
 import { MatchCard } from '@/components/MatchCard'
@@ -15,6 +15,7 @@ interface Data {
   meta: Meta; predictions: Prediction[]; results: Prediction[]; championship: TeamOdds[]
   bracket: BracketMatch[]; standings: Standings; squads: SquadTeam[]; accuracy: Accuracy
   history: HistoryRow[]; benchmark: Benchmark; modelzoo: ModelZoo | null; oddsProof: OddsProof | null
+  goalbench: GoalBench | null
 }
 
 const TABS = [
@@ -38,9 +39,10 @@ export default function App() {
     const core = ['meta', 'predictions', 'results', 'championship', 'bracket', 'standings', 'squads', 'accuracy', 'history', 'benchmark']
     Promise.all([...core.map((n) => loadJSON<unknown>(n)),
                  loadJSON<unknown>('modelzoo').catch(() => null),
-                 loadJSON<unknown>('odds_proof').catch(() => null)])
-      .then(([meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark, modelzoo, oddsProof]) =>
-        setData({ meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark, modelzoo, oddsProof } as unknown as Data))
+                 loadJSON<unknown>('odds_proof').catch(() => null),
+                 loadJSON<unknown>('goalbench').catch(() => null)])
+      .then(([meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark, modelzoo, oddsProof, goalbench]) =>
+        setData({ meta, predictions, results, championship, bracket, standings, squads, accuracy, history, benchmark, modelzoo, oddsProof, goalbench } as unknown as Data))
       .catch((e) => setErr(String(e)))
   }, [])
 
@@ -94,7 +96,7 @@ export default function App() {
         {tab === 'groups' && <StandingsView standings={data.standings} />}
         {tab === 'squads' && <SquadsView squads={data.squads} />}
         {tab === 'accuracy' && <AccuracyView acc={accuracy} />}
-        {tab === 'model' && <ModelView b={data.benchmark} zoo={data.modelzoo} odds={data.oddsProof} />}
+        {tab === 'model' && <ModelView b={data.benchmark} zoo={data.modelzoo} odds={data.oddsProof} goals={data.goalbench} />}
         {tab === 'history' && <HistoryView history={data.history} />}
       </div>
     </Shell>

@@ -1,0 +1,86 @@
+{
+  "years": 5.0,
+  "ad_lambda": 20.0,
+  "n": 5269,
+  "models": {
+    "DC-Poisson": {
+      "n": 5269,
+      "rps": 0.1695,
+      "score_ll": 2.8444,
+      "exact_pct": 0.1368,
+      "goal_mae": 1.791,
+      "pred_draw": 0.2238,
+      "real_draw": 0.2304
+    },
+    "DC-NegBin": {
+      "n": 5269,
+      "rps": 0.1698,
+      "score_ll": 2.8395,
+      "exact_pct": 0.1376,
+      "goal_mae": 1.789,
+      "pred_draw": 0.2274,
+      "real_draw": 0.2304
+    },
+    "DC-AttDef": {
+      "n": 5269,
+      "rps": 0.1696,
+      "score_ll": 2.8253,
+      "exact_pct": 0.1361,
+      "goal_mae": 1.774,
+      "pred_draw": 0.2243,
+      "real_draw": 0.2304
+    },
+    "DC-AttDef-NegBin": {
+      "n": 5269,
+      "rps": 0.1697,
+      "score_ll": 2.8236,
+      "exact_pct": 0.1351,
+      "goal_mae": 1.775,
+      "pred_draw": 0.2254,
+      "real_draw": 0.2304
+    }
+  },
+  "winner": "DC-AttDef-NegBin",
+  "rows": [
+    {
+      "model": "DC-Poisson",
+      "n": 5269,
+      "rps": 0.1695,
+      "score_ll": 2.8444,
+      "exact_pct": 0.1368,
+      "goal_mae": 1.791,
+      "pred_draw": 0.2238,
+      "real_draw": 0.2304
+    },
+    {
+      "model": "DC-NegBin",
+      "n": 5269,
+      "rps": 0.1698,
+      "score_ll": 2.8395,
+      "exact_pct": 0.1376,
+      "goal_mae": 1.789,
+      "pred_draw": 0.2274,
+      "real_draw": 0.2304
+    },
+    {
+      "model": "DC-AttDef",
+      "n": 5269,
+      "rps": 0.1696,
+      "score_ll": 2.8253,
+      "exact_pct": 0.1361,
+      "goal_mae": 1.774,
+      "pred_draw": 0.2243,
+      "real_draw": 0.2304
+    },
+    {
+      "model": "DC-AttDef-NegBin",
+      "n": 5269,
+      "rps": 0.1697,
+      "score_ll": 2.8236,
+      "exact_pct": 0.1351,
+      "goal_mae": 1.775,
+      "pred_draw": 0.2254,
+      "real_draw": 0.2304
+    }
+  ]
+}

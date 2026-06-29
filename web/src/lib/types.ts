@@ -64,6 +64,12 @@ export interface ModelZoo {
   leaderboard: { model: string; rps: number; acc: number; ece: number; note: string }[]
 }
 
+export interface GoalBench {
+  years: number; ad_lambda: number; n: number; winner: string
+  rows: { model: string; rps: number; score_ll: number; exact_pct: number
+    goal_mae: number; pred_draw: number; real_draw: number }[]
+}
+
 export interface OddsProof {
   n_total: number; n_test: number; from: string; to: string
   market_rps: number; model_rps: number; model_plus_odds_rps: number
