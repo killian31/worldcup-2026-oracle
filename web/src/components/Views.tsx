@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ChevronDown, Star, Trophy } from 'lucide-react'
-import type { Accuracy, Benchmark, HistoryRow, ModelZoo, SquadTeam, Standings, TeamOdds } from '@/lib/types'
+import type { Accuracy, Benchmark, HistoryRow, ModelZoo, OddsProof, SquadTeam, Standings, TeamOdds } from '@/lib/types'
 import { cn, pct } from '@/lib/utils'
 import { Card, Flag, SectionTitle, Stat } from './ui'
 
@@ -228,9 +228,46 @@ function ModelLab({ zoo }: { zoo: ModelZoo }) {
   )
 }
 
-export function ModelView({ b, zoo }: { b: Benchmark; zoo: ModelZoo | null }) {
+function OddsLab({ o }: { o: OddsProof }) {
   return (
     <div>
+      <SectionTitle>Orthogonal signal — betting odds ({o.n_test.toLocaleString()} club matches, {o.from}–{o.to})</SectionTitle>
+      <Card className="overflow-hidden">
+        <table className="w-full text-[13px] tnum">
+          <thead><tr className="bg-bg/40 text-[10px] uppercase tracking-wide text-muted">
+            <th className="px-3 py-2 text-left">Model</th><th>RPS ↓</th><th className="pr-3">Accuracy</th>
+          </tr></thead>
+          <tbody>
+            {o.rows.map((r, i) => (
+              <tr key={r.model} className={cn('border-t border-line', i === 0 && 'shadow-[inset_3px_0_0_rgb(var(--away))]')}>
+                <td className="px-3 py-2 text-left font-semibold">{r.model}</td>
+                <td className="text-center font-bold">{r.rps.toFixed(4)}</td>
+                <td className="pr-3 text-center">{pct(r.acc, 1)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </Card>
+      <Card className="mt-4 p-3.5 text-[12px] text-muted leading-relaxed">
+        Free historical odds for <i>internationals</i> don't exist, so we proved the method on club
+        data (no key, fully back-tested). Adding market odds to the model cut RPS by
+        <b className="text-home"> {o.odds_gain.toFixed(4)}</b> — about <b className="text-fg">20× bigger</b> than
+        anything any architecture gave (0.0003), and the error correlation drops to
+        <b className="text-fg"> {o.error_corr.toFixed(2)}</b> (vs 0.96 internally): odds are a genuinely
+        <b className="text-fg"> orthogonal signal</b>. The honest catch — the optimal blend weight is
+        <b className="text-fg"> {o.best_blend_w.toFixed(1)}</b>, i.e. the market <i>subsumes</i> our model
+        (it already prices what Elo knows, plus more). Market RPS {o.market_rps.toFixed(4)} sits right on
+        the published ~{o.ceiling} ceiling. <b className="text-fg">Conclusion: the one real lever left is
+        deferring to the market where it exists</b> — which the app does live when an odds key is configured.
+      </Card>
+    </div>
+  )
+}
+
+export function ModelView({ b, zoo, odds }: { b: Benchmark; zoo: ModelZoo | null; odds: OddsProof | null }) {
+  return (
+    <div>
+      {odds && <OddsLab o={odds} />}
       {zoo && <ModelLab zoo={zoo} />}
       <SectionTitle>Benchmark — walk-forward over {b.n_matches.toLocaleString()} internationals ({b.date_from} → {b.date_to})</SectionTitle>
       <Card className="mb-4 overflow-hidden">

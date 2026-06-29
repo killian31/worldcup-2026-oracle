@@ -13,6 +13,7 @@ import data
 import elo
 import features as featlib
 import gbm as gbmlib
+import odds as oddslib
 import predict
 import simulate
 import squads as squadlib
@@ -156,6 +157,15 @@ def main():
             p["pred_score"] = [h + 1, a] if p["probs"][0] >= p["probs"][2] else [h, a + 1]
             p["pred_outcome"] = 0 if p["pred_score"][0] > p["pred_score"][1] else 2
 
+    # optional LIVE market-odds blend (needs ODDS_API_KEY; no-op otherwise)
+    market = oddslib.fetch_market()
+    for p in preds:
+        mp = market.get((p["team1"], p["team2"])) if not p["played"] else None
+        if mp:
+            p["model_probs"] = p["probs"]
+            p["market_probs"] = [round(x, 4) for x in mp]
+            p["probs"] = [round(x, 4) for x in oddslib.blend(p["model_probs"], mp)]
+
     odds = simulate.simulate(wc, dc, ratings, n=SIMS)
     team_table = [{"team": t, "iso": teams.iso(t), "conf": teams.confederation(t),
                    "elo": round(ratings.get(t, 1500)),
@@ -177,6 +187,7 @@ def main():
         "model": "Elo -> Dixon-Coles + HistGBM ensemble (calibrated)",
         "sims": SIMS,
         "accuracy_rps": accuracy.get("rps"), "accuracy_pct": accuracy.get("accuracy"),
+        "live_odds": any("market_probs" in p for p in preds),
         "sources": ["martj42/international_results (CC0)",
                     "openfootball/worldcup.json (CC0)", "Open-Meteo (weather)"],
         "note": "Free-tier data; in-play scores may be delayed.",

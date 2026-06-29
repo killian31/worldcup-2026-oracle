@@ -11,6 +11,7 @@ export interface Prediction {
   exp_goals: [number, number]; elo: [number, number]; form: [number, number]
   explain: Explain; squad: Squad | null; factors: Factor[]
   played: boolean; apparent_temp: number | null
+  market_probs?: [number, number, number]; model_probs?: [number, number, number]
   actual_score?: [number, number]; actual_outcome?: number
   correct?: boolean; exact_hit?: boolean; rps?: number
 }
@@ -61,6 +62,13 @@ export interface HistoryRow { year: number; champion: string; iso: string }
 export interface ModelZoo {
   n_eval: number; oracle_rps: number; avg_error_corr: number
   leaderboard: { model: string; rps: number; acc: number; ece: number; note: string }[]
+}
+
+export interface OddsProof {
+  n_total: number; n_test: number; from: string; to: string
+  market_rps: number; model_rps: number; model_plus_odds_rps: number
+  odds_gain: number; error_corr: number; ceiling: number; best_blend_w: number
+  rows: { model: string; rps: number; acc: number }[]
 }
 
 export interface Benchmark {

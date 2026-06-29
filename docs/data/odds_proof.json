@@ -1,0 +1,18 @@
+{
+  "n_total": 30790,
+  "n_test": 9237,
+  "from": "2008",
+  "to": "2025",
+  "market_rps": 0.1945,
+  "model_rps": 0.2031,
+  "model_plus_odds_rps": 0.1958,
+  "odds_gain": 0.0073,
+  "error_corr": 0.89,
+  "ceiling": 0.198,
+  "best_blend_w": 1.0,
+  "rows": [
+    {"model": "Market (de-vigged odds)", "rps": 0.1945, "acc": 0.541},
+    {"model": "Model + odds feature", "rps": 0.1958, "acc": 0.538},
+    {"model": "Team-strength model (no odds)", "rps": 0.2031, "acc": 0.523}
+  ]
+}

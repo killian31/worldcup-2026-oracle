@@ -13,3 +13,4 @@ data/cache/of2026.json
 .env
 data/cache/squads.json
 data/cache/clubelo.csv
+data/cache/club_odds.pkl

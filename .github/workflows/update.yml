@@ -34,6 +34,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Build predictions + site data
         run: python src/build.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}   # optional — enables the live odds blend
       - name: Commit refreshed data
         run: |
           git config user.name  "github-actions[bot]"

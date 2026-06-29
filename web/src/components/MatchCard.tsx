@@ -65,6 +65,7 @@ export function MatchCard({ m }: { m: Prediction }) {
       )}
 
       <ProbBar probs={m.probs} t1={m.team1} t2={m.team2} />
+      {m.market_probs && m.model_probs && <MarketRow m={m} />}
 
       {m.factors.length > 0 && (
         <div className="mt-3 flex flex-wrap gap-1.5">
@@ -89,6 +90,24 @@ export function MatchCard({ m }: { m: Prediction }) {
       </button>
       {open && <Why m={m} />}
     </Card>
+  )
+}
+
+function MarketRow({ m }: { m: Prediction }) {
+  const mk = m.market_probs!, mo = m.model_probs!
+  // biggest divergence between our model and the market
+  const d = [mo[0] - mk[0], mo[1] - mk[1], mo[2] - mk[2]]
+  const i = d.map(Math.abs).indexOf(Math.max(...d.map(Math.abs)))
+  const side = ['home win', 'a draw', 'away win'][i]
+  const edge = Math.abs(d[i]) >= 0.06
+    ? `Model ${d[i] > 0 ? 'higher' : 'lower'} than market on ${side} (${d[i] > 0 ? '+' : ''}${Math.round(d[i] * 100)}%)`
+    : 'Model agrees with the market'
+  return (
+    <div className="mt-2 flex items-center gap-2 text-[11px] text-muted">
+      <span className="font-semibold uppercase tracking-wide text-away">Market</span>
+      <span className="tnum">{Math.round(mk[0] * 100)}% · {Math.round(mk[1] * 100)}% · {Math.round(mk[2] * 100)}%</span>
+      <span className="ml-auto">{edge}</span>
+    </div>
   )
 }
 
