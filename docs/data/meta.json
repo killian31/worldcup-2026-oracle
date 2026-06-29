@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-29T19:16:20Z",
+  "updated_utc": "2026-06-29T19:25:30Z",
   "tournament": "FIFA World Cup 2026",
   "matches_total": 104,
   "matches_played": 73,
@@ -8,7 +8,7 @@
   "sims": 50000,
   "accuracy_rps": 0.162,
   "accuracy_pct": 0.6027,
-  "live_odds": false,
+  "live_odds": true,
   "sources": [
     "martj42/international_results (CC0)",
     "openfootball/worldcup.json (CC0)",

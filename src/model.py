@@ -44,6 +44,20 @@ def score_outcome(score):
     return 0 if score[0] > score[1] else (1 if score[0] == score[1] else 2)
 
 
+def decisive_score(grid, exp_home, exp_away):
+    """Knockout scoreline (no draws — KO games resolve to a winner). Use rounded
+    expected goals when that's already decisive (2-1, 3-0, 1-2 for clearer games);
+    otherwise the single most-likely non-draw scoreline from the grid (1-0, 2-0…
+    for tight games). Gives a realistic, varied mix instead of a 2-1 monoculture."""
+    h, a = _round_half_up(exp_home), _round_half_up(exp_away)
+    if h != a:
+        return [h, a]
+    g = np.array(grid, dtype=float).copy()
+    np.fill_diagonal(g, 0.0)
+    i, j = np.unravel_index(np.argmax(g), g.shape)
+    return [int(i), int(j)]
+
+
 def _home_field(neutral, is_home):
     if neutral:
         return 0.0

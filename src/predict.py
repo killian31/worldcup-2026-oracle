@@ -17,7 +17,7 @@ import metrics
 import teams
 import venues
 import weather
-from model import DixonColes, coherent_score, score_outcome
+from model import DixonColes, coherent_score, decisive_score, score_outcome
 
 HOST_COUNTRIES = {"United States", "Mexico", "Canada"}
 
@@ -136,13 +136,14 @@ def build_predictions(df, ratings, dc, gbm, X, squads=None):
         # graded outcome is the one this score implies, so they never contradict
         pred_score = coherent_score(dcp["exp_home"], dcp["exp_away"])
         out_pred = score_outcome(pred_score)
+        ko_score = decisive_score(dcp["grid"], dcp["exp_home"], dcp["exp_away"])
         rec = {
             "number": int(i), "date": date_str, "round": _round_label(r),
             "venue": vinfo.get("stadium"), "city": r["city"],
             "team1": t1, "team2": t2,
             "iso1": teams.iso(t1), "iso2": teams.iso(t2),
             "probs": [round(p, 4) for p in probs],
-            "pred_score": pred_score, "pred_outcome": out_pred,
+            "pred_score": pred_score, "pred_outcome": out_pred, "pred_score_ko": ko_score,
             "exp_goals": [round(dcp["exp_home"], 2), round(dcp["exp_away"], 2)],
             "elo": [round(float(r["home_elo"])), round(float(r["away_elo"]))],
             "form": [round(float(x["home_form"]), 2), round(float(x["away_form"]), 2)],

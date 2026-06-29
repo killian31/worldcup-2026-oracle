@@ -151,10 +151,10 @@ def main():
         if key in rnd:
             p["round"] = rnd[key][0]
             p["venue"] = (venues.info(rnd[key][1]) or {}).get("stadium") or p["venue"]
-        # upcoming knockouts can't end level — show a decisive projected score
-        if not p["played"] and p["round"] in KO and p["pred_score"][0] == p["pred_score"][1]:
-            h, a = p["pred_score"]
-            p["pred_score"] = [h + 1, a] if p["probs"][0] >= p["probs"][2] else [h, a + 1]
+        # upcoming knockouts can't end level — use the realistic decisive scoreline
+        # (round-xG when decisive, else most-likely non-draw from the grid)
+        if not p["played"] and p["round"] in KO and p.get("pred_score_ko"):
+            p["pred_score"] = p["pred_score_ko"]
             p["pred_outcome"] = 0 if p["pred_score"][0] > p["pred_score"][1] else 2
 
     # optional LIVE market-odds blend (needs ODDS_API_KEY; no-op otherwise)
