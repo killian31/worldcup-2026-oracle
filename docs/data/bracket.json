@@ -14,12 +14,13 @@
     "team2": {
       "team": "Canada",
       "iso": "ca",
-      "champion": 0.0126
+      "champion": 0.0123
     },
     "score": [
       0,
       1
-    ]
+    ],
+    "pens": null
   },
   {
     "number": 74,
@@ -31,16 +32,20 @@
     "team1": {
       "team": "Germany",
       "iso": "de",
-      "champion": 0.0208
+      "champion": null
     },
     "team2": {
       "team": "Paraguay",
       "iso": "py",
-      "champion": null
+      "champion": 0.0152
     },
     "score": [
       1,
       1
+    ],
+    "pens": [
+      3,
+      4
     ]
   },
   {
@@ -53,16 +58,20 @@
     "team1": {
       "team": "Netherlands",
       "iso": "nl",
-      "champion": 0.0483
+      "champion": null
     },
     "team2": {
       "team": "Morocco",
       "iso": "ma",
-      "champion": null
+      "champion": 0.0699
     },
     "score": [
       1,
       1
+    ],
+    "pens": [
+      2,
+      3
     ]
   },
   {
@@ -75,7 +84,7 @@
     "team1": {
       "team": "Brazil",
       "iso": "br",
-      "champion": 0.112
+      "champion": 0.1107
     },
     "team2": {
       "team": "Japan",
@@ -85,7 +94,8 @@
     "score": [
       2,
       1
-    ]
+    ],
+    "pens": null
   },
   {
     "number": 77,
@@ -97,14 +107,15 @@
     "team1": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.1226
+      "champion": 0.1181
     },
     "team2": {
       "team": "Sweden",
       "iso": "se",
-      "champion": 0.0006
+      "champion": 0.0007
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 78,
@@ -121,9 +132,10 @@
     "team2": {
       "team": "Norway",
       "iso": "no",
-      "champion": 0.02
+      "champion": 0.0198
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 79,
@@ -140,9 +152,10 @@
     "team2": {
       "team": "Ecuador",
       "iso": "ec",
-      "champion": 0.0168
+      "champion": 0.0166
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 80,
@@ -154,14 +167,15 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.0604
+      "champion": 0.0595
     },
     "team2": {
       "team": "DR Congo",
       "iso": "cd",
       "champion": 0.0015
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 81,
@@ -173,14 +187,15 @@
     "team1": {
       "team": "United States",
       "iso": "us",
-      "champion": 0.0065
+      "champion": 0.0064
     },
     "team2": {
       "team": "Bosnia and Herzegovina",
       "iso": "ba",
       "champion": 0.0003
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 82,
@@ -192,14 +207,15 @@
     "team1": {
       "team": "Belgium",
       "iso": "be",
-      "champion": 0.0159
+      "champion": 0.0157
     },
     "team2": {
       "team": "Senegal",
       "iso": "sn",
-      "champion": 0.008
+      "champion": 0.0077
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 83,
@@ -211,14 +227,15 @@
     "team1": {
       "team": "Portugal",
       "iso": "pt",
-      "champion": 0.0365
+      "champion": 0.0355
     },
     "team2": {
       "team": "Croatia",
       "iso": "hr",
-      "champion": 0.0077
+      "champion": 0.0075
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 84,
@@ -230,14 +247,15 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.1672
+      "champion": 0.1624
     },
     "team2": {
       "team": "Austria",
       "iso": "at",
-      "champion": 0.0048
+      "champion": 0.0047
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 85,
@@ -249,14 +267,15 @@
     "team1": {
       "team": "Switzerland",
       "iso": "ch",
-      "champion": 0.0131
+      "champion": 0.0132
     },
     "team2": {
       "team": "Algeria",
       "iso": "dz",
       "champion": 0.0047
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 86,
@@ -268,14 +287,15 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2162
+      "champion": 0.2143
     },
     "team2": {
       "team": "Cape Verde",
       "iso": "cv",
       "champion": 0.0001
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 87,
@@ -287,14 +307,15 @@
     "team1": {
       "team": "Colombia",
       "iso": "co",
-      "champion": 0.0757
+      "champion": 0.0753
     },
     "team2": {
       "team": "Ghana",
       "iso": "gh",
       "champion": 0.0001
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 88,
@@ -313,7 +334,8 @@
       "iso": "eg",
       "champion": 0.0027
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 89,
@@ -331,7 +353,8 @@
     "team2": {
       "placeholder": "W77"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 90,
@@ -346,12 +369,13 @@
     "team1": {
       "team": "Canada",
       "iso": "ca",
-      "champion": 0.0126
+      "champion": 0.0123
     },
     "team2": {
       "placeholder": "W75"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 91,
@@ -369,7 +393,8 @@
     "team2": {
       "placeholder": "W78"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 92,
@@ -387,7 +412,8 @@
     "team2": {
       "placeholder": "W80"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 93,
@@ -405,7 +431,8 @@
     "team2": {
       "placeholder": "W84"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 94,
@@ -423,7 +450,8 @@
     "team2": {
       "placeholder": "W82"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 95,
@@ -441,7 +469,8 @@
     "team2": {
       "placeholder": "W88"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 96,
@@ -459,7 +488,8 @@
     "team2": {
       "placeholder": "W87"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 97,
@@ -477,7 +507,8 @@
     "team2": {
       "placeholder": "W90"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 98,
@@ -495,7 +526,8 @@
     "team2": {
       "placeholder": "W94"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 99,
@@ -513,7 +545,8 @@
     "team2": {
       "placeholder": "W92"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 100,
@@ -531,7 +564,8 @@
     "team2": {
       "placeholder": "W96"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 101,
@@ -549,7 +583,8 @@
     "team2": {
       "placeholder": "W98"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 102,
@@ -567,7 +602,8 @@
     "team2": {
       "placeholder": "W100"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 103,
@@ -585,7 +621,8 @@
     "team2": {
       "placeholder": "L102"
     },
-    "score": null
+    "score": null,
+    "pens": null
   },
   {
     "number": 104,
@@ -603,6 +640,7 @@
     "team2": {
       "placeholder": "W102"
     },
-    "score": null
+    "score": null,
+    "pens": null
   }
 ]
