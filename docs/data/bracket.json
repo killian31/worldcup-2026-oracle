@@ -14,7 +14,7 @@
     "team2": {
       "team": "Canada",
       "iso": "ca",
-      "champion": 0.0123
+      "champion": 0.013
     },
     "score": [
       0,
@@ -37,7 +37,7 @@
     "team2": {
       "team": "Paraguay",
       "iso": "py",
-      "champion": 0.0152
+      "champion": 0.0146
     },
     "score": [
       1,
@@ -63,7 +63,7 @@
     "team2": {
       "team": "Morocco",
       "iso": "ma",
-      "champion": 0.0699
+      "champion": 0.0709
     },
     "score": [
       1,
@@ -84,7 +84,7 @@
     "team1": {
       "team": "Brazil",
       "iso": "br",
-      "champion": 0.1107
+      "champion": 0.1011
     },
     "team2": {
       "team": "Japan",
@@ -107,12 +107,12 @@
     "team1": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.1181
+      "champion": 0.1185
     },
     "team2": {
       "team": "Sweden",
       "iso": "se",
-      "champion": 0.0007
+      "champion": 0.0011
     },
     "score": null,
     "pens": null
@@ -127,14 +127,17 @@
     "team1": {
       "team": "Ivory Coast",
       "iso": "ci",
-      "champion": 0.0028
+      "champion": null
     },
     "team2": {
       "team": "Norway",
       "iso": "no",
-      "champion": 0.0198
+      "champion": 0.029
     },
-    "score": null,
+    "score": [
+      1,
+      2
+    ],
     "pens": null
   },
   {
@@ -152,7 +155,7 @@
     "team2": {
       "team": "Ecuador",
       "iso": "ec",
-      "champion": 0.0166
+      "champion": 0.0157
     },
     "score": null,
     "pens": null
@@ -167,12 +170,12 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.0595
+      "champion": 0.0591
     },
     "team2": {
       "team": "DR Congo",
       "iso": "cd",
-      "champion": 0.0015
+      "champion": 0.0012
     },
     "score": null,
     "pens": null
@@ -187,12 +190,12 @@
     "team1": {
       "team": "United States",
       "iso": "us",
-      "champion": 0.0064
+      "champion": 0.0061
     },
     "team2": {
       "team": "Bosnia and Herzegovina",
       "iso": "ba",
-      "champion": 0.0003
+      "champion": 0.0002
     },
     "score": null,
     "pens": null
@@ -207,12 +210,12 @@
     "team1": {
       "team": "Belgium",
       "iso": "be",
-      "champion": 0.0157
+      "champion": 0.0162
     },
     "team2": {
       "team": "Senegal",
       "iso": "sn",
-      "champion": 0.0077
+      "champion": 0.0081
     },
     "score": null,
     "pens": null
@@ -227,12 +230,12 @@
     "team1": {
       "team": "Portugal",
       "iso": "pt",
-      "champion": 0.0355
+      "champion": 0.0347
     },
     "team2": {
       "team": "Croatia",
       "iso": "hr",
-      "champion": 0.0075
+      "champion": 0.0068
     },
     "score": null,
     "pens": null
@@ -247,12 +250,12 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.1624
+      "champion": 0.1658
     },
     "team2": {
       "team": "Austria",
       "iso": "at",
-      "champion": 0.0047
+      "champion": 0.0046
     },
     "score": null,
     "pens": null
@@ -267,7 +270,7 @@
     "team1": {
       "team": "Switzerland",
       "iso": "ch",
-      "champion": 0.0132
+      "champion": 0.0126
     },
     "team2": {
       "team": "Algeria",
@@ -287,7 +290,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2143
+      "champion": 0.216
     },
     "team2": {
       "team": "Cape Verde",
@@ -307,12 +310,12 @@
     "team1": {
       "team": "Colombia",
       "iso": "co",
-      "champion": 0.0753
+      "champion": 0.0748
     },
     "team2": {
       "team": "Ghana",
       "iso": "gh",
-      "champion": 0.0001
+      "champion": 0.0
     },
     "score": null,
     "pens": null
@@ -327,12 +330,12 @@
     "team1": {
       "team": "Australia",
       "iso": "au",
-      "champion": 0.0072
+      "champion": 0.0073
     },
     "team2": {
       "team": "Egypt",
       "iso": "eg",
-      "champion": 0.0027
+      "champion": 0.0026
     },
     "score": null,
     "pens": null
@@ -369,7 +372,7 @@
     "team1": {
       "team": "Canada",
       "iso": "ca",
-      "champion": 0.0123
+      "champion": 0.013
     },
     "team2": {
       "placeholder": "W75"
