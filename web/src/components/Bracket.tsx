@@ -18,9 +18,9 @@ const disp = (t: string) => SHORT[t] ?? t
 // Elo-implied scoreline for a simulated KO game: Poisson goals, forced decisive
 // and aligned with the winner the bracket already picked. (Flavour, not the Dixon-Coles model.)
 const poisson = (l: number) => { const L = Math.exp(-l); let k = 0, p = 1; do { k++; p *= Math.random() } while (p > L); return k - 1 }
-function rollScore(a: number, b: number, homeWin: boolean): [number, number] {
+function rollScore(a: number, b: number, homeWin: boolean, base = 1.35): [number, number] {
   const d = (a - b) / 400
-  let g1 = poisson(Math.max(0.25, 1.35 + 0.8 * d)), g2 = poisson(Math.max(0.25, 1.35 - 0.8 * d))
+  let g1 = poisson(Math.max(0.25, base + 0.8 * d)), g2 = poisson(Math.max(0.25, base - 0.8 * d))
   if (g1 === g2) homeWin ? g1++ : g2++
   else if (g1 > g2 !== homeWin) { const t = g1; g1 = g2; g2 = t }
   return [g1, g2]
@@ -115,6 +115,7 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
   const [step, setStep] = useState(0)
   const [rolled, setRolled] = useState(false)   // mobile: a sim has been rolled → reveal on scroll
   const [runId, setRunId] = useState(0)          // bump to re-arm the reveal observers
+  const [fun, setFun] = useState(1.35)            // sim goal rate (flavour only — never changes who wins)
   const running = useRef(false)
   const raceTimer = useRef<number | null>(null)
   useEffect(() => () => { if (raceTimer.current) clearInterval(raceTimer.current) }, [])
@@ -148,7 +149,7 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
       const homeWin = Math.random() < eloP(elo[t1] ?? 1500, elo[t2] ?? 1500)
       r.win[n] = homeWin ? t1 : t2
       r.los[n] = homeWin ? t2 : t1
-      r.sc[n] = rollScore(elo[t1] ?? 1500, elo[t2] ?? 1500, homeWin)
+      r.sc[n] = rollScore(elo[t1] ?? 1500, elo[t2] ?? 1500, homeWin, fun)
       setRes({ win: { ...r.win }, los: { ...r.los }, sc: { ...r.sc } })
       if (!instant) { setLive(null); await sleep(40) }
     }
@@ -217,10 +218,11 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
       const homeWin = Math.random() < eloP(elo[t1] ?? 1500, elo[t2] ?? 1500)
       r.win[n] = homeWin ? t1 : t2
       r.los[n] = homeWin ? t2 : t1
-      r.sc[n] = rollScore(elo[t1] ?? 1500, elo[t2] ?? 1500, homeWin)
+      r.sc[n] = rollScore(elo[t1] ?? 1500, elo[t2] ?? 1500, homeWin, fun)
     }
     return r
   }
+
 
   // mobile: roll instantly, then let the round list reveal game-by-game on scroll
   function rollMobile() {
@@ -339,6 +341,12 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
         </span>
       </div>
 
+      {/* fun-level knob — drag up for more goals; applies to the next Play / Simulate */}
+      <div className="mb-4 inline-flex items-center gap-3 rounded-lg border border-line bg-card2/40 px-3 py-2">
+        <Knob value={fun} min={0.8} max={2.6} onChange={setFun} />
+        <span className="font-display text-[11px] font-semibold uppercase tracking-wider text-muted">Fun level</span>
+      </div>
+
       {race && <RaceChart race={race} step={step} iso={iso} />}
 
       {/* desktop champion banner (mobile gets the reveal at the bottom of the scroll) */}
@@ -386,6 +394,45 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
         </div>
       )}
     </div>
+  )
+}
+
+// machine-style knob: tap or drag AROUND it — the pointer angle sets the value
+// (works the same with mouse or touch). Bottom 90° is the dead zone between min/max.
+function Knob({ value, min, max, onChange }: { value: number; min: number; max: number; onChange: (v: number) => void }) {
+  const dragging = useRef(false)
+  const A0 = -135, A1 = 135, cx = 22, cy = 22, R = 17
+  const ang = A0 + ((value - min) / (max - min)) * (A1 - A0)
+  const pt = (a: number, r: number): [number, number] => {
+    const t = (a - 90) * Math.PI / 180
+    return [cx + r * Math.cos(t), cy + r * Math.sin(t)]
+  }
+  const arc = (a0: number, a1: number) => {
+    const [x0, y0] = pt(a0, R), [x1, y1] = pt(a1, R)
+    return `M${x0.toFixed(2)} ${y0.toFixed(2)} A${R} ${R} 0 ${a1 - a0 > 180 ? 1 : 0} 1 ${x1.toFixed(2)} ${y1.toFixed(2)}`
+  }
+  const set = (v: number) => onChange(Math.min(max, Math.max(min, v)))
+  const fromPointer = (e: React.PointerEvent<SVGSVGElement>) => {
+    const r = e.currentTarget.getBoundingClientRect()
+    const a = Math.atan2(e.clientX - (r.left + r.width / 2), (r.top + r.height / 2) - e.clientY) * 180 / Math.PI
+    set(a >= A1 ? max : a <= A0 ? min : min + ((a - A0) / (A1 - A0)) * (max - min)) // clamp the bottom gap to the nearest end
+  }
+  const [nx, ny] = pt(ang, R - 3)
+  const step = (max - min) / 18
+  return (
+    <svg viewBox="0 0 44 44" width={44} height={44} role="slider" tabIndex={0}
+      aria-label="Fun level" aria-valuemin={min} aria-valuemax={max} aria-valuenow={+value.toFixed(2)}
+      className="cursor-pointer touch-none select-none outline-none"
+      onPointerDown={(e) => { e.currentTarget.setPointerCapture(e.pointerId); dragging.current = true; fromPointer(e) }}
+      onPointerMove={(e) => { if (dragging.current) fromPointer(e) }}
+      onPointerUp={() => { dragging.current = false }}
+      onPointerCancel={() => { dragging.current = false }}
+      onKeyDown={(e) => { if (e.key === 'ArrowUp' || e.key === 'ArrowRight') set(value + step); if (e.key === 'ArrowDown' || e.key === 'ArrowLeft') set(value - step) }}>
+      <path d={arc(A0, A1)} fill="none" stroke="rgb(255 255 255 / 0.10)" strokeWidth={3} strokeLinecap="round" />
+      <path d={arc(A0, ang)} fill="none" stroke="rgb(var(--brand))" strokeWidth={3} strokeLinecap="round" />
+      <circle cx={cx} cy={cy} r={R - 5} fill="rgb(255 255 255 / 0.05)" stroke="rgb(255 255 255 / 0.08)" />
+      <line x1={cx} y1={cy} x2={nx} y2={ny} stroke="rgb(var(--brand))" strokeWidth={2.5} strokeLinecap="round" />
+    </svg>
   )
 }
 
