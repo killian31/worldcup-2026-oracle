@@ -163,17 +163,11 @@ def main():
 
     # merge openfootball round + venue into predictions (match on date + teams)
     rnd = {(m["date"], m["team1"], m["team2"]): (m["round"], m["venue"]) for m in wc}
-    KO = {"Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Final", "Match for third place"}
     for p in preds:
         key = (p["date"], p["team1"], p["team2"])
         if key in rnd:
             p["round"] = rnd[key][0]
             p["venue"] = (venues.info(rnd[key][1]) or {}).get("stadium") or p["venue"]
-        # upcoming knockouts can't end level — use the realistic decisive scoreline
-        # (round-xG when decisive, else most-likely non-draw from the grid)
-        if not p["played"] and p["round"] in KO and p.get("pred_score_ko"):
-            p["pred_score"] = p["pred_score_ko"]
-            p["pred_outcome"] = 0 if p["pred_score"][0] > p["pred_score"][1] else 2
 
     # recent form: each team's last 5 played matches BEFORE this match's date (leakage-safe),
     # for the hover form card on the Upcoming / Results tabs
