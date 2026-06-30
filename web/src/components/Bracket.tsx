@@ -44,6 +44,9 @@ function useInView<T extends Element>(margin = '0px 0px -12% 0px'): [RefObject<T
 
 const RACE_N = 1000
 const PALETTE = ['#ffd84a', '#4aa8ff', '#18e0a0', '#f472b6', '#a78bfa', '#fb923c', '#ff5a78']
+// a drawn knockout is decided on penalties (score.p), not by giving the tie to the home side
+const koHomeWon = (s: [number, number], p?: [number, number] | null) =>
+  s[0] !== s[1] ? s[0] > s[1] : p ? p[0] > p[1] : true
 type Race = {
   teams: string[]; colors: Record<string, string>
   series: Record<string, number[]>; pts: Record<string, [number, number][]>; max: number
@@ -95,10 +98,10 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
       if (!m.score) return
       const t1 = resolve(m.number, 1), t2 = resolve(m.number, 2)
       if (!t1 || !t2) return
-      const homeWin = m.score[0] >= m.score[1]
+      const homeWin = koHomeWon(m.score, m.pens)
       r.win[m.number] = homeWin ? t1 : t2
       r.los[m.number] = homeWin ? t2 : t1
-      r.sc[m.number] = m.score          // real played scoreline
+      r.sc[m.number] = m.score          // real played scoreline (pens read from byNum for display)
     })
     return r
   }, [bracket, byNum])
@@ -243,7 +246,7 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
         <div className={cn('flex items-center gap-1 px-1.5 py-1 text-[11px] border-b border-line last:border-b-0 transition-colors',
           isWin && 'bg-home/15 text-home font-bold', isLose && 'opacity-40')}>
           {team ? <><Flag iso={iso[team] ?? 'un'} className="h-3 w-4" /><span className="min-w-0 truncate" title={team}>{disp(team)}</span>
-            {goals != null && <span className="ml-auto pl-1 tnum">{goals}</span>}</>
+            {goals != null && <span className="ml-auto pl-1 tnum">{goals}{m.pens && <span className="text-[9px] font-normal text-muted"> ({m.pens[which - 1]})</span>}</span>}</>
             : <span className="italic text-muted">{(which === 1 ? m.team1 : m.team2).placeholder}</span>}
         </div>
       )
@@ -278,7 +281,7 @@ export function Bracket({ bracket, odds }: { bracket: BracketMatch[]; odds: Team
         <div className={cn('flex items-center gap-2.5 px-3 py-2.5 text-[13.5px] border-b border-line last:border-b-0 transition-colors duration-300',
           isWin && 'bg-home/15 text-home font-bold', isLose && 'opacity-40')}>
           {team ? <><Flag iso={iso[team] ?? 'un'} className="h-4 w-6" /><span className="min-w-0 truncate" title={team}>{disp(team)}</span>
-            <span className={cn('ml-auto pl-2 font-display text-base tnum transition-all duration-300', goals != null ? 'opacity-100' : 'opacity-0')}>{goals ?? '0'}</span></>
+            <span className={cn('ml-auto pl-2 font-display text-base tnum transition-all duration-300', goals != null ? 'opacity-100' : 'opacity-0')}>{goals ?? '0'}{shown && m.pens && <span className="text-[11px] font-normal text-muted"> ({m.pens[which - 1]})</span>}</span></>
             : <span className="italic text-muted">{(which === 1 ? m.team1 : m.team2).placeholder}</span>}
         </div>
       )

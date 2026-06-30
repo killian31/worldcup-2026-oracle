@@ -70,7 +70,7 @@ def _bracket(wc, odds):
     winner, loser = {}, {}
     for n, m in by.items():
         if m["home_score"] is not None:
-            hi = m["home_score"] >= m["away_score"]
+            hi = data.ko_home_won(m["home_score"], m["away_score"], m.get("pens"))
             winner[n], loser[n] = (m["team1"], m["team2"]) if hi else (m["team2"], m["team1"])
     PREV = {"Round of 16": (range(73, 89), winner), "Quarter-final": (range(89, 97), winner),
             "Semi-final": (range(97, 101), winner), "Final": (range(101, 103), winner),
@@ -104,7 +104,8 @@ def _bracket(wc, odds):
              "feeders": feeders[n], "venue": (venues.info(by[n]["venue"]) or {}).get("stadium"),
              "team1": slot(by[n]["team1"]), "team2": slot(by[n]["team2"]),
              "score": ([by[n]["home_score"], by[n]["away_score"]]
-                       if by[n]["home_score"] is not None else None)}
+                       if by[n]["home_score"] is not None else None),
+             "pens": by[n].get("pens")}
             for n in sorted(by)]
 
 

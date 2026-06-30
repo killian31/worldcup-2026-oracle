@@ -46,6 +46,7 @@ export interface BracketMatch {
   number: number; round: string; date: string; half: 'l' | 'r' | 'c'
   feeders: number[]; venue: string | null
   team1: BracketSlot; team2: BracketSlot; score: [number, number] | null
+  pens?: [number, number] | null
 }
 
 export interface StandingRow {

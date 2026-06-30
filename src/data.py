@@ -54,6 +54,17 @@ def load_results(max_age_hours=6):
     return df.sort_values("date").reset_index(drop=True)
 
 
+def ko_home_won(home_score, away_score, pens=None):
+    """Did team1/home advance from a finished knockout match? A drawn KO is settled
+    by the penalty shootout (openfootball `score.p`); only falls back to home on a
+    tie with no shootout data (transient, shouldn't happen for a finished match)."""
+    if home_score != away_score:
+        return home_score > away_score
+    if pens and pens[0] != pens[1]:
+        return pens[0] > pens[1]
+    return True
+
+
 def load_wc2026(max_age_hours=6):
     """2026 matches with FIFA match numbers, venue ids, and bracket placeholders.
 
@@ -76,6 +87,7 @@ def load_wc2026(max_age_hours=6):
         ground = m.get("ground", "")
         sc = m.get("score", {}) or {}
         ft = sc.get("ft")
+        pens = sc.get("p")  # shootout score [home, away] when a KO tie was settled on penalties
         out.append({
             "number": number,
             "round": rnd,
@@ -88,6 +100,7 @@ def load_wc2026(max_age_hours=6):
             "group": m.get("group"),
             "home_score": ft[0] if ft else None,
             "away_score": ft[1] if ft else None,
+            "pens": list(pens) if pens else None,
         })
     # validate the bracket tree: every W##/L## points at a real match number
     nums = {m["number"] for m in out}
@@ -100,6 +113,10 @@ def load_wc2026(max_age_hours=6):
 
 
 if __name__ == "__main__":
+    # KO winner: regular score wins; a draw is settled on penalties, not by home side
+    assert ko_home_won(2, 1) and not ko_home_won(1, 2)
+    assert not ko_home_won(1, 1, [3, 4]) and ko_home_won(1, 1, [4, 3])
+    assert ko_home_won(1, 1, None)  # only the no-shootout tie falls back to home
     df = load_results()
     print(f"results: {len(df):,} matches {df.date.min().date()}..{df.date.max().date()}")
     wc = load_wc2026()

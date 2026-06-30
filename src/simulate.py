@@ -7,6 +7,8 @@ Outputs each team's probability of reaching each round and winning the cup.
 """
 import numpy as np
 
+import data
+
 ROUND_OF = {  # match number -> round label and the "reached" milestone for its winner
     **{n: "r32" for n in range(73, 89)},
     **{n: "r16" for n in range(89, 97)},
@@ -55,8 +57,8 @@ def simulate(bracket, dc, ratings, n=20000, seed=0):
             t2 = _resolve(m["team2"], winner, loser, ratings)
             if t1 is None or t2 is None:
                 continue
-            if m["home_score"] is not None:  # locked real result
-                w, l = (t1, t2) if m["home_score"] >= m["away_score"] else (t2, t1)
+            if m["home_score"] is not None:  # locked real result (penalty winner if drawn)
+                w, l = (t1, t2) if data.ko_home_won(m["home_score"], m["away_score"], m.get("pens")) else (t2, t1)
             else:
                 w, l = (t1, t2) if rng.random() < p1(t1, t2) else (t2, t1)
             winner[num], loser[num] = w, l
