@@ -7,11 +7,11 @@
     "squad_strength": 92.8,
     "n_big5": 20,
     "avg_age": 29.2,
-    "reach_r16": 0.9138,
-    "reach_qf": 0.7316,
-    "reach_sf": 0.5093,
-    "reach_final": 0.3302,
-    "champion": 0.2098
+    "reach_r16": 0.9116,
+    "reach_qf": 0.7299,
+    "reach_sf": 0.5055,
+    "reach_final": 0.3263,
+    "champion": 0.2062
   },
   {
     "team": "Spain",
@@ -21,10 +21,10 @@
     "squad_strength": 98.3,
     "n_big5": 26,
     "avg_age": 26.8,
-    "reach_r16": 0.7833,
-    "reach_qf": 0.5471,
-    "reach_sf": 0.4348,
-    "reach_final": 0.2716,
+    "reach_r16": 0.7865,
+    "reach_qf": 0.5501,
+    "reach_sf": 0.4331,
+    "reach_final": 0.2702,
     "champion": 0.1559
   },
   {
@@ -36,10 +36,10 @@
     "n_big5": 24,
     "avg_age": 27.0,
     "reach_r16": 1.0,
-    "reach_qf": 0.7389,
-    "reach_sf": 0.4822,
-    "reach_final": 0.2892,
-    "champion": 0.154
+    "reach_qf": 0.736,
+    "reach_sf": 0.4806,
+    "reach_final": 0.2852,
+    "champion": 0.1531
   },
   {
     "team": "Brazil",
@@ -50,10 +50,10 @@
     "n_big5": 14,
     "avg_age": 29.4,
     "reach_r16": 1.0,
-    "reach_qf": 0.6039,
-    "reach_sf": 0.3352,
-    "reach_final": 0.1658,
-    "champion": 0.0892
+    "reach_qf": 0.5989,
+    "reach_sf": 0.3297,
+    "reach_final": 0.1625,
+    "champion": 0.0863
   },
   {
     "team": "England",
@@ -64,10 +64,10 @@
     "n_big5": 25,
     "avg_age": 27.2,
     "reach_r16": 1.0,
-    "reach_qf": 0.5751,
-    "reach_sf": 0.2977,
-    "reach_final": 0.1432,
-    "champion": 0.0717
+    "reach_qf": 0.5746,
+    "reach_sf": 0.2979,
+    "reach_final": 0.1423,
+    "champion": 0.0727
   },
   {
     "team": "Colombia",
@@ -77,11 +77,11 @@
     "squad_strength": 76.0,
     "n_big5": 9,
     "avg_age": 30.1,
-    "reach_r16": 0.8633,
-    "reach_qf": 0.5762,
-    "reach_sf": 0.2673,
-    "reach_final": 0.1386,
-    "champion": 0.0714
+    "reach_r16": 0.8673,
+    "reach_qf": 0.5746,
+    "reach_sf": 0.2698,
+    "reach_final": 0.1414,
+    "champion": 0.0712
   },
   {
     "team": "Morocco",
@@ -92,24 +92,10 @@
     "n_big5": 15,
     "avg_age": 26.4,
     "reach_r16": 1.0,
-    "reach_qf": 0.6476,
-    "reach_sf": 0.2993,
+    "reach_qf": 0.6447,
+    "reach_sf": 0.3004,
     "reach_final": 0.1482,
-    "champion": 0.0624
-  },
-  {
-    "team": "Portugal",
-    "iso": "pt",
-    "conf": "UEFA",
-    "elo": 2054,
-    "squad_strength": 89.6,
-    "n_big5": 17,
-    "avg_age": 28.1,
-    "reach_r16": 0.629,
-    "reach_qf": 0.2576,
-    "reach_sf": 0.1715,
-    "reach_final": 0.0826,
-    "champion": 0.0339
+    "champion": 0.0638
   },
   {
     "team": "Norway",
@@ -120,9 +106,9 @@
     "n_big5": 19,
     "avg_age": 26.9,
     "reach_r16": 1.0,
-    "reach_qf": 0.3961,
-    "reach_sf": 0.181,
-    "reach_final": 0.0739,
+    "reach_qf": 0.4011,
+    "reach_sf": 0.1837,
+    "reach_final": 0.0746,
     "champion": 0.0334
   },
   {
@@ -134,10 +120,24 @@
     "n_big5": 5,
     "avg_age": 28.0,
     "reach_r16": 1.0,
-    "reach_qf": 0.4249,
-    "reach_sf": 0.1862,
-    "reach_final": 0.0747,
-    "champion": 0.0324
+    "reach_qf": 0.4254,
+    "reach_sf": 0.1887,
+    "reach_final": 0.0771,
+    "champion": 0.033
+  },
+  {
+    "team": "Portugal",
+    "iso": "pt",
+    "conf": "UEFA",
+    "elo": 2054,
+    "squad_strength": 89.6,
+    "n_big5": 17,
+    "avg_age": 28.1,
+    "reach_r16": 0.6315,
+    "reach_qf": 0.2585,
+    "reach_sf": 0.1659,
+    "reach_final": 0.079,
+    "champion": 0.033
   },
   {
     "team": "Belgium",
@@ -147,11 +147,11 @@
     "squad_strength": 91.8,
     "n_big5": 20,
     "avg_age": 27.7,
-    "reach_r16": 0.5595,
-    "reach_qf": 0.3606,
-    "reach_sf": 0.1209,
-    "reach_final": 0.0457,
-    "champion": 0.0149
+    "reach_r16": 1.0,
+    "reach_qf": 0.6425,
+    "reach_sf": 0.218,
+    "reach_final": 0.081,
+    "champion": 0.027
   },
   {
     "team": "Switzerland",
@@ -161,11 +161,11 @@
     "squad_strength": 93.9,
     "n_big5": 24,
     "avg_age": 28.4,
-    "reach_r16": 0.5665,
-    "reach_qf": 0.2341,
-    "reach_sf": 0.0792,
-    "reach_final": 0.0304,
-    "champion": 0.0116
+    "reach_r16": 0.5691,
+    "reach_qf": 0.2388,
+    "reach_sf": 0.0814,
+    "reach_final": 0.0317,
+    "champion": 0.012
   },
   {
     "team": "Paraguay",
@@ -176,10 +176,10 @@
     "n_big5": 5,
     "avg_age": 29.1,
     "reach_r16": 1.0,
-    "reach_qf": 0.2611,
-    "reach_sf": 0.1102,
-    "reach_final": 0.0392,
-    "champion": 0.0114
+    "reach_qf": 0.264,
+    "reach_sf": 0.1075,
+    "reach_final": 0.0386,
+    "champion": 0.0118
   },
   {
     "team": "Canada",
@@ -190,38 +190,10 @@
     "n_big5": 11,
     "avg_age": 27.0,
     "reach_r16": 1.0,
-    "reach_qf": 0.3524,
-    "reach_sf": 0.1084,
-    "reach_final": 0.0367,
-    "champion": 0.0103
-  },
-  {
-    "team": "Senegal",
-    "iso": "sn",
-    "conf": "CAF",
-    "elo": 1904,
-    "squad_strength": 91.0,
-    "n_big5": 20,
-    "avg_age": 27.1,
-    "reach_r16": 0.4405,
-    "reach_qf": 0.2567,
-    "reach_sf": 0.0789,
-    "reach_final": 0.0261,
-    "champion": 0.0079
-  },
-  {
-    "team": "Croatia",
-    "iso": "hr",
-    "conf": "UEFA",
-    "elo": 1968,
-    "squad_strength": 88.4,
-    "n_big5": 18,
-    "avg_age": 28.4,
-    "reach_r16": 0.371,
-    "reach_qf": 0.11,
-    "reach_sf": 0.0589,
-    "reach_final": 0.021,
-    "champion": 0.0064
+    "reach_qf": 0.3553,
+    "reach_sf": 0.1116,
+    "reach_final": 0.0389,
+    "champion": 0.0107
   },
   {
     "team": "Australia",
@@ -231,11 +203,25 @@
     "squad_strength": 73.2,
     "n_big5": 9,
     "avg_age": 27.4,
-    "reach_r16": 0.5623,
-    "reach_qf": 0.1477,
-    "reach_sf": 0.0582,
-    "reach_final": 0.0195,
-    "champion": 0.0064
+    "reach_r16": 0.5625,
+    "reach_qf": 0.1462,
+    "reach_sf": 0.0571,
+    "reach_final": 0.0203,
+    "champion": 0.0067
+  },
+  {
+    "team": "Croatia",
+    "iso": "hr",
+    "conf": "UEFA",
+    "elo": 1968,
+    "squad_strength": 88.4,
+    "n_big5": 18,
+    "avg_age": 28.4,
+    "reach_r16": 0.3685,
+    "reach_qf": 0.1081,
+    "reach_sf": 0.0555,
+    "reach_final": 0.0193,
+    "champion": 0.006
   },
   {
     "team": "United States",
@@ -245,10 +231,10 @@
     "squad_strength": 84.2,
     "n_big5": 14,
     "avg_age": 27.0,
-    "reach_r16": 0.6992,
-    "reach_qf": 0.3063,
-    "reach_sf": 0.0808,
-    "reach_final": 0.0241,
+    "reach_r16": 0.7014,
+    "reach_qf": 0.289,
+    "reach_sf": 0.0761,
+    "reach_final": 0.0231,
     "champion": 0.0058
   },
   {
@@ -259,11 +245,11 @@
     "squad_strength": 80.0,
     "n_big5": 13,
     "avg_age": 26.9,
-    "reach_r16": 0.4335,
-    "reach_qf": 0.1553,
-    "reach_sf": 0.0425,
-    "reach_final": 0.0131,
-    "champion": 0.0043
+    "reach_r16": 0.4309,
+    "reach_qf": 0.1548,
+    "reach_sf": 0.043,
+    "reach_final": 0.0134,
+    "champion": 0.0042
   },
   {
     "team": "Austria",
@@ -273,11 +259,11 @@
     "squad_strength": 87.0,
     "n_big5": 18,
     "avg_age": 28.7,
-    "reach_r16": 0.2167,
-    "reach_qf": 0.0852,
-    "reach_sf": 0.0445,
-    "reach_final": 0.0142,
-    "champion": 0.0041
+    "reach_r16": 0.2135,
+    "reach_qf": 0.0834,
+    "reach_sf": 0.0423,
+    "reach_final": 0.0152,
+    "champion": 0.0042
   },
   {
     "team": "Egypt",
@@ -287,25 +273,11 @@
     "squad_strength": 57.6,
     "n_big5": 5,
     "avg_age": 29.1,
-    "reach_r16": 0.4377,
-    "reach_qf": 0.094,
-    "reach_sf": 0.033,
-    "reach_final": 0.0093,
-    "champion": 0.0021
-  },
-  {
-    "team": "Bosnia and Herzegovina",
-    "iso": "ba",
-    "conf": "UEFA",
-    "elo": 1689,
-    "squad_strength": 74.3,
-    "n_big5": 10,
-    "avg_age": 26.5,
-    "reach_r16": 0.3008,
-    "reach_qf": 0.0763,
-    "reach_sf": 0.0097,
-    "reach_final": 0.0014,
-    "champion": 0.0002
+    "reach_r16": 0.4375,
+    "reach_qf": 0.0959,
+    "reach_sf": 0.0327,
+    "reach_final": 0.0089,
+    "champion": 0.0027
   },
   {
     "team": "Cape Verde",
@@ -315,11 +287,25 @@
     "squad_strength": 59.2,
     "n_big5": 1,
     "avg_age": 29.7,
-    "reach_r16": 0.0862,
-    "reach_qf": 0.0268,
-    "reach_sf": 0.0053,
+    "reach_r16": 0.0884,
+    "reach_qf": 0.028,
+    "reach_sf": 0.0059,
     "reach_final": 0.0009,
-    "champion": 0.0001
+    "champion": 0.0002
+  },
+  {
+    "team": "Bosnia and Herzegovina",
+    "iso": "ba",
+    "conf": "UEFA",
+    "elo": 1689,
+    "squad_strength": 74.3,
+    "n_big5": 10,
+    "avg_age": 26.5,
+    "reach_r16": 0.2986,
+    "reach_qf": 0.0685,
+    "reach_sf": 0.0092,
+    "reach_final": 0.0013,
+    "champion": 0.0002
   },
   {
     "team": "Ghana",
@@ -329,10 +315,10 @@
     "squad_strength": 87.2,
     "n_big5": 17,
     "avg_age": 27.0,
-    "reach_r16": 0.1367,
-    "reach_qf": 0.0343,
-    "reach_sf": 0.0051,
-    "reach_final": 0.0006,
+    "reach_r16": 0.1327,
+    "reach_qf": 0.0318,
+    "reach_sf": 0.0046,
+    "reach_final": 0.0005,
     "champion": 0.0001
   }
 ]
