@@ -426,7 +426,9 @@
     ],
     "venue": "Estadio Azteca",
     "team1": {
-      "placeholder": "W79"
+      "team": "Mexico",
+      "iso": "mx",
+      "champion": 0.0403
     },
     "team2": {
       "placeholder": "W80"
