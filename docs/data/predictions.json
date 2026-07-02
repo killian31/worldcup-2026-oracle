@@ -14129,7 +14129,7 @@
     },
     "factors": [],
     "played": false,
-    "apparent_temp": 17,
+    "apparent_temp": 18,
     "form1": [
       {
         "date": "2026-06-02",
@@ -14291,7 +14291,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 38\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -14301,7 +14301,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 38,
+    "apparent_temp": 39,
     "form1": [
       {
         "date": "2026-06-06",
@@ -14408,9 +14408,9 @@
     "iso1": "us",
     "iso2": "ba",
     "probs": [
-      0.7116,
-      0.1854,
-      0.1029
+      0.7177,
+      0.1842,
+      0.0981
     ],
     "pred_score": [
       2,
@@ -14462,11 +14462,6 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\ud83c\udfdf\ufe0f",
         "text": "Host nation United States at home",
         "favors": "home"
@@ -14478,7 +14473,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 30,
+    "apparent_temp": 27,
     "form1": [
       {
         "date": "2026-05-31",
@@ -14572,16 +14567,6 @@
         "res": "W",
         "venue": "N"
       }
-    ],
-    "model_probs": [
-      0.7177,
-      0.1842,
-      0.0981
-    ],
-    "market_probs": [
-      0.7075,
-      0.1862,
-      0.1063
     ]
   },
   {
@@ -14595,9 +14580,9 @@
     "iso1": "pt",
     "iso2": "hr",
     "probs": [
-      0.5216,
-      0.2719,
-      0.2066
+      0.5218,
+      0.2701,
+      0.2081
     ],
     "pred_score": [
       2,
@@ -14756,9 +14741,9 @@
       0.2344
     ],
     "market_probs": [
-      0.5461,
-      0.2648,
-      0.1892
+      0.5466,
+      0.2619,
+      0.1915
     ]
   },
   {
@@ -14772,9 +14757,9 @@
     "iso1": "es",
     "iso2": "at",
     "probs": [
-      0.7163,
-      0.1854,
-      0.0983
+      0.7157,
+      0.1858,
+      0.0986
     ],
     "pred_score": [
       2,
@@ -14933,9 +14918,9 @@
       0.1053
     ],
     "market_probs": [
-      0.7268,
-      0.1794,
-      0.0938
+      0.7257,
+      0.18,
+      0.0942
     ]
   },
   {
@@ -14949,9 +14934,9 @@
     "iso1": "ch",
     "iso2": "dz",
     "probs": [
-      0.481,
-      0.2782,
-      0.2408
+      0.4802,
+      0.2784,
+      0.2413
     ],
     "pred_score": [
       1,
@@ -15115,9 +15100,9 @@
       0.2491
     ],
     "market_probs": [
-      0.4702,
-      0.2948,
-      0.235
+      0.4688,
+      0.2953,
+      0.2359
     ]
   },
   {
@@ -15131,9 +15116,9 @@
     "iso1": "ar",
     "iso2": "cv",
     "probs": [
-      0.848,
-      0.1139,
-      0.038
+      0.8482,
+      0.1137,
+      0.0381
     ],
     "pred_score": [
       3,
@@ -15297,9 +15282,9 @@
       0.0257
     ],
     "market_probs": [
-      0.8264,
-      0.1244,
-      0.0492
+      0.8267,
+      0.1239,
+      0.0494
     ]
   },
   {
@@ -15313,9 +15298,9 @@
     "iso1": "au",
     "iso2": "eg",
     "probs": [
-      0.3438,
-      0.3198,
-      0.3364
+      0.3427,
+      0.3197,
+      0.3376
     ],
     "pred_score": [
       1,
@@ -15479,9 +15464,9 @@
       0.2675
     ],
     "market_probs": [
-      0.2859,
-      0.3309,
-      0.3833
+      0.2842,
+      0.3305,
+      0.3853
     ]
   },
   {
@@ -15497,7 +15482,7 @@
     "probs": [
       0.7075,
       0.2025,
-      0.0901
+      0.09
     ],
     "pred_score": [
       2,
@@ -15661,9 +15646,9 @@
       0.0509
     ],
     "market_probs": [
-      0.6295,
-      0.2431,
-      0.1275
+      0.6296,
+      0.243,
+      0.1274
     ]
   },
   {
@@ -15677,9 +15662,9 @@
     "iso1": "py",
     "iso2": "fr",
     "probs": [
-      0.0773,
-      0.167,
-      0.7556
+      0.077,
+      0.1669,
+      0.7561
     ],
     "pred_score": [
       1,
@@ -15732,7 +15717,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -15742,7 +15727,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 37,
+    "apparent_temp": 39,
     "form1": [
       {
         "date": "2026-06-05",
@@ -15843,9 +15828,9 @@
       0.6618
     ],
     "market_probs": [
-      0.0556,
-      0.1376,
-      0.8067
+      0.0553,
+      0.1374,
+      0.8073
     ]
   },
   {
@@ -15859,9 +15844,9 @@
     "iso1": "ca",
     "iso2": "ma",
     "probs": [
-      0.2009,
-      0.278,
-      0.5212
+      0.2,
+      0.2774,
+      0.5225
     ],
     "pred_score": [
       1,
@@ -16025,9 +16010,9 @@
       0.4989
     ],
     "market_probs": [
-      0.1886,
-      0.2756,
-      0.5358
+      0.1873,
+      0.2747,
+      0.538
     ]
   },
   {
@@ -16041,9 +16026,9 @@
     "iso1": "br",
     "iso2": "no",
     "probs": [
-      0.5023,
-      0.2642,
-      0.2335
+      0.5028,
+      0.2649,
+      0.2323
     ],
     "pred_score": [
       2,
@@ -16096,7 +16081,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -16106,7 +16091,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 34,
+    "apparent_temp": 35,
     "form1": [
       {
         "date": "2026-06-06",
@@ -16207,9 +16192,9 @@
       0.235
     ],
     "market_probs": [
-      0.5053,
-      0.2622,
-      0.2325
+      0.5062,
+      0.2633,
+      0.2304
     ]
   }
 ]

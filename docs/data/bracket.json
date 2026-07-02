@@ -14,7 +14,7 @@
     "team2": {
       "team": "Canada",
       "iso": "ca",
-      "champion": 0.0107
+      "champion": 0.0114
     },
     "score": [
       0,
@@ -37,7 +37,7 @@
     "team2": {
       "team": "Paraguay",
       "iso": "py",
-      "champion": 0.0118
+      "champion": 0.0112
     },
     "score": [
       1,
@@ -63,7 +63,7 @@
     "team2": {
       "team": "Morocco",
       "iso": "ma",
-      "champion": 0.0638
+      "champion": 0.0628
     },
     "score": [
       1,
@@ -84,7 +84,7 @@
     "team1": {
       "team": "Brazil",
       "iso": "br",
-      "champion": 0.0863
+      "champion": 0.089
     },
     "team2": {
       "team": "Japan",
@@ -107,7 +107,7 @@
     "team1": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.1531
+      "champion": 0.1528
     },
     "team2": {
       "team": "Sweden",
@@ -135,7 +135,7 @@
     "team2": {
       "team": "Norway",
       "iso": "no",
-      "champion": 0.0334
+      "champion": 0.0319
     },
     "score": [
       1,
@@ -153,7 +153,7 @@
     "team1": {
       "team": "Mexico",
       "iso": "mx",
-      "champion": 0.033
+      "champion": 0.0333
     },
     "team2": {
       "team": "Ecuador",
@@ -176,7 +176,7 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.0727
+      "champion": 0.0726
     },
     "team2": {
       "team": "DR Congo",
@@ -199,14 +199,17 @@
     "team1": {
       "team": "United States",
       "iso": "us",
-      "champion": 0.0058
+      "champion": 0.0081
     },
     "team2": {
       "team": "Bosnia and Herzegovina",
       "iso": "ba",
-      "champion": 0.0002
+      "champion": null
     },
-    "score": null,
+    "score": [
+      2,
+      0
+    ],
     "pens": null
   },
   {
@@ -219,7 +222,7 @@
     "team1": {
       "team": "Belgium",
       "iso": "be",
-      "champion": 0.027
+      "champion": 0.0239
     },
     "team2": {
       "team": "Senegal",
@@ -242,12 +245,12 @@
     "team1": {
       "team": "Portugal",
       "iso": "pt",
-      "champion": 0.033
+      "champion": 0.0338
     },
     "team2": {
       "team": "Croatia",
       "iso": "hr",
-      "champion": 0.006
+      "champion": 0.0063
     },
     "score": null,
     "pens": null
@@ -262,12 +265,12 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.1559
+      "champion": 0.1554
     },
     "team2": {
       "team": "Austria",
       "iso": "at",
-      "champion": 0.0042
+      "champion": 0.0044
     },
     "score": null,
     "pens": null
@@ -282,12 +285,12 @@
     "team1": {
       "team": "Switzerland",
       "iso": "ch",
-      "champion": 0.012
+      "champion": 0.0117
     },
     "team2": {
       "team": "Algeria",
       "iso": "dz",
-      "champion": 0.0042
+      "champion": 0.0043
     },
     "score": null,
     "pens": null
@@ -302,12 +305,12 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2062
+      "champion": 0.206
     },
     "team2": {
       "team": "Cape Verde",
       "iso": "cv",
-      "champion": 0.0002
+      "champion": 0.0001
     },
     "score": null,
     "pens": null
@@ -322,7 +325,7 @@
     "team1": {
       "team": "Colombia",
       "iso": "co",
-      "champion": 0.0712
+      "champion": 0.0714
     },
     "team2": {
       "team": "Ghana",
@@ -342,12 +345,12 @@
     "team1": {
       "team": "Australia",
       "iso": "au",
-      "champion": 0.0067
+      "champion": 0.0069
     },
     "team2": {
       "team": "Egypt",
       "iso": "eg",
-      "champion": 0.0027
+      "champion": 0.0026
     },
     "score": null,
     "pens": null
@@ -365,12 +368,12 @@
     "team1": {
       "team": "Paraguay",
       "iso": "py",
-      "champion": 0.0118
+      "champion": 0.0112
     },
     "team2": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.1531
+      "champion": 0.1528
     },
     "score": null,
     "pens": null
@@ -388,12 +391,12 @@
     "team1": {
       "team": "Canada",
       "iso": "ca",
-      "champion": 0.0107
+      "champion": 0.0114
     },
     "team2": {
       "team": "Morocco",
       "iso": "ma",
-      "champion": 0.0638
+      "champion": 0.0628
     },
     "score": null,
     "pens": null
@@ -411,12 +414,12 @@
     "team1": {
       "team": "Brazil",
       "iso": "br",
-      "champion": 0.0863
+      "champion": 0.089
     },
     "team2": {
       "team": "Norway",
       "iso": "no",
-      "champion": 0.0334
+      "champion": 0.0319
     },
     "score": null,
     "pens": null
@@ -434,7 +437,7 @@
     "team1": {
       "team": "Mexico",
       "iso": "mx",
-      "champion": 0.033
+      "champion": 0.0333
     },
     "team2": {
       "placeholder": "W80"
