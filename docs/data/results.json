@@ -954,7 +954,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 27,
     "actual_score": [
       2,
       0
