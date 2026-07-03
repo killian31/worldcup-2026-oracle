@@ -14489,7 +14489,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 27,
     "actual_score": [
       2,
       0
@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 23,
+    "apparent_temp": null,
     "actual_score": [
       3,
       0
@@ -15134,9 +15134,9 @@
     "iso1": "au",
     "iso2": "eg",
     "probs": [
-      0.3282,
-      0.3247,
-      0.3471
+      0.3258,
+      0.324,
+      0.3502
     ],
     "pred_score": [
       1,
@@ -15300,9 +15300,9 @@
       0.2714
     ],
     "market_probs": [
-      0.2675,
-      0.334,
-      0.3985
+      0.2639,
+      0.3322,
+      0.4039
     ]
   },
   {
@@ -15316,9 +15316,9 @@
     "iso1": "ar",
     "iso2": "cv",
     "probs": [
-      0.8554,
-      0.1087,
-      0.036
+      0.8586,
+      0.1074,
+      0.034
     ],
     "pred_score": [
       3,
@@ -15482,9 +15482,9 @@
       0.0264
     ],
     "market_probs": [
-      0.8422,
-      0.1137,
-      0.0441
+      0.8482,
+      0.1116,
+      0.0402
     ]
   },
   {
@@ -15498,9 +15498,9 @@
     "iso1": "co",
     "iso2": "gh",
     "probs": [
-      0.7349,
-      0.1837,
-      0.0814
+      0.7366,
+      0.1825,
+      0.0809
     ],
     "pred_score": [
       2,
@@ -15664,9 +15664,9 @@
       0.0518
     ],
     "market_probs": [
-      0.6732,
-      0.2191,
-      0.1077
+      0.6764,
+      0.217,
+      0.1066
     ]
   },
   {
@@ -15680,9 +15680,9 @@
     "iso1": "ca",
     "iso2": "ma",
     "probs": [
-      0.1942,
+      0.1941,
       0.2814,
-      0.5244
+      0.5245
     ],
     "pred_score": [
       1,
@@ -15734,13 +15734,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 40,
     "form1": [
       {
         "date": "2026-06-05",
@@ -15841,9 +15846,9 @@
       0.4969
     ],
     "market_probs": [
-      0.1831,
-      0.2744,
-      0.5425
+      0.183,
+      0.2742,
+      0.5428
     ]
   },
   {
@@ -15857,9 +15862,9 @@
     "iso1": "py",
     "iso2": "fr",
     "probs": [
-      0.0765,
-      0.1665,
-      0.757
+      0.0748,
+      0.1667,
+      0.7585
     ],
     "pred_score": [
       1,
@@ -15911,13 +15916,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 35,
     "form1": [
       {
         "date": "2026-06-05",
@@ -16018,9 +16028,9 @@
       0.6641
     ],
     "market_probs": [
-      0.056,
-      0.1362,
-      0.8078
+      0.0538,
+      0.1364,
+      0.8098
     ]
   },
   {
@@ -16034,8 +16044,8 @@
     "iso1": "br",
     "iso2": "no",
     "probs": [
-      0.5068,
-      0.2626,
+      0.5065,
+      0.2629,
       0.2306
     ],
     "pred_score": [
@@ -16094,7 +16104,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 25,
     "form1": [
       {
         "date": "2026-06-06",
@@ -16195,8 +16205,8 @@
       0.2356
     ],
     "market_probs": [
-      0.5125,
-      0.2603,
+      0.5119,
+      0.2608,
       0.2273
     ]
   },
@@ -16211,9 +16221,9 @@
     "iso1": "mx",
     "iso2": "gb-eng",
     "probs": [
-      0.344,
-      0.3141,
-      0.3419
+      0.3436,
+      0.3143,
+      0.3421
     ],
     "pred_score": [
       1,
@@ -16281,7 +16291,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 17,
     "form1": [
       {
         "date": "2026-06-04",
@@ -16382,9 +16392,9 @@
       0.2721
     ],
     "market_probs": [
-      0.3082,
-      0.2993,
-      0.3925
+      0.3075,
+      0.2997,
+      0.3928
     ]
   },
   {
@@ -16398,9 +16408,9 @@
     "iso1": "pt",
     "iso2": "es",
     "probs": [
-      0.2227,
-      0.2739,
-      0.5034
+      0.2202,
+      0.2732,
+      0.5066
     ],
     "pred_score": [
       1,
@@ -16452,13 +16462,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 42\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Spain (26 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 42,
     "form1": [
       {
         "date": "2026-06-10",
@@ -16559,9 +16574,9 @@
       0.5201
     ],
     "market_probs": [
-      0.2406,
-      0.2679,
-      0.4915
+      0.2362,
+      0.2669,
+      0.4969
     ]
   },
   {
@@ -16575,9 +16590,9 @@
     "iso1": "us",
     "iso2": "be",
     "probs": [
-      0.361,
-      0.28,
-      0.359
+      0.3601,
+      0.2799,
+      0.3599
     ],
     "pred_score": [
       1,
@@ -16640,7 +16655,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 26,
     "form1": [
       {
         "date": "2026-06-06",
@@ -16741,9 +16756,9 @@
       0.3695
     ],
     "market_probs": [
-      0.3664,
-      0.2815,
-      0.3521
+      0.365,
+      0.2813,
+      0.3536
     ]
   }
 ]
