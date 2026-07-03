@@ -1,5 +1,535 @@
 [
   {
+    "number": 49487,
+    "date": "2026-07-02",
+    "round": "Round of 32",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood",
+    "team1": "Spain",
+    "team2": "Austria",
+    "iso1": "es",
+    "iso2": "at",
+    "probs": [
+      0.7066,
+      0.1947,
+      0.0987
+    ],
+    "pred_score": [
+      2,
+      1
+    ],
+    "pred_outcome": 0,
+    "exp_goals": [
+      2.13,
+      0.73
+    ],
+    "elo": [
+      2207,
+      1903
+    ],
+    "form": [
+      2.2,
+      2.0
+    ],
+    "explain": {
+      "baseline_home": 0.4056,
+      "contributions": [
+        {
+          "factor": "elo",
+          "delta": 0.3199
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0165
+        },
+        {
+          "factor": "form",
+          "delta": -0.009
+        },
+        {
+          "factor": "context",
+          "delta": -0.0001
+        },
+        {
+          "factor": "altitude",
+          "delta": 0.0
+        }
+      ]
+    },
+    "squad": {
+      "home": 98.3,
+      "away": 87.0,
+      "home_big5": 26,
+      "away_big5": 18
+    },
+    "factors": [
+      {
+        "icon": "\u2b50",
+        "text": "Squad quality: Spain (26 top-5-league players)",
+        "favors": "home"
+      }
+    ],
+    "played": true,
+    "apparent_temp": 23,
+    "actual_score": [
+      3,
+      0
+    ],
+    "actual_outcome": 0,
+    "correct": true,
+    "exact_hit": false,
+    "rps": 0.0479,
+    "form1": [
+      {
+        "date": "2026-06-04",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Peru",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-15",
+        "opp": "Cape Verde",
+        "opp_iso": "cv",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-21",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-26",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "South Korea",
+        "opp_iso": "kr",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Argentina",
+        "opp_iso": "ar",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-27",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 3,
+        "ga": 3,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
+  },
+  {
+    "number": 49488,
+    "date": "2026-07-02",
+    "round": "Round of 32",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "team1": "Portugal",
+    "team2": "Croatia",
+    "iso1": "pt",
+    "iso2": "hr",
+    "probs": [
+      0.4906,
+      0.2815,
+      0.228
+    ],
+    "pred_score": [
+      2,
+      1
+    ],
+    "pred_outcome": 0,
+    "exp_goals": [
+      1.53,
+      0.98
+    ],
+    "elo": [
+      2054,
+      1968
+    ],
+    "form": [
+      2.2,
+      1.8
+    ],
+    "explain": {
+      "baseline_home": 0.4056,
+      "contributions": [
+        {
+          "factor": "elo",
+          "delta": 0.1249
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0171
+        },
+        {
+          "factor": "altitude",
+          "delta": 0.0019
+        },
+        {
+          "factor": "form",
+          "delta": 0.001
+        },
+        {
+          "factor": "context",
+          "delta": -0.0001
+        }
+      ]
+    },
+    "squad": {
+      "home": 89.6,
+      "away": 88.4,
+      "home_big5": 17,
+      "away_big5": 18
+    },
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
+    "played": true,
+    "apparent_temp": 36,
+    "actual_score": [
+      2,
+      1
+    ],
+    "actual_outcome": 0,
+    "correct": true,
+    "exact_hit": true,
+    "rps": 0.1557,
+    "form1": [
+      {
+        "date": "2026-06-06",
+        "opp": "Chile",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Nigeria",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "DR Congo",
+        "opp_iso": "cd",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 5,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-27",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-06-02",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 0,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Slovenia",
+        "opp_iso": "un",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-17",
+        "opp": "England",
+        "opp_iso": "gb-eng",
+        "gf": 2,
+        "ga": 4,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-23",
+        "opp": "Panama",
+        "opp_iso": "pa",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-27",
+        "opp": "Ghana",
+        "opp_iso": "gh",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
+  },
+  {
+    "number": 49489,
+    "date": "2026-07-02",
+    "round": "Round of 32",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "team1": "Switzerland",
+    "team2": "Algeria",
+    "iso1": "ch",
+    "iso2": "dz",
+    "probs": [
+      0.5103,
+      0.2526,
+      0.2371
+    ],
+    "pred_score": [
+      1,
+      1
+    ],
+    "pred_outcome": 1,
+    "exp_goals": [
+      1.47,
+      1.15
+    ],
+    "elo": [
+      1983,
+      1890
+    ],
+    "form": [
+      2.2,
+      2.0
+    ],
+    "explain": {
+      "baseline_home": 0.4056,
+      "contributions": [
+        {
+          "factor": "elo",
+          "delta": 0.1249
+        },
+        {
+          "factor": "form",
+          "delta": 0.0215
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0134
+        },
+        {
+          "factor": "context",
+          "delta": 0.0
+        },
+        {
+          "factor": "altitude",
+          "delta": 0.0
+        }
+      ]
+    },
+    "squad": {
+      "home": 93.9,
+      "away": 80.0,
+      "home_big5": 24,
+      "away_big5": 13
+    },
+    "factors": [
+      {
+        "icon": "\ud83d\ude34",
+        "text": "Switzerland better rested (+3d)",
+        "favors": "home"
+      },
+      {
+        "icon": "\u2b50",
+        "text": "Squad quality: Switzerland (24 top-5-league players)",
+        "favors": "home"
+      }
+    ],
+    "played": true,
+    "apparent_temp": 13,
+    "actual_score": [
+      2,
+      0
+    ],
+    "actual_outcome": 0,
+    "correct": false,
+    "exact_hit": false,
+    "rps": 0.148,
+    "form1": [
+      {
+        "date": "2026-05-31",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Qatar",
+        "opp_iso": "qa",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-24",
+        "opp": "Canada",
+        "opp_iso": "ca",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "A"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-06-03",
+        "opp": "Netherlands",
+        "opp_iso": "nl",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-10",
+        "opp": "Bolivia",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Argentina",
+        "opp_iso": "ar",
+        "gf": 0,
+        "ga": 3,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-27",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 3,
+        "ga": 3,
+        "res": "D",
+        "venue": "N"
+      }
+    ]
+  },
+  {
     "number": 49484,
     "date": "2026-07-01",
     "round": "Round of 32",
@@ -10,9 +540,9 @@
     "iso1": "gb-eng",
     "iso2": "cd",
     "probs": [
-      0.6777,
-      0.2128,
-      0.1095
+      0.6773,
+      0.2139,
+      0.1087
     ],
     "pred_score": [
       2,
@@ -32,23 +562,23 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.3254
+          "delta": 0.3195
         },
         {
           "factor": "form",
-          "delta": -0.0282
+          "delta": -0.0452
         },
         {
           "factor": "rest",
-          "delta": -0.0091
+          "delta": -0.0201
         },
         {
           "factor": "altitude",
-          "delta": 0.0005
+          "delta": -0.001
         },
         {
           "factor": "context",
@@ -83,7 +613,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.0579,
+    "rps": 0.058,
     "form1": [
       {
         "date": "2026-06-06",
@@ -190,9 +720,9 @@
     "iso1": "be",
     "iso2": "sn",
     "probs": [
-      0.4396,
-      0.2834,
-      0.277
+      0.4437,
+      0.2813,
+      0.2749
     ],
     "pred_score": [
       1,
@@ -212,19 +742,19 @@
       0.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0759
+          "delta": 0.0931
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "form",
-          "delta": -0.0083
+          "delta": 0.0022
         },
         {
           "factor": "context",
@@ -252,7 +782,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1954,
+    "rps": 0.1925,
     "form1": [
       {
         "date": "2026-06-02",
@@ -359,9 +889,9 @@
     "iso1": "us",
     "iso2": "ba",
     "probs": [
-      0.72,
-      0.1845,
-      0.0955
+      0.7192,
+      0.1851,
+      0.0957
     ],
     "pred_score": [
       2,
@@ -381,23 +911,23 @@
       1.2
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2105
+          "delta": 0.2271
         },
         {
           "factor": "context",
-          "delta": 0.1283
+          "delta": 0.1258
         },
         {
           "factor": "form",
-          "delta": 0.0227
+          "delta": 0.034
         },
         {
           "factor": "rest",
-          "delta": -0.0219
+          "delta": -0.011
         },
         {
           "factor": "altitude",
@@ -424,7 +954,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 27,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -432,7 +962,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0438,
+    "rps": 0.044,
     "form1": [
       {
         "date": "2026-05-31",
@@ -532,92 +1062,92 @@
     "number": 49481,
     "date": "2026-06-30",
     "round": "Round of 32",
-    "venue": "AT&T Stadium",
-    "city": "Arlington",
-    "team1": "Ivory Coast",
-    "team2": "Norway",
-    "iso1": "ci",
-    "iso2": "no",
+    "venue": "Estadio Azteca",
+    "city": "Mexico City",
+    "team1": "Mexico",
+    "team2": "Ecuador",
+    "iso1": "mx",
+    "iso2": "ec",
     "probs": [
-      0.2315,
-      0.2723,
-      0.4962
+      0.4653,
+      0.3124,
+      0.2223
     ],
     "pred_score": [
       1,
-      2
+      1
     ],
-    "pred_outcome": 2,
+    "pred_outcome": 1,
     "exp_goals": [
-      0.95,
-      1.58
+      1.26,
+      0.86
     ],
     "elo": [
-      1863,
-      1981
+      2015,
+      1993
     ],
     "form": [
-      2.4,
+      3.0,
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
-          "factor": "elo",
-          "delta": -0.1184
+          "factor": "context",
+          "delta": 0.1258
         },
         {
-          "factor": "form",
-          "delta": -0.0266
+          "factor": "elo",
+          "delta": 0.0307
         },
         {
           "factor": "rest",
-          "delta": -0.008
+          "delta": -0.0165
+        },
+        {
+          "factor": "form",
+          "delta": -0.0126
         },
         {
           "factor": "altitude",
-          "delta": -0.0008
-        },
-        {
-          "factor": "context",
           "delta": 0.0
         }
       ]
     },
     "squad": {
-      "home": 80.4,
-      "away": 92.1,
-      "home_big5": 12,
-      "away_big5": 19
+      "home": 63.0,
+      "away": 71.3,
+      "home_big5": 5,
+      "away_big5": 7
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
+        "icon": "\ud83c\udfdf\ufe0f",
+        "text": "Host nation Mexico at home",
+        "favors": "home"
       },
       {
         "icon": "\u2b50",
-        "text": "Squad quality: Norway (19 top-5-league players)",
+        "text": "Squad quality: Ecuador (7 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 37,
+    "apparent_temp": 17,
     "actual_score": [
-      1,
-      2
+      2,
+      0
     ],
-    "actual_outcome": 2,
-    "correct": true,
-    "exact_hit": true,
-    "rps": 0.1537,
+    "actual_outcome": 0,
+    "correct": false,
+    "exact_hit": false,
+    "rps": 0.1677,
     "form1": [
       {
-        "date": "2026-03-31",
-        "opp": "Scotland",
-        "opp_iso": "gb-sct",
+        "date": "2026-05-30",
+        "opp": "Australia",
+        "opp_iso": "au",
         "gf": 1,
         "ga": 0,
         "res": "W",
@@ -625,85 +1155,85 @@
       },
       {
         "date": "2026-06-04",
-        "opp": "France",
-        "opp_iso": "fr",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "A"
-      },
-      {
-        "date": "2026-06-14",
-        "opp": "Ecuador",
-        "opp_iso": "ec",
-        "gf": 1,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-20",
-        "opp": "Germany",
-        "opp_iso": "de",
-        "gf": 1,
-        "ga": 2,
-        "res": "L",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-25",
-        "opp": "Cura\u00e7ao",
-        "opp_iso": "cw",
-        "gf": 2,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-06-01",
-        "opp": "Sweden",
-        "opp_iso": "se",
-        "gf": 3,
+        "opp": "Serbia",
+        "opp_iso": "un",
+        "gf": 5,
         "ga": 1,
         "res": "W",
         "venue": "H"
       },
       {
-        "date": "2026-06-07",
-        "opp": "Morocco",
-        "opp_iso": "ma",
+        "date": "2026-06-11",
+        "opp": "South Africa",
+        "opp_iso": "za",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "South Korea",
+        "opp_iso": "kr",
         "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-24",
+        "opp": "Czech Republic",
+        "opp_iso": "cz",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-05-30",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 2,
         "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Guatemala",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Cura\u00e7ao",
+        "opp_iso": "cw",
+        "gf": 0,
+        "ga": 0,
         "res": "D",
         "venue": "N"
       },
       {
-        "date": "2026-06-16",
-        "opp": "Iraq",
-        "opp_iso": "iq",
-        "gf": 4,
+        "date": "2026-06-25",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 2,
         "ga": 1,
         "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-22",
-        "opp": "Senegal",
-        "opp_iso": "sn",
-        "gf": 3,
-        "ga": 2,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-26",
-        "opp": "France",
-        "opp_iso": "fr",
-        "gf": 1,
-        "ga": 4,
-        "res": "L",
         "venue": "N"
       }
     ]
@@ -719,9 +1249,9 @@
     "iso1": "fr",
     "iso2": "se",
     "probs": [
-      0.7883,
-      0.1496,
-      0.0621
+      0.7941,
+      0.142,
+      0.064
     ],
     "pred_score": [
       2,
@@ -741,23 +1271,23 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.3965
+          "delta": 0.4061
         },
         {
           "factor": "form",
-          "delta": 0.0328
+          "delta": 0.031
         },
         {
           "factor": "rest",
-          "delta": 0.0017
+          "delta": -0.0163
         },
         {
           "factor": "context",
-          "delta": -0.0008
+          "delta": -0.0001
         },
         {
           "factor": "altitude",
@@ -792,7 +1322,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0243,
+    "rps": 0.0232,
     "form1": [
       {
         "date": "2026-06-04",
@@ -892,232 +1422,52 @@
     "number": 49483,
     "date": "2026-06-30",
     "round": "Round of 32",
-    "venue": "Estadio Azteca",
-    "city": "Mexico City",
-    "team1": "Mexico",
-    "team2": "Ecuador",
-    "iso1": "mx",
-    "iso2": "ec",
+    "venue": "AT&T Stadium",
+    "city": "Arlington",
+    "team1": "Ivory Coast",
+    "team2": "Norway",
+    "iso1": "ci",
+    "iso2": "no",
     "probs": [
-      0.4683,
-      0.3121,
-      0.2197
+      0.2305,
+      0.2664,
+      0.5031
     ],
     "pred_score": [
       1,
-      1
+      2
     ],
-    "pred_outcome": 1,
+    "pred_outcome": 2,
     "exp_goals": [
-      1.26,
-      0.86
+      0.95,
+      1.58
     ],
     "elo": [
-      2015,
-      1993
+      1863,
+      1981
     ],
     "form": [
-      3.0,
+      2.4,
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
-      "contributions": [
-        {
-          "factor": "context",
-          "delta": 0.1283
-        },
-        {
-          "factor": "elo",
-          "delta": 0.032
-        },
-        {
-          "factor": "form",
-          "delta": -0.0198
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0054
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0
-        }
-      ]
-    },
-    "squad": {
-      "home": 63.0,
-      "away": 71.3,
-      "home_big5": 5,
-      "away_big5": 7
-    },
-    "factors": [
-      {
-        "icon": "\ud83c\udfdf\ufe0f",
-        "text": "Host nation Mexico at home",
-        "favors": "home"
-      },
-      {
-        "icon": "\u2b50",
-        "text": "Squad quality: Ecuador (7 top-5-league players)",
-        "favors": "away"
-      }
-    ],
-    "played": true,
-    "apparent_temp": 17,
-    "actual_score": [
-      2,
-      0
-    ],
-    "actual_outcome": 0,
-    "correct": false,
-    "exact_hit": false,
-    "rps": 0.1655,
-    "form1": [
-      {
-        "date": "2026-05-30",
-        "opp": "Australia",
-        "opp_iso": "au",
-        "gf": 1,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-04",
-        "opp": "Serbia",
-        "opp_iso": "un",
-        "gf": 5,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-11",
-        "opp": "South Africa",
-        "opp_iso": "za",
-        "gf": 2,
-        "ga": 0,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-18",
-        "opp": "South Korea",
-        "opp_iso": "kr",
-        "gf": 1,
-        "ga": 0,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-24",
-        "opp": "Czech Republic",
-        "opp_iso": "cz",
-        "gf": 3,
-        "ga": 0,
-        "res": "W",
-        "venue": "H"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-05-30",
-        "opp": "Saudi Arabia",
-        "opp_iso": "sa",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-07",
-        "opp": "Guatemala",
-        "opp_iso": "un",
-        "gf": 3,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-14",
-        "opp": "Ivory Coast",
-        "opp_iso": "ci",
-        "gf": 0,
-        "ga": 1,
-        "res": "L",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-20",
-        "opp": "Cura\u00e7ao",
-        "opp_iso": "cw",
-        "gf": 0,
-        "ga": 0,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-25",
-        "opp": "Germany",
-        "opp_iso": "de",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      }
-    ]
-  },
-  {
-    "number": 49478,
-    "date": "2026-06-29",
-    "round": "Round of 32",
-    "venue": "Estadio BBVA",
-    "city": "Guadalupe",
-    "team1": "Netherlands",
-    "team2": "Morocco",
-    "iso1": "nl",
-    "iso2": "ma",
-    "probs": [
-      0.3564,
-      0.2832,
-      0.3604
-    ],
-    "pred_score": [
-      1,
-      1
-    ],
-    "pred_outcome": 1,
-    "exp_goals": [
-      1.05,
-      1.2
-    ],
-    "elo": [
-      2046,
-      2022
-    ],
-    "form": [
-      2.0,
-      2.2
-    ],
-    "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.032
-        },
-        {
-          "factor": "form",
-          "delta": 0.0035
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0033
+          "delta": -0.1195
         },
         {
           "factor": "rest",
-          "delta": 0.0017
+          "delta": -0.0156
+        },
+        {
+          "factor": "form",
+          "delta": -0.0134
+        },
+        {
+          "factor": "altitude",
+          "delta": -0.0041
         },
         {
           "factor": "context",
@@ -1126,110 +1476,36 @@
       ]
     },
     "squad": {
-      "home": 96.9,
-      "away": 85.3,
-      "home_big5": 22,
-      "away_big5": 15
+      "home": 80.4,
+      "away": 92.1,
+      "home_big5": 12,
+      "away_big5": 19
     },
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
         "icon": "\u2b50",
-        "text": "Squad quality: Netherlands (22 top-5-league players)",
-        "favors": "home"
+        "text": "Squad quality: Norway (19 top-5-league players)",
+        "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 34,
+    "apparent_temp": 37,
     "actual_score": [
       1,
-      1
+      2
     ],
-    "actual_outcome": 1,
+    "actual_outcome": 2,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1285,
+    "rps": 0.15,
     "form1": [
       {
-        "date": "2026-06-03",
-        "opp": "Algeria",
-        "opp_iso": "dz",
-        "gf": 0,
-        "ga": 1,
-        "res": "L",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-08",
-        "opp": "Uzbekistan",
-        "opp_iso": "uz",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-14",
-        "opp": "Japan",
-        "opp_iso": "jp",
-        "gf": 2,
-        "ga": 2,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-20",
-        "opp": "Sweden",
-        "opp_iso": "se",
-        "gf": 5,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-25",
-        "opp": "Tunisia",
-        "opp_iso": "tn",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-06-02",
-        "opp": "Madagascar",
-        "opp_iso": "un",
-        "gf": 4,
-        "ga": 0,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-07",
-        "opp": "Norway",
-        "opp_iso": "no",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-13",
-        "opp": "Brazil",
-        "opp_iso": "br",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-19",
+        "date": "2026-03-31",
         "opp": "Scotland",
         "opp_iso": "gb-sct",
         "gf": 1,
@@ -1238,18 +1514,92 @@
         "venue": "N"
       },
       {
-        "date": "2026-06-24",
-        "opp": "Haiti",
-        "opp_iso": "ht",
+        "date": "2026-06-04",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "A"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Ecuador",
+        "opp_iso": "ec",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Germany",
+        "opp_iso": "de",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-25",
+        "opp": "Cura\u00e7ao",
+        "opp_iso": "cw",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-06-01",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Iraq",
+        "opp_iso": "iq",
         "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 3,
         "ga": 2,
         "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-26",
+        "opp": "France",
+        "opp_iso": "fr",
+        "gf": 1,
+        "ga": 4,
+        "res": "L",
         "venue": "N"
       }
     ]
   },
   {
-    "number": 49479,
+    "number": 49478,
     "date": "2026-06-29",
     "round": "Round of 32",
     "venue": "NRG Stadium",
@@ -1259,9 +1609,9 @@
     "iso1": "br",
     "iso2": "jp",
     "probs": [
-      0.5061,
-      0.2679,
-      0.226
+      0.5148,
+      0.2588,
+      0.2263
     ],
     "pred_score": [
       1,
@@ -1281,19 +1631,19 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.1304
+          "delta": 0.144
         },
         {
           "factor": "form",
-          "delta": 0.0215
+          "delta": 0.0503
         },
         {
           "factor": "rest",
-          "delta": -0.008
+          "delta": -0.0156
         },
         {
           "factor": "context",
@@ -1332,7 +1682,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1475,
+    "rps": 0.1433,
     "form1": [
       {
         "date": "2026-05-31",
@@ -1429,7 +1779,7 @@
     ]
   },
   {
-    "number": 49480,
+    "number": 49479,
     "date": "2026-06-29",
     "round": "Round of 32",
     "venue": "Gillette Stadium",
@@ -1439,9 +1789,9 @@
     "iso1": "de",
     "iso2": "py",
     "probs": [
-      0.5024,
-      0.2464,
-      0.2512
+      0.504,
+      0.2504,
+      0.2456
     ],
     "pred_score": [
       1,
@@ -1461,19 +1811,19 @@
       1.4
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.1066
+          "delta": 0.1265
         },
         {
           "factor": "form",
-          "delta": 0.0306
+          "delta": 0.046
         },
         {
           "factor": "rest",
-          "delta": -0.0091
+          "delta": -0.0201
         },
         {
           "factor": "context",
@@ -1507,7 +1857,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1578,
+    "rps": 0.1572,
     "form1": [
       {
         "date": "2026-05-31",
@@ -1604,6 +1954,186 @@
     ]
   },
   {
+    "number": 49480,
+    "date": "2026-06-29",
+    "round": "Round of 32",
+    "venue": "Estadio BBVA",
+    "city": "Guadalupe",
+    "team1": "Netherlands",
+    "team2": "Morocco",
+    "iso1": "nl",
+    "iso2": "ma",
+    "probs": [
+      0.3519,
+      0.2776,
+      0.3704
+    ],
+    "pred_score": [
+      1,
+      1
+    ],
+    "pred_outcome": 1,
+    "exp_goals": [
+      1.05,
+      1.2
+    ],
+    "elo": [
+      2046,
+      2022
+    ],
+    "form": [
+      2.0,
+      2.2
+    ],
+    "explain": {
+      "baseline_home": 0.4056,
+      "contributions": [
+        {
+          "factor": "elo",
+          "delta": 0.0307
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0163
+        },
+        {
+          "factor": "form",
+          "delta": 0.0148
+        },
+        {
+          "factor": "altitude",
+          "delta": 0.0139
+        },
+        {
+          "factor": "context",
+          "delta": 0.0
+        }
+      ]
+    },
+    "squad": {
+      "home": 96.9,
+      "away": 85.3,
+      "home_big5": 22,
+      "away_big5": 15
+    },
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
+        "icon": "\u2b50",
+        "text": "Squad quality: Netherlands (22 top-5-league players)",
+        "favors": "home"
+      }
+    ],
+    "played": true,
+    "apparent_temp": 34,
+    "actual_score": [
+      1,
+      1
+    ],
+    "actual_outcome": 1,
+    "correct": true,
+    "exact_hit": true,
+    "rps": 0.1305,
+    "form1": [
+      {
+        "date": "2026-06-03",
+        "opp": "Algeria",
+        "opp_iso": "dz",
+        "gf": 0,
+        "ga": 1,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-14",
+        "opp": "Japan",
+        "opp_iso": "jp",
+        "gf": 2,
+        "ga": 2,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-20",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 5,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-25",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-06-02",
+        "opp": "Madagascar",
+        "opp_iso": "un",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Brazil",
+        "opp_iso": "br",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-19",
+        "opp": "Scotland",
+        "opp_iso": "gb-sct",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-24",
+        "opp": "Haiti",
+        "opp_iso": "ht",
+        "gf": 4,
+        "ga": 2,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
+  },
+  {
     "number": 49477,
     "date": "2026-06-28",
     "round": "Round of 32",
@@ -1614,9 +2144,9 @@
     "iso1": "za",
     "iso2": "ca",
     "probs": [
-      0.1813,
-      0.282,
-      0.5367
+      0.1825,
+      0.2867,
+      0.5307
     ],
     "pred_score": [
       1,
@@ -1636,19 +2166,19 @@
       1.6
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1352
+          "delta": -0.1201
         },
         {
           "factor": "form",
-          "delta": -0.0369
+          "delta": -0.0661
         },
         {
           "factor": "rest",
-          "delta": -0.0091
+          "delta": -0.0201
         },
         {
           "factor": "context",
@@ -1682,7 +2212,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1237,
+    "rps": 0.1268,
     "form1": [
       {
         "date": "2026-05-29",
@@ -1789,9 +2319,9 @@
     "iso1": "dz",
     "iso2": "at",
     "probs": [
-      0.3316,
-      0.2889,
-      0.3796
+      0.3312,
+      0.2901,
+      0.3787
     ],
     "pred_score": [
       1,
@@ -1811,23 +2341,23 @@
       2.4
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "form",
-          "delta": -0.054
-        },
-        {
-          "factor": "altitude",
-          "delta": -0.0194
+          "delta": -0.0397
         },
         {
           "factor": "elo",
-          "delta": -0.0186
+          "delta": -0.034
+        },
+        {
+          "factor": "altitude",
+          "delta": -0.0264
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "context",
@@ -1862,7 +2392,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.127,
+    "rps": 0.1265,
     "form1": [
       {
         "date": "2026-03-31",
@@ -1969,9 +2499,9 @@
     "iso1": "jo",
     "iso2": "ar",
     "probs": [
-      0.036,
-      0.0926,
-      0.8715
+      0.0348,
+      0.092,
+      0.8732
     ],
     "pred_score": [
       0,
@@ -1991,23 +2521,23 @@
       3.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.3396
-        },
-        {
-          "factor": "form",
-          "delta": -0.0181
+          "delta": -0.3415
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "altitude",
-          "delta": -0.0008
+          "delta": -0.0041
+        },
+        {
+          "factor": "form",
+          "delta": -0.0016
         },
         {
           "factor": "context",
@@ -2042,7 +2572,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0089,
+    "rps": 0.0086,
     "form1": [
       {
         "date": "2026-03-31",
@@ -2149,9 +2679,9 @@
     "iso1": "co",
     "iso2": "pt",
     "probs": [
-      0.3949,
-      0.2944,
-      0.3107
+      0.3996,
+      0.289,
+      0.3114
     ],
     "pred_score": [
       1,
@@ -2171,11 +2701,11 @@
       2.6
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0759
+          "delta": 0.0927
         },
         {
           "factor": "form",
@@ -2183,7 +2713,7 @@
         },
         {
           "factor": "rest",
-          "delta": -0.0091
+          "delta": -0.0201
         },
         {
           "factor": "context",
@@ -2222,7 +2752,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1262,
+    "rps": 0.1283,
     "form1": [
       {
         "date": "2026-03-29",
@@ -2329,9 +2859,9 @@
     "iso1": "cd",
     "iso2": "uz",
     "probs": [
-      0.3975,
-      0.303,
-      0.2995
+      0.39,
+      0.3064,
+      0.3036
     ],
     "pred_score": [
       1,
@@ -2351,23 +2881,23 @@
       0.2
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.0211
+          "delta": -0.0263
         },
         {
           "factor": "rest",
-          "delta": -0.0091
-        },
-        {
-          "factor": "form",
-          "delta": 0.0048
+          "delta": -0.0201
         },
         {
           "factor": "altitude",
-          "delta": 0.0005
+          "delta": -0.001
+        },
+        {
+          "factor": "form",
+          "delta": -0.0006
         },
         {
           "factor": "context",
@@ -2402,7 +2932,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.2264,
+    "rps": 0.2321,
     "form1": [
       {
         "date": "2026-03-31",
@@ -2509,9 +3039,9 @@
     "iso1": "pa",
     "iso2": "gb-eng",
     "probs": [
-      0.0842,
-      0.1657,
-      0.7502
+      0.0823,
+      0.1706,
+      0.7471
     ],
     "pred_score": [
       1,
@@ -2531,19 +3061,19 @@
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2774
+          "delta": -0.2787
         },
         {
           "factor": "rest",
-          "delta": -0.0091
+          "delta": -0.0201
         },
         {
           "factor": "form",
-          "delta": 0.0051
+          "delta": 0.0039
         },
         {
           "factor": "context",
@@ -2577,7 +3107,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0348,
+    "rps": 0.0354,
     "form1": [
       {
         "date": "2026-05-31",
@@ -2684,9 +3214,9 @@
     "iso1": "hr",
     "iso2": "gh",
     "probs": [
-      0.6233,
-      0.2394,
-      0.1374
+      0.6245,
+      0.2361,
+      0.1394
     ],
     "pred_score": [
       2,
@@ -2706,19 +3236,19 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2701
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0091
+          "delta": 0.2677
         },
         {
           "factor": "form",
-          "delta": 0.0087
+          "delta": 0.029
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0201
         },
         {
           "factor": "context",
@@ -2746,7 +3276,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.0804,
+    "rps": 0.0802,
     "form1": [
       {
         "date": "2026-03-31",
@@ -2853,9 +3383,9 @@
     "iso1": "sn",
     "iso2": "iq",
     "probs": [
-      0.6015,
-      0.2536,
-      0.1448
+      0.599,
+      0.2544,
+      0.1466
     ],
     "pred_score": [
       1,
@@ -2875,23 +3405,23 @@
       0.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.1974
+          "delta": 0.2142
         },
         {
           "factor": "form",
-          "delta": 0.0478
+          "delta": 0.0463
         },
         {
           "factor": "rest",
-          "delta": -0.0091
+          "delta": -0.0201
         },
         {
           "factor": "altitude",
-          "delta": 0.0034
+          "delta": 0.0019
         },
         {
           "factor": "context",
@@ -2921,7 +3451,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.0899,
+    "rps": 0.0912,
     "form1": [
       {
         "date": "2026-03-31",
@@ -3021,175 +3551,6 @@
     "number": 49466,
     "date": "2026-06-26",
     "round": "Matchday 16",
-    "venue": "Gillette Stadium",
-    "city": "Foxborough",
-    "team1": "Norway",
-    "team2": "France",
-    "iso1": "no",
-    "iso2": "fr",
-    "probs": [
-      0.2726,
-      0.2741,
-      0.4533
-    ],
-    "pred_score": [
-      1,
-      1
-    ],
-    "pred_outcome": 1,
-    "exp_goals": [
-      1.14,
-      1.45
-    ],
-    "elo": [
-      2013,
-      2152
-    ],
-    "form": [
-      2.2,
-      2.4
-    ],
-    "explain": {
-      "baseline_home": 0.4028,
-      "contributions": [
-        {
-          "factor": "elo",
-          "delta": -0.1245
-        },
-        {
-          "factor": "form",
-          "delta": -0.0157
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0091
-        },
-        {
-          "factor": "context",
-          "delta": -0.0008
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0
-        }
-      ]
-    },
-    "squad": {
-      "home": 92.1,
-      "away": 95.2,
-      "home_big5": 19,
-      "away_big5": 24
-    },
-    "factors": [],
-    "played": true,
-    "apparent_temp": 25,
-    "actual_score": [
-      1,
-      4
-    ],
-    "actual_outcome": 2,
-    "correct": false,
-    "exact_hit": false,
-    "rps": 0.1866,
-    "form1": [
-      {
-        "date": "2026-03-31",
-        "opp": "Switzerland",
-        "opp_iso": "ch",
-        "gf": 0,
-        "ga": 0,
-        "res": "D",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-01",
-        "opp": "Sweden",
-        "opp_iso": "se",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-07",
-        "opp": "Morocco",
-        "opp_iso": "ma",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "Iraq",
-        "opp_iso": "iq",
-        "gf": 4,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-22",
-        "opp": "Senegal",
-        "opp_iso": "sn",
-        "gf": 3,
-        "ga": 2,
-        "res": "W",
-        "venue": "N"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-03-29",
-        "opp": "Colombia",
-        "opp_iso": "co",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-04",
-        "opp": "Ivory Coast",
-        "opp_iso": "ci",
-        "gf": 1,
-        "ga": 2,
-        "res": "L",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-08",
-        "opp": "Northern Ireland",
-        "opp_iso": "un",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "Senegal",
-        "opp_iso": "sn",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-22",
-        "opp": "Iraq",
-        "opp_iso": "iq",
-        "gf": 3,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      }
-    ]
-  },
-  {
-    "number": 49467,
-    "date": "2026-06-26",
-    "round": "Matchday 16",
     "venue": "Estadio Akron",
     "city": "Zapopan",
     "team1": "Uruguay",
@@ -3197,9 +3558,9 @@
     "iso1": "uy",
     "iso2": "es",
     "probs": [
-      0.1186,
-      0.182,
-      0.6994
+      0.1158,
+      0.1835,
+      0.7006
     ],
     "pred_score": [
       1,
@@ -3207,8 +3568,8 @@
     ],
     "pred_outcome": 2,
     "exp_goals": [
-      0.71,
-      1.84
+      0.7,
+      1.85
     ],
     "elo": [
       1935,
@@ -3219,23 +3580,23 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2556
+          "delta": -0.2594
         },
         {
           "factor": "altitude",
-          "delta": -0.0322
+          "delta": -0.0474
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "form",
-          "delta": 0.0051
+          "delta": 0.0135
         },
         {
           "factor": "context",
@@ -3270,7 +3631,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0522,
+    "rps": 0.0515,
     "form1": [
       {
         "date": "2025-11-18",
@@ -3367,6 +3728,175 @@
     ]
   },
   {
+    "number": 49467,
+    "date": "2026-06-26",
+    "round": "Matchday 16",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough",
+    "team1": "Norway",
+    "team2": "France",
+    "iso1": "no",
+    "iso2": "fr",
+    "probs": [
+      0.2698,
+      0.2721,
+      0.458
+    ],
+    "pred_score": [
+      1,
+      1
+    ],
+    "pred_outcome": 1,
+    "exp_goals": [
+      1.14,
+      1.45
+    ],
+    "elo": [
+      2013,
+      2152
+    ],
+    "form": [
+      2.2,
+      2.4
+    ],
+    "explain": {
+      "baseline_home": 0.4056,
+      "contributions": [
+        {
+          "factor": "elo",
+          "delta": -0.1201
+        },
+        {
+          "factor": "form",
+          "delta": -0.0203
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0201
+        },
+        {
+          "factor": "context",
+          "delta": -0.0001
+        },
+        {
+          "factor": "altitude",
+          "delta": 0.0
+        }
+      ]
+    },
+    "squad": {
+      "home": 92.1,
+      "away": 95.2,
+      "home_big5": 19,
+      "away_big5": 24
+    },
+    "factors": [],
+    "played": true,
+    "apparent_temp": 25,
+    "actual_score": [
+      1,
+      4
+    ],
+    "actual_outcome": 2,
+    "correct": false,
+    "exact_hit": false,
+    "rps": 0.1833,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Switzerland",
+        "opp_iso": "ch",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-07",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 3,
+        "ga": 2,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-29",
+        "opp": "Colombia",
+        "opp_iso": "co",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Ivory Coast",
+        "opp_iso": "ci",
+        "gf": 1,
+        "ga": 2,
+        "res": "L",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-08",
+        "opp": "Northern Ireland",
+        "opp_iso": "un",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-16",
+        "opp": "Senegal",
+        "opp_iso": "sn",
+        "gf": 3,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-22",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
+  },
+  {
     "number": 49468,
     "date": "2026-06-26",
     "round": "Matchday 16",
@@ -3377,9 +3907,9 @@
     "iso1": "nz",
     "iso2": "be",
     "probs": [
-      0.1307,
-      0.2042,
-      0.6652
+      0.122,
+      0.1979,
+      0.68
     ],
     "pred_score": [
       1,
@@ -3399,19 +3929,19 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2331
+          "delta": -0.2515
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "form",
-          "delta": -0.0052
+          "delta": -0.0168
         },
         {
           "factor": "context",
@@ -3445,7 +3975,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0646,
+    "rps": 0.0586,
     "form1": [
       {
         "date": "2026-03-30",
@@ -3552,9 +4082,9 @@
     "iso1": "eg",
     "iso2": "ir",
     "probs": [
-      0.3461,
-      0.3119,
-      0.3419
+      0.3466,
+      0.3103,
+      0.3431
     ],
     "pred_score": [
       1,
@@ -3574,19 +4104,19 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
-          "factor": "form",
-          "delta": -0.0315
-        },
-        {
           "factor": "elo",
-          "delta": -0.0286
+          "delta": -0.0496
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
+        },
+        {
+          "factor": "form",
+          "delta": -0.0073
         },
         {
           "factor": "context",
@@ -3620,7 +4150,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1184,
+    "rps": 0.1189,
     "form1": [
       {
         "date": "2026-03-31",
@@ -3727,9 +4257,9 @@
     "iso1": "cv",
     "iso2": "sa",
     "probs": [
-      0.3642,
-      0.3127,
-      0.3232
+      0.3614,
+      0.3201,
+      0.3186
     ],
     "pred_score": [
       1,
@@ -3749,19 +4279,19 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.0211
+          "delta": -0.0263
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "form",
-          "delta": -0.0069
+          "delta": -0.0075
         },
         {
           "factor": "context",
@@ -3800,7 +4330,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1185,
+    "rps": 0.116,
     "form1": [
       {
         "date": "2026-03-30",
@@ -3907,9 +4437,9 @@
     "iso1": "us",
     "iso2": "tr",
     "probs": [
-      0.5636,
-      0.2408,
-      0.1956
+      0.5548,
+      0.2463,
+      0.1989
     ],
     "pred_score": [
       2,
@@ -3929,23 +4459,23 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "context",
-          "delta": 0.1283
+          "delta": 0.1258
         },
         {
           "factor": "elo",
-          "delta": 0.0759
-        },
-        {
-          "factor": "form",
-          "delta": -0.008
+          "delta": 0.0927
         },
         {
           "factor": "rest",
-          "delta": -0.0064
+          "delta": -0.0171
+        },
+        {
+          "factor": "form",
+          "delta": -0.0093
         },
         {
           "factor": "altitude",
@@ -3980,7 +4510,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.4823,
+    "rps": 0.4748,
     "form1": [
       {
         "date": "2026-03-31",
@@ -4087,9 +4617,9 @@
     "iso1": "py",
     "iso2": "au",
     "probs": [
-      0.3326,
-      0.3009,
-      0.3665
+      0.3156,
+      0.3123,
+      0.3721
     ],
     "pred_score": [
       1,
@@ -4109,19 +4639,19 @@
       1.4
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.0186
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0064
+          "delta": -0.0263
         },
         {
           "factor": "form",
-          "delta": -0.0016
+          "delta": -0.0256
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0171
         },
         {
           "factor": "context",
@@ -4155,7 +4685,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1225,
+    "rps": 0.119,
     "form1": [
       {
         "date": "2026-03-27",
@@ -4262,9 +4792,9 @@
     "iso1": "cw",
     "iso2": "ci",
     "probs": [
-      0.1458,
-      0.2146,
-      0.6396
+      0.1417,
+      0.2137,
+      0.6445
     ],
     "pred_score": [
       1,
@@ -4284,19 +4814,19 @@
       2.4
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2093
+          "delta": -0.2209
         },
         {
           "factor": "form",
-          "delta": 0.0139
+          "delta": 0.0207
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "context",
@@ -4330,7 +4860,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0756,
+    "rps": 0.0732,
     "form1": [
       {
         "date": "2026-03-31",
@@ -4437,9 +4967,9 @@
     "iso1": "ec",
     "iso2": "de",
     "probs": [
-      0.3028,
-      0.2783,
-      0.419
+      0.3024,
+      0.2694,
+      0.4281
     ],
     "pred_score": [
       1,
@@ -4459,19 +4989,19 @@
       3.0
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.0888
+          "delta": -0.0821
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "form",
-          "delta": -0.0077
+          "delta": 0.0007
         },
         {
           "factor": "context",
@@ -4505,7 +5035,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.3308,
+    "rps": 0.3349,
     "form1": [
       {
         "date": "2026-03-31",
@@ -4612,9 +5142,9 @@
     "iso1": "jp",
     "iso2": "se",
     "probs": [
-      0.6639,
-      0.2077,
-      0.1284
+      0.6632,
+      0.2101,
+      0.1267
     ],
     "pred_score": [
       2,
@@ -4634,23 +5164,23 @@
       1.4
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2627
+          "delta": 0.2649
         },
         {
           "factor": "form",
-          "delta": 0.0178
+          "delta": 0.0314
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "altitude",
-          "delta": -0.0008
+          "delta": -0.0041
         },
         {
           "factor": "context",
@@ -4685,7 +5215,7 @@
     "actual_outcome": 1,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.2286,
+    "rps": 0.2279,
     "form1": [
       {
         "date": "2026-03-28",
@@ -4792,9 +5322,9 @@
     "iso1": "tn",
     "iso2": "nl",
     "probs": [
-      0.0717,
-      0.1441,
-      0.7842
+      0.0703,
+      0.1412,
+      0.7885
     ],
     "pred_score": [
       1,
@@ -4814,23 +5344,23 @@
       1.6
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.3103
-        },
-        {
-          "factor": "form",
-          "delta": 0.0385
+          "delta": -0.3194
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
+        },
+        {
+          "factor": "form",
+          "delta": 0.0133
         },
         {
           "factor": "altitude",
-          "delta": -0.0008
+          "delta": -0.0034
         },
         {
           "factor": "context",
@@ -4860,7 +5390,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0259,
+    "rps": 0.0248,
     "form1": [
       {
         "date": "2026-03-31",
@@ -4967,9 +5497,9 @@
     "iso1": "ma",
     "iso2": "ht",
     "probs": [
-      0.7644,
-      0.1584,
-      0.0772
+      0.757,
+      0.1675,
+      0.0755
     ],
     "pred_score": [
       2,
@@ -4989,23 +5519,23 @@
       0.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.3342
+          "delta": 0.3361
         },
         {
           "factor": "rest",
-          "delta": -0.0099
-        },
-        {
-          "factor": "form",
-          "delta": -0.005
+          "delta": -0.0171
         },
         {
           "factor": "altitude",
-          "delta": 0.0005
+          "delta": -0.001
+        },
+        {
+          "factor": "form",
+          "delta": -0.0002
         },
         {
           "factor": "context",
@@ -5040,7 +5570,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0307,
+    "rps": 0.0324,
     "form1": [
       {
         "date": "2026-05-26",
@@ -5147,9 +5677,9 @@
     "iso1": "gb-sct",
     "iso2": "br",
     "probs": [
-      0.1496,
-      0.2215,
-      0.629
+      0.1422,
+      0.2278,
+      0.63
     ],
     "pred_score": [
       1,
@@ -5169,19 +5699,19 @@
       2.6
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2207
+          "delta": -0.2209
         },
         {
           "factor": "form",
-          "delta": -0.031
+          "delta": -0.0365
         },
         {
           "factor": "rest",
-          "delta": -0.0099
+          "delta": -0.0171
         },
         {
           "factor": "context",
@@ -5215,7 +5745,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.08,
+    "rps": 0.0785,
     "form1": [
       {
         "date": "2026-03-31",
@@ -5322,9 +5852,9 @@
     "iso1": "ba",
     "iso2": "qa",
     "probs": [
-      0.5361,
-      0.2493,
-      0.2146
+      0.5318,
+      0.2492,
+      0.2189
     ],
     "pred_score": [
       2,
@@ -5344,19 +5874,19 @@
       0.4
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.1066
-        },
-        {
-          "factor": "form",
-          "delta": 0.0288
+          "delta": 0.1206
         },
         {
           "factor": "rest",
-          "delta": -0.0064
+          "delta": -0.0171
+        },
+        {
+          "factor": "form",
+          "delta": 0.0141
         },
         {
           "factor": "context",
@@ -5395,7 +5925,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1306,
+    "rps": 0.1335,
     "form1": [
       {
         "date": "2026-03-31",
@@ -5494,186 +6024,6 @@
   {
     "number": 49456,
     "date": "2026-06-24",
-    "round": "Group stage",
-    "venue": "BC Place",
-    "city": "Vancouver",
-    "team1": "Canada",
-    "team2": "Switzerland",
-    "iso1": "ca",
-    "iso2": "ch",
-    "probs": [
-      0.4176,
-      0.2964,
-      0.286
-    ],
-    "pred_score": [
-      1,
-      1
-    ],
-    "pred_outcome": 1,
-    "exp_goals": [
-      1.42,
-      1.06
-    ],
-    "elo": [
-      1888,
-      1950
-    ],
-    "form": [
-      1.8,
-      1.8
-    ],
-    "explain": {
-      "baseline_home": 0.4028,
-      "contributions": [
-        {
-          "factor": "context",
-          "delta": 0.1283
-        },
-        {
-          "factor": "elo",
-          "delta": -0.0745
-        },
-        {
-          "factor": "form",
-          "delta": -0.0366
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0064
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0
-        }
-      ]
-    },
-    "squad": {
-      "home": 78.7,
-      "away": 93.9,
-      "home_big5": 11,
-      "away_big5": 24
-    },
-    "factors": [
-      {
-        "icon": "\ud83c\udfdf\ufe0f",
-        "text": "Host nation Canada at home",
-        "favors": "home"
-      },
-      {
-        "icon": "\u2b50",
-        "text": "Squad quality: Switzerland (24 top-5-league players)",
-        "favors": "away"
-      }
-    ],
-    "played": true,
-    "apparent_temp": 27,
-    "actual_score": [
-      1,
-      2
-    ],
-    "actual_outcome": 2,
-    "correct": false,
-    "exact_hit": false,
-    "rps": 0.3421,
-    "form1": [
-      {
-        "date": "2026-03-31",
-        "opp": "Tunisia",
-        "opp_iso": "tn",
-        "gf": 0,
-        "ga": 0,
-        "res": "D",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-01",
-        "opp": "Uzbekistan",
-        "opp_iso": "uz",
-        "gf": 2,
-        "ga": 0,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-05",
-        "opp": "Republic of Ireland",
-        "opp_iso": "un",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-12",
-        "opp": "Bosnia and Herzegovina",
-        "opp_iso": "ba",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-18",
-        "opp": "Qatar",
-        "opp_iso": "qa",
-        "gf": 6,
-        "ga": 0,
-        "res": "W",
-        "venue": "H"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-03-31",
-        "opp": "Norway",
-        "opp_iso": "no",
-        "gf": 0,
-        "ga": 0,
-        "res": "D",
-        "venue": "A"
-      },
-      {
-        "date": "2026-05-31",
-        "opp": "Jordan",
-        "opp_iso": "jo",
-        "gf": 4,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-06",
-        "opp": "Australia",
-        "opp_iso": "au",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-13",
-        "opp": "Qatar",
-        "opp_iso": "qa",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-18",
-        "opp": "Bosnia and Herzegovina",
-        "opp_iso": "ba",
-        "gf": 4,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      }
-    ]
-  },
-  {
-    "number": 49457,
-    "date": "2026-06-24",
     "round": "Matchday 14",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
@@ -5682,9 +6032,9 @@
     "iso1": "za",
     "iso2": "kr",
     "probs": [
-      0.1566,
-      0.256,
-      0.5874
+      0.1542,
+      0.2647,
+      0.5811
     ],
     "pred_score": [
       1,
@@ -5704,23 +6054,23 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2093
-        },
-        {
-          "factor": "form",
-          "delta": -0.0184
+          "delta": -0.2176
         },
         {
           "factor": "rest",
-          "delta": -0.0064
+          "delta": -0.0171
         },
         {
           "factor": "altitude",
-          "delta": 0.0056
+          "delta": -0.0062
+        },
+        {
+          "factor": "form",
+          "delta": -0.0017
         },
         {
           "factor": "context",
@@ -5755,7 +6105,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.5282,
+    "rps": 0.5265,
     "form1": [
       {
         "date": "2026-03-31",
@@ -5852,7 +6202,7 @@
     ]
   },
   {
-    "number": 49458,
+    "number": 49457,
     "date": "2026-06-24",
     "round": "Group stage",
     "venue": "Estadio Azteca",
@@ -5862,9 +6212,9 @@
     "iso1": "mx",
     "iso2": "cz",
     "probs": [
-      0.7567,
-      0.1711,
-      0.0722
+      0.7622,
+      0.1659,
+      0.0719
     ],
     "pred_score": [
       2,
@@ -5884,27 +6234,27 @@
       1.6
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2627
+          "delta": 0.2649
         },
         {
           "factor": "context",
-          "delta": 0.1283
+          "delta": 0.1258
         },
         {
           "factor": "form",
-          "delta": -0.0097
+          "delta": -0.0345
         },
         {
           "factor": "altitude",
-          "delta": -0.008
+          "delta": -0.0178
         },
         {
           "factor": "rest",
-          "delta": -0.0064
+          "delta": -0.0171
         }
       ]
     },
@@ -5935,7 +6285,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0322,
+    "rps": 0.0309,
     "form1": [
       {
         "date": "2026-05-22",
@@ -6032,6 +6382,186 @@
     ]
   },
   {
+    "number": 49458,
+    "date": "2026-06-24",
+    "round": "Group stage",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "team1": "Canada",
+    "team2": "Switzerland",
+    "iso1": "ca",
+    "iso2": "ch",
+    "probs": [
+      0.4109,
+      0.2996,
+      0.2895
+    ],
+    "pred_score": [
+      1,
+      1
+    ],
+    "pred_outcome": 1,
+    "exp_goals": [
+      1.41,
+      1.06
+    ],
+    "elo": [
+      1888,
+      1950
+    ],
+    "form": [
+      1.8,
+      1.8
+    ],
+    "explain": {
+      "baseline_home": 0.4056,
+      "contributions": [
+        {
+          "factor": "context",
+          "delta": 0.1258
+        },
+        {
+          "factor": "elo",
+          "delta": -0.0743
+        },
+        {
+          "factor": "form",
+          "delta": -0.0549
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0171
+        },
+        {
+          "factor": "altitude",
+          "delta": 0.0
+        }
+      ]
+    },
+    "squad": {
+      "home": 78.7,
+      "away": 93.9,
+      "home_big5": 11,
+      "away_big5": 24
+    },
+    "factors": [
+      {
+        "icon": "\ud83c\udfdf\ufe0f",
+        "text": "Host nation Canada at home",
+        "favors": "home"
+      },
+      {
+        "icon": "\u2b50",
+        "text": "Squad quality: Switzerland (24 top-5-league players)",
+        "favors": "away"
+      }
+    ],
+    "played": true,
+    "apparent_temp": 27,
+    "actual_score": [
+      1,
+      2
+    ],
+    "actual_outcome": 2,
+    "correct": false,
+    "exact_hit": false,
+    "rps": 0.3368,
+    "form1": [
+      {
+        "date": "2026-03-31",
+        "opp": "Tunisia",
+        "opp_iso": "tn",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Uzbekistan",
+        "opp_iso": "uz",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Republic of Ireland",
+        "opp_iso": "un",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-12",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Qatar",
+        "opp_iso": "qa",
+        "gf": 6,
+        "ga": 0,
+        "res": "W",
+        "venue": "H"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-03-31",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 0,
+        "ga": 0,
+        "res": "D",
+        "venue": "A"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Jordan",
+        "opp_iso": "jo",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "H"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Australia",
+        "opp_iso": "au",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-13",
+        "opp": "Qatar",
+        "opp_iso": "qa",
+        "gf": 1,
+        "ga": 1,
+        "res": "D",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-18",
+        "opp": "Bosnia and Herzegovina",
+        "opp_iso": "ba",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
+  },
+  {
     "number": 49449,
     "date": "2026-06-23",
     "round": "Matchday 13",
@@ -6042,9 +6572,9 @@
     "iso1": "pt",
     "iso2": "uz",
     "probs": [
-      0.6568,
-      0.2235,
-      0.1197
+      0.6543,
+      0.2244,
+      0.1213
     ],
     "pred_score": [
       2,
@@ -6052,7 +6582,7 @@
     ],
     "pred_outcome": 0,
     "exp_goals": [
-      1.81,
+      1.82,
       0.76
     ],
     "elo": [
@@ -6064,19 +6594,19 @@
       0.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2627
+          "delta": 0.2649
         },
         {
           "factor": "form",
-          "delta": -0.0179
+          "delta": -0.0257
         },
         {
           "factor": "rest",
-          "delta": -0.0064
+          "delta": -0.0171
         },
         {
           "factor": "context",
@@ -6115,7 +6645,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0661,
+    "rps": 0.0671,
     "form1": [
       {
         "date": "2026-03-28",
@@ -6222,9 +6752,9 @@
     "iso1": "co",
     "iso2": "cd",
     "probs": [
-      0.6907,
-      0.2082,
-      0.1011
+      0.6758,
+      0.224,
+      0.1002
     ],
     "pred_score": [
       2,
@@ -6244,23 +6774,23 @@
       1.6
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.3313
+          "delta": 0.3195
         },
         {
           "factor": "altitude",
-          "delta": -0.0232
+          "delta": -0.0332
         },
         {
           "factor": "form",
-          "delta": -0.0157
+          "delta": -0.0326
         },
         {
           "factor": "rest",
-          "delta": -0.0064
+          "delta": -0.0171
         },
         {
           "factor": "context",
@@ -6295,7 +6825,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0529,
+    "rps": 0.0576,
     "form1": [
       {
         "date": "2026-03-26",
@@ -6402,9 +6932,9 @@
     "iso1": "gb-eng",
     "iso2": "gh",
     "probs": [
-      0.8363,
-      0.1226,
-      0.0412
+      0.82,
+      0.1376,
+      0.0424
     ],
     "pred_score": [
       2,
@@ -6424,19 +6954,19 @@
       0.8
     ],
     "explain": {
-      "baseline_home": 0.4028,
+      "baseline_home": 0.4056,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.4297
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0064
+          "delta": 0.4082
         },
         {
           "factor": "form",
-          "delta": 0.0023
+          "delta": -0.0193
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0171
         },
         {
           "factor": "context",
@@ -6470,7 +7000,7 @@
     "actual_outcome": 1,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.3505,
+    "rps": 0.3371,
     "form1": [
       {
         "date": "2026-03-27",
@@ -6562,530 +7092,6 @@
         "gf": 1,
         "ga": 0,
         "res": "W",
-        "venue": "N"
-      }
-    ]
-  },
-  {
-    "number": 49452,
-    "date": "2026-06-23",
-    "round": "Matchday 13",
-    "venue": "BMO Field",
-    "city": "Toronto",
-    "team1": "Panama",
-    "team2": "Croatia",
-    "iso1": "pa",
-    "iso2": "hr",
-    "probs": [
-      0.2197,
-      0.2427,
-      0.5376
-    ],
-    "pred_score": [
-      1,
-      2
-    ],
-    "pred_outcome": 2,
-    "exp_goals": [
-      0.97,
-      1.55
-    ],
-    "elo": [
-      1807,
-      1938
-    ],
-    "form": [
-      1.4,
-      1.2
-    ],
-    "explain": {
-      "baseline_home": 0.4028,
-      "contributions": [
-        {
-          "factor": "elo",
-          "delta": -0.1184
-        },
-        {
-          "factor": "form",
-          "delta": 0.0325
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0064
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0034
-        },
-        {
-          "factor": "context",
-          "delta": 0.0
-        }
-      ]
-    },
-    "squad": {
-      "home": 50.3,
-      "away": 88.4,
-      "home_big5": 1,
-      "away_big5": 18
-    },
-    "factors": [
-      {
-        "icon": "\u2b50",
-        "text": "Squad quality: Croatia (18 top-5-league players)",
-        "favors": "away"
-      }
-    ],
-    "played": true,
-    "apparent_temp": 23,
-    "actual_score": [
-      0,
-      1
-    ],
-    "actual_outcome": 2,
-    "correct": true,
-    "exact_hit": false,
-    "rps": 0.131,
-    "form1": [
-      {
-        "date": "2026-03-31",
-        "opp": "South Africa",
-        "opp_iso": "za",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "A"
-      },
-      {
-        "date": "2026-05-31",
-        "opp": "Brazil",
-        "opp_iso": "br",
-        "gf": 2,
-        "ga": 6,
-        "res": "L",
-        "venue": "A"
-      },
-      {
-        "date": "2026-06-03",
-        "opp": "Dominican Republic",
-        "opp_iso": "un",
-        "gf": 4,
-        "ga": 2,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-06",
-        "opp": "Bosnia and Herzegovina",
-        "opp_iso": "ba",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-17",
-        "opp": "Ghana",
-        "opp_iso": "gh",
-        "gf": 0,
-        "ga": 1,
-        "res": "L",
-        "venue": "N"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-03-26",
-        "opp": "Colombia",
-        "opp_iso": "co",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-03-31",
-        "opp": "Brazil",
-        "opp_iso": "br",
-        "gf": 1,
-        "ga": 3,
-        "res": "L",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-02",
-        "opp": "Belgium",
-        "opp_iso": "be",
-        "gf": 0,
-        "ga": 2,
-        "res": "L",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-07",
-        "opp": "Slovenia",
-        "opp_iso": "un",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-17",
-        "opp": "England",
-        "opp_iso": "gb-eng",
-        "gf": 2,
-        "ga": 4,
-        "res": "L",
-        "venue": "N"
-      }
-    ]
-  },
-  {
-    "number": 49445,
-    "date": "2026-06-22",
-    "round": "Matchday 12",
-    "venue": "Lincoln Financial Field",
-    "city": "Philadelphia",
-    "team1": "France",
-    "team2": "Iraq",
-    "iso1": "fr",
-    "iso2": "iq",
-    "probs": [
-      0.816,
-      0.1426,
-      0.0414
-    ],
-    "pred_score": [
-      2,
-      0
-    ],
-    "pred_outcome": 0,
-    "exp_goals": [
-      2.39,
-      0.48
-    ],
-    "elo": [
-      2144,
-      1715
-    ],
-    "form": [
-      2.4,
-      1.4
-    ],
-    "explain": {
-      "baseline_home": 0.4028,
-      "contributions": [
-        {
-          "factor": "elo",
-          "delta": 0.4297
-        },
-        {
-          "factor": "form",
-          "delta": 0.0144
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0064
-        },
-        {
-          "factor": "context",
-          "delta": 0.0
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0
-        }
-      ]
-    },
-    "squad": {
-      "home": 95.2,
-      "away": 50.0,
-      "home_big5": 24,
-      "away_big5": 2
-    },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
-        "icon": "\u2b50",
-        "text": "Squad quality: France (24 top-5-league players)",
-        "favors": "home"
-      }
-    ],
-    "played": true,
-    "apparent_temp": 33,
-    "actual_score": [
-      3,
-      0
-    ],
-    "actual_outcome": 0,
-    "correct": true,
-    "exact_hit": false,
-    "rps": 0.0178,
-    "form1": [
-      {
-        "date": "2026-03-26",
-        "opp": "Brazil",
-        "opp_iso": "br",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-03-29",
-        "opp": "Colombia",
-        "opp_iso": "co",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-04",
-        "opp": "Ivory Coast",
-        "opp_iso": "ci",
-        "gf": 1,
-        "ga": 2,
-        "res": "L",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-08",
-        "opp": "Northern Ireland",
-        "opp_iso": "un",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "Senegal",
-        "opp_iso": "sn",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-03-31",
-        "opp": "Bolivia",
-        "opp_iso": "un",
-        "gf": 2,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-05-29",
-        "opp": "Andorra",
-        "opp_iso": "un",
-        "gf": 1,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-04",
-        "opp": "Spain",
-        "opp_iso": "es",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "A"
-      },
-      {
-        "date": "2026-06-09",
-        "opp": "Venezuela",
-        "opp_iso": "un",
-        "gf": 0,
-        "ga": 2,
-        "res": "L",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "Norway",
-        "opp_iso": "no",
-        "gf": 1,
-        "ga": 4,
-        "res": "L",
-        "venue": "N"
-      }
-    ]
-  },
-  {
-    "number": 49446,
-    "date": "2026-06-22",
-    "round": "Matchday 12",
-    "venue": "MetLife Stadium",
-    "city": "East Rutherford",
-    "team1": "Norway",
-    "team2": "Senegal",
-    "iso1": "no",
-    "iso2": "sn",
-    "probs": [
-      0.5189,
-      0.2661,
-      0.215
-    ],
-    "pred_score": [
-      2,
-      1
-    ],
-    "pred_outcome": 0,
-    "exp_goals": [
-      1.6,
-      0.95
-    ],
-    "elo": [
-      1992,
-      1892
-    ],
-    "form": [
-      1.6,
-      1.4
-    ],
-    "explain": {
-      "baseline_home": 0.4028,
-      "contributions": [
-        {
-          "factor": "elo",
-          "delta": 0.1304
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0064
-        },
-        {
-          "factor": "form",
-          "delta": 0.0024
-        },
-        {
-          "factor": "context",
-          "delta": 0.0
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0
-        }
-      ]
-    },
-    "squad": {
-      "home": 92.1,
-      "away": 91.0,
-      "home_big5": 19,
-      "away_big5": 20
-    },
-    "factors": [],
-    "played": true,
-    "apparent_temp": 23,
-    "actual_score": [
-      3,
-      2
-    ],
-    "actual_outcome": 0,
-    "correct": true,
-    "exact_hit": false,
-    "rps": 0.1388,
-    "form1": [
-      {
-        "date": "2026-03-27",
-        "opp": "Netherlands",
-        "opp_iso": "nl",
-        "gf": 1,
-        "ga": 2,
-        "res": "L",
-        "venue": "A"
-      },
-      {
-        "date": "2026-03-31",
-        "opp": "Switzerland",
-        "opp_iso": "ch",
-        "gf": 0,
-        "ga": 0,
-        "res": "D",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-01",
-        "opp": "Sweden",
-        "opp_iso": "se",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-06-07",
-        "opp": "Morocco",
-        "opp_iso": "ma",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "Iraq",
-        "opp_iso": "iq",
-        "gf": 4,
-        "ga": 1,
-        "res": "W",
-        "venue": "N"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-03-28",
-        "opp": "Peru",
-        "opp_iso": "un",
-        "gf": 2,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-03-31",
-        "opp": "Gambia",
-        "opp_iso": "un",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-05-31",
-        "opp": "United States",
-        "opp_iso": "us",
-        "gf": 2,
-        "ga": 3,
-        "res": "L",
-        "venue": "A"
-      },
-      {
-        "date": "2026-06-09",
-        "opp": "Saudi Arabia",
-        "opp_iso": "sa",
-        "gf": 0,
-        "ga": 0,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "France",
-        "opp_iso": "fr",
-        "gf": 1,
-        "ga": 3,
-        "res": "L",
         "venue": "N"
       }
     ]
