@@ -467,10 +467,14 @@
     ],
     "venue": "AT&T Stadium",
     "team1": {
-      "placeholder": "W83"
+      "team": "Portugal",
+      "iso": "pt",
+      "champion": 0.048
     },
     "team2": {
-      "placeholder": "W84"
+      "team": "Spain",
+      "iso": "es",
+      "champion": 0.1935
     },
     "score": null,
     "pens": null
@@ -528,7 +532,9 @@
     ],
     "venue": "BC Place",
     "team1": {
-      "placeholder": "W85"
+      "team": "Switzerland",
+      "iso": "ch",
+      "champion": 0.027
     },
     "team2": {
       "placeholder": "W87"
