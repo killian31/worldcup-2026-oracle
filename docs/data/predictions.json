@@ -15674,9 +15674,9 @@
     "iso1": "ca",
     "iso2": "ma",
     "probs": [
-      0.243,
-      0.3373,
-      0.4197
+      0.2138,
+      0.278,
+      0.5082
     ],
     "pred_score": [
       1,
@@ -15729,7 +15729,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -15739,7 +15739,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 39,
+    "apparent_temp": 41,
     "form1": [
       {
         "date": "2026-06-05",
@@ -15833,16 +15833,6 @@
         "res": "D",
         "venue": "N"
       }
-    ],
-    "model_probs": [
-      0.2138,
-      0.278,
-      0.5082
-    ],
-    "market_probs": [
-      0.26,
-      0.377,
-      0.363
     ]
   },
   {
@@ -15856,9 +15846,9 @@
     "iso1": "py",
     "iso2": "fr",
     "probs": [
-      0.076,
-      0.1645,
-      0.7595
+      0.078,
+      0.1661,
+      0.7559
     ],
     "pred_score": [
       1,
@@ -16022,9 +16012,9 @@
       0.6639
     ],
     "market_probs": [
-      0.0543,
-      0.1345,
-      0.8111
+      0.0568,
+      0.137,
+      0.8062
     ]
   },
   {
@@ -16038,9 +16028,9 @@
     "iso1": "mx",
     "iso2": "gb-eng",
     "probs": [
-      0.3406,
+      0.3407,
       0.3187,
-      0.3407
+      0.3406
     ],
     "pred_score": [
       1,
@@ -16209,9 +16199,9 @@
       0.2661
     ],
     "market_probs": [
-      0.3059,
-      0.2987,
-      0.3954
+      0.306,
+      0.2988,
+      0.3952
     ]
   },
   {
@@ -16225,9 +16215,9 @@
     "iso1": "br",
     "iso2": "no",
     "probs": [
-      0.5154,
-      0.2605,
-      0.2241
+      0.515,
+      0.2609,
+      0.2242
     ],
     "pred_score": [
       2,
@@ -16391,9 +16381,9 @@
       0.233
     ],
     "market_probs": [
-      0.5247,
-      0.257,
-      0.2183
+      0.524,
+      0.2576,
+      0.2184
     ]
   },
   {
@@ -16407,9 +16397,9 @@
     "iso1": "us",
     "iso2": "be",
     "probs": [
-      0.3537,
-      0.2816,
-      0.3646
+      0.354,
+      0.2819,
+      0.3641
     ],
     "pred_score": [
       1,
@@ -16573,9 +16563,9 @@
       0.3672
     ],
     "market_probs": [
-      0.3509,
-      0.2862,
-      0.3629
+      0.3515,
+      0.2866,
+      0.3619
     ]
   },
   {
@@ -16589,9 +16579,9 @@
     "iso1": "ar",
     "iso2": "eg",
     "probs": [
-      0.7345,
+      0.7346,
       0.1811,
-      0.0844
+      0.0843
     ],
     "pred_score": [
       2,
@@ -16644,7 +16634,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -16654,7 +16644,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 37,
+    "apparent_temp": 36,
     "form1": [
       {
         "date": "2026-06-09",
@@ -16755,9 +16745,9 @@
       0.0654
     ],
     "market_probs": [
-      0.7011,
+      0.7013,
       0.1996,
-      0.0993
+      0.0992
     ]
   },
   {
@@ -16771,9 +16761,9 @@
     "iso1": "pt",
     "iso2": "es",
     "probs": [
-      0.2222,
-      0.2669,
-      0.5109
+      0.2208,
+      0.2676,
+      0.5116
     ],
     "pred_score": [
       1,
@@ -16826,7 +16816,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -16836,7 +16826,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 41,
+    "apparent_temp": 40,
     "form1": [
       {
         "date": "2026-06-10",
@@ -16937,9 +16927,9 @@
       0.5306
     ],
     "market_probs": [
-      0.2392,
-      0.2635,
-      0.4972
+      0.2368,
+      0.2649,
+      0.4983
     ]
   },
   {
@@ -16953,9 +16943,9 @@
     "iso1": "ch",
     "iso2": "co",
     "probs": [
-      0.2761,
-      0.2953,
-      0.4286
+      0.2762,
+      0.2957,
+      0.4281
     ],
     "pred_score": [
       1,
@@ -17013,7 +17003,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 22,
+    "apparent_temp": 23,
     "form1": [
       {
         "date": "2026-06-06",
@@ -17114,9 +17104,9 @@
       0.431
     ],
     "market_probs": [
-      0.274,
-      0.2991,
-      0.4269
+      0.2741,
+      0.2998,
+      0.4261
     ]
   }
 ]
