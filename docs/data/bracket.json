@@ -525,10 +525,14 @@
     ],
     "venue": "Mercedes-Benz Stadium",
     "team1": {
-      "placeholder": "W86"
+      "team": "Argentina",
+      "iso": "ar",
+      "champion": 0.2129
     },
     "team2": {
-      "placeholder": "W88"
+      "team": "Egypt",
+      "iso": "eg",
+      "champion": 0.0042
     },
     "score": null,
     "pens": null
@@ -549,7 +553,9 @@
       "champion": 0.0219
     },
     "team2": {
-      "placeholder": "W87"
+      "team": "Colombia",
+      "iso": "co",
+      "champion": 0.0677
     },
     "score": null,
     "pens": null
