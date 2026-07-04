@@ -14489,7 +14489,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 27,
     "actual_score": [
       2,
       0
@@ -14831,15 +14831,9 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -15729,7 +15723,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -15739,7 +15733,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 41,
+    "apparent_temp": 40,
     "form1": [
       {
         "date": "2026-06-05",
@@ -15846,9 +15840,9 @@
     "iso1": "py",
     "iso2": "fr",
     "probs": [
-      0.0815,
-      0.1975,
-      0.721
+      0.0297,
+      0.1322,
+      0.8381
     ],
     "pred_score": [
       1,
@@ -15901,7 +15895,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -15911,7 +15905,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 40,
+    "apparent_temp": 41,
     "form1": [
       {
         "date": "2026-06-05",
@@ -16012,9 +16006,9 @@
       0.6639
     ],
     "market_probs": [
-      0.0618,
-      0.1848,
-      0.7534
+      0.0107,
+      0.0881,
+      0.9012
     ]
   },
   {
@@ -16028,9 +16022,9 @@
     "iso1": "mx",
     "iso2": "gb-eng",
     "probs": [
-      0.3409,
-      0.3185,
-      0.3405
+      0.3407,
+      0.3184,
+      0.3408
     ],
     "pred_score": [
       1,
@@ -16199,9 +16193,9 @@
       0.2661
     ],
     "market_probs": [
-      0.3063,
-      0.2986,
-      0.3952
+      0.306,
+      0.2983,
+      0.3957
     ]
   },
   {
@@ -16215,9 +16209,9 @@
     "iso1": "br",
     "iso2": "no",
     "probs": [
-      0.5151,
+      0.5152,
       0.2613,
-      0.2236
+      0.2235
     ],
     "pred_score": [
       2,
@@ -16381,9 +16375,9 @@
       0.233
     ],
     "market_probs": [
-      0.5242,
+      0.5244,
       0.2583,
-      0.2175
+      0.2173
     ]
   },
   {
@@ -16397,9 +16391,9 @@
     "iso1": "us",
     "iso2": "be",
     "probs": [
-      0.3538,
-      0.2818,
-      0.3644
+      0.3536,
+      0.2815,
+      0.3649
     ],
     "pred_score": [
       1,
@@ -16563,9 +16557,9 @@
       0.3672
     ],
     "market_probs": [
-      0.3511,
-      0.2864,
-      0.3624
+      0.3507,
+      0.286,
+      0.3633
     ]
   },
   {
@@ -16579,9 +16573,9 @@
     "iso1": "ar",
     "iso2": "eg",
     "probs": [
-      0.7302,
+      0.73,
       0.1833,
-      0.0866
+      0.0867
     ],
     "pred_score": [
       2,
@@ -16745,9 +16739,9 @@
       0.0654
     ],
     "market_probs": [
-      0.6932,
+      0.6929,
       0.2034,
-      0.1035
+      0.1037
     ]
   },
   {
@@ -16761,9 +16755,9 @@
     "iso1": "pt",
     "iso2": "es",
     "probs": [
-      0.2205,
-      0.2676,
-      0.5119
+      0.2209,
+      0.2674,
+      0.5117
     ],
     "pred_score": [
       1,
@@ -16927,9 +16921,9 @@
       0.5306
     ],
     "market_probs": [
-      0.2362,
-      0.2649,
-      0.4989
+      0.2369,
+      0.2645,
+      0.4986
     ]
   },
   {
@@ -16944,8 +16938,8 @@
     "iso2": "co",
     "probs": [
       0.2732,
-      0.2991,
-      0.4276
+      0.2993,
+      0.4275
     ],
     "pred_score": [
       1,
@@ -17105,8 +17099,8 @@
     ],
     "market_probs": [
       0.2692,
-      0.3055,
-      0.4253
+      0.3058,
+      0.425
     ]
   }
 ]
