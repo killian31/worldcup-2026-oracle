@@ -610,7 +610,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 23,
     "actual_score": [
       3,
       0
@@ -1494,7 +1494,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 27,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
