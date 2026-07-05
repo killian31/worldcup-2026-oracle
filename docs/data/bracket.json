@@ -577,10 +577,14 @@
     ],
     "venue": "Gillette Stadium",
     "team1": {
-      "placeholder": "W89"
+      "team": "France",
+      "iso": "fr",
+      "champion": 0.1693
     },
     "team2": {
-      "placeholder": "W90"
+      "team": "Morocco",
+      "iso": "ma",
+      "champion": 0.0931
     },
     "score": null,
     "pens": null

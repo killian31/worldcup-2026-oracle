@@ -14309,7 +14309,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 27,
     "actual_score": [
       2,
       0
@@ -14831,15 +14831,9 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -15728,13 +15722,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 40,
     "actual_score": [
       0,
       3
@@ -16029,9 +16028,9 @@
     "iso1": "mx",
     "iso2": "gb-eng",
     "probs": [
-      0.3364,
-      0.3179,
-      0.3457
+      0.3402,
+      0.3204,
+      0.3394
     ],
     "pred_score": [
       1,
@@ -16200,9 +16199,9 @@
       0.2853
     ],
     "market_probs": [
+      0.3141,
       0.3078,
-      0.3033,
-      0.3889
+      0.378
     ]
   },
   {
@@ -16216,9 +16215,9 @@
     "iso1": "br",
     "iso2": "no",
     "probs": [
-      0.5209,
-      0.2602,
-      0.2189
+      0.5233,
+      0.2604,
+      0.2163
     ],
     "pred_score": [
       2,
@@ -16271,7 +16270,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -16281,7 +16280,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 32,
+    "apparent_temp": 33,
     "form1": [
       {
         "date": "2026-06-06",
@@ -16382,9 +16381,9 @@
       0.2389
     ],
     "market_probs": [
-      0.5379,
-      0.256,
-      0.2061
+      0.5418,
+      0.2563,
+      0.2019
     ]
   },
   {
@@ -16399,8 +16398,8 @@
     "iso2": "eg",
     "probs": [
       0.7322,
-      0.182,
-      0.0858
+      0.1818,
+      0.0861
     ],
     "pred_score": [
       2,
@@ -16564,9 +16563,9 @@
       0.0635
     ],
     "market_probs": [
-      0.6927,
-      0.2034,
-      0.104
+      0.6926,
+      0.203,
+      0.1044
     ]
   },
   {
@@ -16580,9 +16579,9 @@
     "iso1": "ch",
     "iso2": "co",
     "probs": [
-      0.2739,
-      0.3028,
-      0.4233
+      0.2746,
+      0.3024,
+      0.423
     ],
     "pred_score": [
       1,
@@ -16741,9 +16740,9 @@
       0.4246
     ],
     "market_probs": [
-      0.2685,
-      0.3092,
-      0.4222
+      0.2696,
+      0.3085,
+      0.4218
     ]
   },
   {
@@ -16757,8 +16756,8 @@
     "iso1": "pt",
     "iso2": "es",
     "probs": [
-      0.2258,
-      0.2667,
+      0.2254,
+      0.267,
       0.5076
     ],
     "pred_score": [
@@ -16923,9 +16922,9 @@
       0.5208
     ],
     "market_probs": [
-      0.2405,
-      0.2613,
-      0.4982
+      0.2398,
+      0.2619,
+      0.4983
     ]
   },
   {
@@ -16939,9 +16938,9 @@
     "iso1": "us",
     "iso2": "be",
     "probs": [
-      0.3707,
-      0.2772,
-      0.3521
+      0.3608,
+      0.2771,
+      0.3621
     ],
     "pred_score": [
       1,
@@ -17105,15 +17104,15 @@
       0.3628
     ],
     "market_probs": [
-      0.376,
-      0.2789,
-      0.3451
+      0.3596,
+      0.2788,
+      0.3616
     ]
   },
   {
     "number": 49501,
     "date": "2026-07-09",
-    "round": "Group stage",
+    "round": "Quarter-final",
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "team1": "France",
@@ -17121,9 +17120,9 @@
     "iso1": "fr",
     "iso2": "ma",
     "probs": [
-      0.557,
-      0.2635,
-      0.1795
+      0.5569,
+      0.2633,
+      0.1798
     ],
     "pred_score": [
       1,
@@ -17287,9 +17286,9 @@
       0.2282
     ],
     "market_probs": [
-      0.6062,
-      0.243,
-      0.1508
+      0.6059,
+      0.2428,
+      0.1513
     ]
   }
 ]
