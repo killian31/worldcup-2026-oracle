@@ -14839,7 +14839,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 23,
+    "apparent_temp": null,
     "actual_score": [
       3,
       0
@@ -15019,7 +15019,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 13,
     "actual_score": [
       2,
       0
@@ -16399,9 +16399,9 @@
     "iso1": "us",
     "iso2": "be",
     "probs": [
-      0.3663,
-      0.275,
-      0.3588
+      0.37,
+      0.2762,
+      0.3538
     ],
     "pred_score": [
       1,
@@ -16464,7 +16464,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 28,
+    "apparent_temp": 27,
     "form1": [
       {
         "date": "2026-06-06",
@@ -16565,9 +16565,9 @@
       0.3747
     ],
     "market_probs": [
-      0.3745,
-      0.2772,
-      0.3483
+      0.3806,
+      0.2792,
+      0.3401
     ]
   },
   {
@@ -16581,9 +16581,9 @@
     "iso1": "ar",
     "iso2": "eg",
     "probs": [
-      0.7283,
-      0.1847,
-      0.087
+      0.7312,
+      0.1832,
+      0.0857
     ],
     "pred_score": [
       2,
@@ -16636,7 +16636,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -16646,7 +16646,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 34,
+    "apparent_temp": 36,
     "form1": [
       {
         "date": "2026-06-09",
@@ -16747,9 +16747,9 @@
       0.0658
     ],
     "market_probs": [
-      0.6925,
-      0.2035,
-      0.1039
+      0.6977,
+      0.2008,
+      0.1015
     ]
   },
   {
@@ -16763,9 +16763,9 @@
     "iso1": "pt",
     "iso2": "es",
     "probs": [
-      0.22,
-      0.2686,
-      0.5114
+      0.2194,
+      0.2689,
+      0.5117
     ],
     "pred_score": [
       1,
@@ -16929,9 +16929,9 @@
       0.5267
     ],
     "market_probs": [
-      0.2344,
-      0.2649,
-      0.5007
+      0.2333,
+      0.2655,
+      0.5012
     ]
   },
   {
@@ -16945,9 +16945,9 @@
     "iso1": "ch",
     "iso2": "co",
     "probs": [
-      0.2762,
-      0.3035,
-      0.4202
+      0.2747,
+      0.3033,
+      0.422
     ],
     "pred_score": [
       1,
@@ -17106,9 +17106,9 @@
       0.4295
     ],
     "market_probs": [
-      0.2746,
-      0.3114,
-      0.414
+      0.2721,
+      0.3109,
+      0.4169
     ]
   },
   {
@@ -17122,9 +17122,9 @@
     "iso1": "fr",
     "iso2": "ma",
     "probs": [
-      0.5529,
-      0.2695,
-      0.1776
+      0.554,
+      0.2687,
+      0.1773
     ],
     "pred_score": [
       1,
@@ -17176,18 +17176,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": false,
-    "apparent_temp": 33,
+    "apparent_temp": 29,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17288,15 +17283,15 @@
       0.2211
     ],
     "market_probs": [
-      0.6031,
-      0.2455,
-      0.1514
+      0.6049,
+      0.2443,
+      0.1509
     ]
   },
   {
     "number": 49502,
     "date": "2026-07-11",
-    "round": "Group stage",
+    "round": "Quarter-final",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "team1": "Norway",
@@ -17304,9 +17299,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.266,
-      0.2704,
-      0.4636
+      0.2612,
+      0.2658,
+      0.4731
     ],
     "pred_score": [
       1,
@@ -17470,9 +17465,9 @@
       0.4295
     ],
     "market_probs": [
-      0.2437,
-      0.2704,
-      0.4859
+      0.2359,
+      0.2623,
+      0.5018
     ]
   }
 ]

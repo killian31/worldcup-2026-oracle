@@ -625,10 +625,14 @@
     ],
     "venue": "Hard Rock Stadium",
     "team1": {
-      "placeholder": "W91"
+      "team": "Norway",
+      "iso": "no",
+      "champion": 0.0936
     },
     "team2": {
-      "placeholder": "W92"
+      "team": "England",
+      "iso": "gb-eng",
+      "champion": 0.1389
     },
     "score": null,
     "pens": null
