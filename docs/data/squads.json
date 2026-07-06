@@ -5,7 +5,7 @@
     "strength": 99.2,
     "n_big5": 25,
     "avg_age": 27.2,
-    "champion": 0.1451,
+    "champion": 0.1434,
     "players": [
       {
         "name": "Jordan Pickford",
@@ -223,7 +223,7 @@
     "strength": 98.3,
     "n_big5": 26,
     "avg_age": 26.8,
-    "champion": 0.1723,
+    "champion": 0.2628,
     "players": [
       {
         "name": "David Raya",
@@ -659,7 +659,7 @@
     "strength": 95.2,
     "n_big5": 24,
     "avg_age": 27.1,
-    "champion": 0.1655,
+    "champion": 0.1515,
     "players": [
       {
         "name": "Brice Samba",
@@ -1095,7 +1095,7 @@
     "strength": 93.9,
     "n_big5": 24,
     "avg_age": 28.4,
-    "champion": 0.0192,
+    "champion": 0.0173,
     "players": [
       {
         "name": "Gregor Kobel",
@@ -1313,7 +1313,7 @@
     "strength": 92.8,
     "n_big5": 20,
     "avg_age": 29.2,
-    "champion": 0.1971,
+    "champion": 0.1889,
     "players": [
       {
         "name": "Juan Musso",
@@ -1531,7 +1531,7 @@
     "strength": 92.1,
     "n_big5": 19,
     "avg_age": 26.9,
-    "champion": 0.0796,
+    "champion": 0.0708,
     "players": [
       {
         "name": "\u00d8rjan Nyland",
@@ -1749,7 +1749,7 @@
     "strength": 91.8,
     "n_big5": 20,
     "avg_age": 27.7,
-    "champion": 0.0198,
+    "champion": 0.016,
     "players": [
       {
         "name": "Thibaut Courtois",
@@ -2621,7 +2621,7 @@
     "strength": 89.6,
     "n_big5": 17,
     "avg_age": 28.1,
-    "champion": 0.0415,
+    "champion": 0.0,
     "players": [
       {
         "name": "Diogo Costa",
@@ -3711,7 +3711,7 @@
     "strength": 85.3,
     "n_big5": 15,
     "avg_age": 26.5,
-    "champion": 0.0889,
+    "champion": 0.0831,
     "players": [
       {
         "name": "Yassine Bounou",
@@ -3929,7 +3929,7 @@
     "strength": 84.2,
     "n_big5": 14,
     "avg_age": 27.0,
-    "champion": 0.0049,
+    "champion": 0.0037,
     "players": [
       {
         "name": "Matt Turner",
@@ -5237,7 +5237,7 @@
     "strength": 76.0,
     "n_big5": 9,
     "avg_age": 30.2,
-    "champion": 0.0624,
+    "champion": 0.0589,
     "players": [
       {
         "name": "David Ospina",
@@ -8507,7 +8507,7 @@
     "strength": 57.6,
     "n_big5": 5,
     "avg_age": 29.1,
-    "champion": 0.0037,
+    "champion": 0.0036,
     "players": [
       {
         "name": "Mohamed El Shenawy",
