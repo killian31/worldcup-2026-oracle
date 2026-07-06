@@ -5,7 +5,7 @@
     "strength": 99.2,
     "n_big5": 25,
     "avg_age": 27.2,
-    "champion": 0.0762,
+    "champion": 0.1293,
     "players": [
       {
         "name": "Jordan Pickford",
@@ -117,7 +117,7 @@
         "club": "Brentford FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 36.0
+        "age": 36.1
       },
       {
         "name": "Dan Burn",
@@ -223,7 +223,7 @@
     "strength": 98.3,
     "n_big5": 26,
     "avg_age": 26.8,
-    "champion": 0.1773,
+    "champion": 0.1766,
     "players": [
       {
         "name": "David Raya",
@@ -399,7 +399,7 @@
         "club": "FC Barcelona",
         "club_country": "ESP",
         "league": 96,
-        "age": 19.4
+        "age": 19.5
       },
       {
         "name": "Unai Sim\u00f3n",
@@ -440,7 +440,7 @@
     "iso": "nl",
     "strength": 96.9,
     "n_big5": 22,
-    "avg_age": 27.8,
+    "avg_age": 27.9,
     "champion": null,
     "players": [
       {
@@ -577,7 +577,7 @@
         "club": "Galatasaray SK",
         "club_country": "TUR",
         "league": 66,
-        "age": 27.0
+        "age": 27.1
       },
       {
         "name": "Donyell Malen",
@@ -601,7 +601,7 @@
         "club": "Juventus FC",
         "club_country": "ITA",
         "league": 90,
-        "age": 28.3
+        "age": 28.4
       },
       {
         "name": "Frenkie de Jong",
@@ -649,7 +649,7 @@
         "club": "Olympique Marseille",
         "club_country": "FRA",
         "league": 85,
-        "age": 25.0
+        "age": 25.1
       }
     ]
   },
@@ -659,7 +659,7 @@
     "strength": 95.2,
     "n_big5": 24,
     "avg_age": 27.1,
-    "champion": 0.1701,
+    "champion": 0.17,
     "players": [
       {
         "name": "Brice Samba",
@@ -1095,7 +1095,7 @@
     "strength": 93.9,
     "n_big5": 24,
     "avg_age": 28.4,
-    "champion": 0.0224,
+    "champion": 0.0211,
     "players": [
       {
         "name": "Gregor Kobel",
@@ -1313,7 +1313,7 @@
     "strength": 92.8,
     "n_big5": 20,
     "avg_age": 29.2,
-    "champion": 0.2128,
+    "champion": 0.208,
     "players": [
       {
         "name": "Juan Musso",
@@ -1377,7 +1377,7 @@
         "club": "RC Strasbourg",
         "club_country": "FRA",
         "league": 85,
-        "age": 21.9
+        "age": 22.0
       },
       {
         "name": "Juli\u00e1n Alvarez",
@@ -1425,7 +1425,7 @@
         "club": "Bayer 04 Leverkusen",
         "club_country": "GER",
         "league": 90,
-        "age": 27.7
+        "age": 27.8
       },
       {
         "name": "Nicol\u00e1s Gonz\u00e1lez",
@@ -1531,7 +1531,7 @@
     "strength": 92.1,
     "n_big5": 19,
     "avg_age": 26.9,
-    "champion": 0.0672,
+    "champion": 0.0633,
     "players": [
       {
         "name": "\u00d8rjan Nyland",
@@ -1611,7 +1611,7 @@
         "club": "Arsenal FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 27.5
+        "age": 27.6
       },
       {
         "name": "J\u00f8rgen Strand Larsen",
@@ -1749,7 +1749,7 @@
     "strength": 91.8,
     "n_big5": 20,
     "avg_age": 27.7,
-    "champion": 0.0213,
+    "champion": 0.0207,
     "players": [
       {
         "name": "Thibaut Courtois",
@@ -1757,7 +1757,7 @@
         "club": "Real Madrid C. F.",
         "club_country": "ESP",
         "league": 96,
-        "age": 34.1
+        "age": 34.2
       },
       {
         "name": "Zeno Debast",
@@ -1983,7 +1983,7 @@
         "club": "Chelsea FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 20.8
+        "age": 20.9
       },
       {
         "name": "Kalidou Koulibaly",
@@ -2063,7 +2063,7 @@
         "club": "Samsunspor",
         "club_country": "TUR",
         "league": 66,
-        "age": 30.4
+        "age": 30.5
       },
       {
         "name": "Iliman Ndiaye",
@@ -2499,7 +2499,7 @@
         "club": "Rangers FC",
         "club_country": "SCO",
         "league": 58,
-        "age": 30.4
+        "age": 30.5
       },
       {
         "name": "Jack Hendry",
@@ -2621,7 +2621,7 @@
     "strength": 89.6,
     "n_big5": 17,
     "avg_age": 28.1,
-    "champion": 0.0442,
+    "champion": 0.0427,
     "players": [
       {
         "name": "Diogo Costa",
@@ -2887,7 +2887,7 @@
         "club": "AFC Ajax",
         "club_country": "NED",
         "league": 76,
-        "age": 26.3
+        "age": 26.4
       },
       {
         "name": "Nikola Moro",
@@ -3711,7 +3711,7 @@
     "strength": 85.3,
     "n_big5": 15,
     "avg_age": 26.5,
-    "champion": 0.0979,
+    "champion": 0.0918,
     "players": [
       {
         "name": "Yassine Bounou",
@@ -3719,7 +3719,7 @@
         "club": "Al Hilal SC",
         "club_country": "KSA",
         "league": 66,
-        "age": 35.2
+        "age": 35.3
       },
       {
         "name": "Achraf Hakimi",
@@ -3847,7 +3847,7 @@
         "club": "Angers SCO",
         "club_country": "FRA",
         "league": 85,
-        "age": 24.5
+        "age": 24.6
       },
       {
         "name": "Chadi Riad",
@@ -3855,7 +3855,7 @@
         "club": "Crystal Palace FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 23.0
+        "age": 23.1
       },
       {
         "name": "Youssef Belammari",
@@ -3887,7 +3887,7 @@
         "club": "ASFAR",
         "club_country": "MAR",
         "league": 50,
-        "age": 30.2
+        "age": 30.3
       },
       {
         "name": "Bilal El Khannouss",
@@ -3929,7 +3929,7 @@
     "strength": 84.2,
     "n_big5": 14,
     "avg_age": 27.0,
-    "champion": 0.0058,
+    "champion": 0.005,
     "players": [
       {
         "name": "Matt Turner",
@@ -4033,7 +4033,7 @@
         "club": "Charlotte FC",
         "club_country": "USA",
         "league": 60,
-        "age": 38.7
+        "age": 38.8
       },
       {
         "name": "Sebastian Berhalter",
@@ -4275,7 +4275,7 @@
         "club": "FC Noah",
         "club_country": "ARM",
         "league": 45,
-        "age": 26.9
+        "age": 27.0
       },
       {
         "name": "C\u00e9dric Bakambu",
@@ -4339,7 +4339,7 @@
         "club": "Aris Limassol FC",
         "club_country": "CYP",
         "league": 45,
-        "age": 28.8
+        "age": 28.9
       },
       {
         "name": "Edo Kayembe",
@@ -4533,7 +4533,7 @@
         "club": "FC Bayern M\u00fcnchen",
         "club_country": "GER",
         "league": 90,
-        "age": 27.1
+        "age": 27.2
       },
       {
         "name": "Takehiro Tomiyasu",
@@ -4743,7 +4743,7 @@
         "club": "Be\u015fikta\u015f JK",
         "club_country": "TUR",
         "league": 66,
-        "age": 29.0
+        "age": 29.1
       },
       {
         "name": "Evan Ndicka",
@@ -5237,7 +5237,7 @@
     "strength": 76.0,
     "n_big5": 9,
     "avg_age": 30.2,
-    "champion": 0.0691,
+    "champion": 0.0672,
     "players": [
       {
         "name": "David Ospina",
@@ -5309,7 +5309,7 @@
         "club": "FC Krasnodar",
         "club_country": "RUS",
         "league": 60,
-        "age": 33.1
+        "age": 33.2
       },
       {
         "name": "James Rodr\u00edguez",
@@ -5705,7 +5705,7 @@
         "club": "US Sassuolo",
         "club_country": "ITA",
         "league": 90,
-        "age": 23.3
+        "age": 23.4
       },
       {
         "name": "Sead Kola\u0161inac",
@@ -6067,7 +6067,7 @@
         "club": "Galatasaray SK",
         "club_country": "TUR",
         "league": 66,
-        "age": 31.6
+        "age": 31.7
       },
       {
         "name": "U\u011furcan \u00c7ak\u0131r",
@@ -6075,7 +6075,7 @@
         "club": "Galatasaray SK",
         "club_country": "TUR",
         "league": 66,
-        "age": 30.2
+        "age": 30.3
       },
       {
         "name": "O\u011fuz Ayd\u0131n",
@@ -6503,7 +6503,7 @@
         "club": "LDU Quito",
         "club_country": "ECU",
         "league": 54,
-        "age": 30.3
+        "age": 30.4
       },
       {
         "name": "Mois\u00e9s Caicedo",
@@ -6803,7 +6803,7 @@
         "club": "FC Lugano",
         "club_country": "SUI",
         "league": 60,
-        "age": 27.3
+        "age": 27.4
       },
       {
         "name": "Carl Saint\u00e9",
@@ -7093,7 +7093,7 @@
         "club": "Vancouver Whitecaps FC",
         "club_country": "CAN",
         "league": 48,
-        "age": 30.1
+        "age": 30.2
       },
       {
         "name": "Gustavo G\u00f3mez",
@@ -7133,7 +7133,7 @@
         "club": "RC Strasbourg",
         "club_country": "FRA",
         "league": 85,
-        "age": 22.4
+        "age": 22.5
       },
       {
         "name": "Braian Ojeda",
@@ -7399,7 +7399,7 @@
         "club": "Newcastle United Jets FC",
         "club_country": "AUS",
         "league": 50,
-        "age": 23.9
+        "age": 24.0
       },
       {
         "name": "Tommy Smith",
@@ -7593,7 +7593,7 @@
         "club": "FC Den Bosch",
         "club_country": "NED",
         "league": 76,
-        "age": 26.6
+        "age": 26.7
       },
       {
         "name": "Riechedly Bazoer",
@@ -7651,7 +7651,7 @@
         "club": "FC Midtjylland",
         "club_country": "DEN",
         "league": 58,
-        "age": 24.0
+        "age": 24.1
       },
       {
         "name": "Lee Gi-hyuk",
@@ -8071,7 +8071,7 @@
     "strength": 63.0,
     "n_big5": 5,
     "avg_age": 28.0,
-    "champion": 0.0316,
+    "champion": 0.0,
     "players": [
       {
         "name": "Ra\u00fal Rangel",
@@ -8279,7 +8279,7 @@
         "club": "CD Guadalajara",
         "club_country": "MEX",
         "league": 60,
-        "age": 23.0
+        "age": 23.1
       }
     ]
   },
@@ -8288,7 +8288,7 @@
     "iso": "cv",
     "strength": 59.2,
     "n_big5": 1,
-    "avg_age": 29.7,
+    "avg_age": 29.8,
     "champion": null,
     "players": [
       {
@@ -8321,7 +8321,7 @@
         "club": "Shamrock Rovers FC",
         "club_country": "IRL",
         "league": 45,
-        "age": 34.0
+        "age": 34.1
       },
       {
         "name": "Logan Costa",
@@ -8507,7 +8507,7 @@
     "strength": 57.6,
     "n_big5": 5,
     "avg_age": 29.1,
-    "champion": 0.0041,
+    "champion": 0.0042,
     "players": [
       {
         "name": "Mohamed El Shenawy",
@@ -9475,7 +9475,7 @@
         "club": "AEL Limassol",
         "club_country": "CYP",
         "league": 45,
-        "age": 22.6
+        "age": 22.7
       },
       {
         "name": "Sphephelo Sithole",
@@ -10121,7 +10121,7 @@
         "club": "Persepolis FC",
         "club_country": "IRN",
         "league": 50,
-        "age": 30.6
+        "age": 30.7
       },
       {
         "name": "Payam Niazmand",
@@ -10153,7 +10153,7 @@
         "club": "Esteghlal Tehran FC",
         "club_country": "IRN",
         "league": 50,
-        "age": 32.9
+        "age": 33.0
       },
       {
         "name": "Mehdi Torabi",
