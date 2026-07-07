@@ -612,10 +612,14 @@
     ],
     "venue": "SoFi Stadium",
     "team1": {
-      "placeholder": "W93"
+      "team": "Spain",
+      "iso": "es",
+      "champion": 0.2513
     },
     "team2": {
-      "placeholder": "W94"
+      "team": "Belgium",
+      "iso": "be",
+      "champion": 0.0423
     },
     "score": null,
     "pens": null
