@@ -40,13 +40,24 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data
-          git diff --staged --quiet && { echo "no data changes"; exit 0; }
-          git commit -m "data: auto-refresh $(date -u +%FT%TZ)"
-          # web.yml can push concurrently on the same commit — rebase + retry instead of losing the race
+          # Nothing built differently from what we already have on this commit → done.
+          git diff --quiet -- docs/data && { echo "no data changes"; exit 0; }
+          # docs/data holds regenerated artifacts, so OUR fresh build is always
+          # authoritative — never merge/rebase it (that conflicts line-by-line
+          # against a concurrent run that rebuilt the same JSON). Instead, on each
+          # attempt, reset onto the latest main and lay our fresh data back on top.
+          # This also survives job re-runs, which check out the original SHA.
+          tmp="$(mktemp -d)"
+          cp -a docs/data/. "$tmp"/
           for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            rm -rf docs/data && mkdir -p docs/data
+            cp -a "$tmp"/. docs/data/
+            git add docs/data
+            git diff --staged --quiet && { echo "data already up to date on main"; exit 0; }
+            git commit -m "data: auto-refresh $(date -u +%FT%TZ)"
             git push && exit 0
-            echo "push rejected; rebasing on latest main and retrying…"
-            git pull --rebase --autostash
+            echo "push rejected; syncing with latest main and retrying…"
           done
-          git push
+          echo "::error::push still rejected after 5 attempts"; exit 1
