@@ -65,7 +65,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -75,7 +75,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 37,
+    "apparent_temp": 36,
     "actual_score": [
       3,
       2
@@ -250,7 +250,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 23,
+    "apparent_temp": 21,
     "actual_score": [
       0,
       0
@@ -779,13 +779,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Norway (19 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 30,
     "actual_score": [
       1,
       2
@@ -970,7 +975,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 19,
+    "apparent_temp": null,
     "actual_score": [
       2,
       3
@@ -2045,7 +2050,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 23,
+    "apparent_temp": null,
     "actual_score": [
       3,
       0
