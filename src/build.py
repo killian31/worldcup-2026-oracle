@@ -62,15 +62,32 @@ def _standings(wc):
     return out
 
 
-def _bracket(wc, odds):
+def _bracket(wc, odds, played_scores):
     """Emit each KO match with its feeder matches and bracket half, reconstructed
     even after openfootball resolves W##/L## placeholders to team names (so the
-    tree never loses played matches). feeders=[] for Round-of-32."""
+    tree never loses played matches). feeders=[] for Round-of-32.
+
+    openfootball drives the *tree* (W##/L## advancement + shootout scores), but
+    its full-time scores lag and go stale, so a played match's scoreline is taken
+    from the authoritative results feed (`played_scores`, from martj42 via the
+    predictions) — oriented to this match's team1/team2 — falling back to
+    openfootball only when that feed has no record."""
     by = {m["number"]: m for m in wc if m["number"] >= 73}
+
+    def score_of(m):
+        """Final score as [team1, team2], preferring the authoritative result."""
+        if not teams.is_placeholder(m["team1"]) and not teams.is_placeholder(m["team2"]):
+            rec = played_scores.get((m["date"], frozenset((m["team1"], m["team2"]))))
+            if rec:
+                (a, b), sc = rec
+                return list(sc) if (m["team1"], m["team2"]) == (a, b) else [sc[1], sc[0]]
+        return [m["home_score"], m["away_score"]] if m["home_score"] is not None else None
+
+    score = {n: score_of(m) for n, m in by.items()}
     winner, loser = {}, {}
     for n, m in by.items():
-        if m["home_score"] is not None:
-            hi = data.ko_home_won(m["home_score"], m["away_score"], m.get("pens"))
+        if score[n] is not None:
+            hi = data.ko_home_won(score[n][0], score[n][1], m.get("pens"))
             winner[n], loser[n] = (m["team1"], m["team2"]) if hi else (m["team2"], m["team1"])
     PREV = {"Round of 16": (range(73, 89), winner), "Quarter-final": (range(89, 97), winner),
             "Semi-final": (range(97, 101), winner), "Final": (range(101, 103), winner),
@@ -103,8 +120,7 @@ def _bracket(wc, odds):
     return [{"number": n, "round": by[n]["round"], "date": by[n]["date"], "half": half(n),
              "feeders": feeders[n], "venue": (venues.info(by[n]["venue"]) or {}).get("stadium"),
              "team1": slot(by[n]["team1"]), "team2": slot(by[n]["team2"]),
-             "score": ([by[n]["home_score"], by[n]["away_score"]]
-                       if by[n]["home_score"] is not None else None),
+             "score": score[n],
              "pens": by[n].get("pens")}
             for n in sorted(by)]
 
@@ -213,10 +229,17 @@ def main():
         "note": "Free-tier data; in-play scores may be delayed.",
     }
 
+    # authoritative played scores (martj42 via preds), keyed by date + unordered
+    # pair so the bracket's scoreline never disagrees with the Results tab
+    played_scores = {
+        (p["date"], frozenset((p["team1"], p["team2"]))): ((p["team1"], p["team2"]), p["actual_score"])
+        for p in preds if p["played"] and p.get("actual_score") is not None
+    }
+
     dump(preds, "predictions.json")
     dump(accuracy, "accuracy.json")
     dump(team_table, "championship.json")
-    dump(_bracket(wc, odds), "bracket.json")
+    dump(_bracket(wc, odds, played_scores), "bracket.json")
     dump(_standings(wc), "standings.json")
     dump(results, "results.json")
     dump(_history(df), "history.json")
