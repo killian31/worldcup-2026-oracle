@@ -667,10 +667,14 @@
     ],
     "venue": "Arrowhead Stadium",
     "team1": {
-      "placeholder": "W95"
+      "team": "Argentina",
+      "iso": "ar",
+      "champion": 0.2507
     },
     "team2": {
-      "placeholder": "W96"
+      "team": "Switzerland",
+      "iso": "ch",
+      "champion": 0.0387
     },
     "score": null,
     "pens": null
