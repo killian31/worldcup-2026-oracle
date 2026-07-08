@@ -17163,13 +17163,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 31\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 31,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17271,7 +17276,7 @@
     ],
     "market_probs": [
       0.6095,
-      0.2432,
+      0.2433,
       0.1472
     ]
   },
@@ -17286,9 +17291,9 @@
     "iso1": "es",
     "iso2": "be",
     "probs": [
-      0.6014,
-      0.237,
-      0.1616
+      0.6026,
+      0.2363,
+      0.1611
     ],
     "pred_score": [
       2,
@@ -17346,7 +17351,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 27,
     "form1": [
       {
         "date": "2026-06-15",
@@ -17447,9 +17452,9 @@
       0.1515
     ],
     "market_probs": [
-      0.5923,
-      0.2392,
-      0.1685
+      0.5943,
+      0.238,
+      0.1678
     ]
   },
   {
@@ -17463,9 +17468,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2461,
-      0.2622,
-      0.4917
+      0.2453,
+      0.2616,
+      0.493
     ],
     "pred_score": [
       1,
@@ -17629,9 +17634,9 @@
       0.4613
     ],
     "market_probs": [
-      0.2296,
-      0.2586,
-      0.5118
+      0.2284,
+      0.2577,
+      0.5139
     ]
   },
   {
@@ -17645,9 +17650,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5849,
-      0.2514,
-      0.1637
+      0.5828,
+      0.2521,
+      0.1651
     ],
     "pred_score": [
       2,
@@ -17806,9 +17811,9 @@
       0.1562
     ],
     "market_probs": [
-      0.5632,
-      0.2684,
-      0.1684
+      0.5596,
+      0.2695,
+      0.1709
     ]
   }
 ]
