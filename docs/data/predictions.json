@@ -14129,13 +14129,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       2,
       1
@@ -15183,18 +15188,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 32,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -15543,13 +15543,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Australia (9 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       1,
       1
@@ -16634,7 +16639,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 26,
     "actual_score": [
       1,
       4
@@ -17104,9 +17109,9 @@
     "iso1": "fr",
     "iso2": "ma",
     "probs": [
-      0.5521,
+      0.552,
       0.2695,
-      0.1784
+      0.1785
     ],
     "pred_score": [
       1,
@@ -17270,9 +17275,9 @@
       0.2242
     ],
     "market_probs": [
-      0.6034,
+      0.6033,
       0.2456,
-      0.151
+      0.1511
     ]
   },
   {
@@ -17286,9 +17291,9 @@
     "iso1": "es",
     "iso2": "be",
     "probs": [
-      0.5998,
+      0.5997,
       0.237,
-      0.1632
+      0.1633
     ],
     "pred_score": [
       2,
@@ -17447,9 +17452,9 @@
       0.1515
     ],
     "market_probs": [
-      0.5895,
-      0.2392,
-      0.1714
+      0.5894,
+      0.2391,
+      0.1716
     ]
   },
   {
@@ -17463,9 +17468,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2455,
-      0.2616,
-      0.4929
+      0.2453,
+      0.2617,
+      0.493
     ],
     "pred_score": [
       1,
@@ -17629,9 +17634,9 @@
       0.4613
     ],
     "market_probs": [
-      0.2286,
-      0.2576,
-      0.5138
+      0.2283,
+      0.2578,
+      0.514
     ]
   },
   {
@@ -17645,9 +17650,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5813,
-      0.2508,
-      0.168
+      0.5812,
+      0.2506,
+      0.1683
     ],
     "pred_score": [
       2,
@@ -17806,9 +17811,9 @@
       0.1562
     ],
     "market_probs": [
-      0.5572,
-      0.2671,
-      0.1758
+      0.557,
+      0.2667,
+      0.1763
     ]
   }
 ]
