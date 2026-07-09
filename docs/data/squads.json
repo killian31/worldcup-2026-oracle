@@ -5,7 +5,7 @@
     "strength": 99.2,
     "n_big5": 25,
     "avg_age": 27.2,
-    "champion": 0.1311,
+    "champion": 0.1272,
     "players": [
       {
         "name": "Jordan Pickford",
@@ -223,7 +223,7 @@
     "strength": 98.3,
     "n_big5": 26,
     "avg_age": 26.8,
-    "champion": 0.2496,
+    "champion": 0.2411,
     "players": [
       {
         "name": "David Raya",
@@ -659,7 +659,7 @@
     "strength": 95.2,
     "n_big5": 24,
     "avg_age": 27.1,
-    "champion": 0.1417,
+    "champion": 0.2478,
     "players": [
       {
         "name": "Brice Samba",
@@ -1095,7 +1095,7 @@
     "strength": 93.9,
     "n_big5": 24,
     "avg_age": 28.4,
-    "champion": 0.0387,
+    "champion": 0.0353,
     "players": [
       {
         "name": "Gregor Kobel",
@@ -1313,7 +1313,7 @@
     "strength": 92.8,
     "n_big5": 20,
     "avg_age": 29.2,
-    "champion": 0.2507,
+    "champion": 0.2479,
     "players": [
       {
         "name": "Juan Musso",
@@ -1531,7 +1531,7 @@
     "strength": 92.1,
     "n_big5": 19,
     "avg_age": 26.9,
-    "champion": 0.0684,
+    "champion": 0.0641,
     "players": [
       {
         "name": "\u00d8rjan Nyland",
@@ -1749,7 +1749,7 @@
     "strength": 91.8,
     "n_big5": 20,
     "avg_age": 27.7,
-    "champion": 0.0412,
+    "champion": 0.0366,
     "players": [
       {
         "name": "Thibaut Courtois",
@@ -3711,7 +3711,7 @@
     "strength": 85.3,
     "n_big5": 15,
     "avg_age": 26.5,
-    "champion": 0.0786,
+    "champion": 0.0,
     "players": [
       {
         "name": "Yassine Bounou",
