@@ -14309,7 +14309,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 18,
     "actual_score": [
       3,
       2
@@ -15019,7 +15019,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 13,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -15728,13 +15728,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 40,
     "actual_score": [
       0,
       3
@@ -17109,9 +17114,9 @@
     "iso1": "fr",
     "iso2": "ma",
     "probs": [
-      0.5527,
-      0.2723,
-      0.175
+      0.544,
+      0.2987,
+      0.1573
     ],
     "pred_score": [
       1,
@@ -17275,9 +17280,9 @@
       0.2242
     ],
     "market_probs": [
-      0.6041,
-      0.2497,
-      0.1461
+      0.5872,
+      0.2907,
+      0.1221
     ]
   },
   {
@@ -17291,9 +17296,9 @@
     "iso1": "es",
     "iso2": "be",
     "probs": [
-      0.597,
-      0.2385,
-      0.1645
+      0.5971,
+      0.2382,
+      0.1647
     ],
     "pred_score": [
       2,
@@ -17351,7 +17356,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 28,
+    "apparent_temp": 29,
     "form1": [
       {
         "date": "2026-06-15",
@@ -17452,9 +17457,9 @@
       0.1515
     ],
     "market_probs": [
-      0.5848,
-      0.2416,
-      0.1736
+      0.585,
+      0.2411,
+      0.1739
     ]
   },
   {
@@ -17469,8 +17474,8 @@
     "iso2": "gb-eng",
     "probs": [
       0.246,
-      0.2624,
-      0.4916
+      0.2623,
+      0.4917
     ],
     "pred_score": [
       1,
@@ -17634,9 +17639,9 @@
       0.4613
     ],
     "market_probs": [
-      0.2295,
-      0.2589,
-      0.5116
+      0.2294,
+      0.2588,
+      0.5117
     ]
   },
   {
@@ -17650,9 +17655,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5853,
+      0.5857,
       0.2503,
-      0.1644
+      0.164
     ],
     "pred_score": [
       2,
@@ -17811,9 +17816,9 @@
       0.1562
     ],
     "market_probs": [
-      0.5638,
+      0.5646,
       0.2664,
-      0.1697
+      0.169
     ]
   }
 ]
