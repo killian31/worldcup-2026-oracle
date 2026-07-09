@@ -15908,18 +15908,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 41,
+    "apparent_temp": null,
     "actual_score": [
       0,
       1
@@ -16644,7 +16639,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 26,
     "actual_score": [
       1,
       4
@@ -16999,7 +16994,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 21,
+    "apparent_temp": null,
     "actual_score": [
       0,
       0
@@ -17114,9 +17109,9 @@
     "iso1": "fr",
     "iso2": "ma",
     "probs": [
-      0.5543,
-      0.2693,
-      0.1764
+      0.5568,
+      0.2691,
+      0.1741
     ],
     "pred_score": [
       1,
@@ -17280,9 +17275,9 @@
       0.2242
     ],
     "market_probs": [
-      0.6069,
-      0.245,
-      0.1481
+      0.6109,
+      0.2445,
+      0.1446
     ]
   },
   {
@@ -17296,9 +17291,9 @@
     "iso1": "es",
     "iso2": "be",
     "probs": [
-      0.5984,
-      0.2388,
-      0.1628
+      0.5975,
+      0.2385,
+      0.1639
     ],
     "pred_score": [
       2,
@@ -17356,7 +17351,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 28,
+    "apparent_temp": 27,
     "form1": [
       {
         "date": "2026-06-15",
@@ -17457,9 +17452,9 @@
       0.1515
     ],
     "market_probs": [
-      0.5871,
-      0.2422,
-      0.1707
+      0.5857,
+      0.2417,
+      0.1726
     ]
   },
   {
@@ -17473,8 +17468,8 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2458,
-      0.2617,
+      0.2456,
+      0.2619,
       0.4925
     ],
     "pred_score": [
@@ -17528,7 +17523,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -17538,7 +17533,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 34,
+    "apparent_temp": 36,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17639,9 +17634,9 @@
       0.4613
     ],
     "market_probs": [
-      0.2292,
-      0.2578,
-      0.513
+      0.2287,
+      0.2582,
+      0.5131
     ]
   },
   {
@@ -17655,9 +17650,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5835,
-      0.2512,
-      0.1653
+      0.5846,
+      0.251,
+      0.1644
     ],
     "pred_score": [
       2,
@@ -17710,12 +17705,12 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       }
     ],
     "played": false,
-    "apparent_temp": 33,
+    "apparent_temp": 34,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17816,9 +17811,9 @@
       0.1562
     ],
     "market_probs": [
-      0.5609,
-      0.2679,
-      0.1712
+      0.5628,
+      0.2677,
+      0.1696
     ]
   }
 ]
