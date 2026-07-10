@@ -1,5 +1,19 @@
 [
   {
+    "team": "France",
+    "iso": "fr",
+    "conf": "UEFA",
+    "elo": 2232,
+    "squad_strength": 95.2,
+    "n_big5": 24,
+    "avg_age": 27.1,
+    "reach_r16": 1.0,
+    "reach_qf": 1.0,
+    "reach_sf": 1.0,
+    "reach_final": 0.5184,
+    "champion": 0.2807
+  },
+  {
     "team": "Argentina",
     "iso": "ar",
     "conf": "CONMEBOL",
@@ -9,23 +23,9 @@
     "avg_age": 29.2,
     "reach_r16": 1.0,
     "reach_qf": 1.0,
-    "reach_sf": 0.7196,
-    "reach_final": 0.449,
-    "champion": 0.2479
-  },
-  {
-    "team": "France",
-    "iso": "fr",
-    "conf": "UEFA",
-    "elo": 2205,
-    "squad_strength": 95.2,
-    "n_big5": 24,
-    "avg_age": 27.1,
-    "reach_r16": 1.0,
-    "reach_qf": 1.0,
-    "reach_sf": 1.0,
-    "reach_final": 0.4854,
-    "champion": 0.2478
+    "reach_sf": 0.7195,
+    "reach_final": 0.4489,
+    "champion": 0.2401
   },
   {
     "team": "Spain",
@@ -38,8 +38,8 @@
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 0.7178,
-    "reach_final": 0.4145,
-    "champion": 0.2411
+    "reach_final": 0.391,
+    "champion": 0.2278
   },
   {
     "team": "England",
@@ -52,8 +52,8 @@
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 0.5756,
-    "reach_final": 0.2726,
-    "champion": 0.1272
+    "reach_final": 0.2727,
+    "champion": 0.1227
   },
   {
     "team": "Norway",
@@ -67,7 +67,21 @@
     "reach_qf": 1.0,
     "reach_sf": 0.4244,
     "reach_final": 0.1692,
-    "champion": 0.0641
+    "champion": 0.0617
+  },
+  {
+    "team": "Switzerland",
+    "iso": "ch",
+    "conf": "UEFA",
+    "elo": 2023,
+    "squad_strength": 93.9,
+    "n_big5": 24,
+    "avg_age": 28.4,
+    "reach_r16": 1.0,
+    "reach_qf": 1.0,
+    "reach_sf": 0.2805,
+    "reach_final": 0.1092,
+    "champion": 0.0339
   },
   {
     "team": "Belgium",
@@ -80,22 +94,8 @@
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 0.2822,
-    "reach_final": 0.1002,
-    "champion": 0.0366
-  },
-  {
-    "team": "Switzerland",
-    "iso": "ch",
-    "conf": "UEFA",
-    "elo": 2023,
-    "squad_strength": 93.9,
-    "n_big5": 24,
-    "avg_age": 28.4,
-    "reach_r16": 1.0,
-    "reach_qf": 1.0,
-    "reach_sf": 0.2804,
-    "reach_final": 0.1092,
-    "champion": 0.0353
+    "reach_final": 0.0906,
+    "champion": 0.0331
   },
   {
     "team": "Canada",
@@ -129,7 +129,7 @@
     "team": "Morocco",
     "iso": "ma",
     "conf": "CAF",
-    "elo": 2055,
+    "elo": 2029,
     "squad_strength": 85.3,
     "n_big5": 15,
     "avg_age": 26.5,
