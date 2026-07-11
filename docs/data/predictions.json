@@ -15368,13 +15368,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Ghana (17 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       1,
       0
@@ -17464,9 +17469,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2508,
-      0.2598,
-      0.4893
+      0.2209,
+      0.3088,
+      0.4703
     ],
     "pred_score": [
       1,
@@ -17519,7 +17524,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -17529,7 +17534,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 39,
+    "apparent_temp": 40,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17630,9 +17635,9 @@
       0.4437
     ],
     "market_probs": [
-      0.2277,
-      0.2527,
-      0.5195
+      0.1829,
+      0.3344,
+      0.4826
     ]
   },
   {
@@ -17646,9 +17651,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5799,
-      0.2578,
-      0.1622
+      0.5803,
+      0.258,
+      0.1617
     ],
     "pred_score": [
       2,
@@ -17807,9 +17812,9 @@
       0.1567
     ],
     "market_probs": [
-      0.5634,
-      0.2708,
-      0.1658
+      0.564,
+      0.2711,
+      0.1648
     ]
   }
 ]
