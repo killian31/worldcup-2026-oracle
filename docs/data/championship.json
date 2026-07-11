@@ -3,15 +3,15 @@
     "team": "Spain",
     "iso": "es",
     "conf": "UEFA",
-    "elo": 2241,
+    "elo": 2255,
     "squad_strength": 98.3,
     "n_big5": 26,
     "avg_age": 26.8,
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 1.0,
-    "reach_final": 0.5377,
-    "champion": 0.311
+    "reach_final": 0.5536,
+    "champion": 0.3281
   },
   {
     "team": "France",
@@ -24,8 +24,8 @@
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 1.0,
-    "reach_final": 0.4623,
-    "champion": 0.2488
+    "reach_final": 0.4464,
+    "champion": 0.2402
   },
   {
     "team": "Argentina",
@@ -39,7 +39,7 @@
     "reach_qf": 1.0,
     "reach_sf": 0.7205,
     "reach_final": 0.4459,
-    "champion": 0.2313
+    "champion": 0.2271
   },
   {
     "team": "England",
@@ -53,7 +53,7 @@
     "reach_qf": 1.0,
     "reach_sf": 0.5786,
     "reach_final": 0.2756,
-    "champion": 0.1186
+    "champion": 0.1161
   },
   {
     "team": "Norway",
@@ -67,7 +67,7 @@
     "reach_qf": 1.0,
     "reach_sf": 0.4214,
     "reach_final": 0.1679,
-    "champion": 0.0576
+    "champion": 0.0565
   },
   {
     "team": "Switzerland",
@@ -81,7 +81,7 @@
     "reach_qf": 1.0,
     "reach_sf": 0.2795,
     "reach_final": 0.1106,
-    "champion": 0.0327
+    "champion": 0.0319
   },
   {
     "team": "Canada",
@@ -171,7 +171,7 @@
     "team": "Belgium",
     "iso": "be",
     "conf": "UEFA",
-    "elo": 2039,
+    "elo": 2025,
     "squad_strength": 91.8,
     "n_big5": 20,
     "avg_age": 27.7,
