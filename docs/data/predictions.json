@@ -14489,7 +14489,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 27,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 23,
     "actual_score": [
       3,
       0
@@ -15728,18 +15728,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 40,
+    "apparent_temp": null,
     "actual_score": [
       0,
       3
@@ -16813,13 +16808,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       3,
       2
@@ -17464,9 +17464,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2634,
-      0.263,
-      0.4736
+      0.2631,
+      0.2621,
+      0.4748
     ],
     "pred_score": [
       1,
@@ -17519,7 +17519,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -17529,7 +17529,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 34,
+    "apparent_temp": 36,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17630,9 +17630,9 @@
       0.4437
     ],
     "market_probs": [
-      0.2479,
-      0.2586,
-      0.4935
+      0.2473,
+      0.2572,
+      0.4955
     ]
   },
   {
@@ -17646,9 +17646,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5803,
-      0.2561,
-      0.1636
+      0.5807,
+      0.2559,
+      0.1634
     ],
     "pred_score": [
       2,
@@ -17701,12 +17701,12 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       }
     ],
     "played": false,
-    "apparent_temp": 36,
+    "apparent_temp": 35,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17807,9 +17807,9 @@
       0.1567
     ],
     "market_probs": [
-      0.5641,
-      0.2678,
-      0.1681
+      0.5647,
+      0.2674,
+      0.1678
     ]
   }
 ]

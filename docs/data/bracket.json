@@ -696,10 +696,14 @@
     ],
     "venue": "AT&T Stadium",
     "team1": {
-      "placeholder": "W97"
+      "team": "France",
+      "iso": "fr",
+      "champion": 0.2402
     },
     "team2": {
-      "placeholder": "W98"
+      "team": "Spain",
+      "iso": "es",
+      "champion": 0.3281
     },
     "score": null,
     "pens": null
