@@ -14309,7 +14309,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 18,
     "actual_score": [
       3,
       2
@@ -15368,18 +15368,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Ghana (17 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       1,
       0
@@ -15728,13 +15723,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 40,
     "actual_score": [
       0,
       3
@@ -16994,7 +16994,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 21,
     "actual_score": [
       0,
       0
@@ -17464,9 +17464,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2556,
-      0.2558,
-      0.4885
+      0.2508,
+      0.2598,
+      0.4893
     ],
     "pred_score": [
       1,
@@ -17630,9 +17630,9 @@
       0.4437
     ],
     "market_probs": [
-      0.2352,
-      0.2464,
-      0.5184
+      0.2277,
+      0.2527,
+      0.5195
     ]
   },
   {
@@ -17647,8 +17647,8 @@
     "iso2": "ch",
     "probs": [
       0.5799,
-      0.258,
-      0.1621
+      0.2578,
+      0.1622
     ],
     "pred_score": [
       2,
@@ -17807,9 +17807,9 @@
       0.1567
     ],
     "market_probs": [
-      0.5633,
-      0.2711,
-      0.1656
+      0.5634,
+      0.2708,
+      0.1658
     ]
   }
 ]
