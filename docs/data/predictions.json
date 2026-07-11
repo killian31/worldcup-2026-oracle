@@ -14309,7 +14309,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": 18,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -15728,18 +15728,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 40,
+    "apparent_temp": null,
     "actual_score": [
       0,
       3
@@ -17168,18 +17163,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 30,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -17469,9 +17459,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2209,
-      0.3088,
-      0.4703
+      0.1394,
+      0.6546,
+      0.206
     ],
     "pred_score": [
       1,
@@ -17635,9 +17625,9 @@
       0.4437
     ],
     "market_probs": [
-      0.1829,
-      0.3344,
-      0.4826
+      0.0617,
+      0.8498,
+      0.0885
     ]
   },
   {
@@ -17651,9 +17641,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5803,
-      0.258,
-      0.1617
+      0.5811,
+      0.2587,
+      0.1602
     ],
     "pred_score": [
       2,
@@ -17706,12 +17696,12 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       }
     ],
     "played": false,
-    "apparent_temp": 35,
+    "apparent_temp": 36,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17812,9 +17802,9 @@
       0.1567
     ],
     "market_probs": [
-      0.564,
-      0.2711,
-      0.1648
+      0.5653,
+      0.2723,
+      0.1624
     ]
   }
 ]
