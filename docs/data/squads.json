@@ -189,7 +189,7 @@
         "club": "Manchester City FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 23.7
+        "age": 23.8
       },
       {
         "name": "Reece James",
@@ -271,7 +271,7 @@
         "club": "Arsenal FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 30.0
+        "age": 30.1
       },
       {
         "name": "Ferran Torres",
@@ -351,7 +351,7 @@
         "club": "Manchester City FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 30.0
+        "age": 30.1
       },
       {
         "name": "Nico Williams",
@@ -537,7 +537,7 @@
         "club": "Brighton & Hove Albion FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 26.6
+        "age": 26.7
       },
       {
         "name": "Robin Roefs",
@@ -553,7 +553,7 @@
         "club": "Manchester City FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 27.9
+        "age": 28.0
       },
       {
         "name": "Micky van de Ven",
@@ -569,7 +569,7 @@
         "club": "PSV Eindhoven",
         "club_country": "NED",
         "league": 76,
-        "age": 28.5
+        "age": 28.6
       },
       {
         "name": "Noa Lang",
@@ -1975,7 +1975,7 @@
         "club": "OGC Nice",
         "club_country": "FRA",
         "league": 85,
-        "age": 26.6
+        "age": 26.7
       },
       {
         "name": "Mamadou Sarr",
@@ -2047,7 +2047,7 @@
         "club": "Al Nassr FC",
         "club_country": "KSA",
         "league": 66,
-        "age": 34.2
+        "age": 34.3
       },
       {
         "name": "Nicolas Jackson",
@@ -2151,7 +2151,7 @@
         "club": "Le Havre AC",
         "club_country": "FRA",
         "league": 85,
-        "age": 33.0
+        "age": 33.1
       },
       {
         "name": "Antoine Mendy",
@@ -2201,7 +2201,7 @@
         "club": "SC Braga",
         "club_country": "POR",
         "league": 78,
-        "age": 26.2
+        "age": 26.3
       },
       {
         "name": "Victor Lindel\u00f6f",
@@ -2377,7 +2377,7 @@
         "club": "Mj\u00e4llby AIF",
         "club_country": "SWE",
         "league": 54,
-        "age": 24.0
+        "age": 24.1
       },
       {
         "name": "Gustaf Nilsson",
@@ -2725,7 +2725,7 @@
         "club": "Villarreal CF",
         "club_country": "ESP",
         "league": 96,
-        "age": 22.9
+        "age": 23.0
       },
       {
         "name": "Gon\u00e7alo In\u00e1cio",
@@ -3911,7 +3911,7 @@
         "club": "KV Mechelen",
         "club_country": "BEL",
         "league": 70,
-        "age": 23.3
+        "age": 23.4
       },
       {
         "name": "Anass Salah-Eddine",
@@ -4307,7 +4307,7 @@
         "club": "Newcastle United FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 29.8
+        "age": 29.9
       },
       {
         "name": "Matthieu Epolo",
@@ -4397,7 +4397,7 @@
         "club": "AFC Ajax",
         "club_country": "NED",
         "league": 76,
-        "age": 29.4
+        "age": 29.5
       },
       {
         "name": "Y\u016bto Nagatomo",
@@ -4469,7 +4469,7 @@
         "club": "Stade Reims",
         "club_country": "FRA",
         "league": 85,
-        "age": 25.9
+        "age": 26.0
       },
       {
         "name": "Junya It\u014d",
@@ -5075,7 +5075,7 @@
         "club": "LAFC",
         "club_country": "USA",
         "league": 60,
-        "age": 29.5
+        "age": 29.6
       },
       {
         "name": "Isma\u00ebl Kon\u00e9",
@@ -5785,7 +5785,7 @@
         "club": "Pafos FC",
         "club_country": "CYP",
         "league": 45,
-        "age": 29.7
+        "age": 29.8
       },
       {
         "name": "Amar Memi\u0107",
@@ -5915,7 +5915,7 @@
         "club": "Al Ahli FC",
         "club_country": "KSA",
         "league": 66,
-        "age": 28.3
+        "age": 28.4
       },
       {
         "name": "\u00c7a\u011flar S\u00f6y\u00fcnc\u00fc",
@@ -6133,7 +6133,7 @@
         "club": "Parma",
         "club_country": "ITA",
         "league": 90,
-        "age": 22.7
+        "age": 22.8
       },
       {
         "name": "Jacob Italiano",
@@ -6415,7 +6415,7 @@
         "club": "Royale Union Saint-Gilloise",
         "club_country": "BEL",
         "league": 70,
-        "age": 26.3
+        "age": 26.4
       },
       {
         "name": "Mois\u00e9s Ram\u00edrez",
@@ -6633,7 +6633,7 @@
         "club": "FC Augsburg",
         "club_country": "GER",
         "league": 90,
-        "age": 22.2
+        "age": 22.3
       },
       {
         "name": "Mortadha Ben Ouanes",
@@ -6649,7 +6649,7 @@
         "club": "1. FC Union Berlin",
         "club_country": "GER",
         "league": 90,
-        "age": 32.4
+        "age": 32.5
       },
       {
         "name": "Khalil Ayari",
@@ -7053,7 +7053,7 @@
         "club": "US Cremonese",
         "club_country": "ITA",
         "league": 90,
-        "age": 30.3
+        "age": 30.4
       },
       {
         "name": "Miguel Almir\u00f3n",
@@ -7069,7 +7069,7 @@
         "club": "SE Palmeiras",
         "club_country": "BRA",
         "league": 74,
-        "age": 25.0
+        "age": 25.1
       },
       {
         "name": "Orlando Gill",
@@ -7231,7 +7231,7 @@
         "club": "Sheffield United FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 21.4
+        "age": 21.5
       },
       {
         "name": "Michael Boxall",
@@ -7537,7 +7537,7 @@
         "club": "Rotherham United FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 22.8
+        "age": 22.9
       },
       {
         "name": "Jearl Margaritha",
@@ -7545,7 +7545,7 @@
         "club": "SK Beveren",
         "club_country": "BEL",
         "league": 70,
-        "age": 26.2
+        "age": 26.3
       },
       {
         "name": "Brandley Kuwas",
@@ -7561,7 +7561,7 @@
         "club": "PSV Eindhoven",
         "club_country": "NED",
         "league": 76,
-        "age": 27.3
+        "age": 27.4
       },
       {
         "name": "Gervane Kastaneer",
@@ -7634,7 +7634,7 @@
     "iso": "kr",
     "strength": 66.6,
     "n_big5": 7,
-    "avg_age": 28.1,
+    "avg_age": 28.2,
     "champion": null,
     "players": [
       {
@@ -7667,7 +7667,7 @@
         "club": "FC Bayern M\u00fcnchen",
         "club_country": "GER",
         "league": 90,
-        "age": 29.6
+        "age": 29.7
       },
       {
         "name": "Kim Tae-hyeon",
@@ -7819,7 +7819,7 @@
         "club": "Borussia M\u00f6nchengladbach",
         "club_country": "GER",
         "league": 90,
-        "age": 22.9
+        "age": 23.0
       },
       {
         "name": "Kim Jin-gyu",
@@ -7949,7 +7949,7 @@
         "club": "FC Viktoria Plze\u0148",
         "club_country": "CZE",
         "league": 56,
-        "age": 25.2
+        "age": 25.3
       },
       {
         "name": "Mojm\u00edr Chytil",
@@ -8337,7 +8337,7 @@
         "club": "FC Krasnodar",
         "club_country": "RUS",
         "league": 60,
-        "age": 29.4
+        "age": 29.5
       },
       {
         "name": "Jovane Cabral",
@@ -8893,7 +8893,7 @@
         "club": "Al Ula Saudi FC",
         "club_country": "KSA",
         "league": 66,
-        "age": 34.7
+        "age": 34.8
       },
       {
         "name": "Ahmed Al-Kassar",
@@ -9111,7 +9111,7 @@
         "club": "CD Cobresal",
         "club_country": "CHI",
         "league": 54,
-        "age": 30.4
+        "age": 30.5
       },
       {
         "name": "Orlando Mosquera",
@@ -9451,7 +9451,7 @@
         "club": "Burnley FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 25.8
+        "age": 25.9
       },
       {
         "name": "Relebohile Mofokeng",
@@ -9629,7 +9629,7 @@
         "club": "Al Arabi SC",
         "club_country": "QAT",
         "league": 54,
-        "age": 28.5
+        "age": 28.6
       },
       {
         "name": "Jassem Gaber",
@@ -9871,7 +9871,7 @@
         "club": "Baniyas Club",
         "club_country": "UAE",
         "league": 52,
-        "age": 30.0
+        "age": 30.1
       },
       {
         "name": "Jamshid Iskanderov",
