@@ -14831,15 +14831,9 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -15368,13 +15362,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Ghana (17 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       1,
       0
@@ -16639,7 +16638,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 26,
+    "apparent_temp": null,
     "actual_score": [
       1,
       4
@@ -17636,9 +17635,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.5821,
-      0.2587,
-      0.1592
+      0.6043,
+      0.239,
+      0.1567
     ],
     "pred_score": [
       2,
@@ -17688,9 +17687,15 @@
       "home_big5": 20,
       "away_big5": 24
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": false,
-    "apparent_temp": null,
+    "apparent_temp": 35,
     "form1": [
       {
         "date": "2026-06-16",
@@ -17784,16 +17789,6 @@
         "res": "D",
         "venue": "N"
       }
-    ],
-    "model_probs": [
-      0.6043,
-      0.239,
-      0.1567
-    ],
-    "market_probs": [
-      0.567,
-      0.2724,
-      0.1607
     ]
   }
 ]

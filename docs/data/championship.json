@@ -1,5 +1,19 @@
 [
   {
+    "team": "Argentina",
+    "iso": "ar",
+    "conf": "CONMEBOL",
+    "elo": 2233,
+    "squad_strength": 92.8,
+    "n_big5": 20,
+    "avg_age": 29.2,
+    "reach_r16": 1.0,
+    "reach_qf": 1.0,
+    "reach_sf": 1.0,
+    "reach_final": 0.6657,
+    "champion": 0.3362
+  },
+  {
     "team": "Spain",
     "iso": "es",
     "conf": "UEFA",
@@ -10,8 +24,8 @@
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 1.0,
-    "reach_final": 0.5563,
-    "champion": 0.3383
+    "reach_final": 0.5547,
+    "champion": 0.3189
   },
   {
     "team": "France",
@@ -24,22 +38,8 @@
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 1.0,
-    "reach_final": 0.4437,
-    "champion": 0.2478
-  },
-  {
-    "team": "Argentina",
-    "iso": "ar",
-    "conf": "CONMEBOL",
-    "elo": 2233,
-    "squad_strength": 92.8,
-    "n_big5": 20,
-    "avg_age": 29.2,
-    "reach_r16": 1.0,
-    "reach_qf": 1.0,
-    "reach_sf": 0.7197,
-    "reach_final": 0.4801,
-    "champion": 0.2437
+    "reach_final": 0.4453,
+    "champion": 0.2312
   },
   {
     "team": "Norway",
@@ -52,22 +52,8 @@
     "reach_r16": 1.0,
     "reach_qf": 1.0,
     "reach_sf": 1.0,
-    "reach_final": 0.3982,
-    "champion": 0.1358
-  },
-  {
-    "team": "Switzerland",
-    "iso": "ch",
-    "conf": "UEFA",
-    "elo": 2023,
-    "squad_strength": 93.9,
-    "n_big5": 24,
-    "avg_age": 28.4,
-    "reach_r16": 1.0,
-    "reach_qf": 1.0,
-    "reach_sf": 0.2803,
-    "reach_final": 0.1217,
-    "champion": 0.0343
+    "reach_final": 0.3343,
+    "champion": 0.1137
   },
   {
     "team": "Canada",
@@ -191,6 +177,20 @@
     "avg_age": 28.1,
     "reach_r16": 1.0,
     "reach_qf": 0.0,
+    "reach_sf": 0.0,
+    "reach_final": 0.0,
+    "champion": 0.0
+  },
+  {
+    "team": "Switzerland",
+    "iso": "ch",
+    "conf": "UEFA",
+    "elo": 2023,
+    "squad_strength": 93.9,
+    "n_big5": 24,
+    "avg_age": 28.4,
+    "reach_r16": 1.0,
+    "reach_qf": 1.0,
     "reach_sf": 0.0,
     "reach_final": 0.0,
     "champion": 0.0
