@@ -107,7 +107,7 @@
     "team1": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.2234
+      "champion": 0.2122
     },
     "team2": {
       "team": "Sweden",
@@ -176,7 +176,7 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1737
+      "champion": 0.1833
     },
     "team2": {
       "team": "DR Congo",
@@ -268,7 +268,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.3078
+      "champion": 0.2952
     },
     "team2": {
       "team": "Austria",
@@ -314,7 +314,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.295
+      "champion": 0.3093
     },
     "team2": {
       "team": "Cape Verde",
@@ -394,7 +394,7 @@
     "team2": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.2234
+      "champion": 0.2122
     },
     "score": [
       0,
@@ -472,7 +472,7 @@
     "team2": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1737
+      "champion": 0.1833
     },
     "score": [
       2,
@@ -498,7 +498,7 @@
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.3078
+      "champion": 0.2952
     },
     "score": [
       0,
@@ -545,7 +545,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.295
+      "champion": 0.3093
     },
     "team2": {
       "team": "Egypt",
@@ -600,7 +600,7 @@
     "team1": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.2234
+      "champion": 0.2122
     },
     "team2": {
       "team": "Morocco",
@@ -626,7 +626,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.3078
+      "champion": 0.2952
     },
     "team2": {
       "team": "Belgium",
@@ -657,11 +657,11 @@
     "team2": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1737
+      "champion": 0.1833
     },
     "score": [
       1,
-      1
+      2
     ],
     "pens": null
   },
@@ -678,7 +678,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.295
+      "champion": 0.3093
     },
     "team2": {
       "team": "Switzerland",
@@ -686,7 +686,7 @@
       "champion": 0.0
     },
     "score": [
-      1,
+      3,
       1
     ],
     "pens": null
@@ -704,12 +704,12 @@
     "team1": {
       "team": "France",
       "iso": "fr",
-      "champion": 0.2234
+      "champion": 0.2122
     },
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.3078
+      "champion": 0.2952
     },
     "score": null,
     "pens": null
@@ -720,18 +720,19 @@
     "date": "2026-07-15",
     "half": "r",
     "feeders": [
+      99,
       100
     ],
     "venue": "Mercedes-Benz Stadium",
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1737
+      "champion": 0.1833
     },
     "team2": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.295
+      "champion": 0.3093
     },
     "score": null,
     "pens": null
