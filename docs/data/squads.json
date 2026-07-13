@@ -13,7 +13,7 @@
         "club": "Everton FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 32.3
+        "age": 32.4
       },
       {
         "name": "Ezri Konsa",
@@ -61,7 +61,7 @@
         "club": "Arsenal FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 24.8
+        "age": 24.9
       },
       {
         "name": "Elliot Anderson",
@@ -213,7 +213,7 @@
         "club": "Bayer 04 Leverkusen",
         "club_country": "GER",
         "league": 90,
-        "age": 23.4
+        "age": 23.5
       }
     ]
   },
@@ -641,7 +641,7 @@
         "club": "Chelsea FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 20.3
+        "age": 20.4
       },
       {
         "name": "Quinten Timber",
@@ -675,7 +675,7 @@
         "club": "Chelsea FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 23.1
+        "age": 23.2
       },
       {
         "name": "Lucas Digne",
@@ -1287,7 +1287,7 @@
         "club": "Eintracht Frankfurt",
         "club_country": "GER",
         "league": 90,
-        "age": 22.9
+        "age": 23.0
       },
       {
         "name": "Luca Jaquez",
@@ -1393,7 +1393,7 @@
         "club": "Inter Miami CF",
         "club_country": "USA",
         "league": 60,
-        "age": 39.0
+        "age": 39.1
       },
       {
         "name": "Giovani Lo Celso",
@@ -1473,7 +1473,7 @@
         "club": "Liverpool FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 27.5
+        "age": 27.6
       },
       {
         "name": "Jos\u00e9 Manuel L\u00f3pez",
@@ -1715,7 +1715,7 @@
         "club": "FK Bod\u00f8/Glimt",
         "club_country": "NOR",
         "league": 54,
-        "age": 26.7
+        "age": 26.8
       },
       {
         "name": "Sondre Lang\u00e5s",
@@ -1739,7 +1739,7 @@
         "club": "Borussia Dortmund",
         "club_country": "GER",
         "league": 90,
-        "age": 28.6
+        "age": 28.7
       }
     ]
   },
@@ -1853,7 +1853,7 @@
         "club": "RC Strasbourg",
         "club_country": "FRA",
         "league": 85,
-        "age": 20.9
+        "age": 21.0
       },
       {
         "name": "Dodi Luk\u00e9bakio",
@@ -2071,7 +2071,7 @@
         "club": "Everton FC",
         "club_country": "ENG",
         "league": 100,
-        "age": 26.3
+        "age": 26.4
       },
       {
         "name": "Ismail Jakobs",
@@ -3121,7 +3121,7 @@
         "club": "Real Oviedo",
         "club_country": "ESP",
         "league": 96,
-        "age": 28.0
+        "age": 28.1
       },
       {
         "name": "Jordan Ayew",
@@ -3339,7 +3339,7 @@
         "club": "Real Madrid C. F.",
         "club_country": "ESP",
         "league": 96,
-        "age": 34.0
+        "age": 34.1
       },
       {
         "name": "Marcel Sabitzer",
@@ -3403,7 +3403,7 @@
         "club": "1. FSV Mainz 05",
         "club_country": "GER",
         "league": 90,
-        "age": 32.4
+        "age": 32.5
       },
       {
         "name": "Carney Chukwuemeka",
@@ -3937,7 +3937,7 @@
         "club": "New England Revolution",
         "club_country": "USA",
         "league": 60,
-        "age": 32.0
+        "age": 32.1
       },
       {
         "name": "Sergi\u00f1o Dest",
@@ -4299,7 +4299,7 @@
         "club": "Pyramids FC",
         "club_country": "EGY",
         "league": 50,
-        "age": 32.0
+        "age": 32.1
       },
       {
         "name": "Yoane Wissa",
@@ -4711,7 +4711,7 @@
         "club": "Sporting Charleroi",
         "club_country": "BEL",
         "league": 70,
-        "age": 24.3
+        "age": 24.4
       },
       {
         "name": "Gu\u00e9la Dou\u00e9",
@@ -5051,7 +5051,7 @@
         "club": "FCV Dender EH",
         "club_country": "BEL",
         "league": 70,
-        "age": 20.7
+        "age": 20.8
       },
       {
         "name": "Joel Waterman",
@@ -5487,7 +5487,7 @@
         "club": "FC Barcelona",
         "club_country": "ESP",
         "league": 96,
-        "age": 27.3
+        "age": 27.4
       },
       {
         "name": "Manuel Ugarte",
@@ -5527,7 +5527,7 @@
         "club": "Al Hilal SC",
         "club_country": "KSA",
         "league": 66,
-        "age": 27.0
+        "age": 27.1
       },
       {
         "name": "Giorgian de Arrascaeta",
@@ -5841,7 +5841,7 @@
         "club": "HNK Rijeka",
         "club_country": "CRO",
         "league": 56,
-        "age": 28.8
+        "age": 28.9
       },
       {
         "name": "Martin Zlomisli\u0107",
@@ -6108,7 +6108,7 @@
     "iso": "au",
     "strength": 73.2,
     "n_big5": 9,
-    "avg_age": 27.4,
+    "avg_age": 27.5,
     "champion": null,
     "players": [
       {
@@ -6229,7 +6229,7 @@
         "club": "New York City FC",
         "club_country": "USA",
         "league": 60,
-        "age": 25.1
+        "age": 25.2
       },
       {
         "name": "Aziz Behich",
@@ -7149,7 +7149,7 @@
         "club": "CA Independiente",
         "club_country": "ARG",
         "league": 68,
-        "age": 35.7
+        "age": 35.8
       },
       {
         "name": "Gast\u00f3n Olveira",
@@ -7779,7 +7779,7 @@
         "club": "Be\u015fikta\u015f JK",
         "club_country": "TUR",
         "league": 66,
-        "age": 25.2
+        "age": 25.3
       },
       {
         "name": "Lee Kang-in",
@@ -9177,7 +9177,7 @@
         "club": "Port FC",
         "club_country": "THA",
         "league": 45,
-        "age": 34.2
+        "age": 34.3
       },
       {
         "name": "Hussein Ali",
@@ -9193,7 +9193,7 @@
         "club": "Pakhtakor Tashkent FK",
         "club_country": "UZB",
         "league": 46,
-        "age": 25.4
+        "age": 25.5
       },
       {
         "name": "Akam Hashim",
@@ -9419,7 +9419,7 @@
         "club": "Orlando Pirates FC",
         "club_country": "RSA",
         "league": 46,
-        "age": 26.3
+        "age": 26.4
       },
       {
         "name": "Aubrey Modiba",
@@ -10451,7 +10451,7 @@
         "club": "Al Wahdat SC",
         "club_country": "JOR",
         "league": 44,
-        "age": 34.2
+        "age": 34.3
       },
       {
         "name": "Anas Badawi",
