@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 23,
+    "apparent_temp": null,
     "actual_score": [
       3,
       0
@@ -15188,13 +15188,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 32,
     "actual_score": [
       3,
       2
@@ -16279,7 +16284,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 19,
+    "apparent_temp": null,
     "actual_score": [
       2,
       3
@@ -17349,7 +17354,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       2,
       1
@@ -17696,15 +17701,9 @@
       "home_big5": 20,
       "away_big5": 24
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 35,
+    "apparent_temp": null,
     "actual_score": [
       3,
       1
@@ -17819,9 +17818,9 @@
     "iso1": "fr",
     "iso2": "es",
     "probs": [
-      0.3634,
-      0.2997,
-      0.3369
+      0.364,
+      0.2988,
+      0.3372
     ],
     "pred_score": [
       1,
@@ -17874,12 +17873,12 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       }
     ],
     "played": false,
-    "apparent_temp": 36,
+    "apparent_temp": 34,
     "form1": [
       {
         "date": "2026-06-22",
@@ -17980,9 +17979,9 @@
       0.3961
     ],
     "market_probs": [
-      0.4059,
-      0.2952,
-      0.2989
+      0.407,
+      0.2937,
+      0.2993
     ]
   },
   {
@@ -17996,9 +17995,9 @@
     "iso1": "gb-eng",
     "iso2": "ar",
     "probs": [
-      0.3342,
-      0.3082,
-      0.3576
+      0.3343,
+      0.3083,
+      0.3574
     ],
     "pred_score": [
       1,
@@ -18162,9 +18161,9 @@
       0.4262
     ],
     "market_probs": [
-      0.3627,
-      0.3227,
-      0.3146
+      0.3629,
+      0.3228,
+      0.3144
     ]
   }
 ]
