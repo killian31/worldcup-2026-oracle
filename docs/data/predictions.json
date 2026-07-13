@@ -14129,13 +14129,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       2,
       1
@@ -15183,18 +15188,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 32,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -15723,13 +15723,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 40,
     "actual_score": [
       0,
       3
@@ -17814,9 +17819,9 @@
     "iso1": "fr",
     "iso2": "es",
     "probs": [
-      0.3643,
-      0.2993,
-      0.3364
+      0.3634,
+      0.2997,
+      0.3369
     ],
     "pred_score": [
       1,
@@ -17975,9 +17980,9 @@
       0.3961
     ],
     "market_probs": [
-      0.4076,
-      0.2943,
-      0.2981
+      0.4059,
+      0.2952,
+      0.2989
     ]
   },
   {
@@ -17991,9 +17996,9 @@
     "iso1": "gb-eng",
     "iso2": "ar",
     "probs": [
-      0.3343,
+      0.3342,
       0.3082,
-      0.3575
+      0.3576
     ],
     "pred_score": [
       1,
@@ -18157,9 +18162,9 @@
       0.4262
     ],
     "market_probs": [
-      0.3628,
+      0.3627,
       0.3227,
-      0.3145
+      0.3146
     ]
   }
 ]
