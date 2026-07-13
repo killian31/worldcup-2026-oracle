@@ -14489,7 +14489,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 27,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 23,
     "actual_score": [
       3,
       0
@@ -17701,9 +17701,15 @@
       "home_big5": 20,
       "away_big5": 24
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 35,
     "actual_score": [
       3,
       1
@@ -17818,9 +17824,9 @@
     "iso1": "fr",
     "iso2": "es",
     "probs": [
-      0.364,
-      0.2988,
-      0.3372
+      0.3632,
+      0.2994,
+      0.3374
     ],
     "pred_score": [
       1,
@@ -17979,9 +17985,9 @@
       0.3961
     ],
     "market_probs": [
-      0.407,
-      0.2937,
-      0.2993
+      0.4055,
+      0.2947,
+      0.2998
     ]
   },
   {
@@ -17996,8 +18002,8 @@
     "iso2": "ar",
     "probs": [
       0.3343,
-      0.3083,
-      0.3574
+      0.3082,
+      0.3575
     ],
     "pred_score": [
       1,
@@ -18161,9 +18167,9 @@
       0.4262
     ],
     "market_probs": [
-      0.3629,
-      0.3228,
-      0.3144
+      0.3628,
+      0.3227,
+      0.3145
     ]
   }
 ]
