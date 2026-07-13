@@ -22,9 +22,14 @@ _PLACEHOLDER = re.compile(r"^[WL]\d+$")  # W74 = winner of match 74, L101 = lose
 
 
 def normalize(name):
-    if name is None:
+    # martj42 occasionally ships a row with a blank team cell, which pandas reads
+    # as NaN (a float) — guard against any non-string so a single bad upstream row
+    # can't crash the whole pipeline.
+    if not isinstance(name, str):
         return None
     name = name.strip()
+    if not name:
+        return None
     return ALIASES.get(name, name)
 
 

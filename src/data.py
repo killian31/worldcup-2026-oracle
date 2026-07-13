@@ -47,6 +47,12 @@ def load_results(max_age_hours=6):
     df["date"] = pd.to_datetime(df["date"])
     df["home_team"] = df["home_team"].map(teams.normalize)
     df["away_team"] = df["away_team"].map(teams.normalize)
+    # a row with a blank/NaN team name is unusable (no team to rate or predict) —
+    # drop it rather than let one malformed upstream row take down the build
+    bad = df["home_team"].isna() | df["away_team"].isna()
+    if bad.any():
+        print(f"warn: dropping {int(bad.sum())} result row(s) with a missing team name")
+    df = df[~bad]
     df["neutral"] = df["neutral"].astype(str).str.upper().eq("TRUE")
     for c in ("home_score", "away_score"):
         df[c] = pd.to_numeric(df[c], errors="coerce")
