@@ -14129,13 +14129,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       2,
       1
@@ -16443,13 +16448,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 38\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Spain (26 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 38,
     "actual_score": [
       0,
       1
@@ -17804,9 +17814,9 @@
     "iso1": "fr",
     "iso2": "es",
     "probs": [
-      0.3617,
-      0.3002,
-      0.3381
+      0.3622,
+      0.3,
+      0.3378
     ],
     "pred_score": [
       1,
@@ -17859,12 +17869,12 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       }
     ],
     "played": false,
-    "apparent_temp": 32,
+    "apparent_temp": 33,
     "form1": [
       {
         "date": "2026-06-22",
@@ -17965,9 +17975,9 @@
       0.3961
     ],
     "market_probs": [
-      0.4031,
-      0.2961,
-      0.3008
+      0.4038,
+      0.2957,
+      0.3005
     ]
   },
   {
@@ -17981,9 +17991,9 @@
     "iso1": "gb-eng",
     "iso2": "ar",
     "probs": [
-      0.3336,
-      0.3085,
-      0.3579
+      0.3337,
+      0.3083,
+      0.358
     ],
     "pred_score": [
       1,
@@ -18147,9 +18157,9 @@
       0.4262
     ],
     "market_probs": [
-      0.3616,
-      0.3232,
-      0.3152
+      0.3619,
+      0.3229,
+      0.3153
     ]
   }
 ]
