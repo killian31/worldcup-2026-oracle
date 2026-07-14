@@ -13949,18 +13949,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Norway (19 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 37,
+    "apparent_temp": null,
     "actual_score": [
       1,
       2
@@ -14309,7 +14304,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 18,
     "actual_score": [
       3,
       2
@@ -15188,18 +15183,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 32,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -15728,13 +15718,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 40,
     "actual_score": [
       0,
       3
@@ -16639,7 +16634,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 26,
+    "apparent_temp": null,
     "actual_score": [
       1,
       4
@@ -17163,13 +17158,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 30,
     "actual_score": [
       2,
       0
@@ -17814,9 +17814,9 @@
     "iso1": "fr",
     "iso2": "es",
     "probs": [
-      0.3603,
-      0.3016,
-      0.3381
+      0.3616,
+      0.3031,
+      0.3353
     ],
     "pred_score": [
       1,
@@ -17975,9 +17975,9 @@
       0.3961
     ],
     "market_probs": [
-      0.4005,
-      0.2985,
-      0.301
+      0.4026,
+      0.3008,
+      0.2967
     ]
   },
   {
@@ -17991,9 +17991,9 @@
     "iso1": "gb-eng",
     "iso2": "ar",
     "probs": [
-      0.3329,
-      0.3098,
-      0.3572
+      0.3333,
+      0.3089,
+      0.3578
     ],
     "pred_score": [
       1,
@@ -18157,9 +18157,9 @@
       0.4262
     ],
     "market_probs": [
-      0.3604,
-      0.3255,
-      0.3141
+      0.361,
+      0.324,
+      0.315
     ]
   }
 ]
