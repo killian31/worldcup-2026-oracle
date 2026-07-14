@@ -14129,18 +14129,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 39,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -15188,13 +15183,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 32,
     "actual_score": [
       3,
       2
@@ -15363,18 +15363,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Ghana (17 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       1,
       0
@@ -17163,18 +17158,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 30,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -17349,7 +17339,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       2,
       1
@@ -17819,9 +17809,9 @@
     "iso1": "fr",
     "iso2": "es",
     "probs": [
-      0.3465,
-      0.3132,
-      0.3403
+      0.1147,
+      0.2095,
+      0.6758
     ],
     "pred_score": [
       1,
@@ -17874,12 +17864,12 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       }
     ],
     "played": false,
-    "apparent_temp": 32,
+    "apparent_temp": 35,
     "form1": [
       {
         "date": "2026-06-22",
@@ -17980,9 +17970,9 @@
       0.3961
     ],
     "market_probs": [
-      0.3762,
-      0.3187,
-      0.305
+      0.0505,
+      0.1382,
+      0.8112
     ]
   },
   {
@@ -17996,9 +17986,9 @@
     "iso1": "gb-eng",
     "iso2": "ar",
     "probs": [
-      0.3317,
-      0.3093,
-      0.359
+      0.3255,
+      0.3111,
+      0.3634
     ],
     "pred_score": [
       1,
@@ -18051,7 +18041,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -18061,7 +18051,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 35,
+    "apparent_temp": 33,
     "form1": [
       {
         "date": "2026-06-23",
@@ -18162,9 +18152,9 @@
       0.4262
     ],
     "market_probs": [
-      0.3583,
-      0.3248,
-      0.3169
+      0.3477,
+      0.3284,
+      0.3239
     ]
   }
 ]
