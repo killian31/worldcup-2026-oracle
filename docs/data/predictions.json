@@ -14831,9 +14831,15 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       2,
       1
@@ -15182,18 +15188,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 32,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -17162,13 +17163,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 30,
     "actual_score": [
       2,
       0
@@ -17343,7 +17349,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 29,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -17813,9 +17819,9 @@
     "iso1": "fr",
     "iso2": "es",
     "probs": [
-      0.352,
-      0.3097,
-      0.3382
+      0.3465,
+      0.3132,
+      0.3403
     ],
     "pred_score": [
       1,
@@ -17868,12 +17874,12 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       }
     ],
     "played": false,
-    "apparent_temp": 33,
+    "apparent_temp": 32,
     "form1": [
       {
         "date": "2026-06-22",
@@ -17974,9 +17980,9 @@
       0.3961
     ],
     "market_probs": [
-      0.3858,
-      0.3125,
-      0.3016
+      0.3762,
+      0.3187,
+      0.305
     ]
   },
   {
@@ -17990,9 +17996,9 @@
     "iso1": "gb-eng",
     "iso2": "ar",
     "probs": [
-      0.3328,
-      0.309,
-      0.3582
+      0.3317,
+      0.3093,
+      0.359
     ],
     "pred_score": [
       1,
@@ -18156,9 +18162,9 @@
       0.4262
     ],
     "market_probs": [
-      0.3602,
-      0.3242,
-      0.3156
+      0.3583,
+      0.3248,
+      0.3169
     ]
   }
 ]
