@@ -176,7 +176,7 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1709
+      "champion": 0.1529
     },
     "team2": {
       "team": "DR Congo",
@@ -268,7 +268,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5329
+      "champion": 0.5794
     },
     "team2": {
       "team": "Austria",
@@ -314,7 +314,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2962
+      "champion": 0.2677
     },
     "team2": {
       "team": "Cape Verde",
@@ -472,7 +472,7 @@
     "team2": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1709
+      "champion": 0.1529
     },
     "score": [
       2,
@@ -498,7 +498,7 @@
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5329
+      "champion": 0.5794
     },
     "score": [
       0,
@@ -545,7 +545,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2962
+      "champion": 0.2677
     },
     "team2": {
       "team": "Egypt",
@@ -626,7 +626,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5329
+      "champion": 0.5794
     },
     "team2": {
       "team": "Belgium",
@@ -657,7 +657,7 @@
     "team2": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1709
+      "champion": 0.1529
     },
     "score": [
       1,
@@ -678,7 +678,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2962
+      "champion": 0.2677
     },
     "team2": {
       "team": "Switzerland",
@@ -709,7 +709,7 @@
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5329
+      "champion": 0.5794
     },
     "score": [
       0,
@@ -730,12 +730,12 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1709
+      "champion": 0.1529
     },
     "team2": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2962
+      "champion": 0.2677
     },
     "score": null,
     "pens": null
@@ -751,7 +751,9 @@
     ],
     "venue": "Hard Rock Stadium",
     "team1": {
-      "placeholder": "L101"
+      "team": "France",
+      "iso": "fr",
+      "champion": 0.0
     },
     "team2": {
       "placeholder": "L102"
@@ -770,7 +772,9 @@
     ],
     "venue": "MetLife Stadium",
     "team1": {
-      "placeholder": "W101"
+      "team": "Spain",
+      "iso": "es",
+      "champion": 0.5794
     },
     "team2": {
       "placeholder": "W102"

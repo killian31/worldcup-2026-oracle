@@ -1,5 +1,174 @@
 [
   {
+    "number": 49505,
+    "date": "2026-07-14",
+    "round": "Semi-final",
+    "venue": "AT&T Stadium",
+    "city": "Arlington",
+    "team1": "France",
+    "team2": "Spain",
+    "iso1": "fr",
+    "iso2": "es",
+    "probs": [
+      0.2978,
+      0.2775,
+      0.4247
+    ],
+    "pred_score": [
+      1,
+      1
+    ],
+    "pred_outcome": 1,
+    "exp_goals": [
+      1.07,
+      1.32
+    ],
+    "elo": [
+      2232,
+      2255
+    ],
+    "form": [
+      3.0,
+      3.0
+    ],
+    "explain": {
+      "baseline_home": 0.4147,
+      "contributions": [
+        {
+          "factor": "elo",
+          "delta": -0.0466
+        },
+        {
+          "factor": "form",
+          "delta": -0.0351
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0097
+        },
+        {
+          "factor": "altitude",
+          "delta": -0.0051
+        },
+        {
+          "factor": "context",
+          "delta": 0.0
+        }
+      ]
+    },
+    "squad": {
+      "home": 95.2,
+      "away": 98.3,
+      "home_big5": 24,
+      "away_big5": 26
+    },
+    "factors": [],
+    "played": true,
+    "apparent_temp": 29,
+    "actual_score": [
+      0,
+      2
+    ],
+    "actual_outcome": 2,
+    "correct": false,
+    "exact_hit": false,
+    "rps": 0.2098,
+    "form1": [
+      {
+        "date": "2026-06-22",
+        "opp": "Iraq",
+        "opp_iso": "iq",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-26",
+        "opp": "Norway",
+        "opp_iso": "no",
+        "gf": 4,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-30",
+        "opp": "Sweden",
+        "opp_iso": "se",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-07-04",
+        "opp": "Paraguay",
+        "opp_iso": "py",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-07-09",
+        "opp": "Morocco",
+        "opp_iso": "ma",
+        "gf": 2,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      }
+    ],
+    "form2": [
+      {
+        "date": "2026-06-21",
+        "opp": "Saudi Arabia",
+        "opp_iso": "sa",
+        "gf": 4,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-06-26",
+        "opp": "Uruguay",
+        "opp_iso": "uy",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-07-02",
+        "opp": "Austria",
+        "opp_iso": "at",
+        "gf": 3,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-07-06",
+        "opp": "Portugal",
+        "opp_iso": "pt",
+        "gf": 1,
+        "ga": 0,
+        "res": "W",
+        "venue": "N"
+      },
+      {
+        "date": "2026-07-10",
+        "opp": "Belgium",
+        "opp_iso": "be",
+        "gf": 2,
+        "ga": 1,
+        "res": "W",
+        "venue": "N"
+      }
+    ]
+  },
+  {
     "number": 49503,
     "date": "2026-07-11",
     "round": "Quarter-final",
@@ -10,9 +179,9 @@
     "iso1": "no",
     "iso2": "gb-eng",
     "probs": [
-      0.2738,
-      0.2666,
-      0.4596
+      0.2789,
+      0.2667,
+      0.4545
     ],
     "pred_score": [
       1,
@@ -32,23 +201,23 @@
       2.6
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1366
+          "delta": -0.1296
         },
         {
           "factor": "form",
-          "delta": 0.0268
+          "delta": 0.0436
         },
         {
           "factor": "rest",
-          "delta": -0.0116
+          "delta": -0.0171
         },
         {
           "factor": "context",
-          "delta": -0.0015
+          "delta": 0.0
         },
         {
           "factor": "altitude",
@@ -78,7 +247,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1835,
+    "rps": 0.1877,
     "form1": [
       {
         "date": "2026-06-16",
@@ -185,9 +354,9 @@
     "iso1": "ar",
     "iso2": "ch",
     "probs": [
-      0.6188,
-      0.2277,
-      0.1535
+      0.6217,
+      0.2236,
+      0.1547
     ],
     "pred_score": [
       2,
@@ -207,23 +376,23 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2602
+          "delta": 0.2512
         },
         {
           "factor": "form",
-          "delta": 0.0574
+          "delta": 0.0329
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "altitude",
-          "delta": -0.0027
+          "delta": -0.0051
         },
         {
           "factor": "context",
@@ -253,7 +422,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0844,
+    "rps": 0.0835,
     "form1": [
       {
         "date": "2026-06-16",
@@ -360,9 +529,9 @@
     "iso1": "es",
     "iso2": "be",
     "probs": [
-      0.605,
-      0.2392,
-      0.1558
+      0.6135,
+      0.2359,
+      0.1506
     ],
     "pred_score": [
       2,
@@ -371,7 +540,7 @@
     "pred_outcome": 0,
     "exp_goals": [
       1.87,
-      0.89
+      0.88
     ],
     "elo": [
       2241,
@@ -382,23 +551,23 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2286
+          "delta": 0.217
         },
         {
           "factor": "form",
-          "delta": -0.0411
+          "delta": -0.0197
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "context",
-          "delta": -0.0015
+          "delta": 0.0
         },
         {
           "factor": "altitude",
@@ -428,7 +597,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.0902,
+    "rps": 0.086,
     "form1": [
       {
         "date": "2026-06-15",
@@ -535,9 +704,9 @@
     "iso1": "fr",
     "iso2": "ma",
     "probs": [
-      0.4791,
-      0.3016,
-      0.2193
+      0.4812,
+      0.2973,
+      0.2215
     ],
     "pred_score": [
       1,
@@ -545,8 +714,8 @@
     ],
     "pred_outcome": 1,
     "exp_goals": [
-      1.2,
-      0.88
+      1.19,
+      0.89
     ],
     "elo": [
       2205,
@@ -557,19 +726,19 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.1498
+          "delta": 0.1484
         },
         {
           "factor": "form",
-          "delta": 0.0464
+          "delta": 0.0301
         },
         {
           "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -608,7 +777,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1597,
+    "rps": 0.1591,
     "form1": [
       {
         "date": "2026-06-16",
@@ -715,9 +884,9 @@
     "iso1": "ar",
     "iso2": "eg",
     "probs": [
-      0.7713,
-      0.1615,
-      0.0672
+      0.7616,
+      0.1744,
+      0.064
     ],
     "pred_score": [
       2,
@@ -737,23 +906,23 @@
       1.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.3866
+          "delta": 0.371
         },
         {
           "factor": "form",
-          "delta": 0.0543
+          "delta": 0.034
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "altitude",
-          "delta": 0.0046
+          "delta": 0.0034
         },
         {
           "factor": "context",
@@ -788,7 +957,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0284,
+    "rps": 0.0305,
     "form1": [
       {
         "date": "2026-06-09",
@@ -895,9 +1064,9 @@
     "iso1": "ch",
     "iso2": "co",
     "probs": [
-      0.2748,
-      0.2984,
-      0.4269
+      0.2704,
+      0.3107,
+      0.4189
     ],
     "pred_score": [
       1,
@@ -917,19 +1086,19 @@
       2.6
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1076
+          "delta": -0.1118
         },
         {
           "factor": "form",
-          "delta": -0.0389
+          "delta": -0.052
         },
         {
           "factor": "rest",
-          "delta": -0.0057
+          "delta": -0.0097
         },
         {
           "factor": "context",
@@ -963,7 +1132,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1289,
+    "rps": 0.1243,
     "form1": [
       {
         "date": "2026-06-06",
@@ -1070,9 +1239,9 @@
     "iso1": "pt",
     "iso2": "es",
     "probs": [
-      0.1997,
-      0.2664,
-      0.5339
+      0.1943,
+      0.2547,
+      0.5509
     ],
     "pred_score": [
       1,
@@ -1080,7 +1249,7 @@
     ],
     "pred_outcome": 2,
     "exp_goals": [
-      0.93,
+      0.92,
       1.59
     ],
     "elo": [
@@ -1092,27 +1261,27 @@
       2.6
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1549
+          "delta": -0.1524
         },
         {
           "factor": "form",
-          "delta": -0.0939
+          "delta": -0.0845
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "altitude",
-          "delta": -0.0027
+          "delta": -0.0051
         },
         {
           "factor": "context",
-          "delta": -0.0015
+          "delta": 0.0
         }
       ]
     },
@@ -1143,7 +1312,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1286,
+    "rps": 0.1197,
     "form1": [
       {
         "date": "2026-06-10",
@@ -1250,9 +1419,9 @@
     "iso1": "us",
     "iso2": "be",
     "probs": [
-      0.3485,
-      0.2688,
-      0.3828
+      0.352,
+      0.2733,
+      0.3747
     ],
     "pred_score": [
       1,
@@ -1272,23 +1441,23 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1265
+          "delta": -0.1228
         },
         {
           "factor": "context",
-          "delta": 0.1109
-        },
-        {
-          "factor": "form",
-          "delta": -0.0255
+          "delta": 0.1129
         },
         {
           "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.014
+        },
+        {
+          "factor": "form",
+          "delta": -0.0082
         },
         {
           "factor": "altitude",
@@ -1323,7 +1492,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.2512,
+    "rps": 0.2574,
     "form1": [
       {
         "date": "2026-06-06",
@@ -1430,9 +1599,9 @@
     "iso1": "br",
     "iso2": "no",
     "probs": [
-      0.4857,
-      0.2703,
-      0.244
+      0.4957,
+      0.2639,
+      0.2404
     ],
     "pred_score": [
       2,
@@ -1452,19 +1621,19 @@
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.1192
-        },
-        {
-          "factor": "form",
-          "delta": -0.0198
+          "delta": 0.1179
         },
         {
           "factor": "rest",
-          "delta": -0.0097
+          "delta": -0.0128
+        },
+        {
+          "factor": "form",
+          "delta": -0.0055
         },
         {
           "factor": "context",
@@ -1503,7 +1672,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.4037,
+    "rps": 0.4114,
     "form1": [
       {
         "date": "2026-06-06",
@@ -1610,9 +1779,9 @@
     "iso1": "mx",
     "iso2": "gb-eng",
     "probs": [
-      0.3876,
-      0.3193,
-      0.2931
+      0.3954,
+      0.3117,
+      0.2929
     ],
     "pred_score": [
       1,
@@ -1632,27 +1801,27 @@
       2.6
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "context",
-          "delta": 0.1109
+          "delta": 0.1129
         },
         {
           "factor": "elo",
-          "delta": -0.1026
-        },
-        {
-          "factor": "form",
-          "delta": -0.0207
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0057
+          "delta": -0.1074
         },
         {
           "factor": "altitude",
-          "delta": 0.0038
+          "delta": 0.0261
+        },
+        {
+          "factor": "form",
+          "delta": -0.0196
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0097
         }
       ]
     },
@@ -1688,7 +1857,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.325,
+    "rps": 0.3282,
     "form1": [
       {
         "date": "2026-06-04",
@@ -1795,9 +1964,9 @@
     "iso1": "ca",
     "iso2": "ma",
     "probs": [
-      0.2154,
-      0.2833,
-      0.5013
+      0.2145,
+      0.285,
+      0.5005
     ],
     "pred_score": [
       1,
@@ -1817,19 +1986,19 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1549
+          "delta": -0.1524
         },
         {
           "factor": "rest",
-          "delta": -0.0097
+          "delta": -0.0128
         },
         {
           "factor": "form",
-          "delta": 0.0049
+          "delta": 0.0017
         },
         {
           "factor": "context",
@@ -1863,7 +2032,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1476,
+    "rps": 0.1477,
     "form1": [
       {
         "date": "2026-06-05",
@@ -1970,9 +2139,9 @@
     "iso1": "py",
     "iso2": "fr",
     "probs": [
-      0.1175,
-      0.2107,
-      0.6718
+      0.1184,
+      0.2106,
+      0.6711
     ],
     "pred_score": [
       1,
@@ -1981,7 +2150,7 @@
     "pred_outcome": 2,
     "exp_goals": [
       0.68,
-      1.72
+      1.71
     ],
     "elo": [
       1909,
@@ -1992,19 +2161,19 @@
       3.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2643
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0057
+          "delta": -0.2729
         },
         {
           "factor": "form",
-          "delta": -0.0021
+          "delta": 0.0097
+        },
+        {
+          "factor": "rest",
+          "delta": -0.0097
         },
         {
           "factor": "context",
@@ -2043,7 +2212,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0607,
+    "rps": 0.0611,
     "form1": [
       {
         "date": "2026-06-05",
@@ -2150,9 +2319,9 @@
     "iso1": "ar",
     "iso2": "cv",
     "probs": [
-      0.8751,
-      0.1014,
-      0.0235
+      0.8763,
+      0.0982,
+      0.0254
     ],
     "pred_score": [
       3,
@@ -2172,19 +2341,19 @@
       1.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.4765
+          "delta": 0.4721
         },
         {
           "factor": "form",
-          "delta": 0.0179
+          "delta": 0.0177
         },
         {
           "factor": "rest",
-          "delta": -0.012
+          "delta": -0.0125
         },
         {
           "factor": "context",
@@ -2223,7 +2392,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0081,
+    "rps": 0.008,
     "form1": [
       {
         "date": "2026-06-06",
@@ -2330,8 +2499,8 @@
     "iso1": "co",
     "iso2": "gh",
     "probs": [
-      0.8021,
-      0.147,
+      0.8048,
+      0.1443,
       0.0509
     ],
     "pred_score": [
@@ -2352,23 +2521,23 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.4198
-        },
-        {
-          "factor": "form",
-          "delta": -0.0347
-        },
-        {
-          "factor": "altitude",
-          "delta": -0.0185
+          "delta": 0.4085
         },
         {
           "factor": "rest",
-          "delta": -0.0116
+          "delta": -0.0171
+        },
+        {
+          "factor": "form",
+          "delta": -0.0035
+        },
+        {
+          "factor": "altitude",
+          "delta": -0.0021
         },
         {
           "factor": "context",
@@ -2403,7 +2572,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0209,
+    "rps": 0.0204,
     "form1": [
       {
         "date": "2026-06-01",
@@ -2510,9 +2679,9 @@
     "iso1": "au",
     "iso2": "eg",
     "probs": [
-      0.4342,
-      0.3024,
-      0.2634
+      0.4373,
+      0.3007,
+      0.262
     ],
     "pred_score": [
       1,
@@ -2532,23 +2701,23 @@
       1.6
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0722
+          "delta": 0.0699
         },
         {
           "factor": "rest",
-          "delta": -0.0079
+          "delta": -0.0168
         },
         {
           "factor": "altitude",
-          "delta": -0.0014
+          "delta": -0.0023
         },
         {
           "factor": "form",
-          "delta": -0.0009
+          "delta": -0.0018
         },
         {
           "factor": "context",
@@ -2583,7 +2752,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.129,
+    "rps": 0.1299,
     "form1": [
       {
         "date": "2026-05-30",
@@ -2690,9 +2859,9 @@
     "iso1": "es",
     "iso2": "at",
     "probs": [
-      0.7113,
-      0.1937,
-      0.095
+      0.7072,
+      0.1972,
+      0.0956
     ],
     "pred_score": [
       2,
@@ -2712,23 +2881,23 @@
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.3266
-        },
-        {
-          "factor": "form",
-          "delta": -0.0161
+          "delta": 0.3181
         },
         {
           "factor": "rest",
-          "delta": -0.0097
+          "delta": -0.0128
+        },
+        {
+          "factor": "form",
+          "delta": 0.0025
         },
         {
           "factor": "context",
-          "delta": -0.0015
+          "delta": 0.0
         },
         {
           "factor": "altitude",
@@ -2758,7 +2927,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0462,
+    "rps": 0.0474,
     "form1": [
       {
         "date": "2026-06-04",
@@ -2865,9 +3034,9 @@
     "iso1": "pt",
     "iso2": "hr",
     "probs": [
-      0.4812,
-      0.283,
-      0.2359
+      0.4839,
+      0.2797,
+      0.2363
     ],
     "pred_score": [
       2,
@@ -2887,27 +3056,27 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0986
+          "delta": 0.1015
         },
         {
           "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.014
         },
         {
           "factor": "form",
-          "delta": -0.0061
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0056
+          "delta": 0.0014
         },
         {
           "factor": "context",
-          "delta": -0.0015
+          "delta": 0.0
+        },
+        {
+          "factor": "altitude",
+          "delta": 0.0
         }
       ]
     },
@@ -2933,7 +3102,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1624,
+    "rps": 0.1611,
     "form1": [
       {
         "date": "2026-06-06",
@@ -3040,9 +3209,9 @@
     "iso1": "ch",
     "iso2": "dz",
     "probs": [
-      0.5079,
-      0.2491,
-      0.243
+      0.506,
+      0.2501,
+      0.2439
     ],
     "pred_score": [
       1,
@@ -3062,19 +3231,19 @@
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0986
+          "delta": 0.1015
         },
         {
           "factor": "form",
-          "delta": 0.0271
+          "delta": 0.0231
         },
         {
           "factor": "rest",
-          "delta": -0.0176
+          "delta": -0.0205
         },
         {
           "factor": "context",
@@ -3113,7 +3282,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1506,
+    "rps": 0.1517,
     "form1": [
       {
         "date": "2026-05-31",
@@ -3220,9 +3389,9 @@
     "iso1": "gb-eng",
     "iso2": "cd",
     "probs": [
-      0.688,
-      0.2123,
-      0.0997
+      0.6876,
+      0.2121,
+      0.1003
     ],
     "pred_score": [
       2,
@@ -3242,23 +3411,23 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.3266
-        },
-        {
-          "factor": "form",
-          "delta": -0.0303
+          "delta": 0.3192
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
+        },
+        {
+          "factor": "form",
+          "delta": -0.0086
         },
         {
           "factor": "altitude",
-          "delta": 0.0046
+          "delta": 0.0034
         },
         {
           "factor": "context",
@@ -3293,7 +3462,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.0536,
+    "rps": 0.0538,
     "form1": [
       {
         "date": "2026-06-06",
@@ -3400,9 +3569,9 @@
     "iso1": "be",
     "iso2": "sn",
     "probs": [
-      0.4371,
-      0.2874,
-      0.2756
+      0.4403,
+      0.2768,
+      0.2829
     ],
     "pred_score": [
       1,
@@ -3422,19 +3591,19 @@
       0.8
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0722
+          "delta": 0.0699
         },
         {
           "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.014
         },
         {
           "factor": "form",
-          "delta": 0.0069
+          "delta": 0.0081
         },
         {
           "factor": "context",
@@ -3462,7 +3631,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1964,
+    "rps": 0.1966,
     "form1": [
       {
         "date": "2026-06-02",
@@ -3569,9 +3738,9 @@
     "iso1": "us",
     "iso2": "ba",
     "probs": [
-      0.7161,
-      0.1875,
-      0.0964
+      0.7154,
+      0.1868,
+      0.0978
     ],
     "pred_score": [
       2,
@@ -3591,23 +3760,23 @@
       1.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2309
+          "delta": 0.2164
         },
         {
           "factor": "context",
-          "delta": 0.1109
+          "delta": 0.1129
         },
         {
           "factor": "form",
-          "delta": 0.0386
+          "delta": 0.0305
         },
         {
           "factor": "rest",
-          "delta": -0.012
+          "delta": -0.0125
         },
         {
           "factor": "altitude",
@@ -3642,7 +3811,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0449,
+    "rps": 0.0453,
     "form1": [
       {
         "date": "2026-05-31",
@@ -3749,9 +3918,9 @@
     "iso1": "mx",
     "iso2": "ec",
     "probs": [
-      0.4674,
-      0.3069,
-      0.2257
+      0.4682,
+      0.3057,
+      0.2261
     ],
     "pred_score": [
       1,
@@ -3771,23 +3940,23 @@
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "context",
-          "delta": 0.1109
+          "delta": 0.1129
         },
         {
           "factor": "elo",
-          "delta": 0.0105
+          "delta": 0.0145
         },
         {
           "factor": "rest",
-          "delta": -0.0097
+          "delta": -0.0128
         },
         {
           "factor": "form",
-          "delta": -0.0077
+          "delta": -0.0003
         },
         {
           "factor": "altitude",
@@ -3822,7 +3991,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1673,
+    "rps": 0.167,
     "form1": [
       {
         "date": "2026-05-30",
@@ -3929,9 +4098,9 @@
     "iso1": "fr",
     "iso2": "se",
     "probs": [
-      0.8008,
-      0.1375,
-      0.0617
+      0.7921,
+      0.1435,
+      0.0644
     ],
     "pred_score": [
       2,
@@ -3939,8 +4108,8 @@
     ],
     "pred_outcome": 0,
     "exp_goals": [
-      2.45,
-      0.66
+      2.44,
+      0.67
     ],
     "elo": [
       2185,
@@ -3951,23 +4120,23 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.4004
+          "delta": 0.3851
         },
         {
           "factor": "form",
-          "delta": 0.0794
+          "delta": 0.0655
         },
         {
           "factor": "rest",
-          "delta": -0.0192
+          "delta": -0.0132
         },
         {
           "factor": "context",
-          "delta": -0.0015
+          "delta": 0.0
         },
         {
           "factor": "altitude",
@@ -4002,7 +4171,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0217,
+    "rps": 0.0237,
     "form1": [
       {
         "date": "2026-06-04",
@@ -4109,9 +4278,9 @@
     "iso1": "ci",
     "iso2": "no",
     "probs": [
-      0.2275,
-      0.264,
-      0.5084
+      0.2319,
+      0.2647,
+      0.5034
     ],
     "pred_score": [
       1,
@@ -4131,23 +4300,23 @@
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1517
+          "delta": -0.1451
         },
         {
           "factor": "form",
-          "delta": -0.027
+          "delta": -0.012
         },
         {
           "factor": "rest",
-          "delta": -0.0057
+          "delta": -0.0097
         },
         {
           "factor": "altitude",
-          "delta": -0.0014
+          "delta": -0.0023
         },
         {
           "factor": "context",
@@ -4182,7 +4351,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1467,
+    "rps": 0.1502,
     "form1": [
       {
         "date": "2026-03-31",
@@ -4289,9 +4458,9 @@
     "iso1": "nl",
     "iso2": "ma",
     "probs": [
-      0.358,
-      0.2811,
-      0.3609
+      0.3578,
+      0.2842,
+      0.358
     ],
     "pred_score": [
       1,
@@ -4311,23 +4480,23 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
-          "factor": "rest",
-          "delta": -0.0192
+          "factor": "elo",
+          "delta": 0.0161
         },
         {
-          "factor": "elo",
-          "delta": 0.012
+          "factor": "rest",
+          "delta": -0.0132
         },
         {
           "factor": "form",
-          "delta": 0.0012
+          "delta": 0.0094
         },
         {
           "factor": "altitude",
-          "delta": -0.0008
+          "delta": 0.0034
         },
         {
           "factor": "context",
@@ -4362,7 +4531,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1292,
+    "rps": 0.1281,
     "form1": [
       {
         "date": "2026-06-03",
@@ -4469,9 +4638,9 @@
     "iso1": "br",
     "iso2": "jp",
     "probs": [
-      0.524,
-      0.2505,
-      0.2255
+      0.5258,
+      0.2484,
+      0.2258
     ],
     "pred_score": [
       1,
@@ -4491,19 +4660,19 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.1186
+          "delta": 0.1174
         },
         {
           "factor": "form",
-          "delta": 0.0667
+          "delta": 0.042
         },
         {
           "factor": "rest",
-          "delta": -0.0057
+          "delta": -0.0097
         },
         {
           "factor": "context",
@@ -4542,7 +4711,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1387,
+    "rps": 0.1379,
     "form1": [
       {
         "date": "2026-05-31",
@@ -4649,9 +4818,9 @@
     "iso1": "de",
     "iso2": "py",
     "probs": [
-      0.5073,
-      0.2508,
-      0.2419
+      0.5032,
+      0.2521,
+      0.2448
     ],
     "pred_score": [
       1,
@@ -4671,19 +4840,19 @@
       1.4
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0986
+          "delta": 0.1015
         },
         {
           "factor": "form",
-          "delta": 0.0582
+          "delta": 0.0574
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -4717,7 +4886,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1579,
+    "rps": 0.1565,
     "form1": [
       {
         "date": "2026-05-31",
@@ -4824,9 +4993,9 @@
     "iso1": "za",
     "iso2": "ca",
     "probs": [
-      0.1915,
-      0.2851,
-      0.5234
+      0.1911,
+      0.2823,
+      0.5266
     ],
     "pred_score": [
       1,
@@ -4846,19 +5015,19 @@
       1.6
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1548
+          "delta": -0.1518
         },
         {
           "factor": "form",
-          "delta": -0.0373
+          "delta": -0.0429
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -4892,7 +5061,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1319,
+    "rps": 0.1303,
     "form1": [
       {
         "date": "2026-05-29",
@@ -4999,9 +5168,9 @@
     "iso1": "hr",
     "iso2": "gh",
     "probs": [
-      0.6269,
-      0.2376,
-      0.1354
+      0.6308,
+      0.2365,
+      0.1327
     ],
     "pred_score": [
       2,
@@ -5021,19 +5190,19 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.2757
+          "delta": 0.2664
         },
         {
           "factor": "form",
-          "delta": 0.0207
+          "delta": 0.0278
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -5061,7 +5230,7 @@
     "actual_outcome": 0,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.0788,
+    "rps": 0.0769,
     "form1": [
       {
         "date": "2026-03-31",
@@ -5168,9 +5337,9 @@
     "iso1": "pa",
     "iso2": "gb-eng",
     "probs": [
-      0.0842,
-      0.1672,
-      0.7485
+      0.0857,
+      0.1695,
+      0.7448
     ],
     "pred_score": [
       1,
@@ -5190,19 +5359,19 @@
       2.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2704
+          "delta": -0.2853
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "form",
-          "delta": 0.005
+          "delta": -0.0118
         },
         {
           "factor": "context",
@@ -5236,7 +5405,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0352,
+    "rps": 0.0362,
     "form1": [
       {
         "date": "2026-05-31",
@@ -5343,9 +5512,9 @@
     "iso1": "cd",
     "iso2": "uz",
     "probs": [
-      0.3912,
-      0.3056,
-      0.3032
+      0.3971,
+      0.3003,
+      0.3026
     ],
     "pred_score": [
       1,
@@ -5365,23 +5534,23 @@
       0.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.0402
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.0423
         },
         {
           "factor": "form",
-          "delta": 0.0077
+          "delta": 0.03
+        },
+        {
+          "factor": "rest",
+          "delta": -0.014
         },
         {
           "factor": "altitude",
-          "delta": 0.0046
+          "delta": 0.0034
         },
         {
           "factor": "context",
@@ -5416,7 +5585,7 @@
     "actual_outcome": 0,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.2313,
+    "rps": 0.2275,
     "form1": [
       {
         "date": "2026-03-31",
@@ -5523,9 +5692,9 @@
     "iso1": "jo",
     "iso2": "ar",
     "probs": [
-      0.033,
-      0.0875,
-      0.8794
+      0.0324,
+      0.0839,
+      0.8837
     ],
     "pred_score": [
       0,
@@ -5545,23 +5714,23 @@
       3.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.3526
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.3627
         },
         {
           "factor": "form",
-          "delta": 0.005
+          "delta": 0.0211
+        },
+        {
+          "factor": "rest",
+          "delta": -0.014
         },
         {
           "factor": "altitude",
-          "delta": -0.0014
+          "delta": -0.0023
         },
         {
           "factor": "context",
@@ -5596,7 +5765,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0078,
+    "rps": 0.0073,
     "form1": [
       {
         "date": "2026-03-31",
@@ -5703,9 +5872,9 @@
     "iso1": "dz",
     "iso2": "at",
     "probs": [
-      0.3404,
-      0.2921,
-      0.3674
+      0.3305,
+      0.291,
+      0.3785
     ],
     "pred_score": [
       1,
@@ -5725,23 +5894,23 @@
       2.4
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
-          "factor": "elo",
-          "delta": -0.0418
+          "factor": "form",
+          "delta": -0.0465
         },
         {
-          "factor": "form",
-          "delta": -0.0378
+          "factor": "elo",
+          "delta": -0.0423
         },
         {
           "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.014
         },
         {
           "factor": "altitude",
-          "delta": -0.0076
+          "delta": -0.0083
         },
         {
           "factor": "context",
@@ -5776,7 +5945,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1255,
+    "rps": 0.1262,
     "form1": [
       {
         "date": "2026-03-31",
@@ -5883,9 +6052,9 @@
     "iso1": "co",
     "iso2": "pt",
     "probs": [
-      0.3952,
-      0.2928,
-      0.312
+      0.3914,
+      0.2956,
+      0.313
     ],
     "pred_score": [
       1,
@@ -5905,19 +6074,19 @@
       2.6
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": 0.0722
+          "delta": 0.0699
         },
         {
           "factor": "form",
-          "delta": -0.0382
+          "delta": -0.0491
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -5956,7 +6125,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.1268,
+    "rps": 0.1256,
     "form1": [
       {
         "date": "2026-03-29",
@@ -6063,9 +6232,9 @@
     "iso1": "eg",
     "iso2": "ir",
     "probs": [
-      0.3404,
-      0.3119,
-      0.3477
+      0.3348,
+      0.3146,
+      0.3506
     ],
     "pred_score": [
       1,
@@ -6085,19 +6254,19 @@
       2.2
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.0497
+          "delta": -0.0553
         },
         {
           "factor": "form",
-          "delta": -0.0258
+          "delta": -0.0345
         },
         {
           "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -6131,7 +6300,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": true,
-    "rps": 0.1184,
+    "rps": 0.1175,
     "form1": [
       {
         "date": "2026-03-31",
@@ -6238,9 +6407,9 @@
     "iso1": "nz",
     "iso2": "be",
     "probs": [
-      0.1258,
-      0.2004,
-      0.6739
+      0.1259,
+      0.2067,
+      0.6675
     ],
     "pred_score": [
       1,
@@ -6260,19 +6429,19 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.2432
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.2459
         },
         {
           "factor": "form",
-          "delta": -0.0004
+          "delta": -0.0243
+        },
+        {
+          "factor": "rest",
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -6306,7 +6475,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0611,
+    "rps": 0.0632,
     "form1": [
       {
         "date": "2026-03-30",
@@ -6413,9 +6582,9 @@
     "iso1": "cv",
     "iso2": "sa",
     "probs": [
-      0.3626,
-      0.3173,
-      0.3202
+      0.363,
+      0.3123,
+      0.3246
     ],
     "pred_score": [
       1,
@@ -6435,19 +6604,19 @@
       1.0
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.0402
+          "delta": -0.0423
         },
         {
           "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.014
         },
         {
           "factor": "form",
-          "delta": -0.0031
+          "delta": -0.0059
         },
         {
           "factor": "context",
@@ -6486,7 +6655,7 @@
     "actual_outcome": 1,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.117,
+    "rps": 0.1186,
     "form1": [
       {
         "date": "2026-03-30",
@@ -6593,9 +6762,9 @@
     "iso1": "uy",
     "iso2": "es",
     "probs": [
-      0.1177,
-      0.1872,
-      0.6951
+      0.1137,
+      0.1843,
+      0.702
     ],
     "pred_score": [
       1,
@@ -6603,7 +6772,7 @@
     ],
     "pred_outcome": 2,
     "exp_goals": [
-      0.7,
+      0.69,
       1.85
     ],
     "elo": [
@@ -6615,23 +6784,23 @@
       1.8
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.259
+          "delta": -0.2632
         },
         {
           "factor": "altitude",
-          "delta": -0.0348
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0168
+          "delta": -0.0361
         },
         {
           "factor": "form",
-          "delta": 0.0125
+          "delta": 0.0161
+        },
+        {
+          "factor": "rest",
+          "delta": -0.014
         },
         {
           "factor": "context",
@@ -6666,7 +6835,7 @@
     "actual_outcome": 2,
     "correct": true,
     "exact_hit": false,
-    "rps": 0.0534,
+    "rps": 0.0509,
     "form1": [
       {
         "date": "2025-11-18",
@@ -6773,9 +6942,9 @@
     "iso1": "no",
     "iso2": "fr",
     "probs": [
-      0.2698,
-      0.2719,
-      0.4583
+      0.2707,
+      0.2711,
+      0.4582
     ],
     "pred_score": [
       1,
@@ -6783,8 +6952,8 @@
     ],
     "pred_outcome": 1,
     "exp_goals": [
-      1.13,
-      1.46
+      1.14,
+      1.45
     ],
     "elo": [
       2013,
@@ -6795,23 +6964,23 @@
       2.4
     ],
     "explain": {
-      "baseline_home": 0.4126,
+      "baseline_home": 0.4147,
       "contributions": [
         {
           "factor": "elo",
-          "delta": -0.1548
-        },
-        {
-          "factor": "form",
-          "delta": -0.0099
+          "delta": -0.1518
         },
         {
           "factor": "rest",
-          "delta": -0.0095
+          "delta": -0.014
+        },
+        {
+          "factor": "form",
+          "delta": -0.0082
         },
         {
           "factor": "context",
-          "delta": -0.0015
+          "delta": 0.0
         },
         {
           "factor": "altitude",
@@ -6835,7 +7004,7 @@
     "actual_outcome": 2,
     "correct": false,
     "exact_hit": false,
-    "rps": 0.1831,
+    "rps": 0.1834,
     "form1": [
       {
         "date": "2026-03-31",
@@ -6927,181 +7096,6 @@
         "gf": 3,
         "ga": 0,
         "res": "W",
-        "venue": "N"
-      }
-    ]
-  },
-  {
-    "number": 49470,
-    "date": "2026-06-26",
-    "round": "Matchday 16",
-    "venue": "BMO Field",
-    "city": "Toronto",
-    "team1": "Senegal",
-    "team2": "Iraq",
-    "iso1": "sn",
-    "iso2": "iq",
-    "probs": [
-      0.6006,
-      0.2532,
-      0.1462
-    ],
-    "pred_score": [
-      1,
-      1
-    ],
-    "pred_outcome": 1,
-    "exp_goals": [
-      1.48,
-      0.71
-    ],
-    "elo": [
-      1871,
-      1707
-    ],
-    "form": [
-      0.8,
-      0.8
-    ],
-    "explain": {
-      "baseline_home": 0.4126,
-      "contributions": [
-        {
-          "factor": "elo",
-          "delta": 0.2009
-        },
-        {
-          "factor": "form",
-          "delta": 0.0537
-        },
-        {
-          "factor": "rest",
-          "delta": -0.0095
-        },
-        {
-          "factor": "altitude",
-          "delta": 0.0056
-        },
-        {
-          "factor": "context",
-          "delta": 0.0
-        }
-      ]
-    },
-    "squad": {
-      "home": 91.0,
-      "away": 50.0,
-      "home_big5": 20,
-      "away_big5": 2
-    },
-    "factors": [
-      {
-        "icon": "\u2b50",
-        "text": "Squad quality: Senegal (20 top-5-league players)",
-        "favors": "home"
-      }
-    ],
-    "played": true,
-    "apparent_temp": 21,
-    "actual_score": [
-      5,
-      0
-    ],
-    "actual_outcome": 0,
-    "correct": false,
-    "exact_hit": false,
-    "rps": 0.0905,
-    "form1": [
-      {
-        "date": "2026-03-31",
-        "opp": "Gambia",
-        "opp_iso": "un",
-        "gf": 3,
-        "ga": 1,
-        "res": "W",
-        "venue": "H"
-      },
-      {
-        "date": "2026-05-31",
-        "opp": "United States",
-        "opp_iso": "us",
-        "gf": 2,
-        "ga": 3,
-        "res": "L",
-        "venue": "A"
-      },
-      {
-        "date": "2026-06-09",
-        "opp": "Saudi Arabia",
-        "opp_iso": "sa",
-        "gf": 0,
-        "ga": 0,
-        "res": "D",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "France",
-        "opp_iso": "fr",
-        "gf": 1,
-        "ga": 3,
-        "res": "L",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-22",
-        "opp": "Norway",
-        "opp_iso": "no",
-        "gf": 2,
-        "ga": 3,
-        "res": "L",
-        "venue": "N"
-      }
-    ],
-    "form2": [
-      {
-        "date": "2026-05-29",
-        "opp": "Andorra",
-        "opp_iso": "un",
-        "gf": 1,
-        "ga": 0,
-        "res": "W",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-04",
-        "opp": "Spain",
-        "opp_iso": "es",
-        "gf": 1,
-        "ga": 1,
-        "res": "D",
-        "venue": "A"
-      },
-      {
-        "date": "2026-06-09",
-        "opp": "Venezuela",
-        "opp_iso": "un",
-        "gf": 0,
-        "ga": 2,
-        "res": "L",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-16",
-        "opp": "Norway",
-        "opp_iso": "no",
-        "gf": 1,
-        "ga": 4,
-        "res": "L",
-        "venue": "N"
-      },
-      {
-        "date": "2026-06-22",
-        "opp": "France",
-        "opp_iso": "fr",
-        "gf": 0,
-        "ga": 3,
-        "res": "L",
         "venue": "N"
       }
     ]
