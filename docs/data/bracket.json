@@ -176,7 +176,7 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1529
+      "champion": 0.0
     },
     "team2": {
       "team": "DR Congo",
@@ -268,7 +268,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5794
+      "champion": 0.539
     },
     "team2": {
       "team": "Austria",
@@ -314,7 +314,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2677
+      "champion": 0.461
     },
     "team2": {
       "team": "Cape Verde",
@@ -472,7 +472,7 @@
     "team2": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1529
+      "champion": 0.0
     },
     "score": [
       2,
@@ -498,7 +498,7 @@
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5794
+      "champion": 0.539
     },
     "score": [
       0,
@@ -545,7 +545,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2677
+      "champion": 0.461
     },
     "team2": {
       "team": "Egypt",
@@ -626,7 +626,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5794
+      "champion": 0.539
     },
     "team2": {
       "team": "Belgium",
@@ -657,7 +657,7 @@
     "team2": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1529
+      "champion": 0.0
     },
     "score": [
       1,
@@ -678,7 +678,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2677
+      "champion": 0.461
     },
     "team2": {
       "team": "Switzerland",
@@ -709,7 +709,7 @@
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5794
+      "champion": 0.539
     },
     "score": [
       0,
@@ -730,14 +730,17 @@
     "team1": {
       "team": "England",
       "iso": "gb-eng",
-      "champion": 0.1529
+      "champion": 0.0
     },
     "team2": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.2677
+      "champion": 0.461
     },
-    "score": null,
+    "score": [
+      1,
+      2
+    ],
     "pens": null
   },
   {
@@ -756,7 +759,9 @@
       "champion": 0.0
     },
     "team2": {
-      "placeholder": "L102"
+      "team": "England",
+      "iso": "gb-eng",
+      "champion": 0.0
     },
     "score": null,
     "pens": null
@@ -774,10 +779,12 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.5794
+      "champion": 0.539
     },
     "team2": {
-      "placeholder": "W102"
+      "team": "Argentina",
+      "iso": "ar",
+      "champion": 0.461
     },
     "score": null,
     "pens": null
