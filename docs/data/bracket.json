@@ -268,7 +268,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.539
+      "champion": 0.515
     },
     "team2": {
       "team": "Austria",
@@ -314,7 +314,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.461
+      "champion": 0.485
     },
     "team2": {
       "team": "Cape Verde",
@@ -498,7 +498,7 @@
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.539
+      "champion": 0.515
     },
     "score": [
       0,
@@ -545,7 +545,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.461
+      "champion": 0.485
     },
     "team2": {
       "team": "Egypt",
@@ -626,7 +626,7 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.539
+      "champion": 0.515
     },
     "team2": {
       "team": "Belgium",
@@ -678,7 +678,7 @@
     "team1": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.461
+      "champion": 0.485
     },
     "team2": {
       "team": "Switzerland",
@@ -709,7 +709,7 @@
     "team2": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.539
+      "champion": 0.515
     },
     "score": [
       0,
@@ -735,7 +735,7 @@
     "team2": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.461
+      "champion": 0.485
     },
     "score": [
       1,
@@ -779,12 +779,12 @@
     "team1": {
       "team": "Spain",
       "iso": "es",
-      "champion": 0.539
+      "champion": 0.515
     },
     "team2": {
       "team": "Argentina",
       "iso": "ar",
-      "champion": 0.461
+      "champion": 0.485
     },
     "score": null,
     "pens": null
