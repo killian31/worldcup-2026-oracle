@@ -13589,18 +13589,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Norway (19 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 37,
+    "apparent_temp": null,
     "actual_score": [
       1,
       2
@@ -14831,9 +14826,15 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       2,
       1
@@ -18167,9 +18168,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4509,
-      0.2645,
-      0.2846
+      0.4557,
+      0.2644,
+      0.2799
     ],
     "pred_score": [
       1,
@@ -18333,9 +18334,9 @@
       0.3287
     ],
     "market_probs": [
-      0.4954,
-      0.2487,
-      0.2559
+      0.5034,
+      0.2481,
+      0.2485
     ]
   },
   {
@@ -18349,9 +18350,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.3979,
-      0.2997,
-      0.3024
+      0.3987,
+      0.2988,
+      0.3025
     ],
     "pred_score": [
       1,
@@ -18510,9 +18511,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4127,
-      0.3188,
-      0.2684
+      0.4142,
+      0.3173,
+      0.2686
     ]
   }
 ]
