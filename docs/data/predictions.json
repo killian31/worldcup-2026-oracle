@@ -14140,7 +14140,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 27,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -14309,13 +14309,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       2,
       1
@@ -15363,18 +15368,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 32,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -16099,7 +16099,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 19,
     "actual_score": [
       2,
       3
@@ -16639,7 +16639,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 26,
+    "apparent_temp": null,
     "actual_score": [
       1,
       4
@@ -17518,13 +17518,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 37,
     "actual_score": [
       1,
       2
@@ -18037,18 +18042,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 35,
+    "apparent_temp": null,
     "actual_score": [
       1,
       2
@@ -18163,9 +18163,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4554,
-      0.2626,
-      0.282
+      0.4557,
+      0.2624,
+      0.2819
     ],
     "pred_score": [
       1,
@@ -18329,9 +18329,9 @@
       0.3287
     ],
     "market_probs": [
-      0.5029,
-      0.2454,
-      0.2517
+      0.5034,
+      0.245,
+      0.2516
     ]
   },
   {
@@ -18345,9 +18345,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.3993,
-      0.2975,
-      0.3032
+      0.3998,
+      0.2977,
+      0.3025
     ],
     "pred_score": [
       1,
@@ -18405,7 +18405,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 26,
+    "apparent_temp": 28,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18506,9 +18506,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4152,
-      0.315,
-      0.2697
+      0.4161,
+      0.3152,
+      0.2687
     ]
   }
 ]
