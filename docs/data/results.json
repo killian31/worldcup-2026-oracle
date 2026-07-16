@@ -64,13 +64,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 35,
     "actual_score": [
       1,
       2
@@ -408,18 +413,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 37,
+    "apparent_temp": null,
     "actual_score": [
       1,
       2
@@ -1664,7 +1664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 26,
     "actual_score": [
       1,
       4
@@ -2378,18 +2378,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 41,
+    "apparent_temp": null,
     "actual_score": [
       0,
       1
@@ -2738,13 +2733,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 32,
     "actual_score": [
       3,
       2
@@ -3634,7 +3634,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 27,
     "actual_score": [
       2,
       0
@@ -3803,18 +3803,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 39,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
