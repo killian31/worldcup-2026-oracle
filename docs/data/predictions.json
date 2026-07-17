@@ -14489,7 +14489,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": 18,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -14831,9 +14831,15 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       2,
       1
@@ -16098,7 +16104,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 19,
+    "apparent_temp": null,
     "actual_score": [
       2,
       3
@@ -16993,7 +16999,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 21,
     "actual_score": [
       0,
       0
@@ -17695,15 +17701,9 @@
       "home_big5": 20,
       "away_big5": 24
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 35,
+    "apparent_temp": null,
     "actual_score": [
       3,
       1
@@ -18167,9 +18167,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4561,
-      0.263,
-      0.2809
+      0.4588,
+      0.2617,
+      0.2795
     ],
     "pred_score": [
       1,
@@ -18333,9 +18333,9 @@
       0.3287
     ],
     "market_probs": [
-      0.5041,
-      0.2459,
-      0.25
+      0.5086,
+      0.2437,
+      0.2477
     ]
   },
   {
@@ -18350,8 +18350,8 @@
     "iso2": "ar",
     "probs": [
       0.4005,
-      0.2964,
-      0.3031
+      0.2962,
+      0.3033
     ],
     "pred_score": [
       1,
@@ -18510,9 +18510,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4174,
-      0.313,
-      0.2696
+      0.4175,
+      0.3127,
+      0.2698
     ]
   }
 ]
