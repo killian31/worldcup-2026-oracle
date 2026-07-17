@@ -18042,13 +18042,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 35,
     "actual_score": [
       1,
       2
@@ -18163,9 +18168,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4547,
-      0.2626,
-      0.2827
+      0.454,
+      0.2627,
+      0.2833
     ],
     "pred_score": [
       1,
@@ -18329,9 +18334,9 @@
       0.3287
     ],
     "market_probs": [
-      0.5018,
-      0.2454,
-      0.2528
+      0.5006,
+      0.2457,
+      0.2537
     ]
   },
   {
@@ -18345,9 +18350,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4003,
-      0.2968,
-      0.3029
+      0.4004,
+      0.2964,
+      0.3032
     ],
     "pred_score": [
       1,
@@ -18506,9 +18511,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4171,
-      0.3137,
-      0.2692
+      0.4173,
+      0.3131,
+      0.2697
     ]
   }
 ]
