@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 23,
+    "apparent_temp": null,
     "actual_score": [
       3,
       0
@@ -15188,13 +15188,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Australia (9 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       1,
       1
@@ -16994,7 +16999,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 21,
+    "apparent_temp": null,
     "actual_score": [
       0,
       0
@@ -17873,7 +17878,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       0,
       2
@@ -18168,9 +18173,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4556,
-      0.2625,
-      0.2819
+      0.4565,
+      0.2632,
+      0.2803
     ],
     "pred_score": [
       1,
@@ -18223,7 +18228,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -18233,7 +18238,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 36,
+    "apparent_temp": 34,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18334,9 +18339,9 @@
       0.3287
     ],
     "market_probs": [
-      0.5033,
-      0.2452,
-      0.2515
+      0.5047,
+      0.2462,
+      0.2491
     ]
   },
   {
@@ -18351,8 +18356,8 @@
     "iso2": "ar",
     "probs": [
       0.4016,
-      0.2976,
-      0.3008
+      0.2975,
+      0.3009
     ],
     "pred_score": [
       1,
@@ -18511,9 +18516,9 @@
       0.3575
     ],
     "market_probs": [
-      0.419,
-      0.315,
-      0.2659
+      0.4191,
+      0.3148,
+      0.2661
     ]
   }
 ]
