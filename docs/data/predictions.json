@@ -13960,7 +13960,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 17,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 23,
     "actual_score": [
       3,
       0
@@ -15368,18 +15368,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 32,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -18174,8 +18169,8 @@
     "iso2": "gb-eng",
     "probs": [
       0.4565,
-      0.2632,
-      0.2803
+      0.2636,
+      0.2799
     ],
     "pred_score": [
       1,
@@ -18340,8 +18335,8 @@
     ],
     "market_probs": [
       0.5047,
-      0.2462,
-      0.2491
+      0.2468,
+      0.2485
     ]
   },
   {
@@ -18355,9 +18350,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4016,
+      0.4007,
       0.2975,
-      0.3009
+      0.3018
     ],
     "pred_score": [
       1,
@@ -18415,7 +18410,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 27,
+    "apparent_temp": 28,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18516,9 +18511,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4191,
-      0.3148,
-      0.2661
+      0.4177,
+      0.3149,
+      0.2675
     ]
   }
 ]
