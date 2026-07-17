@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 23,
+    "apparent_temp": null,
     "actual_score": [
       3,
       0
@@ -14831,9 +14831,15 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       2,
       1
@@ -17867,7 +17873,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       0,
       2
@@ -18345,8 +18351,8 @@
     "iso2": "ar",
     "probs": [
       0.4004,
-      0.2965,
-      0.3031
+      0.2967,
+      0.3029
     ],
     "pred_score": [
       1,
@@ -18506,8 +18512,8 @@
     ],
     "market_probs": [
       0.4172,
-      0.3132,
-      0.2696
+      0.3135,
+      0.2692
     ]
   }
 ]
