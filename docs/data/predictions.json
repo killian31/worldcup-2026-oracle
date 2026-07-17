@@ -13960,7 +13960,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 17,
     "actual_score": [
       2,
       0
@@ -14831,15 +14831,9 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -15368,13 +15362,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 32\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 32,
     "actual_score": [
       3,
       2
@@ -18168,9 +18167,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4565,
-      0.2636,
-      0.2799
+      0.4562,
+      0.2639,
+      0.28
     ],
     "pred_score": [
       1,
@@ -18223,7 +18222,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 34\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -18233,7 +18232,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 34,
+    "apparent_temp": 36,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18334,9 +18333,9 @@
       0.3287
     ],
     "market_probs": [
-      0.5047,
-      0.2468,
-      0.2485
+      0.5041,
+      0.2473,
+      0.2486
     ]
   },
   {
@@ -18350,9 +18349,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4007,
-      0.2975,
-      0.3018
+      0.4006,
+      0.2973,
+      0.3021
     ],
     "pred_score": [
       1,
@@ -18511,9 +18510,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4177,
-      0.3149,
-      0.2675
+      0.4175,
+      0.3146,
+      0.268
     ]
   }
 ]
