@@ -14489,7 +14489,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": 18,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -15019,7 +15019,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 13,
     "actual_score": [
       2,
       0
@@ -16104,7 +16104,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 19,
+    "apparent_temp": null,
     "actual_score": [
       2,
       3
@@ -16644,7 +16644,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 26,
     "actual_score": [
       1,
       4
@@ -17354,7 +17354,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 29,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -18173,9 +18173,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4596,
-      0.2603,
-      0.2801
+      0.4605,
+      0.2579,
+      0.2816
     ],
     "pred_score": [
       1,
@@ -18228,7 +18228,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 38\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -18238,7 +18238,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 37,
+    "apparent_temp": 38,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18339,9 +18339,9 @@
       0.3287
     ],
     "market_probs": [
-      0.51,
-      0.2415,
-      0.2485
+      0.5115,
+      0.2378,
+      0.2507
     ]
   },
   {
@@ -18355,9 +18355,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4006,
-      0.2965,
-      0.3028
+      0.4016,
+      0.2972,
+      0.3012
     ],
     "pred_score": [
       1,
@@ -18415,7 +18415,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 26,
+    "apparent_temp": 28,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18516,9 +18516,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4176,
-      0.3133,
-      0.2691
+      0.4192,
+      0.3143,
+      0.2665
     ]
   }
 ]
