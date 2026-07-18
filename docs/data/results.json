@@ -591,15 +591,9 @@
       "home_big5": 20,
       "away_big5": 24
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 35,
+    "apparent_temp": null,
     "actual_score": [
       3,
       1
