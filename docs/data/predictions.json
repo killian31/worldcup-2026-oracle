@@ -14831,9 +14831,15 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 36,
     "actual_score": [
       2,
       1
@@ -15182,18 +15188,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Australia (9 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 39,
+    "apparent_temp": null,
     "actual_score": [
       1,
       1
@@ -16993,7 +16994,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 21,
     "actual_score": [
       0,
       0
@@ -17695,15 +17696,9 @@
       "home_big5": 20,
       "away_big5": 24
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 35,
+    "apparent_temp": null,
     "actual_score": [
       3,
       1
@@ -18167,9 +18162,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4593,
-      0.2616,
-      0.2791
+      0.4594,
+      0.2611,
+      0.2795
     ],
     "pred_score": [
       1,
@@ -18333,9 +18328,9 @@
       0.3287
     ],
     "market_probs": [
-      0.5095,
-      0.2434,
-      0.2471
+      0.5097,
+      0.2427,
+      0.2476
     ]
   },
   {
@@ -18349,9 +18344,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4004,
-      0.2968,
-      0.3028
+      0.4006,
+      0.2967,
+      0.3026
     ],
     "pred_score": [
       1,
@@ -18409,7 +18404,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 27,
+    "apparent_temp": 26,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18510,9 +18505,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4172,
-      0.3137,
-      0.2691
+      0.4176,
+      0.3136,
+      0.2688
     ]
   }
 ]
