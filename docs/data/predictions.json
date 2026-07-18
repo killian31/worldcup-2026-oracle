@@ -15019,7 +15019,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 13,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -15188,13 +15188,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Australia (9 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       1,
       1
@@ -16639,7 +16644,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 26,
+    "apparent_temp": null,
     "actual_score": [
       1,
       4
@@ -17696,9 +17701,15 @@
       "home_big5": 20,
       "away_big5": 24
     },
-    "factors": [],
+    "factors": [
+      {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      }
+    ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 35,
     "actual_score": [
       3,
       1
@@ -18162,9 +18173,9 @@
     "iso1": "fr",
     "iso2": "gb-eng",
     "probs": [
-      0.4594,
-      0.2611,
-      0.2795
+      0.4596,
+      0.2603,
+      0.2801
     ],
     "pred_score": [
       1,
@@ -18328,9 +18339,9 @@
       0.3287
     ],
     "market_probs": [
-      0.5097,
-      0.2427,
-      0.2476
+      0.51,
+      0.2415,
+      0.2485
     ]
   },
   {
@@ -18345,8 +18356,8 @@
     "iso2": "ar",
     "probs": [
       0.4006,
-      0.2967,
-      0.3026
+      0.2965,
+      0.3028
     ],
     "pred_score": [
       1,
@@ -18506,8 +18517,8 @@
     ],
     "market_probs": [
       0.4176,
-      0.3136,
-      0.2688
+      0.3133,
+      0.2691
     ]
   }
 ]
