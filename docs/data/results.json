@@ -774,7 +774,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       2,
       1
@@ -1309,7 +1309,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 21,
+    "apparent_temp": null,
     "actual_score": [
       0,
       0
@@ -2203,13 +2203,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 40,
     "actual_score": [
       0,
       3
@@ -3459,7 +3464,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 13,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -3808,13 +3813,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       2,
       1
@@ -4332,18 +4342,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 33,
+    "apparent_temp": null,
     "actual_score": [
       3,
       0
