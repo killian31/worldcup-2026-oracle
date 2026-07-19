@@ -3,7 +3,7 @@
     "team": "Spain",
     "iso": "es",
     "conf": "UEFA",
-    "elo": 2297,
+    "elo": 2326,
     "squad_strength": 98.3,
     "n_big5": 26,
     "avg_age": 26.8,
@@ -11,13 +11,13 @@
     "reach_qf": 1.0,
     "reach_sf": 1.0,
     "reach_final": 1.0,
-    "champion": 0.5148
+    "champion": 0.5753
   },
   {
     "team": "Argentina",
     "iso": "ar",
     "conf": "CONMEBOL",
-    "elo": 2277,
+    "elo": 2249,
     "squad_strength": 92.8,
     "n_big5": 20,
     "avg_age": 29.2,
@@ -25,7 +25,7 @@
     "reach_qf": 1.0,
     "reach_sf": 1.0,
     "reach_final": 1.0,
-    "champion": 0.4852
+    "champion": 0.4247
   },
   {
     "team": "Canada",
