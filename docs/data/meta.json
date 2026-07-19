@@ -1,13 +1,13 @@
 {
-  "updated_utc": "2026-07-19T06:42:10Z",
+  "updated_utc": "2026-07-19T09:14:28Z",
   "tournament": "FIFA World Cup 2026",
   "matches_total": 104,
-  "matches_played": 102,
-  "matches_upcoming_known": 2,
+  "matches_played": 103,
+  "matches_upcoming_known": 1,
   "model": "Elo + team attack/defence -> Dixon-Coles + HistGBM ensemble (calibrated)",
   "sims": 50000,
-  "accuracy_rps": 0.1525,
-  "accuracy_pct": 0.598,
+  "accuracy_rps": 0.1537,
+  "accuracy_pct": 0.5922,
   "live_odds": true,
   "sources": [
     "martj42/international_results (CC0)",
