@@ -14140,7 +14140,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 27,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -14489,7 +14489,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 18,
     "actual_score": [
       3,
       2
@@ -15728,18 +15728,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 40\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Morocco (15 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 40,
+    "apparent_temp": null,
     "actual_score": [
       0,
       3
@@ -15908,13 +15903,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 41,
     "actual_score": [
       0,
       1
@@ -17349,7 +17349,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       2,
       1
@@ -17873,7 +17873,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": 29,
+    "apparent_temp": null,
     "actual_score": [
       0,
       2
@@ -18348,9 +18348,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4032,
-      0.2952,
-      0.3015
+      0.4043,
+      0.295,
+      0.3008
     ],
     "pred_score": [
       1,
@@ -18509,9 +18509,9 @@
       0.3606
     ],
     "market_probs": [
-      0.4178,
-      0.3169,
-      0.2653
+      0.4195,
+      0.3164,
+      0.2641
     ]
   }
 ]
