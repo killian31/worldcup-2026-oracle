@@ -14489,7 +14489,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": 18,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -14664,7 +14664,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 23,
     "actual_score": [
       3,
       0
@@ -15908,18 +15908,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 41\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 41,
+    "apparent_temp": null,
     "actual_score": [
       0,
       1
@@ -18347,9 +18342,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.402,
-      0.2952,
-      0.3028
+      0.4025,
+      0.2954,
+      0.3021
     ],
     "pred_score": [
       1,
@@ -18508,9 +18503,9 @@
       0.3606
     ],
     "market_probs": [
-      0.4158,
-      0.317,
-      0.2672
+      0.4167,
+      0.3172,
+      0.2661
     ]
   }
 ]
