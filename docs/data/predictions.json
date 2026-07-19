@@ -13769,13 +13769,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 33\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 33,
     "actual_score": [
       3,
       0
@@ -14484,7 +14489,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": 18,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -15014,7 +15019,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 13,
     "actual_score": [
       2,
       0
@@ -16639,7 +16644,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 26,
+    "apparent_temp": null,
     "actual_score": [
       1,
       4
@@ -16994,7 +16999,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 21,
     "actual_score": [
       0,
       0
@@ -18042,18 +18047,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 35,
+    "apparent_temp": null,
     "actual_score": [
       1,
       2
@@ -18223,7 +18223,7 @@
     "factors": [
       {
         "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "text": "Heat 37\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
         "favors": "none"
       },
       {
@@ -18233,7 +18233,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 36,
+    "apparent_temp": 37,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18340,9 +18340,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4006,
-      0.2974,
-      0.302
+      0.4007,
+      0.2973,
+      0.3019
     ],
     "pred_score": [
       1,
@@ -18400,7 +18400,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 26,
+    "apparent_temp": 27,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18501,9 +18501,9 @@
       0.3575
     ],
     "market_probs": [
-      0.4175,
+      0.4177,
       0.3146,
-      0.2679
+      0.2677
     ]
   }
 ]
