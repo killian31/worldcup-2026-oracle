@@ -14140,7 +14140,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 27,
     "actual_score": [
       2,
       0
@@ -14309,18 +14309,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 39,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -17349,7 +17344,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 29,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -17873,7 +17868,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       0,
       2
@@ -18348,9 +18343,9 @@
     "iso1": "es",
     "iso2": "ar",
     "probs": [
-      0.4043,
-      0.295,
-      0.3008
+      0.3972,
+      0.333,
+      0.2698
     ],
     "pred_score": [
       1,
@@ -18408,7 +18403,7 @@
       }
     ],
     "played": false,
-    "apparent_temp": 28,
+    "apparent_temp": 27,
     "form1": [
       {
         "date": "2026-06-26",
@@ -18509,9 +18504,9 @@
       0.3606
     ],
     "market_probs": [
-      0.4195,
-      0.3164,
-      0.2641
+      0.4013,
+      0.3815,
+      0.2172
     ]
   }
 ]
