@@ -11,21 +11,7 @@
     "reach_qf": 1.0,
     "reach_sf": 1.0,
     "reach_final": 1.0,
-    "champion": 0.5753
-  },
-  {
-    "team": "Argentina",
-    "iso": "ar",
-    "conf": "CONMEBOL",
-    "elo": 2249,
-    "squad_strength": 92.8,
-    "n_big5": 20,
-    "avg_age": 29.2,
-    "reach_r16": 1.0,
-    "reach_qf": 1.0,
-    "reach_sf": 1.0,
-    "reach_final": 1.0,
-    "champion": 0.4247
+    "champion": 1.0
   },
   {
     "team": "Canada",
@@ -193,6 +179,20 @@
     "reach_qf": 1.0,
     "reach_sf": 0.0,
     "reach_final": 0.0,
+    "champion": 0.0
+  },
+  {
+    "team": "Argentina",
+    "iso": "ar",
+    "conf": "CONMEBOL",
+    "elo": 2249,
+    "squad_strength": 92.8,
+    "n_big5": 20,
+    "avg_age": 29.2,
+    "reach_r16": 1.0,
+    "reach_qf": 1.0,
+    "reach_sf": 1.0,
+    "reach_final": 1.0,
     "champion": 0.0
   },
   {
