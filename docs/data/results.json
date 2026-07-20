@@ -70,7 +70,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 26,
+    "apparent_temp": null,
     "actual_score": [
       1,
       0
@@ -1298,13 +1298,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: France (24 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 30,
     "actual_score": [
       2,
       0
@@ -2019,7 +2024,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 26,
+    "apparent_temp": null,
     "actual_score": [
       1,
       4
@@ -2913,13 +2918,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 39\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Australia (9 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 39,
     "actual_score": [
       1,
       1
@@ -3621,15 +3631,9 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
