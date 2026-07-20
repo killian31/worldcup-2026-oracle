@@ -419,13 +419,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 35\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: England (25 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 35,
     "actual_score": [
       1,
       2
@@ -594,7 +599,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": 29,
+    "apparent_temp": null,
     "actual_score": [
       0,
       2
@@ -1828,18 +1833,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 38\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Spain (26 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": 38,
+    "apparent_temp": null,
     "actual_score": [
       0,
       1
@@ -2204,7 +2204,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 19,
     "actual_score": [
       2,
       3
@@ -3814,7 +3814,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 13,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
@@ -4343,7 +4343,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 18,
     "actual_score": [
       3,
       2
@@ -4883,7 +4883,7 @@
       }
     ],
     "played": true,
-    "apparent_temp": 17,
+    "apparent_temp": null,
     "actual_score": [
       2,
       0
