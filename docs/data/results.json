@@ -599,7 +599,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 29,
     "actual_score": [
       0,
       2
@@ -1478,18 +1478,13 @@
     },
     "factors": [
       {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      },
-      {
         "icon": "\u2b50",
         "text": "Squad quality: Argentina (20 top-5-league players)",
         "favors": "home"
       }
     ],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       3,
       2
@@ -2378,13 +2373,18 @@
     },
     "factors": [
       {
+        "icon": "\ud83d\udd25",
+        "text": "Heat 30\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
+        "favors": "none"
+      },
+      {
         "icon": "\u2b50",
         "text": "Squad quality: Norway (19 top-5-league players)",
         "favors": "away"
       }
     ],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 30,
     "actual_score": [
       1,
       2
@@ -3626,15 +3626,9 @@
       "home_big5": 17,
       "away_big5": 18
     },
-    "factors": [
-      {
-        "icon": "\ud83d\udd25",
-        "text": "Heat 36\u00b0C apparent \u2014 suppresses pressing, lowers tempo",
-        "favors": "none"
-      }
-    ],
+    "factors": [],
     "played": true,
-    "apparent_temp": 36,
+    "apparent_temp": null,
     "actual_score": [
       2,
       1
@@ -4343,7 +4337,7 @@
     },
     "factors": [],
     "played": true,
-    "apparent_temp": null,
+    "apparent_temp": 18,
     "actual_score": [
       3,
       2
